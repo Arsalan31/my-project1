@@ -16,15 +16,15 @@ function Contact(){
       <h3 className="con-1 text-center mb-10">Contact Us</h3>
       <div className="relative mb-10">
         <label for="name" className="leading-7 text-sm text-gray-600"></label>
-        <input type="text" id="name" name="name" placeholder="Your Name" className="w-96 h-14 bg-gray-100 rounded-3xl border  focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
+        <input type="text" id="name" name="name" placeholder="Your Name" className="w-full h-14 bg-gray-100 rounded-3xl border  focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
       </div>
       <div className="relative mb-10">
         <label for="email" className="leading-7 text-sm text-black"></label>
-        <input type="email" id="email" name="email" placeholder="Your Email" className="w-96 h-14  bg-gray-100 rounded-3xl border border-gray-200 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
+        <input type="email" id="email" name="email" placeholder="Your Email" className="w-full h-14  bg-gray-100 rounded-3xl border border-gray-200 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
       </div>
       <div className="relative mb-4">
         <label for="message" className="leading-7 text-sm text-gray-600"></label>
-        <textarea id="message" name="message" placeholder="Your Message" className="w-96 bg-gray-100  border border-gray-200 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+        <textarea id="message" name="message" placeholder="Your Message" className="w-full   bg-gray-100  border border-gray-200 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
       </div>
       <button className="text-white border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 w-36 h-14 text-xl font-normal">Send</button>
     </div>
