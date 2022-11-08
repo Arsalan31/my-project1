@@ -3,8 +3,8 @@ import './style.css';
 
 function Footer() {
     return (
-        <footer className="h-1/2 w-full flex md:flex-row flex-col justify-around items-start p-20">
-            <div className="p-5">
+        <footer className="h-1/2 w-full flex md:flex-row flex-col justify-around items-center p-20">
+            <div className="p-5 text-center">
                 <h2 className="title-font font-medium text-white tracking-widest text-xl pb-4">Pages</h2>
                 <nav className="list-none mb-10">
                     <li className="text-white font-normal text-lg pb-2 cursor-pointer">Home
@@ -19,7 +19,7 @@ function Footer() {
                     </li>
                 </nav>
             </div>
-            <div className="p-5">
+            <div className="p-5 text-center">
                 <h2 className="title-font font-medium text-white tracking-widest text-xl pb-4">Tomothy</h2>
                 <nav className="list-none mb-10">
                     <li className="text-white font-normal text-lg pb-2 cursor-pointer">Eleanor Edwards
@@ -34,7 +34,7 @@ function Footer() {
                     </li>
                 </nav>
             </div>
-            <div className="p-5">
+            <div className="p-5 text-center">
                 <h2 className="title-font font-medium text-white tracking-widest text-xl pb-4">Jane Black</h2>
                 <nav className="list-none mb-10">
                     <li className="text-white font-normal text-lg pb-2 cursor-pointer">Philip Jones
@@ -52,7 +52,7 @@ function Footer() {
             </div>
             <div className="p-8">
                     
-                    <p className="  text-white font-normal text-xl text-center pb-3"><svg width="32" className="inline-flex" height="39" viewBox="0 0 32 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <p className="  text-white font-normal text-xl sm:text-center pb-3"><svg width="32" className="inline-flex" height="39" viewBox="0 0 32 39" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M14.8898 38.1136C15.2142 38.3452 15.6029 38.4697 16.0015 38.4697C16.4001 38.4697 16.7887 38.3452 17.1131 38.1136C17.6958 37.7015 31.3904 27.8134 31.3348 15.4701C31.3348 7.01564 24.4559 0.136719 16.0015 0.136719C7.54705 0.136719 0.668137 7.01564 0.668137 15.4605C0.612554 27.8134 14.3071 37.7015 14.8898 38.1136ZM16.0015 3.97005C22.3437 3.97005 27.5015 9.1278 27.5015 15.4796C27.5417 23.9858 19.0911 31.6237 16.0015 34.1288C12.9137 31.6218 4.46122 23.982 4.50147 15.4701C4.50147 9.1278 9.65922 3.97005 16.0015 3.97005Z" fill="white"/>
                     </svg>   7480 Mockingbird Hill undefined
                     </p>
@@ -62,7 +62,7 @@ function Footer() {
                     </svg>     (239) 555-0108
                     </p>
                     <br />
-                <div className="flex gap-6 pb-5">
+                <div className="flex gap-6">
                 <a class="text-white">
           <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
             <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>

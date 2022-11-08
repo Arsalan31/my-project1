@@ -3,6 +3,7 @@ import Footer from "./Components/Footer";
 import Pricing from "./Components/Pricing";
 import Contact from "./Components/Contact";
 import Hero from "./Components/Hero";
+import Feature from "./Components/Feature";
 
 
 
@@ -11,8 +12,9 @@ function App(){
 
     <React.Fragment>
       
-
+      
       <Hero/>
+      <Feature/>
       <Pricing/>
       <Contact/>
       <Footer/>

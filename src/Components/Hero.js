@@ -28,9 +28,9 @@ function Header() {
                             </ul>
                         </div>
                         <center>
-                            <div className="logo mr-56 h-6 sm:h-9" />
+                            <div className="logo  h-6 sm:h-9" />
                         </center>
-                        <div className="hidden w-full 2xl:block md:w-auto" >
+                        <div className="hidden w-full md:block md:w-auto" id="navbar-default" >
                             <div className="lg:w-2/5 inline-flex lg:justify-center ml-5 lg:ml-0">
                                 <a class="text-white">
                                     <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
@@ -51,7 +51,7 @@ function Header() {
                             </div>
                         </div>
                         <button data-collapse-toggle="navbar-default" className=" inline-flex items-center p-2 ml-3 text-sm rounded-lg md:hidden" aria-controls="navbar-default" aria-expanded="true">
-                            <span className="sr-only">Open main menu</span>
+                            
                             <svg width="28" height="16" viewBox="0 0 28 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M0.667969 0H27.3346V2.66667H0.667969V0ZM7.33463 6.66667H27.3346V9.33333H7.33463V6.66667ZM15.668 13.3333H27.3346V16H15.668V13.3333Z" fill="white"/>
                             </svg>
