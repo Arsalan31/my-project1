@@ -11,7 +11,7 @@ function Header() {
                         <div className="hidden w-full md:block md:w-auto" id="navbar-default">
                             <ul className="flex flex-col p-4 mt-4 bg-transparent rounded-lg border border-transparent md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                                 <li>
-                                    <a className="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent  md:p-0 dark:text-white" aria-current="page">Home</a>
+                                    <a href="#" className="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent  md:p-0 dark:text-white" aria-current="page">Home</a>
                                 </li>
                                 <li>
                                     <a className="block py-2 pr-4 pl-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0  md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">About</a>
@@ -59,17 +59,18 @@ function Header() {
                     </div>
                 </nav>
 
-                <h1 className="heading mt-40  text-center text-white">The best products
+                <h1 className="heading mt-40 sm:static text-center text-white">The best products
                     <br className="hidden sm:block" /> start with Figma
                 </h1>
                 <h1 className='sub-heading text-center mt-7 text-white'>Most calendars are designed for teams. Slate is designed
                     <br className="hidden sm:block" /> for freelancers
                 </h1>
                 <center>
-                    <button className="button1 text-center mt-24 text-white  border-0 py-3 px-4 w-56 focus:outline-none hover:bg-blue-600">Show/Hide Features</button>
+                    <button className="button1 text-center  text-white sm:mt-24 border-0 py-3 px-4 w-56 focus:outline-none hover:bg-blue-600">Show/Hide Features</button>
                     <br />
                     <button className="button1 text-center mt-2 text-white  border-0 py-3 px-4 w-56 focus:outline-none hover:bg-blue-600">Show/Hide Partners</button>
                     <br />
+                    
                     <label className="switch mt-3">
                         <input type="checkbox" />
                         <span className="slider" />

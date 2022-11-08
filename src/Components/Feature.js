@@ -49,9 +49,6 @@ function Feature() {
                     </div>
                 </div>
             </div>
-            <screen>
-                    
-            </screen>
         </section>
     )
 }
