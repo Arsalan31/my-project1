@@ -6,7 +6,7 @@ function Contact(){
 <section className="text-gray-600 body-font relative">
   <div className="contact container px-5 py-24 m-auto">
     <div className="flex flex-col text-center w-full mb-12">
-      <h1 className="con sm:text-3xl text-2xl font-medium title-font text-white">Contact Us</h1>
+      <h1 id="Contact" className="con sm:text-3xl text-2xl font-medium title-font text-white">Contact Us</h1>
       <p className="sub-con lg:w-2/3 mx-auto mt-5 leading-relaxed text-base">Most calendars are designed for teams. 
       <br/>Slate is designed for freelancers</p>
     </div>
