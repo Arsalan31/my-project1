@@ -8,12 +8,13 @@ import Partners from "./Components/Partners";
 
 
 
+
 function App(){
   return(
 
     <React.Fragment>
       
-      
+
       <Hero/>
       <Feature/>
       <Partners/>

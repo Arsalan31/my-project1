@@ -10,7 +10,7 @@ function Partners() {
       <p className="sub-con mx-auto leading-relaxed text-base">Most calendars are designed for teams. 
         <br/> Slate is designed for freelancers</p>
         <center>
-        <button className="button1 text-center  text-white mt-20 border-0 py-3 px-4 w-56 focus:outline-none hover:bg-blue-600">Try For Free</button>
+        <button className="button1 text-center  text-white mt-20 border-0 py-3 px-4 w-60 h-16 focus:outline-none hover:bg-blue-600">Try For Free</button>
         </center>
     </div>
 

@@ -33,12 +33,12 @@ function Pricing(){
           <p className="text-center text-black mb-6">
             Pricing Feature
           </p>
-          <button className="text-center mt-auto text-white  border-0 py-2 px-4 w-full focus:outline-none hover:bg-blue-600">Order Now
+          <button className="button1 text-center mt-auto text-white  border-0 py-2 px-4 w-64 h-14 focus:outline-none hover:bg-blue-600">Order Now
           </button> 
         </div>
       </div>
-      <div className="price-box1 flex flex-wrap m-10 p-3 xl:w-1/3 md:w-1/2 w-full">
-        <div className="standard h-full p-6 rounded-lg flex flex-col relative overflow-hidden">
+      <div className="price-box1 flex  m-10 p-3 xl:w-1/3 md:w-1/2 w-full">
+        <div className="h-full p-6 rounded-lg flex flex-col relative overflow-hidden">
           <h2 className="text-white text-sm tracking-widest title-font mb-1 font-normal text-center">STANDARD</h2>
           <h2 className="text-white text-sm tracking-widest title-font mb-1 font-medium text-center">Organize across all 
           <br/> apps by hand</h2>
@@ -62,7 +62,7 @@ function Pricing(){
           <p className="text-center text-white mb-6">
             Pricing Feature
           </p>
-          <button className="text-center text-blue-400 mt-auto border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-300 bg-white">Order Now
+          <button className=" text-center text-blue-400 mt-auto border-0 py-2 px-4 w-64 h-14 rounded-3xl focus:outline-none hover:bg-gray-300 bg-white">Order Now
             
           </button>
         </div>
@@ -92,7 +92,7 @@ function Pricing(){
           <p className="text-center text-black mb-6">
             Pricing Feature
           </p>
-          <button className="text-center mt-auto text-white  border-0 py-2 px-4 w-full focus:outline-none hover:bg-blue-600">Order Now
+          <button className="button1 text-center mt-auto text-white  border-0 py-2 px-4 w-64 h-14 focus:outline-none hover:bg-blue-600">Order Now
           </button>
         </div>
       </div>
