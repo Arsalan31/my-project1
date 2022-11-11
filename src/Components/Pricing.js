@@ -6,8 +6,8 @@ function Pricing(){
 <section className="pricing text-white body-font overflow-hidden ">
   <div className="container px-auto py-28 mx-auto">
     <div className="price flex flex-col text-center w-full mb-20">
-      <h1 id="Pricing" className="heading-1 text-3xl text-center font-medium title-font mb-2 text-white">Pricing</h1>
-      <p className="sub-heading mx-auto leading-relaxed text-base text-white">Most calendars are designed for teams. 
+      <h1 id="Pricing" className="heading-1 text-5xl text-center font-medium title-font mb-2 text-white">Pricing</h1>
+      <p className="sub-heading mx-auto leading-relaxed text-3xl text-white">Most calendars are designed for teams. 
         <br/> Slate is designed for freelancers</p>
     </div>
     <div className="flex flex-wrap justify-center ">

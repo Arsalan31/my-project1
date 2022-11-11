@@ -5,8 +5,8 @@ function Feature() {
 
     return (
 
-        <section class="feature text-gray-600 body-font">
-            <div class="container px-5 pb-6 mx-auto">
+        <section class="feature text-gray-600 body-font mt-56">
+            <div class="container px-5 pb-6 mx-auto"> 
                 <div class="text-center mb-20">
                     <h1 id="Features" class="con sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">Features</h1>
                     <p class="sub-con text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s">Most calendars are designed for teams.
