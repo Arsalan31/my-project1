@@ -10,9 +10,9 @@ function Contact() {
           <p className="sub-con lg:w-2/3 mx-auto mt-5 leading-relaxed text-base">Most calendars are designed for teams.
             <br />Slate is designed for freelancers</p>
         </div>
-
+        
         <div className="contact-us container px-5 py-24 flex">
-          <div className="lg:w-2/2 md:w-2/2 bg-white flex flex-col  w-auto md:py-8 mt-8 md:mt-0">
+          <div className=" bg-white flex flex-col  w-auto md:py-8 mt-8 md:mt-0">
             <h3 className="con-1 text-center mb-10">Contact Us</h3>
             <div className="relative mb-10">
               <label for="name" className="leading-7 text-sm text-gray-600"></label>
@@ -26,7 +26,7 @@ function Contact() {
               <label for="message" className="leading-7 text-sm text-gray-600"></label>
               <textarea id="message" name="message" placeholder="Your Message" className="w-full   bg-gray-100  border border-gray-200 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
             </div>
-            <button className="text-white border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 w-36 h-14 text-xl font-normal">Send</button>
+            <button className="button1 text-white  border-0 py-3 px-4 w-44 sm:w-36 sm:h-14 focus:outline-none hover:bg-blue-600">Send</button>
           </div>
         </div>
       </div>

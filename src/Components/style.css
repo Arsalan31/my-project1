@@ -27,7 +27,7 @@
   }
 
   nav a {
-    
+
     color: white;
     font-size: 15px;
     font-weight: 400;
@@ -81,6 +81,16 @@
     order: 0;
     flex-grow: 0;
     margin: 10px;
+  }
+
+  .title-font {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+
+    letter-spacing: 0.1px;
+
   }
 
   .pricing1 {
@@ -158,16 +168,19 @@
     flex-grow: 0;
     margin: 10px;
   }
-  header{
+
+  header {
     width: 100%;
     background: transparent;
-    
+
   }
-  hero{
+
+  hero {
     width: 100%;
     height: 1100px;
     padding-bottom: 150px;
   }
+
   .background {
     width: 100%;
     height: 970px;
@@ -175,9 +188,10 @@
     background-repeat: round;
     background-size: cover;
     margin: auto;
-    
+
 
   }
+
   /*.bg-pic{
     
     width: 100%;
@@ -187,16 +201,33 @@
     background-size: cover;
   }*/
   .heading {
-    
+
     font-weight: 400;
     line-height: 68px;
     letter-spacing: 0.2px;
   }
 
   .sub-heading {
-    
+
+    width: 100%;
     font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    /* or 143% */
+
+    text-align: center;
     letter-spacing: 0.2px;
+
+    /* Light text */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
   }
 
   footer {
@@ -233,8 +264,8 @@
     padding: 52px 50px;
     gap: 45px;
 
-    width: 100%;
-    height: 100%;
+    width: auto;
+    height: 669px;
 
     background: #FFFFFF;
     border: 1px solid #DDDDDD;
@@ -300,7 +331,6 @@
   .con {
 
     width: 100%;
-    height: 55px;
     font-style: normal;
     font-weight: 400;
     font-size: 48px;
@@ -316,7 +346,6 @@
   .sub-con {
 
     width: 100%;
-    height: 80px;
     font-style: normal;
     font-weight: 400;
     font-size: 28px;
@@ -377,7 +406,7 @@
     transform: translateX(26px);
   }
 
-  
+
 
 
   .price-box {
@@ -416,11 +445,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 83px 40px;
+    padding: 40px;
     gap: 30px;
 
     width: 335px;
-    height: 693px;
+    height: 607px;
 
     /* Primary */
 
@@ -434,6 +463,14 @@
     flex: none;
     order: 1;
     flex-grow: 0;
+  }
+
+  @media (min-width: 768px) {
+    .price-box1 {
+      padding: 83px 40px;
+      width: 335px;
+      height: 693px;
+    }
   }
 
   .price-box2 {
@@ -524,11 +561,12 @@
     order: 2;
     flex-grow: 0;
   }
+
   .topnav {
     overflow: hidden;
     background-color: #333;
   }
-  
+
   .topnav a {
     float: left;
     display: block;
@@ -538,39 +576,51 @@
     text-decoration: none;
     font-size: 17px;
   }
-  
+
   .topnav a:hover {
     background-color: #ddd;
     color: black;
   }
-  
+
   .topnav a.active {
     background-color: #04AA6D;
     color: white;
   }
-  
+
   .topnav .icon {
     display: none;
   }
-  
+
   @media screen and (max-width: 600px) {
-    .topnav a:not(:first-child) {display: none;}
+    .topnav a:not(:first-child) {
+      display: none;
+    }
+
     .topnav a.icon {
       float: right;
       display: block;
     }
   }
-  
+
   @media screen and (max-width: 600px) {
-    .topnav.responsive {position: relative;}
+    .topnav.responsive {
+      position: relative;
+    }
+
     .topnav.responsive .icon {
       position: absolute;
       right: 0;
       top: 0;
     }
+
     .topnav.responsive a {
       float: none;
       display: block;
       text-align: left;
     }
+  }
+
+  .video {
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    border-radius: 20px;
   }
