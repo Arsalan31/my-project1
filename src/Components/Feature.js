@@ -50,8 +50,8 @@ function Feature() {
                 </div>
                 <center>
                     <div className="pt-40 w-auto">    
-                        <video className="w-96 h-60 rounded-3xl" controls>
-                        <source src="Figma.mp4"  type="video/mp4"/>
+                        <video className="w-110 h-64 rounded-3xl" poster="" controls>
+                        <source src="videos/What's Figma_.mp4"  type="video/mp4"/>
                         </video>
                         
                     </div>
