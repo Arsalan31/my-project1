@@ -15,7 +15,7 @@ function App(){
 
     <React.Fragment>
 
-  
+      
       <Hero/>
       <Feature/>
       <Partners/>

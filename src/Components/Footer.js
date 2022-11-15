@@ -4,8 +4,8 @@ import './style.css';
 function Footer() {
   return (
     <footer className="h-1/4 w-full flex flex-wrap md:flex-row flex-col justify-around items-center p-20">
-      <div className="md:text-left text-center">
-        <h2 className="title-font text-white tracking-widest pb-6">Pages</h2>
+      <div className="md:text-left text-center mt-10">
+        <h3 className="title-font text-white tracking-widest pb-6">Pages</h3>
         <nav className="list-none">
           <li className="pb-4">
             <a href="#Home" className="text-white font-normal text-sm pb-2 ">Home</a>
@@ -24,8 +24,8 @@ function Footer() {
           </li>
         </nav>
       </div>
-      <div className="md:text-left text-center">
-        <h2 className="title-font font-medium text-white tracking-widest text-xl pb-6">Tomothy</h2>
+      <div className="md:text-left text-center mt-10">
+        <h3 className="title-font font-medium text-white tracking-widest text-xl pb-6">Tomothy</h3>
         <nav className="list-none">
           <li className="pb-4">
             <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Eleanor Edwards</a>
@@ -44,8 +44,8 @@ function Footer() {
           </li>
         </nav>
       </div>
-      <div className="md:text-left text-center">
-        <h2 className="title-font font-medium text-white tracking-widest text-xl pb-6">Jane Black</h2>
+      <div className="md:text-left text-center mt-10">
+        <h3 className="title-font font-medium text-white tracking-widest text-xl pb-6">Jane Black</h3>
         <nav className="list-none ">
           <li className="pb-4">
             <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Philip Jones</a>
@@ -65,11 +65,10 @@ function Footer() {
         </nav>
 
       </div>
-      <div className="md:text-left text-center md:-mt-14 mt-10">
+      <div className="md:text-left md:-mt-10 mt-10">
 
-        <p className="  text-white font-normal text-sm  pb-3"><svg xmlns="http://www.w3.org/2000/svg" className="inline-flex" width="32" height="39" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
-          <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z" />
-          <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+        <p className="  text-white font-normal text-sm  pb-3"><svg xmlns="http://www.w3.org/2000/svg" className="inline-flex" width="32" height="39" fill="currentColor"  viewBox="0 0 16 16">
+          <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z" /><path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
         </svg>        7480 Mockingbird Hill undefined
         </p>
         <br />
@@ -78,7 +77,7 @@ function Footer() {
         </svg>         (239) 555-0108
         </p>
         <br />
-        <div className="md:justify-items-start items-center flex gap-6">
+        <div className="md:justify-items-start justify-items-center flex gap-6">
           <a href="https://twitter.com/figma?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"  class="text-white">
             <svg  width="35" height="28" viewBox="0 0 35 28" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M34.1455 3.48168C32.9207 4.01002 31.5878 4.39027 30.2149 4.53837C31.6403 3.69156 32.7077 2.35375 33.2168 0.775924C31.8793 1.5716 30.414 2.12954 28.886 2.42499C28.2474 1.74226 27.475 1.19836 26.617 0.827188C25.7589 0.456017 24.8337 0.26553 23.8988 0.267595C20.1163 0.267595 17.0744 3.33358 17.0744 7.09603C17.0744 7.62437 17.1384 8.15271 17.2425 8.66104C11.5788 8.36485 6.52753 5.65909 3.16936 1.5164C2.55746 2.56154 2.2368 3.75156 2.24075 4.96264C2.24075 7.33218 3.44553 9.42153 5.28273 10.6503C4.20004 10.6077 3.14271 10.3101 2.19672 9.78177V9.86582C2.19672 13.184 4.54225 15.9338 7.66827 16.5662C7.08133 16.7186 6.47753 16.7966 5.87111 16.7983C5.42682 16.7983 5.00655 16.7543 4.58227 16.6943C5.44683 19.4 7.96447 21.3653 10.9624 21.4293C8.61689 23.2665 5.67898 24.3472 2.48891 24.3472C1.91654 24.3472 1.3882 24.3272 0.839844 24.2632C3.86581 26.2044 7.45614 27.3252 11.3226 27.3252C23.8748 27.3252 30.7432 16.9264 30.7432 7.90055C30.7432 7.60436 30.7432 7.30816 30.7232 7.01197C32.0521 6.03934 33.2168 4.83456 34.1455 3.48168Z" fill="white" />
