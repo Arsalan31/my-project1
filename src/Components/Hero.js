@@ -53,7 +53,7 @@ function Hero() {
                         </div>
                         )}
                         <center>
-                            <div className="logo cursor-pointer h-6 sm:h-9" />
+                            <div className="logo block cursor-pointer h-6 sm:h-9" />
                         </center>
                         {(toggleMenu || screenWidth > 768) && (
                         <div className="nav1  w-full md:block md:w-auto"  >

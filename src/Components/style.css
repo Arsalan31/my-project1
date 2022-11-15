@@ -264,7 +264,7 @@
     padding: 52px 50px;
     gap: 45px;
 
-    width: auto;
+    width: 35%;
     height: 669px;
 
     background: #FFFFFF;
@@ -544,6 +544,37 @@
     color: #252B42;
   }
 
+  .sub-f {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    /* or 139% */
+
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    /* second text */
+
+    color: #374754;
+  }
+
+  .sub-c {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    /* or 144% */
+
+    text-align: center;
+    letter-spacing: 0.1px;
+
+    /* second text */
+
+    color: #374754;
+
+  }
+
   .partner {
     display: flex;
     flex-direction: column;
@@ -568,44 +599,44 @@
   }
 
 
-.list {
+  .list {
     list-style-type: none;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-}
-.items {
-    margin-right: 20px;
-    font-size: 20px;
-    text-transform: uppercase;
-    color: #f1f1f1;
-    cursor: pointer;
-}
+  }
 
-
-
-@media screen and (max-width: 768px){
+  @media screen and (max-width: 767px) {
 
     .list {
-        flex-direction: column;
-        background: #2091F9;
-        height: auto;
-    }
-    .items:nth-child(1){
-        border-top: 1px solid rgba(255, 255, 255, 0.555);
-        margin-top: 50px;
-    }
-    .items {
-        width: 100%;
-        border-top: 1px solid rgba(255, 255, 255, 0.555);
-        text-align: center;
-        margin-right: 0px;
-        padding: 20px 0;
-    }
-    .hamburger {
-        display: block;
+      flex-direction: column;
+      background: #2091F9;
+      height: auto;
+      transition: .3s all ease-in-out;
+
     }
 
-}
+    .hamburger {
+      display: block;
+    }
+  }
+
+  .right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 50px;
+
+    width: 80%;
+    height: 612.17px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
