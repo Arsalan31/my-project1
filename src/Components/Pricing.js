@@ -72,8 +72,8 @@ function Pricing(){
           <h2 className="text-black text-sm tracking-widest title-font mb-1 font-medium text-center">BUSINESS</h2>
           <h2 className="text-black text-sm tracking-widest title-font mb-1 font-medium text-center">Organize across all 
           <br/> apps by hand</h2>
+          <br/>
           <h1 className="text-5xl text-black leading-none text-center pb-4 mb-4 ">
-            <br/>
             <span>$99</span>
             <span className="text-lg ml-1 font-normal text-black">/mo</span>
           </h1>
