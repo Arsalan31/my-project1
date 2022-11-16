@@ -10,7 +10,7 @@ function Partners() {
                 <p className="sub-con mx-auto leading-relaxed text-base mb-20">Most calendars are designed for teams.
                     <br /> Slate is designed for freelancers</p>
                 <center>
-                <div class="flex flex-wrap justify-center px-auto mx-32 mt-10 ">
+                <div class="flex flex-wrap justify-center px-auto md:mx-60 mt-10 ">
                     <div class="p-4 md:w-1/4 w-auto flex flex-col text-center items-center border border-gray-300">
                         <div class="flex-grow">
                             <p class="text-base font-normal mb-3">Client Name</p>
