@@ -11,7 +11,7 @@ function Partners() {
                     <br /> Slate is designed for freelancers</p>
                 <center>
                 <div class="flex flex-wrap justify-center px-auto md:mx-60 mt-10 ">
-                    <div class="p-4 md:w-1/3 w-auto flex flex-col text-center items-center border border-gray-300">
+                    <div class="p-4 md:w-1/4 w-auto flex flex-col text-center items-center border border-gray-300">
                         <div class="flex-grow">
                             <p class="text-base font-normal mb-3">Client Name</p>
                             <svg width="120" height="64" viewBox="0 0 194 64" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -31,7 +31,7 @@ function Partners() {
                             </svg>
                         </div>
                     </div>
-                    <div class="p-4 md:w-1/3 w-auto flex flex-col text-center items-center border border-gray-300">
+                    <div class="p-4 md:w-1/4 w-auto flex flex-col text-center items-center border border-gray-300">
                         <div class="flex-grow">
                             <p class="text-base font-normal mb-3">Client Name</p>
                             <svg xmlns="http://www.w3.org/2000/svg" height="63" width="120" version="1.0" viewBox="-150 -75.3385 1300 452.031">
@@ -42,7 +42,7 @@ function Partners() {
                         </div>
 
                     </div>
-                    <div class="p-4 md:w-1/3 w-auto flex flex-col text-center items-center border border-gray-300">
+                    <div class="p-4 md:w-1/4 w-auto flex flex-col text-center items-center border border-gray-300">
                         <div class="flex-grow">
                             <p class="text-base font-normal mb-3">Client Name</p>
                             <svg xmlns="http://www.w3.org/2000/svg" width="120" height="63" viewBox="0 0 1033.746 220.695">
@@ -54,7 +54,7 @@ function Partners() {
                             </svg>
                         </div>
                     </div>
-                    <div class="p-4 md:w-1/3 w-auto flex flex-col text-center items-center border border-gray-300">
+                    <div class="p-4 md:w-1/4 w-auto flex flex-col text-center items-center border border-gray-300">
                         <div class="flex-grow">
                             <p class="text-base font-normal mb-3">Client Name</p>
                             <svg xmlns="http://www.w3.org/2000/svg" height="63" width="120" viewBox="-139.03575 -80.44425 1204.9765 482.6655">
@@ -62,7 +62,7 @@ function Partners() {
                             </svg>
                         </div>
                     </div>
-                    <div class="p-4 md:w-1/3 w-auto flex flex-col text-center items-center border border-gray-300">
+                    <div class="p-4 md:w-1/4 w-auto flex flex-col text-center items-center border border-gray-300">
                         <div class="flex-grow">
                             <p class="text-base font-normal mb-3">Client Name</p>
                             <svg xmlns="http://www.w3.org/2000/svg" height="63" width="120" viewBox="-48.6 -15.95 421.2 95.7"><path d="M37.6 12L18.8 24l18.8 12-18.8 12L0 35.9l18.8-12L0 12 18.8 0zM18.7 51.8l18.8-12 18.8 12-18.8 12zm18.9-15.9l18.8-12L37.6 12 56.3 0l18.8 12-18.8 12 18.8 12-18.8 12z" fill="#0061ff"/>
@@ -70,7 +70,7 @@ function Partners() {
                             </svg>
                         </div>
                     </div>
-                    <div class="p-4 md:w-1/3 w-auto flex flex-col text-center items-center border border-gray-300">
+                    <div class="p-4 md:w-1/4 w-auto flex flex-col text-center items-center border border-gray-300">
                         <div class="flex-grow">
                             <p class="text-base font-normal mb-3">Client Name</p>
                             <svg width="120" height="64" viewBox="0 0 194 64" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -90,7 +90,7 @@ function Partners() {
                             </svg>
                         </div>
                     </div>
-                    <div class="p-4 md:w-1/3 w-auto flex flex-col text-center items-center border border-gray-300">
+                    <div class="p-4 md:w-1/4 w-auto flex flex-col text-center items-center border border-gray-300">
                         <div class="flex-grow">
                             <p class="text-base font-normal mb-3">Client Name</p>
                             <svg xmlns="http://www.w3.org/2000/svg" height="63" width="120" viewBox="-139.03575 -80.44425 1204.9765 482.6655">
@@ -98,7 +98,7 @@ function Partners() {
                             </svg>
                         </div>
                     </div>
-                    <div class="p-4 md:w-1/3 w-auto flex flex-col text-center items-center border border-gray-300">
+                    <div class="p-4 md:w-1/4 w-auto flex flex-col text-center items-center border border-gray-300">
                         <div class="flex-grow">
                             <p class="text-base font-normal mb-3">Client Name</p>
                             <svg xmlns="http://www.w3.org/2000/svg" height="63" width="120" version="1.0" viewBox="-150 -75.3385 1300 452.031">
