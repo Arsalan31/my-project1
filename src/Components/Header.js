@@ -1,14 +1,39 @@
-import React from "react";
+import React, {useState, useEffect} from 'react'
 import './style.css';
 
 function Header() {
+    const [toggleMenu, setToggleMenu] = useState(false)
+    const [screenWidth, setScreenWidth] = useState(window.innerWidth)
+  
+  
+    const toggleNav = () => {
+      setToggleMenu(!toggleMenu)
+    }
+  
+    useEffect(() => {
+  
+      const changeWidth = () => {
+        setScreenWidth(window.innerWidth);
+      }
+  
+      window.addEventListener('resize', changeWidth)
+  
+      return () => {
+          window.removeEventListener('resize', changeWidth)
+      }
+  
+    }, [])
     return (
         <header>
             <nav className="container flex justify-between px-4 py-8 mx-auto bg-transparent">
                     <div className="container flex flex-wrap justify-between items-center mx-auto">
-
-                        <div className="hidden w-full md:block md:w-auto" id="navbar-default">
-                            <ul className="flex flex-col p-4 mt-4 bg-transparent rounded-lg border border-transparent md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                    <center>
+                            <div className="logo block cursor-pointer h-6 sm:h-9" />
+                        </center>
+                        {(toggleMenu || screenWidth > 768) && (
+                        <div className="nav1  w-full md:block md:w-auto">
+                             
+                            <ul className="list flex flex-col p-4 mt-4 bg-transparent rounded-lg border border-transparent md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                                 <li>
                                     <a href="Home" className="cursor-pointer block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent  md:p-0 dark:text-white" aria-current="page">Home</a>
                                 </li>
@@ -25,18 +50,17 @@ function Header() {
                                     <a href="#Contact" className="cursor-pointer block py-2 pr-4 pl-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0  md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
                                 </li>
                             </ul>
+                            
                         </div>
-                        <center>
-                            <div className="logo cursor-pointer h-6 sm:h-9" />
-                        </center>
-                        <div className=" hidden w-full md:block md:w-auto" id="navbar-default" >
-                            <ul className="lg:w-2/5 inline-flex lg:justify-center ml-5 lg:ml-0">
+                        )}
+                        {(toggleMenu || screenWidth > 768) && (
+                        <div className="nav1  w-full md:block md:w-auto"  >
+                            <ul className="list lg:w-2/5 inline-flex lg:justify-center md:ml-5 lg:ml-0">
                                 <a href="https://twitter.com/figma?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="tw text-white cursor-pointer">
-                                    <svg width="35" height="28" viewBox="0 0 35 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <svg width="33" height="33" viewBox="0 0 35 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M34.1455 3.48168C32.9207 4.01002 31.5878 4.39027 30.2149 4.53837C31.6403 3.69156 32.7077 2.35375 33.2168 0.775924C31.8793 1.5716 30.414 2.12954 28.886 2.42499C28.2474 1.74226 27.475 1.19836 26.617 0.827188C25.7589 0.456017 24.8337 0.26553 23.8988 0.267595C20.1163 0.267595 17.0744 3.33358 17.0744 7.09603C17.0744 7.62437 17.1384 8.15271 17.2425 8.66104C11.5788 8.36485 6.52753 5.65909 3.16936 1.5164C2.55746 2.56154 2.2368 3.75156 2.24075 4.96264C2.24075 7.33218 3.44553 9.42153 5.28273 10.6503C4.20004 10.6077 3.14271 10.3101 2.19672 9.78177V9.86582C2.19672 13.184 4.54225 15.9338 7.66827 16.5662C7.08133 16.7186 6.47753 16.7966 5.87111 16.7983C5.42682 16.7983 5.00655 16.7543 4.58227 16.6943C5.44683 19.4 7.96447 21.3653 10.9624 21.4293C8.61689 23.2665 5.67898 24.3472 2.48891 24.3472C1.91654 24.3472 1.3882 24.3272 0.839844 24.2632C3.86581 26.2044 7.45614 27.3252 11.3226 27.3252C23.8748 27.3252 30.7432 16.9264 30.7432 7.90055C30.7432 7.60436 30.7432 7.30816 30.7232 7.01197C32.0521 6.03934 33.2168 4.83456 34.1455 3.48168Z" fill="white" />
                                     </svg>
                                 </a>
-
                                 <a href="https://www.facebook.com/figmadesign/" class="fb ml-3 text-white cursor-pointer">
                                     <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M31.2126 0.786133H1.75349C1.04503 0.786133 0.472656 1.3585 0.472656 2.06696V31.5261C0.472656 32.2345 1.04503 32.8069 1.75349 32.8069H31.2126C31.9211 32.8069 32.4934 32.2345 32.4934 31.5261V2.06696C32.4934 1.3585 31.9211 0.786133 31.2126 0.786133ZM27.5142 10.1322H24.9565C22.9512 10.1322 22.563 11.0848 22.563 12.4857V15.5717H27.3501L26.7257 20.4029H22.563V32.8069H17.5718V20.4069H13.397V15.5717H17.5718V12.0094C17.5718 7.87473 20.0974 5.62127 23.7878 5.62127C25.5569 5.62127 27.0739 5.75336 27.5182 5.8134V10.1322H27.5142Z" fill="white" />
@@ -49,7 +73,8 @@ function Header() {
                                 </a>
                             </ul>
                         </div>
-                        <button data-collapse-toggle="navbar-default" className="hamburger inline-flex items-center p-2 ml-3 text-sm rounded-lg md:hidden" aria-controls="navbar-default" aria-expanded="true">
+                        )}
+                        <button onClick={toggleNav} className="hamburger inline-flex items-center p-2 ml-3 text-sm rounded-lg md:hidden fixed">
 
                             <svg width="28" height="16" viewBox="0 0 28 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M0.667969 0H27.3346V2.66667H0.667969V0ZM7.33463 6.66667H27.3346V9.33333H7.33463V6.66667ZM15.668 13.3333H27.3346V16H15.668V13.3333Z" fill="white" />
