@@ -68,7 +68,7 @@ function Contact() {
                 </div>
               </div>
             </div>
-            <div class="container px-5 py-2 mx-auto hidden lg:flex flex-wrap md:ml-14">
+            <div class="container px-5 py-2 mx-auto hidden lg:flex flex-wrap md:ml-14 mb-8">
               <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14471.924190586524!2d67.0583741!3d24.93271555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1668600381189!5m2!1sen!2s" width="580" height="320"></iframe>
               {/* <div class="map h-48 lg:w-2/3 md:w-1/2 sm:mr-10 p-10 flex items-end justify-start">
                 <GoogleMapReact
