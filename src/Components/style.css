@@ -611,7 +611,6 @@
     height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
     position: relative;
   }
 
@@ -622,7 +621,9 @@
       background: #2091F9;
       height: auto;
       width: 100%;
-      position: fixed;
+      
+
+      
 
     }
 
