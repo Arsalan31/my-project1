@@ -85,14 +85,14 @@ function Hero() {
                     </div>
                 </nav>
 
-                <h1 id="#Home" className="heading mt-12 sm:mt-28 text-6xl font-normal  text-center text-white">The best products
+                <h1 id="#Home" className="heading mt-16 sm:mt-36 sm:text-7xl font-normal  text-center text-white">The best products
                     <br className="hidden sm:block" /> start with Figma
                 </h1>
-                <h4 className='sub-heading text-center text-3xl mt-10 sm:mt-28 text-white'>Most calendars are designed for teams. <br className="sm:hidden" />Slate is designed
+                <h4 className='sub-heading text-center text-3xl mt-10 sm:mt-8 text-white'>Most calendars are designed for teams. <br className="sm:hidden" />Slate is designed
                     <br className="hidden sm:block" /> for freelancers
                 </h4>
                 <center>
-                    <button className="button1 text-center  text-white mt-14 border-0 py-3 px-4 w-44 sm:w-60 sm:h-14 focus:outline-none hover:bg-blue-600">Show/Hide Features</button>
+                    <button className="button1 text-center  text-white mt-24 border-0 py-3 px-4 w-44 sm:w-60 sm:h-14 focus:outline-none hover:bg-blue-600">Show/Hide Features</button>
                     <br />
                     <button className="button1 text-center mt-3 text-white  border-0 py-3 px-4 w-44 sm:w-60 sm:h-14 focus:outline-none hover:bg-blue-600">Show/Hide Partners</button>
                     <br />
