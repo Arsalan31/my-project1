@@ -483,6 +483,10 @@
     }
   }
 
+  .btn1{
+    border-radius: 35px;
+  }
+
   .price-box2 {
     box-sizing: border-box;
 

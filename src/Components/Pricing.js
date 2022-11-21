@@ -62,7 +62,7 @@ function Pricing(){
           <p className="text-center text-white mb-6">
             Pricing Feature
           </p>
-          <button className=" text-center text-blue-400 mt-auto border-0 py-3 px-4 w-44 sm:w-64 sm:h-14 rounded-3xl focus:outline-none hover:bg-gray-300 bg-white">Order Now
+          <button className="btn1 text-center text-blue-400 mt-auto border-0 py-3 px-4 w-44 sm:w-64 sm:h-14 focus:outline-none hover:bg-gray-300 bg-white">Order Now
             
           </button>
         </div>
