@@ -93,9 +93,9 @@ function Hero() {
                     <br className="hidden sm:block" /> for freelancers
                 </h4>
                 <center>
-                    <button className="button1 text-center  text-white mt-24 border-0 py-3 px-4 w-44 md:w-60 md:h-14 focus:outline-none hover:bg-blue-600">Show/Hide Features</button>
+                    <button className="button1 text-center  text-white mt-24 border-0 py-3 px-4 w-44 h-14 md:w-60 md:h-14 focus:outline-none hover:bg-blue-600">Show/Hide Features</button>
                     <br />
-                    <button className="button1 text-center mt-3 text-white  border-0 py-3 px-4 w-44 md:w-60 md:h-14 focus:outline-none hover:bg-blue-600">Show/Hide Partners</button>
+                    <button className="button1 text-center mt-3 text-white  border-0 py-3 px-4 w-44 h-14 md:w-60 md:h-14 focus:outline-none hover:bg-blue-600">Show/Hide Partners</button>
                     <br />
 
                     <label className="switch mt-3">
