@@ -67,7 +67,7 @@ function Pricing(){
           </button>
         </div>
       </div>
-      <div className="price-box2 p-3 m-10 mt-20 xl:w-1/3 md:w-1/5 w-full">
+      <div className="price-box2  p-3 m-10 lg:mt-20 mt-12 xl:w-1/3 md:w-1/5 w-full">
         <div className="h-full p-6 rounded-lg flex flex-col relative overflow-hidden">
           <h2 className="text-black text-sm tracking-widest title-font mb-1 font-medium text-center">BUSINESS</h2>
           <h2 className="text-black text-sm tracking-widest title-font mb-1 font-medium text-center">Organize across all 
