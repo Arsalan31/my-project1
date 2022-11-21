@@ -12,7 +12,7 @@ function Pricing(){
     </div>
     <div className="flex flex-wrap justify-center ">
       <div className="price-box p-3 m-10 mt-20 xl:w-1/3 md:w-1/5 w-full">
-        <div className="h-full p-6 rounded-lg flex flex-col relative overflow-hidden bg-white">
+        <div className="h-full p-6 rounded-lg flex flex-col relative overflow-hidden">
           <h2 className="text-black text-sm text-center tracking-widest title-font mb-1 font-medium">FREE</h2>
           <h2 className="text-black text-sm tracking-widest title-font mb-1 font-medium text-center">Organize across all 
           <br/> apps by hand</h2>
@@ -33,7 +33,7 @@ function Pricing(){
           <p className="text-center text-black mb-6">
             Pricing Feature
           </p>
-          <button className="button1 text-center mt-auto text-white  border-0 py-2 px-4 w-64 h-14 focus:outline-none hover:bg-blue-600">Order Now
+          <button className="button1 text-center mt-auto text-white  border-0 py-3 px-4 w-44 sm:w-64 sm:h-14 focus:outline-none hover:bg-blue-600">Order Now
           </button> 
         </div>
       </div>
@@ -62,13 +62,13 @@ function Pricing(){
           <p className="text-center text-white mb-6">
             Pricing Feature
           </p>
-          <button className=" text-center text-blue-400 mt-auto border-0 py-2 px-4 w-64 h-14 rounded-3xl focus:outline-none hover:bg-gray-300 bg-white">Order Now
+          <button className=" text-center text-blue-400 mt-auto border-0 py-3 px-4 w-44 sm:w-64 sm:h-14 rounded-3xl focus:outline-none hover:bg-gray-300 bg-white">Order Now
             
           </button>
         </div>
       </div>
       <div className="price-box2 p-3 m-10 mt-20 xl:w-1/3 md:w-1/5 w-full">
-        <div className="h-full p-6 rounded-lg flex flex-col relative overflow-hidden bg-white">
+        <div className="h-full p-6 rounded-lg flex flex-col relative overflow-hidden">
           <h2 className="text-black text-sm tracking-widest title-font mb-1 font-medium text-center">BUSINESS</h2>
           <h2 className="text-black text-sm tracking-widest title-font mb-1 font-medium text-center">Organize across all 
           <br/> apps by hand</h2>
@@ -92,7 +92,7 @@ function Pricing(){
           <p className="text-center text-black mb-6">
             Pricing Feature
           </p>
-          <button className="button1 text-center mt-auto text-white  border-0 py-2 px-4 w-64 h-14 focus:outline-none hover:bg-blue-600">Order Now
+          <button className="button1 text-center mt-auto text-white  border-0 py-3 px-4 w-44 sm:w-64 sm:h-14 focus:outline-none hover:bg-blue-600">Order Now
           </button>
         </div>
       </div>
