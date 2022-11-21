@@ -34,7 +34,7 @@ function Contact() {
                 <label for="message" className="leading-7 text-sm text-gray-600"></label>
                 <textarea id="message" name="message" placeholder="Your Message" className="w-full   bg-gray-100  border border-gray-200 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
               </div>
-              <button className="button1 text-white  border-0 py-3 px-4 w-32 sm:w-32 sm:h-14 focus:outline-none hover:bg-blue-600">Send</button>
+              <button className="button1 text-white  border-0 py-3 px-4 w-28 sm:w-32 sm:h-14 focus:outline-none hover:bg-blue-600">Send</button>
             </div>
           </div>
           <div class="flex flex-wrap-reverse lg:flex-wrap xl:w-1/2 lg:w-1/2 w-full md:mt-10 mt-20 lg:justify-start justify-center">
