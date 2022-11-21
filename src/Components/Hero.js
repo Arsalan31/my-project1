@@ -27,7 +27,7 @@ function Hero() {
     return (
         <hero>
             <div className='background'>
-                <nav className="container flex justify-between px-4 py-8 mx-auto bg-transparent">
+                <nav className="container flex justify-between px-4 lg:px-36 py-8 mx-auto bg-transparent">
                     <div className="container flex flex-wrap justify-between items-center mx-auto">
                         <center >
                             <div className="logo block cursor-pointer h-6 sm:h-9" />
