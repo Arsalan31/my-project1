@@ -25,8 +25,8 @@ function Header() {
     }, [])
     return (
         <header className='fixed w-full' >
-            <nav className="container flex flex-wrap-reverse justify-between px-4 lg:px-36 py-8 mx-auto bg-transparent">
-                <div className="container flex flex-wrap justify-between content-center items-center mx-auto">
+            <nav className="container flex  justify-between px-4 lg:px-36 py-8 mx-auto bg-transparent">
+                <div className="container flex flex-wrap  justify-between content-center items-center mx-auto">
                     {(toggleMenu || screenWidth > 767) && (
                         <div className="list flex flex-col p-4 mt-10 bg-transparent  border border-transparent md:flex-row md:space-x-8 md:text-sm md:font-medium  w-full md:block md:w-auto">
                             <li>

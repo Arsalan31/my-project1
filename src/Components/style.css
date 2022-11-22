@@ -626,10 +626,7 @@
       background: #2091F9;
       height: auto;
       width: 100%;
-      background-position: fixed;
-
-      
-
+      padding: 16px;
     }
 
     .hamburger {
