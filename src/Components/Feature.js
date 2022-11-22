@@ -50,7 +50,7 @@ function Feature() {
                         </div>
                     </div>
                     <center>
-                        <div className="pt-40 w-auto">
+                        <div className="pt-40 w-auto mx-24">
                             <video className=" rounded-3xl" controls>
                                 <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4" type="video/mp4" />
                             </video>
