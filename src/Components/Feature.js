@@ -13,7 +13,7 @@ function Feature() {
                         <br />Slate is designed for freelancers</p>
 
                 </div>
-                <div className="flex md:flex-wrap flex-wrap-reverse">
+                <div className="flex md:flex-wrap flex-wrap-reverse justify-center">
                     <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 mt-36 md:space-y-0 space-y-6">
                         <div class="p-4 md:w-1/3 w-full flex flex-col text-center items-center">
                             <svg width="47" height="47" viewBox="0 0 47 47" fill="none" xmlns="http://www.w3.org/2000/svg">
