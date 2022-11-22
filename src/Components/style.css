@@ -35,6 +35,11 @@
     line-height: 28px;
   }
 
+  menu{
+    flex: none;
+    order: 0;
+  }
+
   .home {
     width: 40px;
     height: 28px;
@@ -617,19 +622,53 @@
     display: flex;
     justify-content: center;
     position: relative;
+    order: 0;
+  }
+
+  .list1 {
+    list-style-type: none;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    order: 2;
   }
 
   @media screen and (max-width: 767px) {
 
     .list {
       flex-direction: column;
-      background: #2091F9;
+      /*background: #2091F9;*/
+      height: auto;
+      width: 100%;
+      padding: 16px;
+    }
+
+    .logo {
+      width: 186px;
+      height: 58px;
+      background-repeat: no-repeat;
+  
+      background: url(./assets/Rectangle\ 4.png);
+  
+      /* Inside auto layout */
+      /*background-color: #2091F9;*/
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+    }
+  
+
+    .list1 {
+      flex-direction: column;
+      /*background: #2091F9;*/
       height: auto;
       width: 100%;
       padding: 16px;
     }
 
     .hamburger {
+      /*background: #2091F9;*/
       display: block;
     }
   }
