@@ -638,7 +638,7 @@
 
     .list {
       flex-direction: column;
-      /*background: #2091F9;*/
+      background: #2091F9;
       height: auto;
       width: 100%;
       padding: 16px;
@@ -652,27 +652,23 @@
       background: url(./assets/Rectangle\ 4.png);
   
       /* Inside auto layout */
-      /*background-color: #2091F9;*/
+      /* background-color: #2091F9; */
       flex: none;
       order: 0;
       flex-grow: 0;
-      margin: 20px;
     }
-    
-    .nav{
-      background-color: #2091F9;
-    }
+  
 
     .list1 {
       flex-direction: column;
-      /*background: #2091F9;*/
+      background: #2091F9;
       height: auto;
       width: 100%;
       padding: 16px;
     }
 
     .hamburger {
-      /*background: #2091F9;*/
+      /*background-color: #2091F9;*/
       display: block;
     }
   }

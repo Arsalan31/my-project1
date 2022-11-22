@@ -5,7 +5,7 @@ import Contact from "./Components/Contact";
 import Hero from "./Components/Hero";
 import Feature from "./Components/Feature";
 import Partners from "./Components/Partners";
-import Header from "./Components/Header";
+{/*import Header from "./Components/Header";*/}
 
 
 
@@ -16,7 +16,7 @@ function App(){
 
     <React.Fragment>
 
-      <Header/>
+      {/*<Header/>*/}
       <Hero/>
       <Feature/>
       <Partners/>
