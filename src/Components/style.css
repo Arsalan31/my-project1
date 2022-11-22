@@ -656,8 +656,12 @@
       flex: none;
       order: 0;
       flex-grow: 0;
+      margin: 20px;
     }
-  
+    
+    .nav{
+      background-color: #2091F9;
+    }
 
     .list1 {
       flex-direction: column;
