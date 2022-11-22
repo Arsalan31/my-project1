@@ -27,42 +27,32 @@ function Hero() {
     return (
         <hero>
             <div className='background'>
-                <nav className="container flex justify-between px-4 lg:px-36 py-8 mx-auto bg-transparent">
+                {/*<nav className="container flex flex-wrap-reverse justify-between px-4 lg:px-36 py-8 mx-auto bg-transparent">
                     <div className="container flex flex-wrap justify-between items-center mx-auto">
                         {(toggleMenu || screenWidth > 767) && (
-                            <div className="nav1  w-full md:block md:w-auto">
-
-                                <ul className="list flex flex-col p-4 mt-4 bg-transparent rounded-lg border border-transparent md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-                                    <li>
-                                        <a href="Home" className="cursor-pointer block py-2 pr-4 pl-3 text-white rounded md:bg-transparent  md:p-0 dark:text-white" aria-current="page">Home</a>
-                                    </li>
-                                    <li>
-                                        <a href="#Partners" className="cursor-pointer block py-2 pr-4 pl-3 text-white rounded md:hover:bg-transparent md:border-0  md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">Product</a>
-                                    </li>
-                                    <li>
-                                        <a href="#Pricing" className="cursor-pointer block py-2 pr-4 pl-3 text-white rounded md:hover:bg-transparent md:border-0  md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">Pricing</a>
-                                    </li>
-                                    <li>
-                                        <a href="#" className="cursor-pointer block py-2 pr-4 pl-3 text-white rounded  md:hover:bg-transparent md:border-0  md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">About</a>
-                                    </li>
-                                    <li>
-                                        <a href="#Contact" className="cursor-pointer block py-2 pr-4 pl-3 text-white rounded md:hover:bg-transparent md:border-0  md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
-                                    </li>
-                                </ul>
-
+                            <div className="list flex flex-col p-4 mt-10 bg-transparent  border border-transparent md:flex-row md:space-x-8 md:text-sm md:font-medium  w-full md:block md:w-auto">
+                                <li>
+                                    <a href="Home" className="cursor-pointer block py-2 pr-4 pl-3 text-white rounded md:bg-transparent  md:p-0 dark:text-white" aria-current="page">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#Partners" className="cursor-pointer block py-2 pr-4 pl-3 text-white rounded md:hover:bg-transparent md:border-0  md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">Product</a>
+                                </li>
+                                <li>
+                                    <a href="#Pricing" className="cursor-pointer block py-2 pr-4 pl-3 text-white rounded md:hover:bg-transparent md:border-0  md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">Pricing</a>
+                                </li>
+                                <li>
+                                    <a href="#" className="cursor-pointer block py-2 pr-4 pl-3 text-white rounded  md:hover:bg-transparent md:border-0  md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">About</a>
+                                </li>
+                                <li>
+                                    <a href="#Contact" className="cursor-pointer block py-2 pr-4 pl-3 text-white rounded md:hover:bg-transparent md:border-0  md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+                                </li>
                             </div>
                         )}
                         <center >
                             <div className="logo block cursor-pointer h-6 sm:h-9" />
                         </center>
-                        <button onClick={toggleNav} className="hamburger inline-flex items-center p-2 ml-3 text-sm rounded-lg md:hidden">
-
-                            <svg width="28" height="16" viewBox="0 0 28 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M0.667969 0H27.3346V2.66667H0.667969V0ZM7.33463 6.66667H27.3346V9.33333H7.33463V6.66667ZM15.668 13.3333H27.3346V16H15.668V13.3333Z" fill="white" />
-                            </svg>
-                        </button>
                         {(toggleMenu || screenWidth > 767) && (
-                            <div className="nav1 list items-center w-full md:block md:w-auto flex flex-wrap">
+                            <div className="list items-center w-full md:block md:w-auto flex flex-wrap">
                                 <div className="lg:w-2/5 justify-center md:inline-flex inline-flex lg:justify-center md:ml-5 w-full lg:ml-0 md:justify-items-start justify-items-center">
                                     <a href="https://twitter.com/figma?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="tw text-white cursor-pointer">
                                         <svg width="33" height="33" viewBox="0 0 35 28" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -82,10 +72,16 @@ function Hero() {
                                 </div>
                             </div>
                         )}
-                    </div>
-                </nav>
+                        <button onClick={toggleNav} className="hamburger inline-flex items-center p-2 ml-3 text-sm rounded-lg md:hidden">
 
-                <h1 id="#Home" className="heading mt-24 md:mt-36 md:text-7xl font-normal  text-center text-white">The best products
+                            <svg width="28" height="16" viewBox="0 0 28 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0.667969 0H27.3346V2.66667H0.667969V0ZM7.33463 6.66667H27.3346V9.33333H7.33463V6.66667ZM15.668 13.3333H27.3346V16H15.668V13.3333Z" fill="white" />
+                            </svg>
+                        </button>
+                    </div>
+                </nav>*/}
+
+                <h1 id="#Home" className="heading pt-60 md:pt-64 md:text-7xl font-normal  text-center text-white">The best products
                     <br className="hidden sm:block" /> start with Figma
                 </h1>
                 <h4 className='sub-heading text-center text-3xl mt-10 md:mt-8 text-white'>Most calendars are designed for teams. <br className="sm:hidden" />Slate is designed
