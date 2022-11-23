@@ -5,7 +5,7 @@ function Feature() {
 
     return (
 
-        <section class="feature text-gray-600 body-font mt-56">
+        <section id="feature" class="feature text-gray-600 body-font mt-56">
             <div class="container px-5 pb-6 mx-auto">
                 <div class="text-center mb-20">
                     <h1 id="Features" class="con sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">Features</h1>

@@ -22,8 +22,40 @@ function Hero() {
             window.removeEventListener('resize', changeWidth)
         }
 
-    }, [])
+    }, []);
+    const toggle = () => {
+        var x = document.getElementById("feature")
 
+        if(x.style.display === "none"){
+            x.style.display = "block";
+        }
+
+        else{
+            x.style.display = "none";
+        }
+    }
+    const toggle1 = () => {
+        var x = document.getElementById("partner")
+
+        if(x.style.display === "none"){
+            x.style.display = "block";
+        }
+
+        else{
+            x.style.display = "none";
+        }
+    }
+    const toggle2 = () => {
+        var x = document.getElementById("feature")
+
+        if(x.style.display === "none"){
+            x.style.display = "block";
+        }
+
+        else{
+            x.style.display = "none";
+        }
+    }
     return (
         <hero>
             <div className='background'>
@@ -88,14 +120,14 @@ function Hero() {
                     <br className="hidden sm:block" /> for freelancers
                 </h4>
                 <center>
-                    <button className="text-center  text-white mt-24 border-0 py-3 px-4 w-60 h-14 focus:outline-none rounded-4xl bg-blue-0 hover:bg-blue-600">Show/Hide Features</button>
+                    <button onClick={toggle} className="text-center  text-white mt-24 border-0 py-3 px-4 w-60 h-14 focus:outline-none rounded-4xl bg-blue-0 hover:bg-blue-600">Show/Hide Features</button>
                     <br />
-                    <button className="text-center mt-3 text-white  border-0 py-3 px-4 w-60 h-14 focus:outline-none rounded-4xl bg-blue-0 hover:bg-blue-600">Show/Hide Partners</button>
+                    <button onClick={toggle1} className="text-center mt-3 text-white  border-0 py-3 px-4 w-60 h-14 focus:outline-none rounded-4xl bg-blue-0 hover:bg-blue-600">Show/Hide Partners</button>
                     <br />
 
                     <label className="switch mt-3">
                         <input type="checkbox" />
-                        <span className="slider" />
+                        <span onClick={toggle2} className="slider" />
                     </label>
                     <label className="form-check-label inline-block ml-2  text-white" for="flexSwitchCheckChecked">Show Both</label>
                 </center>
