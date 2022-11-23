@@ -111,7 +111,7 @@ function Partners() {
                 </div>
                 </center>
                 <center>
-                    <button className="button1 text-center  text-white md:mt-24 mt-20  border-0 py-3 px-4 w-60 h-16 focus:outline-none hover:bg-blue-600">Try For Free</button>
+                    <button className="button1 text-center  text-white md:mt-24 mt-20 bg-blue-0 border-0 py-3 px-4 w-60 h-16 focus:outline-none hover:bg-blue-600">Try For Free</button>
                 </center>
             </div>
 
