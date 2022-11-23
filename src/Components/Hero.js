@@ -28,7 +28,7 @@ function Hero() {
         <hero>
             <div className='background'>
             <header>
-            <nav className="container flex justify-between px-3 lg:px-36 py-8 mx-auto bg-transparent">
+            <nav className="container flex justify-between px-1 lg:px-36 py-8 mx-auto bg-transparent">
                 <div className="container  flex flex-wrap justify-between content-center px-2 items-center mx-auto bg-transparent ">
                         <div className="logo block cursor-pointer h-6 sm:h-9" />
                     <button onClick={toggleNav} className="hamburger inline-flex items-center p-2 ml-3 text-sm  md:hidden">
