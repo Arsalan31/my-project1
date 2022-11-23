@@ -39,7 +39,7 @@ function Contact() {
           </div>
           <div class="flex flex-wrap-reverse lg:flex-wrap xl:w-1/2 lg:w-1/2 w-full md:mt-10 mt-20 lg:justify-start justify-center">
             <div className="container flex flex-wrap ">
-              <div class="lg:w-1/3 w-full flex lg:flex-col flex-row text-center items-center lg:justify-start justify-center pb-8">
+              <div class="lg:w-1/3 ml-14 md:ml-auto w-full flex lg:flex-col flex-row text-center items-center lg:justify-start justify-center pb-8">
                 <svg xmlns="http://www.w3.org/2000/svg" className="inline-flex" width="25" height="30" fill="#2091F9" viewBox="0 0 16 16">
                   <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z" /><path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
                 </svg>
@@ -49,7 +49,7 @@ function Contact() {
                     <br />Georgia 12473 United States</p>
                 </div>
               </div>
-              <div class="lg:w-1/3 w-full flex lg:flex-col flex-row text-center items-center lg:justify-start justify-center pb-8">
+              <div class="lg:w-1/3 ml-14 md:ml-auto w-full flex lg:flex-col flex-row text-center items-center lg:justify-start justify-center pb-8">
                 <svg width="25" className="inline-flex" height="30" viewBox="0 0 21 33" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M16.3346 0.761719H4.66797C2.24714 0.761719 0.292969 2.71589 0.292969 5.13672V28.4701C0.292969 30.8909 2.24714 32.8451 4.66797 32.8451H16.3346C18.7555 32.8451 20.7096 30.8909 20.7096 28.4701V5.13672C20.7096 2.71589 18.7555 0.761719 16.3346 0.761719ZM13.418 29.9284H7.58464V28.4701H13.418V29.9284ZM18.1576 25.5534H2.84505V5.13672H18.1576V25.5534Z" fill="#2091F9" />
                 </svg>
@@ -57,7 +57,7 @@ function Contact() {
                   <p class="sub-c md:text-center text-left">(843) 555-0130</p>
                 </div>
               </div>
-              <div class="lg:w-1/3 w-full flex lg:flex-col flex-row text-center items-center lg:justify-start justify-center pb-8">
+              <div class="lg:w-1/3 ml-14 md:ml-auto w-full flex lg:flex-col flex-row text-center items-center lg:justify-start justify-center pb-8">
                 <svg width="25" height="30" viewBox="0 0 27 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M25.8125 0.904785H1.4375C0.918945 0.904785 0.5 1.32373 0.5 1.84229V20.5923C0.5 21.1108 0.918945 21.5298 1.4375 21.5298H25.8125C26.3311 21.5298 26.75 21.1108 26.75 20.5923V1.84229C26.75 1.32373 26.3311 0.904785 25.8125 0.904785ZM24.6406 4.15088V19.4204H2.60938V4.15088L1.80078 3.521L2.95215 2.0415L4.20605 3.01709H23.0469L24.3008 2.0415L25.4521 3.521L24.6406 4.15088ZM23.0469 3.01416L13.625 10.3384L4.20312 3.01416L2.94922 2.03857L1.79785 3.51807L2.60645 4.14795L12.6143 11.9292C12.9021 12.1528 13.2561 12.2742 13.6206 12.2742C13.9851 12.2742 14.3391 12.1528 14.627 11.9292L24.6406 4.15088L25.4492 3.521L24.2979 2.0415L23.0469 3.01416Z" fill="#2091F9" />
                 </svg>
