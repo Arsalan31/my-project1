@@ -51,7 +51,7 @@ function Feature() {
                     </div>
                     <center>
                         <div className="pt-32 w-auto md:mx-24">
-                            <video className=" rounded-3xl" controls>
+                            <video className=" rounded-4xl" controls>
                                 <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4" type="video/mp4" />
                             </video>
 

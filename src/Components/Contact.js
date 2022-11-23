@@ -34,7 +34,7 @@ function Contact() {
                 <label for="message" className="leading-7 text-sm text-gray-600"></label>
                 <textarea id="message" name="message" placeholder="Your Message" className="w-full   bg-gray-100  border border-gray-200 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
               </div>
-              <button className="button1 text-white bg-blue-0 border-0 py-3 px-4 w-28 sm:w-32 sm:h-14 focus:outline-none hover:bg-blue-600">Send</button>
+              <button className="rounded-4xl text-white bg-blue-0 border-0 py-3 px-4 w-28 sm:w-32 sm:h-14 focus:outline-none hover:bg-blue-600">Send</button>
             </div>
           </div>
           <div class="flex flex-wrap-reverse lg:flex-wrap xl:w-1/2 lg:w-1/2 w-full md:mt-10 mt-20 lg:justify-start justify-center">
@@ -49,7 +49,7 @@ function Contact() {
                     <br />Georgia 12473 United States</p>
                 </div>
               </div>
-              <div class="lg:w-1/3 w-full flex lg:flex-col flex-row text-center items-center lg:justify-start justify-center pb-8">
+              <div class="lg:w-1/3 w-full flex lg:flex-col flex-row text-center items-center lg:justify-start justify-center pb-8 ">
                 <svg width="25" className="inline-flex" height="30" viewBox="0 0 21 33" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M16.3346 0.761719H4.66797C2.24714 0.761719 0.292969 2.71589 0.292969 5.13672V28.4701C0.292969 30.8909 2.24714 32.8451 4.66797 32.8451H16.3346C18.7555 32.8451 20.7096 30.8909 20.7096 28.4701V5.13672C20.7096 2.71589 18.7555 0.761719 16.3346 0.761719ZM13.418 29.9284H7.58464V28.4701H13.418V29.9284ZM18.1576 25.5534H2.84505V5.13672H18.1576V25.5534Z" fill="#2091F9" />
                 </svg>

@@ -253,10 +253,6 @@
     height: 100%;
   }
 
-  .button1 {
-    border-radius: 35px;
-  }
-
   input::placeholder {
     color: black;
     opacity: 1;
@@ -441,8 +437,6 @@
     background: #FFFFFF;
     border: 1px solid #DEDEDE;
     box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
-    border-radius: 10px;
-
     /* Inside auto layout */
 
     flex: none;
@@ -469,7 +463,6 @@
     background: #2091F9;
     border: 1px solid #DEDEDE;
     box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
-    border-radius: 10px;
 
     /* Inside auto layout */
 
@@ -509,7 +502,6 @@
     background: #FFFFFF;
     border: 1px solid #DEDEDE;
     box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
-    border-radius: 10px;
 
     /* Inside auto layout */
 

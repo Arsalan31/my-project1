@@ -11,8 +11,8 @@ function Pricing(){
         <br/> Slate is designed for freelancers</p>
     </div>
     <div className="flex flex-wrap justify-center ">
-      <div className="price-box p-3 lg:mx-24 xl:mx-10 m-10 mt-20 xl:w-1/4 sm:w-1/2 w-64">
-        <div className="h-full p-6 rounded-lg flex flex-col relative overflow-hidden">
+      <div className="price-box rounded-xl p-3 lg:mx-24 xl:mx-10 m-10 mt-20 xl:w-1/4 sm:w-1/2 w-64">
+        <div className="h-full p-6 flex flex-col relative overflow-hidden">
           <h2 className="text-black text-sm text-center tracking-widest title-font mb-1 font-medium">FREE</h2>
           <h2 className="text-black text-sm tracking-widest title-font mb-1 font-medium text-center">Organize across all 
           <br/> apps by hand</h2>
@@ -33,12 +33,12 @@ function Pricing(){
           <p className="text-center text-black mb-6">
             Pricing Feature
           </p>
-          <button className="button1 text-center mt-auto text-white bg-blue-0 border-0 py-3 px-4 w-44 h-14 md:w-64 md:h-14 focus:outline-none hover:bg-blue-600">Order Now
+          <button className="rounded-4xl text-center mt-auto text-white bg-blue-0 border-0 py-3 px-4 w-44 h-14 md:w-64 md:h-14 focus:outline-none hover:bg-blue-600">Order Now
           </button> 
         </div>
       </div>
-      <div className="price-box1 flex lg:mx-24 xl:mx-10 m-10 p-3 xl:w-1/4 sm:w-1/2 w-64">
-        <div className="h-full p-6 rounded-lg flex flex-col relative overflow-hidden">
+      <div className="price-box1 rounded-xl flex lg:mx-24 xl:mx-10 m-10 p-3 xl:w-1/4 sm:w-1/2 w-64">
+        <div className="h-full p-6 rou flex flex-col relative overflow-hidden">
           <h2 className="text-white text-sm tracking-widest title-font mb-1 font-normal text-center">STANDARD</h2>
           <h2 className="text-white text-sm tracking-widest title-font mb-1 font-medium text-center">Organize across all 
           <br/> apps by hand</h2>
@@ -62,13 +62,13 @@ function Pricing(){
           <p className="text-center text-white mb-6">
             Pricing Feature
           </p>
-          <button className="btn1 text-blue text-center text-blue-0 mt-auto border-0 py-3 px-4 w-44 h-14 md:w-64 md:h-14 focus:outline-none hover:bg-gray-300 bg-white">Order Now
+          <button className="rounded-4xl text-blue text-center text-blue-0 mt-auto border-0 py-3 px-4 w-44 h-14 md:w-64 md:h-14 focus:outline-none hover:bg-gray-300 bg-white">Order Now
             
           </button>
         </div>
       </div>
-      <div className="price-box2 lg:mx-24 xl:mx-10 p-3 m-10 xl:mt-20 mt-12 xl:w-1/4 sm:w-1/2 w-64">
-        <div className="h-full p-6 rounded-lg flex flex-col relative overflow-hidden">
+      <div className="price-box2 rounded-xl lg:mx-24 xl:mx-10 p-3 m-10 xl:mt-20 mt-12 xl:w-1/4 sm:w-1/2 w-64">
+        <div className="h-full p-6 flex flex-col relative overflow-hidden">
           <h2 className="text-black text-sm tracking-widest title-font mb-1 font-medium text-center">BUSINESS</h2>
           <h2 className="text-black text-sm tracking-widest title-font mb-1 font-medium text-center">Organize across all 
           <br/> apps by hand</h2>
@@ -92,7 +92,7 @@ function Pricing(){
           <p className="text-center text-black mb-6">
             Pricing Feature
           </p>
-          <button className="button1 text-center mt-auto text-white bg-blue-0 border-0 py-3 px-4 w-44 h-14 md:w-64 md:h-14 focus:outline-none hover:bg-blue-600">Order Now
+          <button className="rounded-4xl text-center mt-auto text-white bg-blue-0 border-0 py-3 px-4 w-44 h-14 md:w-64 md:h-14 focus:outline-none hover:bg-blue-600">Order Now
           </button>
         </div>
       </div>
