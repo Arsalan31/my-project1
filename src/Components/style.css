@@ -592,6 +592,24 @@
 
   }
 
+  .con-details{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+width: 314px;
+height: 172px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+  }
+
   .partner {
     display: flex;
     flex-direction: column;
