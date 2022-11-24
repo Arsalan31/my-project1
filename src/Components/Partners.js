@@ -4,7 +4,7 @@ import './style.css';
 
 function Partners() {
     return (
-        <section id="partner" className="partner">
+        <section id="partner" className="flex flex-col items-start w-full h-full bg-white flex-none order-2 flex-grow-0">
             <div className=" flex flex-col text-center w-full mt-32 mb-20">
                 <h1 id="Partners" className="con text-3xl text-center font-medium title-font mb-2">Partners</h1>
                 <p className="sub-con mx-auto px-5 leading-relaxed text-base mb-20">Most calendars are designed for teams.

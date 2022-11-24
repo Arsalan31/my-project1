@@ -3,7 +3,7 @@ import './style.css';
 
 function Pricing(){
     return(
-<section className="pricing text-white body-font overflow-hidden ">
+<section className="pricing text-white body-font overflow-hidden bg-blue-1000 flex flex-col w-full h-full flex-none order-3 self-stretch flex-grow-0 ">
   <div className="container px-auto py-28 mx-auto">
     <div className="price flex flex-col text-center w-full mb-20">
       <h1 id="Pricing" className="text-5xl text-center font-medium  mb-7 text-white">Pricing</h1>
@@ -11,7 +11,7 @@ function Pricing(){
         <br/> Slate is designed for freelancers</p>
     </div>
     <div className="flex flex-wrap justify-center ">
-      <div className="price-box rounded-xl p-3 lg:mx-10 xl:mx-10 m-10 mt-20 xl:w-1/4 lg:w-1/4 sm:w-1/2 w-64">
+      <div className="price-box box-border flex flex-col items-center p-10 gap-7.5 bg-white flex-none flex-grow-0 order-0 rounded-xl lg:mx-10 xl:mx-10 m-10 mt-20 xl:w-1/4 lg:w-1/4 sm:w-1/2 w-64">
         <div className="h-full p-6 flex flex-col relative overflow-hidden">
           <h2 className="text-black text-sm text-center tracking-widest title-font mb-1 font-medium">FREE</h2>
           <h2 className="text-black text-sm tracking-widest title-font mb-1 font-medium text-center">Organize across all 
@@ -37,7 +37,7 @@ function Pricing(){
           </button> 
         </div>
       </div>
-      <div className="price-box1 rounded-xl flex lg:mx-10 xl:mx-10 m-10 p-3 xl:w-1/4 lg:w-1/4 sm:w-1/2 w-64">
+      <div className="price-box1 box-border flex flex-col items-center p-10 gap-7.5 bg-blue-0 flex-none flex-grow-0 order-1 rounded-xl lg:mx-10 xl:mx-10 m-10 xl:w-1/4 lg:w-1/4 sm:w-1/2 w-64">
         <div className="h-full p-6 rou flex flex-col relative overflow-hidden">
           <h2 className="text-white text-sm tracking-widest title-font mb-1 font-normal text-center">STANDARD</h2>
           <h2 className="text-white text-sm tracking-widest title-font mb-1 font-medium text-center">Organize across all 
@@ -67,7 +67,7 @@ function Pricing(){
           </button>
         </div>
       </div>
-      <div className="price-box2 rounded-xl lg:mx-10 xl:mx-10 p-3 m-10 lg:mt-20 mt-12 xl:w-1/4 lg:w-1/4 sm:w-1/2 w-64">
+      <div className="price-box2 box-border flex flex-col items-center p-10 gap-7.5 bg-white flex-none flex-grow-0 order-2 rounded-xl lg:mx-10 xl:mx-10 m-10 lg:mt-20 mt-12 xl:w-1/4 lg:w-1/4 sm:w-1/2 w-64">
         <div className="h-full p-6 flex flex-col relative overflow-hidden">
           <h2 className="text-black text-sm tracking-widest title-font mb-1 font-medium text-center">BUSINESS</h2>
           <h2 className="text-black text-sm tracking-widest title-font mb-1 font-medium text-center">Organize across all 

@@ -3,7 +3,7 @@ import './style.css';
 
 function Footer() {
   return (
-    <footer className="h-1/4 w-full flex flex-wrap md:flex-row flex-col justify-around items-center p-20">
+    <footer className="w-full flex flex-wrap md:flex-row flex-col justify-around items-center bg-cover h-full bg-blue-1000 p-20">
       <div className="md:text-left text-center mt-10">
         <h3 className="title-font text-white tracking-widest pb-6">Pages</h3>
         <nav className="list-none">

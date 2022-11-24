@@ -5,7 +5,7 @@ function Feature() {
 
     return (
 
-        <section id="feature" class="feature text-gray-600 body-font mt-52">
+        <section id="feature" class="w-full h-full bg-white text-gray-600 body-font mt-52">
             <div class="container px-5 pb-6 mx-auto">
                 <div class="text-center sm:mb-20 mb-10">
                     <h1 id="Features" class="con sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">Features</h1>
@@ -21,9 +21,9 @@ function Feature() {
                             </svg>
 
                             <div class="flex-grow">
-                                <h3 class="f mb-3">OpenType features
+                                <h3 class="f text-blue-1000 mb-3">OpenType features
                                     <br />Variable fonts</h3>
-                                <p class="sub-f">Slate helps you see how <br /> many more days you need <br /> to work to reach your <br />financial goal.</p>
+                                <p class="sub-f text-blue-1000">Slate helps you see how <br /> many more days you need <br /> to work to reach your <br />financial goal.</p>
 
                             </div>
                         </div>

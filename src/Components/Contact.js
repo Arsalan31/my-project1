@@ -11,7 +11,7 @@ function Contact() {
     zoom: 11
   };
   return (
-    <section className="contact text-gray-600 body-font overflow-hidden">
+    <section className="flex flex-col items-center p-13 gap-26 w-full h-full bg-white flex-none order-4 flex-grow-0 overflow-hidden">
       <div className="container px-auto py-28 mx-auto">
         <div className="flex flex-col text-center w-full mb-12">
           <h1 id="Contact" className="con sm:text-3xl text-2xl font-medium title-font text-white">Contact Us</h1>
