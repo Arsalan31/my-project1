@@ -33,7 +33,7 @@ function Pricing(){
           <p className="text-center text-black mb-6">
             Pricing Feature
           </p>
-          <button className="rounded-4xl text-center mt-auto text-white bg-blue-0 border-0 py-3 px-4 w-44 h-14 md:w-64 md:h-14 focus:outline-none hover:bg-blue-600">Order Now
+          <button className="rounded-4xl text-center mt-auto text-white bg-blue-0 border-0 py-3 px-4 w-44 h-14 xl:w-64 xl:h-14 focus:outline-none hover:bg-blue-600">Order Now
           </button> 
         </div>
       </div>
