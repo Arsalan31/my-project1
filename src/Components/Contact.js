@@ -20,7 +20,7 @@ function Contact() {
         </div>
         <div class="flex flex-wrap-reverse lg:flex-wrap justify-center">
           <div className="contact-us p-3 xl:w-1/3 lg:w-1/3 sm:w-1/2 justify-center ">
-            <div className=" bg-white flex flex-col  w-full md:py-8 mt-8 md:mt-0">
+            <div className=" bg-white flex flex-col w-full">
               <h3 className="con-1 text-center mb-10">Contact Us</h3>
               <div className="relative mb-10">
                 <label for="name" className="leading-7 text-sm text-gray-600"></label>
@@ -30,7 +30,7 @@ function Contact() {
                 <label for="email" className="leading-7 text-sm text-black"></label>
                 <input type="email" id="email" name="email" placeholder="Your Email" className="w-full h-14  bg-gray-100 rounded-3xl border border-gray-200 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
               </div>
-              <div className="relative mb-4">
+              <div className="relative mb-10">
                 <label for="message" className="leading-7 text-sm text-gray-600"></label>
                 <textarea id="message" name="message" placeholder="Your Message" className="w-full   bg-gray-100  border border-gray-200 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
               </div>
