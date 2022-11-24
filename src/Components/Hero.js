@@ -116,7 +116,7 @@ function Hero() {
                 <h1 id="#Home" className="heading pt-32 md:pt-28 md:text-7xl font-normal  text-center text-white">The best products
                     <br className="hidden sm:block" /> start with Figma
                 </h1>
-                <h4 className='sub-heading text-center text-3xl mt-10 md:mt-8 text-white'>Most calendars are designed for teams. <br className="sm:hidden" />Slate is designed
+                <h4 className='sub-heading text-center px-5 text-3xl mt-10 md:mt-8 text-white'>Most calendars are designed for teams. <br className="sm:hidden" />Slate is designed
                     <br className="hidden sm:block" /> for freelancers
                 </h4>
                 <center>

@@ -7,7 +7,7 @@ function Partners() {
         <section id="partner" className="partner">
             <div className=" flex flex-col text-center w-full mt-32 mb-20">
                 <h1 id="Partners" className="con text-3xl text-center font-medium title-font mb-2">Partners</h1>
-                <p className="sub-con mx-auto leading-relaxed text-base mb-20">Most calendars are designed for teams.
+                <p className="sub-con mx-auto px-5 leading-relaxed text-base mb-20">Most calendars are designed for teams.
                     <br /> Slate is designed for freelancers</p>
                 <center>
                 <div class="flex flex-wrap justify-center px-auto lg:mx-14  mx-32 mt-10 ">

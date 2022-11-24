@@ -7,7 +7,7 @@ function Pricing(){
   <div className="container px-auto py-28 mx-auto">
     <div className="price flex flex-col text-center w-full mb-20">
       <h1 id="Pricing" className="text-5xl text-center font-medium  mb-7 text-white">Pricing</h1>
-      <p className="sub-heading mx-auto leading-relaxed text-3xl text-white">Most calendars are designed for teams. 
+      <p className="sub-heading mx-auto px-5 leading-relaxed text-3xl text-white">Most calendars are designed for teams. 
         <br/> Slate is designed for freelancers</p>
     </div>
     <div className="flex flex-wrap justify-center ">
@@ -67,7 +67,7 @@ function Pricing(){
           </button>
         </div>
       </div>
-      <div className="price-box2 rounded-xl lg:mx-10 xl:mx-10 p-3 m-10 xl:mt-20 mt-20 xl:w-1/4 lg:w-1/4 sm:w-1/2 w-64">
+      <div className="price-box2 rounded-xl lg:mx-10 xl:mx-10 p-3 m-10 lg:mt-20 mt-12 xl:w-1/4 lg:w-1/4 sm:w-1/2 w-64">
         <div className="h-full p-6 flex flex-col relative overflow-hidden">
           <h2 className="text-black text-sm tracking-widest title-font mb-1 font-medium text-center">BUSINESS</h2>
           <h2 className="text-black text-sm tracking-widest title-font mb-1 font-medium text-center">Organize across all 
