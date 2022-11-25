@@ -44,7 +44,7 @@ function Contact() {
                   <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z" /><path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
                 </svg>
 
-                <div class="lg:flex-grow lg:mt-6 ml-5">
+                <div class="lg:flex-grow lg:mt-6 ms-5">
                   <p class="font-normal text-hex text-base md:text-center text-left">6386 Spring St undefined Anchorage,
                     <br />Georgia 12473 United States</p>
                 </div>
@@ -53,7 +53,7 @@ function Contact() {
                 <svg width="25" className="inline-flex" height="30" viewBox="0 0 21 33" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M16.3346 0.761719H4.66797C2.24714 0.761719 0.292969 2.71589 0.292969 5.13672V28.4701C0.292969 30.8909 2.24714 32.8451 4.66797 32.8451H16.3346C18.7555 32.8451 20.7096 30.8909 20.7096 28.4701V5.13672C20.7096 2.71589 18.7555 0.761719 16.3346 0.761719ZM13.418 29.9284H7.58464V28.4701H13.418V29.9284ZM18.1576 25.5534H2.84505V5.13672H18.1576V25.5534Z" fill="#2091F9" />
                 </svg>
-                <div class="lg:flex-grow lg:mt-6 ml-5">
+                <div class="lg:flex-grow lg:mt-6 ms-5">
                   <p class="font-normal text-hex text-base md:text-center text-left">(843) 555-0130</p>
                 </div>
               </div>
@@ -63,14 +63,14 @@ function Contact() {
                 </svg>
 
 
-                <div class="lg:flex-grow lg:mt-6 ml-5 ">
+                <div class="lg:flex-grow lg:mt-6 ms-5 ">
                   <p class="font-normal text-hex text-base md:text-center text-left">willie.jennings@example.com</p>
                 </div>
               </div>
             </div>
-            <div class="container px-5 py-2 mx-auto hidden lg:flex flex-wrap md:ml-14 mb-8">
+            <div class="container px-5 py-2 mx-auto hidden lg:flex flex-wrap md:ms-14 mb-8">
               <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14471.924190586524!2d67.0583741!3d24.93271555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1668600381189!5m2!1sen!2s" width="580" height="320"></iframe>
-              {/* <div class="map h-48 lg:w-2/3 md:w-1/2 sm:mr-10 p-10 flex items-end justify-start">
+              {/* <div class="map h-48 lg:w-2/3 md:w-1/2 sm:me-10 p-10 flex items-end justify-start">
                 <GoogleMapReact
                   bootstrapURLKeys={{ key: "#0061ff" }}
                   defaultCenter={defaultProps.center}
@@ -79,7 +79,7 @@ function Contact() {
               </div> */}
             </div>
             <div className="justify-items-center pb-20">
-              <div className="md:justify-items-start justify-items-center flex gap-6 lg:ml-5">
+              <div className="md:justify-items-start justify-items-center flex gap-6 lg:ms-5">
                 <a href="https://twitter.com/figma?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
                   <svg width="35" height="33" viewBox="0 0 35 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M34.1455 3.48168C32.9207 4.01002 31.5878 4.39027 30.2149 4.53837C31.6403 3.69156 32.7077 2.35375 33.2168 0.775924C31.8793 1.5716 30.414 2.12954 28.886 2.42499C28.2474 1.74226 27.475 1.19836 26.617 0.827188C25.7589 0.456017 24.8337 0.26553 23.8988 0.267595C20.1163 0.267595 17.0744 3.33358 17.0744 7.09603C17.0744 7.62437 17.1384 8.15271 17.2425 8.66104C11.5788 8.36485 6.52753 5.65909 3.16936 1.5164C2.55746 2.56154 2.2368 3.75156 2.24075 4.96264C2.24075 7.33218 3.44553 9.42153 5.28273 10.6503C4.20004 10.6077 3.14271 10.3101 2.19672 9.78177V9.86582C2.19672 13.184 4.54225 15.9338 7.66827 16.5662C7.08133 16.7186 6.47753 16.7966 5.87111 16.7983C5.42682 16.7983 5.00655 16.7543 4.58227 16.6943C5.44683 19.4 7.96447 21.3653 10.9624 21.4293C8.61689 23.2665 5.67898 24.3472 2.48891 24.3472C1.91654 24.3472 1.3882 24.3272 0.839844 24.2632C3.86581 26.2044 7.45614 27.3252 11.3226 27.3252C23.8748 27.3252 30.7432 16.9264 30.7432 7.90055C30.7432 7.60436 30.7432 7.30816 30.7232 7.01197C32.0521 6.03934 33.2168 4.83456 34.1455 3.48168Z" fill="#2091F9" />

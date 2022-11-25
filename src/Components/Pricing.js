@@ -45,7 +45,7 @@ function Pricing(){
           <br/>
           <h1 className="text-5xl text-white leading-none text-center pb-4 mb-4">
             <span>$10</span>
-            <span className="text-lg ml-1 font-normal text-white">/mo</span>
+            <span className="text-lg ms-1 font-normal text-white">/mo</span>
           </h1>
           <p className="text-center text-white mb-2">
             Pricing Feature
@@ -75,7 +75,7 @@ function Pricing(){
           <br/>
           <h1 className="text-5xl text-blue-1000 leading-none text-center pb-4 mb-4 ">
             <span>$99</span>
-            <span className="text-lg ml-1 font-normal text-blue-1000">/mo</span>
+            <span className="text-lg ms-1 font-normal text-blue-1000">/mo</span>
           </h1>
           <p className="text-center text-blue-1000 mb-2">
             Pricing Feature

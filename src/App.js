@@ -15,15 +15,15 @@ function App() {
   return (
 
     <React.Fragment>
-
-      {/*<Header/>*/}
-      <Hero />
-      <Feature />
-      <Partners />
-      <Pricing />
-      <Contact />
-      <Footer />
-
+      <div dir="ltr">
+        {/*<Header/>*/}
+        <Hero />
+        <Feature />
+        <Partners />
+        <Pricing />
+        <Contact />
+        <Footer />
+      </div>
     </React.Fragment>
   );
 }
