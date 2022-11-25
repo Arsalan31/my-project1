@@ -14,25 +14,25 @@ function Contact() {
     <section className="flex flex-col items-center p-13 gap-26 w-full h-full bg-white flex-none order-4 flex-grow-0 overflow-hidden">
       <div className="container px-auto py-28 mx-auto">
         <div className="flex flex-col text-center w-full mb-12">
-          <h1 id="Contact" className="con sm:text-3xl text-2xl font-medium title-font text-white">Contact Us</h1>
-          <p className="sub-con lg:w-2/3 mx-auto px-5 mt-5 leading-relaxed text-base">Most calendars are designed for teams.
+          <h1 id="Contact" className=" w-full font-normal text-blue-1000 text-center text-5xl leading-12">Contact Us</h1>
+          <p className="w-full font-normal text-2.5xl leading-10 text-center text-hex lg:w-2/3 mx-auto px-5 mt-5">Most calendars are designed for teams.
             <br />Slate is designed for freelancers</p>
         </div>
         <div class="flex flex-wrap-reverse lg:flex-wrap justify-center">
-          <div className="contact-us p-3 xl:w-1/3 lg:w-1/3 sm:w-1/2 justify-center ">
+          <div className="flex box-border flex-col items-start p-13 gap-11 h-100 bg-white border shadow-3xl rounded-2.5xl flex-none self-stretch flex-grow-0 border-gray-300 xl:w-1/3 lg:w-1/3 sm:w-1/2 justify-center ">
             <div className=" bg-white flex flex-col w-full">
-              <h3 className="con-1 text-center mb-10">Contact Us</h3>
+              <h3 className="con-1 h-7 font-normal text-xl text-blue-1000 flex-none flex-grow-0 text-center mb-10">Contact Us</h3>
               <div className="relative mb-10">
                 <label for="name" className="leading-7 text-sm text-gray-600"></label>
-                <input type="text" id="name" name="name" placeholder="Your Name" className="w-full h-14 bg-gray-100 rounded-3xl border  focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+                <input type="text" id="name" name="name" placeholder="Your Name" className="w-full h-14 placeholder-black bg-gray-100 rounded-3xl border  focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
               </div>
               <div className="relative mb-10">
                 <label for="email" className="leading-7 text-sm text-black"></label>
-                <input type="email" id="email" name="email" placeholder="Your Email" className="w-full h-14  bg-gray-100 rounded-3xl border border-gray-200 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+                <input type="email" id="email" name="email" placeholder="Your Email" className="w-full h-14 placeholder-black bg-gray-100 rounded-3xl border border-gray-200 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
               </div>
               <div className="relative mb-10">
                 <label for="message" className="leading-7 text-sm text-gray-600"></label>
-                <textarea id="message" name="message" placeholder="Your Message" className="w-full   bg-gray-100  border border-gray-200 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+                <textarea id="message" name="message" placeholder="Your Message" className="w-full placeholder-black bg-gray-100 border border-gray-200 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
               </div>
               <button className="rounded-4xl text-white bg-blue-0 border-0 py-3 px-4 w-28 sm:w-32 sm:h-14 focus:outline-none hover:bg-blue-600">Send</button>
             </div>
@@ -45,7 +45,7 @@ function Contact() {
                 </svg>
 
                 <div class="lg:flex-grow lg:mt-6 ml-5">
-                  <p class="sub-c md:text-center text-left">6386 Spring St undefined Anchorage,
+                  <p class="font-normal text-hex text-base md:text-center text-left">6386 Spring St undefined Anchorage,
                     <br />Georgia 12473 United States</p>
                 </div>
               </div>
@@ -54,7 +54,7 @@ function Contact() {
                   <path d="M16.3346 0.761719H4.66797C2.24714 0.761719 0.292969 2.71589 0.292969 5.13672V28.4701C0.292969 30.8909 2.24714 32.8451 4.66797 32.8451H16.3346C18.7555 32.8451 20.7096 30.8909 20.7096 28.4701V5.13672C20.7096 2.71589 18.7555 0.761719 16.3346 0.761719ZM13.418 29.9284H7.58464V28.4701H13.418V29.9284ZM18.1576 25.5534H2.84505V5.13672H18.1576V25.5534Z" fill="#2091F9" />
                 </svg>
                 <div class="lg:flex-grow lg:mt-6 ml-5">
-                  <p class="sub-c md:text-center text-left">(843) 555-0130</p>
+                  <p class="font-normal text-hex text-base md:text-center text-left">(843) 555-0130</p>
                 </div>
               </div>
               <div class="lg:w-1/3 w-full flex lg:flex-col flex-row text-center items-center lg:justify-start pb-8">
@@ -64,7 +64,7 @@ function Contact() {
 
 
                 <div class="lg:flex-grow lg:mt-6 ml-5 ">
-                  <p class="sub-c md:text-center text-left">willie.jennings@example.com</p>
+                  <p class="font-normal text-hex text-base md:text-center text-left">willie.jennings@example.com</p>
                 </div>
               </div>
             </div>

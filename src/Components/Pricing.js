@@ -13,24 +13,24 @@ function Pricing(){
     <div className="flex flex-wrap justify-center ">
       <div className="price-box box-border flex flex-col items-center p-10 gap-7.5 bg-white flex-none flex-grow-0 order-0 rounded-xl lg:mx-10 xl:mx-10 m-10 mt-20 xl:w-1/4 lg:w-1/4 sm:w-1/2 w-64">
         <div className="h-full p-6 flex flex-col relative overflow-hidden">
-          <h2 className="text-black text-sm text-center tracking-widest title-font mb-1 font-medium">FREE</h2>
-          <h2 className="text-black text-sm tracking-widest title-font mb-1 font-medium text-center">Organize across all 
+          <h2 className="text-blue-1000 tracking-widest font-normal mb-1 xl:text-xl text-base text-center">FREE</h2>
+          <h2 className="text-hex tracking-widest font-normal mb-1 xl:text-xl text-base text-center">Organize across all 
           <br/> apps by hand</h2>
           <br/>
-          <h1 className="text-5xl text-center text-gray-900 pb-4 mb-4 leading-none">$0</h1>
-          <p className="text-center text-black mb-2">
+          <h1 className="text-5xl text-center text-blue-1000 pb-4 mb-4 leading-none">$0</h1>
+          <p className="text-center text-blue-1000 mb-2">
             Pricing Feature
           </p>
-          <p className="text-center text-black mb-2">
+          <p className="text-center text-blue-1000 mb-2">
             Pricing Feature
           </p>
-          <p className="text-center text-black mb-2">
+          <p className="text-center text-blue-1000 mb-2">
             Pricing Feature
           </p>
-          <p className="text-center text-black mb-2">
+          <p className="text-center text-blue-1000 mb-2">
             Pricing Feature
           </p>
-          <p className="text-center text-black mb-6">
+          <p className="text-center text-blue-1000 mb-6">
             Pricing Feature
           </p>
           <button className="rounded-4xl text-center mt-auto text-white bg-blue-0 border-0 py-3 px-4 w-44 h-14 xl:w-64 xl:h-14 focus:outline-none hover:bg-blue-600">Order Now
@@ -39,8 +39,8 @@ function Pricing(){
       </div>
       <div className="price-box1 box-border flex flex-col items-center p-10 gap-7.5 bg-blue-0 flex-none flex-grow-0 order-1 rounded-xl lg:mx-10 xl:mx-10 m-10 xl:w-1/4 lg:w-1/4 sm:w-1/2 w-64">
         <div className="h-full p-6 rou flex flex-col relative overflow-hidden">
-          <h2 className="text-white text-sm tracking-widest title-font mb-1 font-normal text-center">STANDARD</h2>
-          <h2 className="text-white text-sm tracking-widest title-font mb-1 font-medium text-center">Organize across all 
+          <h2 className="text-white tracking-widest font-normal mb-1 xl:text-xl text-base text-center">STANDARD</h2>
+          <h2 className="text-white tracking-widest font-normal mb-1 xl:text-xl text-base text-center">Organize across all 
           <br/> apps by hand</h2>
           <br/>
           <h1 className="text-5xl text-white leading-none text-center pb-4 mb-4">
@@ -69,27 +69,27 @@ function Pricing(){
       </div>
       <div className="price-box2 box-border flex flex-col items-center p-10 gap-7.5 bg-white flex-none flex-grow-0 order-2 rounded-xl lg:mx-10 xl:mx-10 m-10 lg:mt-20 mt-12 xl:w-1/4 lg:w-1/4 sm:w-1/2 w-64">
         <div className="h-full p-6 flex flex-col relative overflow-hidden">
-          <h2 className="text-black text-sm tracking-widest title-font mb-1 font-medium text-center">BUSINESS</h2>
-          <h2 className="text-black text-sm tracking-widest title-font mb-1 font-medium text-center">Organize across all 
+          <h2 className="text-blue-1000 tracking-widest font-normal mb-1 xl:text-xl text-base text-center">BUSINESS</h2>
+          <h2 className="text-hex xl:text-xl text-base tracking-widest mb-1 font-normal text-center">Organize across all 
           <br/> apps by hand</h2>
           <br/>
-          <h1 className="text-5xl text-black leading-none text-center pb-4 mb-4 ">
+          <h1 className="text-5xl text-blue-1000 leading-none text-center pb-4 mb-4 ">
             <span>$99</span>
-            <span className="text-lg ml-1 font-normal text-black">/mo</span>
+            <span className="text-lg ml-1 font-normal text-blue-1000">/mo</span>
           </h1>
-          <p className="text-center text-black mb-2">
+          <p className="text-center text-blue-1000 mb-2">
             Pricing Feature
           </p>
-          <p className="text-center text-black mb-2">
+          <p className="text-center text-blue-1000 mb-2">
             Pricing Feature
           </p>
-          <p className="text-center text-black mb-2">
+          <p className="text-center text-blue-1000 mb-2">
             Pricing Feature
           </p>
-          <p className="text-center text-black mb-2">
+          <p className="text-center text-blue-1000 mb-2">
             Pricing Feature
           </p>
-          <p className="text-center text-black mb-6">
+          <p className="text-center text-blue-1000 mb-6">
             Pricing Feature
           </p>
           <button className="rounded-4xl text-center mt-auto text-white bg-blue-0 border-0 py-3 px-4 w-44 h-14 xl:w-64 xl:h-14 focus:outline-none hover:bg-blue-600">Order Now

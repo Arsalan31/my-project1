@@ -8,8 +8,8 @@ function Feature() {
         <section id="feature" class="w-full h-full bg-white text-gray-600 body-font mt-52">
             <div class="container px-5 pb-6 mx-auto">
                 <div class="text-center sm:mb-20 mb-10">
-                    <h1 id="Features" class="con sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">Features</h1>
-                    <p class="sub-con text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s">Most calendars are designed for teams.
+                    <h1 id="Features" class="w-full font-normal text-blue-1000 text-center text-5xl leading-12 mb-4">Features</h1>
+                    <p class="w-full font-normal text-2.5xl leading-10 text-center text-hex mx-auto">Most calendars are designed for teams.
                         <br />Slate is designed for freelancers</p>
 
                 </div>
@@ -21,9 +21,9 @@ function Feature() {
                             </svg>
 
                             <div class="flex-grow">
-                                <h3 class="f text-blue-1000 mb-3">OpenType features
+                                <h3 class="text-center font-normal text-xl text-blue-1000 mb-3">OpenType features
                                     <br />Variable fonts</h3>
-                                <p class="sub-f text-blue-1000">Slate helps you see how <br /> many more days you need <br /> to work to reach your <br />financial goal.</p>
+                                <p class="sub-f text-hex text-center font-normal">Slate helps you see how <br /> many more days you need <br /> to work to reach your <br />financial goal.</p>
 
                             </div>
                         </div>
@@ -32,8 +32,8 @@ function Feature() {
                                 <path d="M23.2486 48.65C27.402 47.0167 26.492 42.5134 24.392 39.6667C22.3153 36.75 19.4453 34.7434 16.552 32.8067C14.4876 31.5055 12.6443 29.8829 11.092 28C10.4386 27.23 9.10863 25.8067 10.462 25.5267C11.8386 25.2467 14.2186 26.6 15.432 27.1134C17.5553 28 19.6553 29.0267 21.6153 30.24L23.972 26.2734C20.332 23.87 15.6653 21.7467 11.3253 21.1167C8.85197 20.7434 6.23863 21.2567 5.39863 23.94C4.65197 26.25 5.84197 28.5834 7.1953 30.4034C10.392 34.6734 15.362 36.7267 19.072 40.4134C19.8653 41.1834 20.822 42.0934 21.2886 43.1667C21.7786 44.1934 21.662 44.2634 20.5653 44.2634C17.672 44.2634 14.0553 42 11.6986 40.5067L9.34197 44.4734C12.912 46.6667 18.8853 50.0967 23.2486 48.65ZM49.1253 12.25C49.6386 11.7367 49.6386 10.8967 49.1253 10.4067L46.092 7.37337C45.8476 7.13783 45.5214 7.00623 45.182 7.00623C44.8425 7.00623 44.5164 7.13783 44.272 7.37337L41.892 9.75337L46.7453 14.6067L49.1253 12.25ZM26.1653 25.48V30.3334H31.0186L45.3686 15.9834L40.5153 11.13L26.1653 25.48Z" fill="#2091F9" />
                             </svg>
                             <div class="flex-grow">
-                                <h3 class="f mb-3">Design with real data</h3>
-                                <p class="sub-f">Slate helps you see how <br /> many more days you need <br /> to work to reach your <br />financial goal.</p>
+                                <h3 class="text-center font-normal text-xl text-blue-1000 mb-3">Design with real data</h3>
+                                <p class="sub-f text-hex text-center font-normal">Slate helps you see how <br /> many more days you need <br /> to work to reach your <br />financial goal.</p>
                             </div>
                         </div>
                         <div class="p-4 md:w-1/3 lg:px-14 w-full flex flex-col text-center items-center">
@@ -42,16 +42,16 @@ function Feature() {
                             </svg>
 
                             <div class="flex-grow">
-                                <h3 class="f mb-3">Fastest way to
+                                <h3 class="text-center font-normal text-xl text-blue-1000 mb-3">Fastest way to
                                     <br />take action</h3>
-                                <p class="sub-f">Slate helps you see how <br /> many more days you need <br /> to work to reach your <br />financial goal.</p>
+                                <p class="sub-f text-hex text-center font-normal">Slate helps you see how <br /> many more days you need <br /> to work to reach your <br />financial goal.</p>
 
                             </div>
                         </div>
                     </div>
                     <center>
                         <div className="sm:pt-16 p-5 w-auto md:mx-36">
-                            <video className=" rounded-4xl" controls>
+                            <video className=" rounded-2.5xl" controls>
                                 <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4" type="video/mp4" />
                             </video>
 

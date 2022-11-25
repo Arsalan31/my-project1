@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer className="w-full flex flex-wrap md:flex-row flex-col justify-around items-center bg-cover h-full bg-blue-1000 p-20">
       <div className="md:text-left text-center mt-10">
-        <h3 className="title-font text-white tracking-widest pb-6">Pages</h3>
+        <h3 className="font-normal text-white tracking-widest pb-6">Pages</h3>
         <nav className="list-none">
           <li className="pb-4">
             <a href="#Home" className="text-white font-normal text-sm pb-2 ">Home</a>
@@ -25,7 +25,7 @@ function Footer() {
         </nav>
       </div>
       <div className="md:text-left text-center mt-10">
-        <h3 className="title-font font-medium text-white tracking-widest text-xl pb-6">Tomothy</h3>
+        <h3 className="font-normal text-white tracking-widest text-xl pb-6">Tomothy</h3>
         <nav className="list-none">
           <li className="pb-4">
             <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Eleanor Edwards</a>
@@ -45,7 +45,7 @@ function Footer() {
         </nav>
       </div>
       <div className="md:text-left text-center mt-10">
-        <h3 className="title-font font-medium text-white tracking-widest text-xl pb-6">Jane Black</h3>
+        <h3 className="font-normal text-white tracking-widest text-xl pb-6">Jane Black</h3>
         <nav className="list-none ">
           <li className="pb-4">
             <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Philip Jones</a>

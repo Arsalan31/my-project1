@@ -59,32 +59,32 @@ function Hero() {
     return (
         <hero>
             <div className='background'>
-            <header>
+            <header className='w-full bg-transparent'>
             <nav className="container flex justify-between px-1 lg:px-36 py-8 mx-auto bg-transparent">
                 <div className="container  flex flex-wrap justify-between content-center px-2 items-center mx-auto bg-transparent ">
                         <div className="logo block cursor-pointer h-6 sm:h-9" />
-                    <button onClick={toggleNav} className="hamburger inline-flex items-center p-2 ml-3 text-sm  md:hidden">
+                    <button onClick={toggleNav} className="block items-center p-2 ml-3 text-sm  md:hidden">
 
                         <svg width="28" height="16" viewBox="0 0 28 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M0.667969 0H27.3346V2.66667H0.667969V0ZM7.33463 6.66667H27.3346V9.33333H7.33463V6.66667ZM15.668 13.3333H27.3346V16H15.668V13.3333Z" fill="white" />
                         </svg>
-                    </button>
+                    </button>   
                     {(toggleMenu || screenWidth > 767) && (
                         <div className="list flex flex-col md:p-4 md:mt-10 bg-transparent  md:border-transparent border-t-2 border-white md:flex-row md:space-x-8 md:text-sm md:font-medium  w-full md:block md:w-auto">
                             <li>
-                                <a href="Home" className="cursor-pointer block py-2 pr-4 pl-3 text-white rounded md:bg-transparent focus-within: md:p-0 dark:text-white" aria-current="page">Home</a>
+                                <a href="Home" className="cursor-pointer block py-2 pr-4 pl-3 font-normal text-1xl leading-7 text-white rounded md:bg-transparent focus-within: md:p-0 dark:text-white" aria-current="page">Home</a>
                             </li>
                             <li>
-                                <a href="#Partners" className="cursor-pointer block py-2 pr-4 pl-3 text-white rounded md:hover:bg-transparent md:border-0  md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">Product</a>
+                                <a href="#Partners" className="cursor-pointer block py-2 pr-4 pl-3 font-normal text-1xl leading-7 text-white rounded md:hover:bg-transparent md:border-0  md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">Product</a>
                             </li>
                             <li>
-                                <a href="#Pricing" className="cursor-pointer block py-2 pr-4 pl-3 text-white rounded md:hover:bg-transparent md:border-0  md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">Pricing</a>
+                                <a href="#Pricing" className="cursor-pointer block py-2 pr-4 pl-3 font-normal text-1xl leading-7 text-white rounded md:hover:bg-transparent md:border-0  md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">Pricing</a>
                             </li>
                             <li>
-                                <a href="#" className="cursor-pointer block py-2 pr-4 pl-3 text-white rounded  md:hover:bg-transparent md:border-0  md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">About</a>
+                                <a href="#" className="cursor-pointer block py-2 pr-4 pl-3 font-normal text-1xl leading-7 text-white rounded md:hover:bg-transparent md:border-0  md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">About</a>
                             </li>
                             <li>
-                                <a href="#Contact" className="cursor-pointer block py-2 pr-4 pl-3 text-white rounded md:hover:bg-transparent md:border-0  md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+                                <a href="#Contact" className="cursor-pointer block py-2 pr-4 pl-3 font-normal text-1xl leading-7 text-white rounded md:hover:bg-transparent md:border-0  md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
                             </li>
                         </div>
                     )}
@@ -113,10 +113,10 @@ function Hero() {
             </nav>
         </header>
 
-                <h1 id="#Home" className="heading pt-32 md:pt-28 md:text-7xl font-normal  text-center text-white">The best products
+                <h1 id="#Home" className="text-5xl leading-12 pt-32 md:pt-28 sm:text-7xl sm:leading-16 font-normal text-center text-white">The best products
                     <br className="hidden sm:block" /> start with Figma
                 </h1>
-                <h4 className='sub-heading text-center px-5 text-3xl mt-10 md:mt-8 text-white'>Most calendars are designed for teams. <br className="sm:hidden" />Slate is designed
+                <h4 className='sub-heading w-full font-normal text-2.5xl leading-10 text-center flex-none flex-grow-0 px-5 mt-10 md:mt-8 text-white'>Most calendars are designed for teams. <br className="sm:hidden" />Slate is designed
                     <br className="hidden sm:block" /> for freelancers
                 </h4>
                 <center>
