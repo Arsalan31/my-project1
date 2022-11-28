@@ -23,7 +23,7 @@ function Feature() {
                             <div class="flex-grow mt-7">
                                 <h3 class="text-center font-normal text-xl text-blue-1000 mb-3">OpenType features
                                     <br />Variable fonts</h3>
-                                <p class="sub-f text-hex text-center font-normal">Slate helps you see how <br /> many more days you need <br /> to work to reach your <br />financial goal.</p>
+                                <p class="text-hex text-lg text-center font-normal">Slate helps you see how <br /> many more days you need <br /> to work to reach your <br />financial goal.</p>
 
                             </div>
                         </div>
@@ -33,7 +33,7 @@ function Feature() {
                             </svg>
                             <div class="flex-grow mt-7">
                                 <h3 class="text-center font-normal text-xl text-blue-1000 mb-3">Design with real data</h3>
-                                <p class="sub-f text-hex text-center font-normal">Slate helps you see how <br /> many more days you need <br /> to work to reach your <br />financial goal.</p>
+                                <p class="text-lg text-hex text-center font-normal">Slate helps you see how <br /> many more days you need <br /> to work to reach your <br />financial goal.</p>
                             </div>
                         </div>
                         <div class="p-4 md:w-1/3 lg:px-14 w-full flex flex-col text-center items-center">
@@ -44,7 +44,7 @@ function Feature() {
                             <div class="flex-grow mt-7">
                                 <h3 class="text-center font-normal text-xl text-blue-1000 mb-3">Fastest way to
                                     <br />take action</h3>
-                                <p class="sub-f text-hex text-center font-normal">Slate helps you see how <br /> many more days you need <br /> to work to reach your <br />financial goal.</p>
+                                <p class="text-lg text-hex text-center font-normal">Slate helps you see how <br /> many more days you need <br /> to work to reach your <br />financial goal.</p>
 
                             </div>
                         </div>
