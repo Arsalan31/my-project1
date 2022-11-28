@@ -30,7 +30,8 @@ module.exports = {
         '1xl':"15px"
       },
       lineHeight:{
-        '12':"55px"
+        '12':"55px",
+        '16':"84px"
       },
       height:{
         '100':"669px"
