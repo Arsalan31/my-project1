@@ -26,8 +26,8 @@ function Hero() {
     const toggle = () => {
         var x = document.getElementById("feature")
 
-        if (x.style.display === "none") {
-            x.style.display = "block";
+        if (x.style.display === "block") {
+            x.style.display = "none";
         }
 
         else {
@@ -37,27 +37,12 @@ function Hero() {
     const toggle1 = () => {
         var x = document.getElementById("partner")
 
-        if (x.style.display === "none") {
-            x.style.display = "block";
+        if (x.style.display === "block") {
+            x.style.display = "none";
         }
 
         else {
             x.style.display = "none";
-        }
-    }
-    const toggle2 = () => {
-        var x = document.getElementById("feature")
-        var y = document.getElementById("partner")
-
-        if (x.style.display === "block",
-            y.style.display === "block") {
-            x.style.display = "none";
-            y.style.display = "none";
-        }
-
-        else {
-            x.style.display = "block";
-            y.style.display = "block";
         }
     }
     const [toggleButton, setToggleButton] = useState(false)
@@ -99,7 +84,7 @@ function Hero() {
                     </label> */}
 
                     <div className='flex justify-center mt-3'>
-                        <div onClick={handleClick} type="checkbox" className='toggle'>
+                        <div onClick={handleClick} type="checkbox" className='toggle cursor-pointer'>
                             {toggleButton ? <div className='toggle-left'></div> :
                                 <div className='toggle-right'></div>}
                         </div>
