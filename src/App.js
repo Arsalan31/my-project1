@@ -6,6 +6,7 @@ import Hero from "./Components/Hero";
 import Feature from "./Components/Feature";
 import Partners from "./Components/Partners";
 import Header from "./Components/Header";
+import Udix from "./Components/Udix";
 
 
 
@@ -23,6 +24,7 @@ function App() {
         <Pricing />
         <Contact />
         <Footer />
+        <Udix/>
       </div>
     </React.Fragment>
   );
