@@ -42,8 +42,8 @@ function Hero() {
         setToggleButton(!toggleButton)
     }
     return (
-        <hero>
-            <div className='background'>
+        <hero className="w-full pb-40 h-full">
+            <div className='background h-full w-full bg-no-repeat bg-cover bg-center m-auto'>
 
                 <h1 id="#Home" className="text-5xl leading-12 pt-56 sm:pt-72 sm:text-7xl sm:leading-16 font-normal w-full text-center text-white">The best products
                     <br className="hidden sm:block" /> start with Figma

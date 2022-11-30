@@ -28,7 +28,7 @@ function Header() {
         <header className='w-full absolute'>
             <nav className="container flex  justify-between px-1 lg:px-36 py-8 mx-auto bg-transparent">
                 <div className="container nav flex flex-wrap justify-between content-center px-2 items-center mx-auto bg-transparent ">
-                        <div className="logo block cursor-pointer h-6 sm:h-9" />
+                        <div className="logo h-16 w-44 bg-no-repeat flex-none order-1 flex-grow-0 block cursor-pointer" />
                     <button onClick={toggleNav} className="block items-center p-2 ms-3 text-sm  md:hidden">
                         <svg width="28" height="16" viewBox="0 0 28 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M0.667969 0H27.3346V2.66667H0.667969V0ZM7.33463 6.66667H27.3346V9.33333H7.33463V6.66667ZM15.668 13.3333H27.3346V16H15.668V13.3333Z" fill="white" />
