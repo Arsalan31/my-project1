@@ -19,7 +19,7 @@ function Contact() {
             <br />Slate is designed for freelancers</p>
         </div>
         <div class="flex flex-wrap-reverse lg:flex-wrap justify-center">
-          <div className="flex box-border flex-col items-start p-13 gap-11 h-100 bg-white border shadow-3xl rounded-2.5xl flex-none self-stretch flex-grow-0 border-gray-300 xl:w-1/3 lg:w-1/3 sm:w-1/2 justify-center ">
+          <div className="flex box-border flex-col items-start p-13 gap-11 h-100 bg-white border shadow-3xl rounded-2.5xl flex-none self-stretch flex-grow-0 border-gray-300 xl:w-1/3 lg:w-1/3 sm:w-1/2 w-60 justify-center ">
             <div className=" bg-white flex flex-col w-full">
               <h3 className="con-1 h-7 font-normal text-xl text-blue-1000 flex-none flex-grow-0 text-center mb-10">Contact Us</h3>
               <div className="relative mb-10">
@@ -37,15 +37,15 @@ function Contact() {
               <button className="rounded-4xl text-white bg-blue-0 border-0 py-3 px-4 w-28 sm:w-32 sm:h-14 focus:outline-none hover:bg-blue-600">Send</button>
             </div>
           </div>
-          <div class="flex flex-wrap-reverse lg:flex-wrap xl:w-1/2 lg:w-1/2 w-full md:mt-10 mt-20 lg:justify-start justify-center">
-            <div className="container flex flex-wrap lg:m-1 mx-56">
+          <div class="flex flex-wrap-reverse lg:flex-wrap xl:w-1/2 lg:w-1/2 w-60 md:mt-10 mt-20 lg:justify-start justify-center">
+            <div className="container flex flex-wrap lg:m-1 mx-52">
               <div class="lg:w-1/3 w-full flex lg:flex-col flex-row text-center items-center lg:justify-start pb-8">
                 <svg xmlns="http://www.w3.org/2000/svg" className="inline-flex" width="25" height="30" fill="#2091F9" viewBox="0 0 16 16">
                   <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z" /><path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
                 </svg>
 
                 <div class="lg:flex-grow lg:mt-6 ms-5">
-                  <p class="font-normal text-hex text-base md:text-center text-left">6386 Spring St undefined Anchorage,
+                  <p class="font-normal text-hex text-sm md:text-center text-left">6386 Spring St undefined Anchorage,
                     <br />Georgia 12473 United States</p>
                 </div>
               </div>
@@ -54,7 +54,7 @@ function Contact() {
                   <path d="M16.3346 0.761719H4.66797C2.24714 0.761719 0.292969 2.71589 0.292969 5.13672V28.4701C0.292969 30.8909 2.24714 32.8451 4.66797 32.8451H16.3346C18.7555 32.8451 20.7096 30.8909 20.7096 28.4701V5.13672C20.7096 2.71589 18.7555 0.761719 16.3346 0.761719ZM13.418 29.9284H7.58464V28.4701H13.418V29.9284ZM18.1576 25.5534H2.84505V5.13672H18.1576V25.5534Z" fill="#2091F9" />
                 </svg>
                 <div class="lg:flex-grow lg:mt-6 ms-5">
-                  <p class="font-normal text-hex text-base md:text-center text-left">(843) 555-0130</p>
+                  <p class="font-normal text-hex text-sm md:text-center text-left">(843) 555-0130</p>
                 </div>
               </div>
               <div class="lg:w-1/3 w-full flex lg:flex-col flex-row text-center items-center lg:justify-start pb-8">
@@ -64,7 +64,7 @@ function Contact() {
 
 
                 <div class="lg:flex-grow lg:mt-6 ms-5 ">
-                  <p class="font-normal text-hex text-base md:text-center text-left">willie.jennings@example.com</p>
+                  <p class="font-normal text-hex text-sm md:text-center text-left">willie.jennings@example.com</p>
                 </div>
               </div>
             </div>
