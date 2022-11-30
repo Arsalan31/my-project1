@@ -4,7 +4,9 @@ function Udix() {
 
     return (
 
-        <h1>HEllo</h1>
+        <nav className="bg-indigo-800 h-14">
+            
+        </nav>
     )
 }
 export default Udix;
