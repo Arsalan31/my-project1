@@ -1,28 +1,7 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState} from 'react'
 import './style.css';
 
 function Hero() {
-    const [toggleMenu, setToggleMenu] = useState(false)
-    const [screenWidth, setScreenWidth] = useState(window.innerWidth)
-
-
-    const toggleNav = () => {
-        setToggleMenu(!toggleMenu)
-    }
-
-    useEffect(() => {
-
-        const changeWidth = () => {
-            setScreenWidth(window.innerWidth);
-        }
-
-        window.addEventListener('resize', changeWidth)
-
-        return () => {
-            window.removeEventListener('resize', changeWidth)
-        }
-
-    }, []);
     const toggle = () => {
         var x = document.getElementById("feature")
 
@@ -31,7 +10,7 @@ function Hero() {
         }
 
         else {
-            x.style.display = "none";
+            x.style.display = "block";
         }
     }
     const toggle1 = () => {
@@ -42,7 +21,7 @@ function Hero() {
         }
 
         else {
-            x.style.display = "none";
+            x.style.display = "block";
         }
     }
     const [toggleButton, setToggleButton] = useState(false)
@@ -90,11 +69,12 @@ function Hero() {
                         </div>
                         <label className="form-check-label inline-block ms-2  text-white" for="flexSwitchCheckChecked">Show Both</label>
                     </div>
-                    <br />
-                    <label className="switch1 mt-3">
+                    <label className="form-check-label inline-block me-2  text-white" for="flexSwitchCheckChecked">LTR</label>
+                    <label className="switch mt-3">
                         <input type="checkbox" />
-                        <span className="slider1" />
+                        <span className="slider" />
                     </label>
+                    <label className="form-check-label inline-block ms-2  text-white" for="flexSwitchCheckChecked">RTL</label>
                 </center>
             </div>
         </hero>

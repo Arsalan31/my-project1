@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Footer from "./Components/Footer";
 import Pricing from "./Components/Pricing";
 import Contact from "./Components/Contact";
@@ -12,8 +12,8 @@ import Header from "./Components/Header";
 
 
 function App() {
+  
   return (
-
     <React.Fragment>
       <div dir="ltr">
         <Header/>
