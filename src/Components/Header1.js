@@ -28,7 +28,7 @@ function Header1() {
     return (
         <header className="w-full absolute">
             <nav className="flex justify-between bg-indigo-700">
-                <div className="container nav flex flex-wrap justify-between content-center px-2 items-center mx-auto bg-transparent ">
+                <div className="container nav md:my-0 my-10 flex flex-wrap justify-between content-center px-2 items-center lg:mx-52 mx-auto bg-transparent ">
                     <div className="logo1 bg-no-repeat flex-none order-0 flex-grow-0 block cursor-pointer" />
                     <button onClick={toggleNav} className="block items-center p-2 ms-3 text-sm  md:hidden">
                         <svg width="28" height="16" viewBox="0 0 28 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -36,7 +36,7 @@ function Header1() {
                         </svg>
                     </button>
                     {(toggleMenu || screenWidth > 767) && (
-                        <div className="list flex flex-col md:p-4 md:mt-10 bg-transparent  md:border-transparent border-t-2 border-white md:flex-row md:text-sm md:font-medium  w-full md:block md:w-auto">
+                        <div className="list flex flex-col md:p-4 md:mt-10 mt-10 bg-transparent  md:border-transparent border-t-2 border-white md:flex-row md:text-sm md:font-medium  w-full md:block md:w-auto">
                             <li>
                                 <a href="Home" className="cursor-pointer block py-2 pe-4 ps-3 text-white font-normal text-1xl leading-7 rounded md:bg-transparent focus-within: dark:text-white" aria-current="page">Home</a>
                             </li>
@@ -52,7 +52,7 @@ function Header1() {
                         </div>
                     )}
                     {(toggleMenu || screenWidth > 767) && (
-                        <div className="justify-items-center">
+                        <div className="justify-items-center md:mt-0 mt-10">
                         <button className="text-white">SIGN IN</button>
                         <button className="text-white ms-5 border-white border-2 rounded-md px-6 py-3">SIGN UP</button>
                         </div>

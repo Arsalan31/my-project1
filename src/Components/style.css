@@ -8,6 +8,11 @@
     height: 26px;
   }
 
+  .image{
+    background: url(./assets/udix.png);
+    height: 50px;
+    width: 134px;
+  }
 
   .background {
     width: 100%;
