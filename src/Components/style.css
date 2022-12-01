@@ -69,15 +69,15 @@
     display: flex;
   }
 
-  .toggle-left{
+  .toggle-start{
     height: 12px;
     width: 12px;
     background-color: #DEDEDE;
     border-radius: 20px;
-    margin: 5px;
+    margin: 5px 5px 5px 33px;
     transition: 0.4s;
   }
-  .toggle-right{
+  .toggle-end{
     height: 12px;
     width: 12px;
     background-color: #DEDEDE;

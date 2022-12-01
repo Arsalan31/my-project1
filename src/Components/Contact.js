@@ -45,7 +45,7 @@ function Contact() {
                 </svg>
 
                 <div class="lg:flex-grow lg:mt-6 ms-5">
-                  <p class="font-normal text-hex text-sm md:text-center text-left">6386 Spring St undefined Anchorage,
+                  <p class="font-normal text-hex text-sm md:text-center text-start">6386 Spring St undefined Anchorage,
                     <br />Georgia 12473 United States</p>
                 </div>
               </div>
@@ -54,7 +54,7 @@ function Contact() {
                   <path d="M16.3346 0.761719H4.66797C2.24714 0.761719 0.292969 2.71589 0.292969 5.13672V28.4701C0.292969 30.8909 2.24714 32.8451 4.66797 32.8451H16.3346C18.7555 32.8451 20.7096 30.8909 20.7096 28.4701V5.13672C20.7096 2.71589 18.7555 0.761719 16.3346 0.761719ZM13.418 29.9284H7.58464V28.4701H13.418V29.9284ZM18.1576 25.5534H2.84505V5.13672H18.1576V25.5534Z" fill="#2091F9" />
                 </svg>
                 <div class="lg:flex-grow lg:mt-6 ms-5">
-                  <p class="font-normal text-hex text-sm md:text-center text-left">(843) 555-0130</p>
+                  <p class="font-normal text-hex text-sm md:text-center text-start">(843) 555-0130</p>
                 </div>
               </div>
               <div class="lg:w-1/3 w-full flex lg:flex-col flex-row text-center items-center lg:justify-start pb-8">
@@ -64,7 +64,7 @@ function Contact() {
 
 
                 <div class="lg:flex-grow lg:mt-6 ms-5 ">
-                  <p class="font-normal text-hex text-sm md:text-center text-left">willie.jennings@example.com</p>
+                  <p class="font-normal text-hex text-sm md:text-center text-start">willie.jennings@example.com</p>
                 </div>
               </div>
             </div>

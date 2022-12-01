@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Footer from "./Components/Footer";
 import Pricing from "./Components/Pricing";
 import Contact from "./Components/Contact";
@@ -12,12 +12,12 @@ import Header from "./Components/Header";
 
 
 function App() {
-  
+  const [isRtl, setIsRtl] = useState(false)
   return (
     <React.Fragment>
-      <div dir="ltr">
-        <Header/>
-        <Hero />
+      <div dir={isRtl ? "rtl" : "ltr"}>
+        <Header />
+        <Hero isRtl={isRtl} setIsRtl={setIsRtl} />
         <Feature />
         <Partners />
         <Pricing />

@@ -1,7 +1,10 @@
 import React, { useState} from 'react'
 import './style.css';
 
-function Hero() {
+function Hero(props) {
+
+    console.log(props)
+
     const toggle = () => {
         var x = document.getElementById("feature")
 
@@ -41,6 +44,11 @@ function Hero() {
         }
         setToggleButton(!toggleButton)
     }
+
+    const setDirection = () => {
+        props.setIsRtl(!props.isRtl)
+    }
+
     return (
         <hero className="w-full pb-40 h-full">
             <div className='background h-full w-full bg-no-repeat bg-cover bg-center m-auto'>
@@ -64,17 +72,17 @@ function Hero() {
 
                     <div className='flex justify-center mt-3'>
                         <div onClick={handleClick} type="checkbox" className='toggle cursor-pointer'>
-                            {toggleButton ? <div className='toggle-left'></div> :
-                                <div className='toggle-right'></div>}
+                            {toggleButton ? <div className='toggle-start'></div> :
+                                <div className='toggle-end'></div>}
                         </div>
                         <label className="form-check-label inline-block ms-2  text-white" for="flexSwitchCheckChecked">Show Both</label>
                     </div>
-                    <label className="form-check-label inline-block me-2  text-white" for="flexSwitchCheckChecked">LTR</label>
+                    <label className="form-check-label inline-block me-2  text-white">LTR</label>
                     <label className="switch mt-3">
                         <input type="checkbox" />
-                        <span className="slider" />
+                        <span onClick={setDirection} className="slider" />
                     </label>
-                    <label className="form-check-label inline-block ms-2  text-white" for="flexSwitchCheckChecked">RTL</label>
+                    <label className="form-check-label inline-block ms-2  text-white">RTL</label>
                 </center>
             </div>
         </hero>
