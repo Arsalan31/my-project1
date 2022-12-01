@@ -37,7 +37,7 @@ function Header() {
                     {(toggleMenu || screenWidth > 767) && (
                         <div className="list flex flex-col md:p-4 md:mt-10 bg-transparent  md:border-transparent border-t-2 border-white md:flex-row md:text-sm md:font-medium  w-full md:block md:w-auto">
                             <li>
-                                <a href="Home" className="cursor-pointer block py-2 pe-4 ps-3 text-white font-normal text-1xl leading-7 rounded md:bg-transparent focus-within: dark:text-white" aria-current="page">Home</a>
+                                <a href="Udix" className="cursor-pointer block py-2 pe-4 ps-3 text-white font-normal text-1xl leading-7 rounded md:bg-transparent focus-within: dark:text-white" aria-current="page">Home</a>
                             </li>
                             <li>
                                 <a href="#Partners" className="cursor-pointer block py-2 pe-4 ps-3 text-white font-normal text-1xl leading-7 rounded md:hover:bg-transparent md:border-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">Product</a>

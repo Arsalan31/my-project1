@@ -11,7 +11,7 @@ root.render(
   <BrowserRouter>
     <App />
     <Routes>
-      <Route path='home' element={<Udix />} />
+      <Route path='Udix' element={<Udix />} />
     </Routes>
   </BrowserRouter>
 );

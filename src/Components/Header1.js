@@ -26,8 +26,8 @@ function Header1() {
     }, [])
 
     return (
-        <header>
-            <nav className=" flex  justify-between bg-indigo-700">
+        <header className="w-full absolute">
+            <nav className="flex justify-between bg-indigo-700">
                 <div className="container nav flex flex-wrap justify-between content-center px-2 items-center mx-auto bg-transparent ">
                     <div className="logo1 bg-no-repeat flex-none order-0 flex-grow-0 block cursor-pointer" />
                     <button onClick={toggleNav} className="block items-center p-2 ms-3 text-sm  md:hidden">
