@@ -39,7 +39,7 @@ function Hero(props) {
         }
 
         else {
-            x.style.display = "none";
+            x.style.display = "block";
             y.style.display = "none";
         }
         setToggleButton(!toggleButton)
