@@ -9,9 +9,9 @@ import Udix from './Udix';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
-    {/* <App /> */}
     <Routes>
-      <Route path='Udix' element={<Udix />} />
+      <Route path='/' element={<App />}/>
+      <Route path='/Udix' element={<Udix />} />
     </Routes>
   </BrowserRouter>
 );
