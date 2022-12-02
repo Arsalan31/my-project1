@@ -7,7 +7,7 @@ import Header1 from "./Components/Header1";
 function Udix() {
     return (
         <React.Fragment>
-            <div className="bg-gray-200">
+            <div dir="ltr" className="bg-gray-200">
                 <Header1 />
                 <Content />
                 <Customer />
