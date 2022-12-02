@@ -12,6 +12,11 @@
     background: url(./assets/udix.png);
     height: 50px;
     width: 134px;
+    background-color: #FFFFFF;
+  }
+
+  .s1{
+    background: url(assets/Procreate-lockup-black\ 1.png);
   }
 
   .background {

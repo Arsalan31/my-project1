@@ -1,13 +1,17 @@
 import React from "react";
 import Content from "./Components/Content";
+import Customer from "./Components/Customers";
 import Header1 from "./Components/Header1";
 
 
 function Udix() {
-    return(
+    return (
         <React.Fragment>
-        <Header1/>
-        <Content/>
+            <div className="bg-gray-200">
+                <Header1 />
+                <Content />
+                <Customer />
+            </div>
         </React.Fragment>
     )
 }

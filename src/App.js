@@ -15,7 +15,7 @@ function App() {
   const [isRtl, setIsRtl] = useState(false)
   return (
     <React.Fragment>
-      <div dir={isRtl ? "rtl" : "ltr"}>
+      <div dir={isRtl ? "rtl" : "ltr"} className="bg-white">
         <Header />
         <Hero isRtl={isRtl} setIsRtl={setIsRtl} />
         <Feature />
