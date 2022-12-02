@@ -67,12 +67,12 @@ function Footer() {
       </div>
       <div className="md:text-start md:-mt-10 mt-10">
 
-        <p className="  text-white font-normal text-sm  pb-3"><svg xmlns="http://www.w3.org/2000/svg" className="inline-flex" width="32" height="39" fill="currentColor"  viewBox="0 0 16 16">
+        <p className="  text-white font-normal text-sm pb-3"><svg xmlns="http://www.w3.org/2000/svg" className="inline-flex me-1" width="32" height="39" fill="currentColor"  viewBox="0 0 16 16">
           <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z" /><path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
         </svg>        7480 Mockingbird Hill undefined
         </p>
         <br />
-        <p className=" text-white text-sm font-normal  pb-3"><svg width="21" className="inline-flex" height="33" viewBox="0 0 21 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <p className=" text-white text-sm font-normal pb-3"><svg width="21" className="inline-flex me-2" height="33" viewBox="0 0 21 33" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M16.3346 0.761719H4.66797C2.24714 0.761719 0.292969 2.71589 0.292969 5.13672V28.4701C0.292969 30.8909 2.24714 32.8451 4.66797 32.8451H16.3346C18.7555 32.8451 20.7096 30.8909 20.7096 28.4701V5.13672C20.7096 2.71589 18.7555 0.761719 16.3346 0.761719ZM13.418 29.9284H7.58464V28.4701H13.418V29.9284ZM18.1576 25.5534H2.84505V5.13672H18.1576V25.5534Z" fill="white" />
         </svg>         (239) 555-0108
         </p>
