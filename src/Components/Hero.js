@@ -72,8 +72,8 @@ function Hero(props) {
 
                     <div className='flex justify-center mt-3'>
                         <div onClick={handleClick} type="checkbox" className='toggle cursor-pointer'>
-                            {toggleButton ? <div className='toggle-start'></div> :
-                                <div className='toggle-end'></div>}
+                            {toggleButton ? <div className='toggle-end'></div> :
+                                <div className='toggle-start'></div>}
                         </div>
                         <label className="form-check-label inline-block ms-2  text-white" for="flexSwitchCheckChecked">Show Both</label>
                     </div>
