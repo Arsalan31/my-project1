@@ -38,16 +38,16 @@ function Header1() {
                     {(toggleMenu || screenWidth > 767) && (
                         <div className="list flex flex-col md:p-4 md:mt-10 mt-10 bg-transparent  md:border-transparent border-t-2 border-white md:flex-row md:text-sm md:font-medium  w-full md:block md:w-auto">
                             <li>
-                                <a href="Udix" className="cursor-pointer block py-2 pe-4 ps-3 text-white font-normal text-1xl leading-7 rounded md:bg-transparent focus-within: dark:text-white" aria-current="page">Home</a>
+                                <a href="Udix" className="cursor-pointer uppercase block py-2 pe-4 ps-3 text-white font-normal text-1xl leading-7 rounded md:bg-transparent focus-within: dark:text-white" aria-current="page">Home</a>
                             </li>
                             <li>
-                                <a href="#Pricing" className="cursor-pointer block py-2 pe-4 ps-3 text-white font-normal text-1xl leading-7 rounded md:hover:bg-transparent md:border-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">Blog</a>
+                                <a href="#Pricing" className="cursor-pointer uppercase block py-2 pe-4 ps-3 text-white font-normal text-1xl leading-7 rounded md:hover:bg-transparent md:border-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">Blog</a>
                             </li>
                             <li>
-                                <a href="#Partners" className="cursor-pointer block py-2 pe-4 ps-3 text-white font-normal text-1xl leading-7 rounded md:hover:bg-transparent md:border-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">Product</a>
+                                <a href="#Partners" className="cursor-pointer uppercase block py-2 pe-4 ps-3 text-white font-normal text-1xl leading-7 rounded md:hover:bg-transparent md:border-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">Product</a>
                             </li>
                             <li>
-                                <a href="#Contact" className="cursor-pointer block py-2 pe-4 ps-3 font-normal text-1xl leading-7 text-white rounded md:hover:bg-transparent md:border-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+                                <a href="#Contact" className="cursor-pointer uppercase block py-2 pe-4 ps-3 font-normal text-1xl leading-7 text-white rounded md:hover:bg-transparent md:border-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">Contacts</a>
                             </li>
                         </div>
                     )}
