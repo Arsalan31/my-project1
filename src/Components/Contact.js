@@ -19,7 +19,7 @@ function Contact() {
             <br />Slate is designed for freelancers</p>
         </div>
         <div class="flex flex-wrap-reverse lg:flex-wrap justify-center">
-          <div className="flex box-border flex-col items-start p-13 gap-11 h-100 bg-white border shadow-3xl rounded-2.5xl flex-none self-stretch flex-grow-0 border-gray-300 xl:w-1/3 lg:w-1/3 sm:w-1/2 w-60 justify-center ">
+          <div className="flex box-border flex-col items-start p-13 gap-11 h-100 bg-white border shadow-3xl rounded-2.5xl flex-none self-stretch flex-grow-0 border-gray-300 xl:w-1/3 lg:w-1/3 sm:w-2/3 w-64 justify-center ">
             <div className=" bg-white flex flex-col w-full">
               <h3 className="con-1 h-7 font-normal text-xl text-blue-1000 flex-none flex-grow-0 text-center mb-10">Contact Us</h3>
               <div className="relative mb-10">
@@ -37,7 +37,7 @@ function Contact() {
               <button className="rounded-4xl text-white bg-blue-0 border-0 py-3 px-4 w-28 sm:w-32 sm:h-14 focus:outline-none hover:bg-blue-600">Send</button>
             </div>
           </div>
-          <div class="flex flex-wrap-reverse lg:flex-wrap xl:w-1/2 lg:w-1/2 w-60 md:mt-10 mt-20 lg:justify-start justify-center">
+          <div class="flex flex-wrap-reverse lg:flex-wrap xl:w-1/2 lg:w-1/2 md:mt-10 mt-16 lg:justify-start justify-center">
             <div className="container flex flex-wrap lg:m-1 mx-52">
               <div class="lg:w-1/3 w-full flex lg:flex-col flex-row text-center items-center lg:justify-start pb-8">
                 <svg xmlns="http://www.w3.org/2000/svg" className="inline-flex" width="25" height="30" fill="#2091F9" viewBox="0 0 16 16">
