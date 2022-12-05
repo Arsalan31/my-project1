@@ -1,6 +1,7 @@
 import React from "react";
 import Content from "./Components/Content";
 import Customer from "./Components/Customers";
+import Footer from "./Components/Footer1";
 import Header1 from "./Components/Header1";
 
 
@@ -11,6 +12,7 @@ function Udix() {
                 <Header1 />
                 <Content />
                 <Customer />
+                <Footer/>
             </div>
         </React.Fragment>
     )
