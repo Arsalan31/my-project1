@@ -27,7 +27,7 @@ function Hero(props) {
             x.style.display = "block";
         }
     }
-    const [toggleButton, setToggleButton] = useState(false)
+    const [toggleButton, setToggleButton] = useState(props)
     const handleClick = () => {
         var x = document.getElementById("feature")
         var y = document.getElementById("partner")
@@ -45,6 +45,7 @@ function Hero(props) {
         setToggleButton(!toggleButton)
     }
 
+    const [directions, setdirections] = useState(props)
     const setDirection = () => {
         props.setIsRtl(!props.isRtl)
     }
@@ -77,12 +78,21 @@ function Hero(props) {
                         </div>
                         <label className="form-check-label inline-block ms-2  text-white" for="flexSwitchCheckChecked">Show Both</label>
                     </div>
-                    <label className="form-check-label inline-block me-2  text-white">LTR</label>
+
+                    <div className='flex justify-center mt-3'>
+                    <label className="form-check-label inline-block me-2  text-white" for="flexSwitchCheckChecked">LTR</label>
+                        <div onClick={setDirection} type="checkbox" className='toggle cursor-pointer'>
+                            {directions ? <div className='toggle-end'></div> :
+                                <div className='toggle-start'></div>}
+                        </div>
+                        <label className="form-check-label inline-block ms-2  text-white" for="flexSwitchCheckChecked">RTL</label>
+                    </div>
+                    {/* <label className="form-check-label inline-block me-2  text-white">LTR</label>
                     <label className="switch mt-3">
                         <input type="checkbox" />
                         <span onClick={setDirection} className="slider" />
                     </label>
-                    <label className="form-check-label inline-block ms-2  text-white">RTL</label>
+                    <label className="form-check-label inline-block ms-2  text-white">RTL</label> */}
                 </center>
             </div>
         </hero>
