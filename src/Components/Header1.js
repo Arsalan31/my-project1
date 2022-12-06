@@ -27,6 +27,7 @@ function Header1(props) {
 
     }, [])
 
+    const [directions, setdirections] = useState(props)
     const setDirection = () => {
         props.setIsRtl(!props.isRtl)
     }
@@ -37,12 +38,14 @@ function Header1(props) {
                 <div className="container nav md:my-0 my-10 flex flex-wrap justify-between content-center px-2 items-center lg:mx-52 mx-auto bg-transparent ">
                     <div className="logo1 bg-no-repeat flex-none order-0 flex-grow-0 block cursor-pointer" />
                     <div className="">
-                    <label className="form-check-label inline-block me-2  text-white">LTR</label>
-                    <label className="switch mt-3">
-                        <input type="checkbox" />
-                        <span onClick={setDirection} className="slider" />
-                    </label>
-                    <label className="form-check-label inline-block ms-2  text-white">RTL</label>
+                        <div className='flex justify-center mt-3'>
+                            <label className="form-check-label inline-block me-2  text-white" for="flexSwitchCheckChecked">LTR</label>
+                            <div onClick={setDirection} type="checkbox" className='toggle cursor-pointer'>
+                                {directions ? <div className='toggle-end'></div> :
+                                    <div className='toggle-start'></div>}
+                            </div>
+                            <label className="form-check-label inline-block ms-2  text-white" for="flexSwitchCheckChecked">RTL</label>
+                        </div>
                     </div>
                     <button onClick={toggleNav} className="block items-center p-2 ms-3 text-sm  md:hidden">
                         <svg width="28" height="16" viewBox="0 0 28 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -67,8 +70,8 @@ function Header1(props) {
                     )}
                     {(toggleMenu || screenWidth > 767) && (
                         <div className="justify-items-center md:mt-0 mt-10">
-                        <button className="text-white">SIGN IN</button>
-                        <button className="text-white ms-5 border-white border-2 rounded-md px-6 py-3">SIGN UP</button>
+                            <button className="text-white">SIGN IN</button>
+                            <button className="text-white ms-5 border-white border-2 rounded-md px-6 py-3">SIGN UP</button>
                         </div>
                     )}
                 </div>
