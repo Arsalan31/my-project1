@@ -11,15 +11,18 @@ import Header from "./Components/Header";
 
 
 
+
 function App() {
   const [isRtl, setIsRtl] = useState(false)
+  const [showFeature, setShowFeature] = useState(true)
+  const [showPartner, setShowPartner] = useState(true)
   return (
     <React.Fragment>
       <div dir={isRtl ? "rtl" : "ltr"} className="bg-white">
         <Header />
-        <Hero isRtl={isRtl} setIsRtl={setIsRtl} />
-        <Feature />
-        <Partners />
+        <Hero isRtl={isRtl} setIsRtl={setIsRtl} showFeature ={showFeature} setShowFeature={setShowFeature} showPartner ={showPartner} setShowPartner={setShowPartner}  />
+        {showFeature ? <Feature /> : null}
+        {showPartner ? <Partners /> : null}
         <Pricing />
         <Contact />
         <Footer />

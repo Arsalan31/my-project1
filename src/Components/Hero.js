@@ -6,28 +6,13 @@ function Hero(props) {
     console.log(props)
 
     const toggle = () => {
-        var x = document.getElementById("feature")
-
-        if (x.style.display === "block") {
-            x.style.display = "none";
-        }
-
-        else {
-            x.style.display = "block";
-        }
+        props.setShowFeature(!props.ShowFeature)
     }
+
     const toggle1 = () => {
-        var x = document.getElementById("partner")
-
-        if (x.style.display === "block") {
-            x.style.display = "none";
-        }
-
-        else {
-            x.style.display = "block";
-        }
+       props.setShowPartner(!props.showPartner)
     }
-    const [toggleButton, setToggleButton] = useState(false)
+    const [showPartner, setShowPartner] = useState(false)
     const handleClick = () => {
         var x = document.getElementById("feature")
         var y = document.getElementById("partner")
@@ -42,7 +27,7 @@ function Hero(props) {
             x.style.display = "block";
             y.style.display = "none";
         }
-        setToggleButton(!toggleButton)
+        setShowPartner(!showPartner)
     }
 
     const [directions, setdirections] = useState(props)
@@ -73,7 +58,7 @@ function Hero(props) {
 
                     <div className='flex justify-center mt-3'>
                         <div onClick={handleClick} type="checkbox" className='toggle cursor-pointer'>
-                            {toggleButton ? <div className='toggle-end'></div> :
+                            {showPartner ? <div className='toggle-end'></div> :
                                 <div className='toggle-start'></div>}
                         </div>
                         <label className="form-check-label inline-block ms-2  text-white" for="flexSwitchCheckChecked">Show Both</label>
