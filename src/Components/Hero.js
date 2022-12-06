@@ -27,7 +27,7 @@ function Hero(props) {
             x.style.display = "block";
         }
     }
-    const [toggleButton, setToggleButton] = useState(props)
+    const [toggleButton, setToggleButton] = useState(false)
     const handleClick = () => {
         var x = document.getElementById("feature")
         var y = document.getElementById("partner")
