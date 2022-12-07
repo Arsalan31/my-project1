@@ -53,7 +53,7 @@ function Header1(props) {
                         </svg>
                     </button>
                     {(toggleMenu || screenWidth > 767) && (
-                        <div className="list flex flex-col md:p-4 md:mt-10 mt-10 bg-transparent  md:border-transparent border-t-2 border-white md:flex-row md:text-sm md:font-medium  w-full md:block md:w-auto">
+                        <div className="list2 flex flex-col md:p-4 md:mt-10 mt-10 bg-transparent  md:border-transparent border-t-2 border-white md:flex-row md:text-sm md:font-medium  w-full md:block md:w-auto">
                             <li>
                                 <a href="Udix" className="cursor-pointer uppercase block py-2 pe-4 ps-3 text-white font-normal text-1xl leading-7 rounded md:bg-transparent focus-within: dark:text-white" aria-current="page">Home</a>
                             </li>
