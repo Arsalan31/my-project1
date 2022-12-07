@@ -1,33 +1,48 @@
-import React, { useState} from 'react'
+import React, { useState } from 'react'
 import './style.css';
 
 function Hero(props) {
 
     console.log(props)
 
-    const toggle = () => {
-        props.setShowFeature(!props.ShowFeature)
-    }
+    const showfeatures = () => {
 
-    const toggle1 = () => {
-       props.setShowPartner(!props.showPartner)
-    }
-    const [showPartner, setShowPartner] = useState(false)
-    const handleClick = () => {
-        var x = document.getElementById("feature")
-        var y = document.getElementById("partner")
-
-        if (x.style.display === "none",
-            y.style.display === "none") {
-            x.style.display = "block";
-            y.style.display = "block";
+        if (showBoth === true && props.showPartner === true && props.showFeature === false) {
+            props.setShowFeature(!props.showFeature)
+            props.setShowPartner(false)
         }
-
         else {
-            x.style.display = "block";
-            y.style.display = "none";
+            props.setShowFeature(!props.showFeature)
         }
-        setShowPartner(!showPartner)
+    }
+
+    const showpartners = () => {
+        if (showBoth === true && props.showFeature === true && props.showPartner === false) {
+            props.setShowPartner(!props.showPartner)
+            props.setShowFeature(false)
+        }
+        else {
+            props.setShowPartner(!props.showPartner)
+        }
+    }
+
+    const [showBoth, setShowBoth] = useState(false)
+    const handleClick = () => {
+
+        props.setShowFeature(!props.setShowFeature)
+        props.setShowPartner(!props.setShowPartner)
+
+        if
+            (showBoth === true) {
+            props.setShowFeature(true);
+            props.setShowPartner(true);
+        }
+        else {
+            props.setShowFeature(true);
+            props.setShowPartner(false);
+        }
+
+        setShowBoth(!showBoth)
     }
 
     const [directions, setdirections] = useState(props)
@@ -46,9 +61,9 @@ function Hero(props) {
                     <br className="hidden sm:block" /> for freelancers
                 </h4>
                 <center>
-                    <button onClick={toggle} className="text-center  text-white sm:mt-24 mt-16 border-0 py-3 px-4 w-60 h-14 focus:outline-none rounded-4xl bg-blue-0 hover:bg-blue-600">Show/Hide Features</button>
+                    <button onClick={showfeatures} className="text-center  text-white sm:mt-24 mt-16 border-0 py-3 px-4 w-60 h-14 focus:outline-none rounded-4xl bg-blue-0 hover:bg-blue-600">Show/Hide Features</button>
                     <br />
-                    <button onClick={toggle1} className="text-center mt-3 text-white  border-0 py-3 px-4 w-60 h-14 focus:outline-none rounded-4xl bg-blue-0 hover:bg-blue-600">Show/Hide Partners</button>
+                    <button onClick={showpartners} className="text-center mt-3 text-white  border-0 py-3 px-4 w-60 h-14 focus:outline-none rounded-4xl bg-blue-0 hover:bg-blue-600">Show/Hide Partners</button>
                     <br />
 
                     {/* <label onClick={handleClick} className="switch mt-3">
@@ -58,14 +73,14 @@ function Hero(props) {
 
                     <div className='flex justify-center mt-3'>
                         <div onClick={handleClick} type="checkbox" className='toggle cursor-pointer'>
-                            {showPartner ? <div className='toggle-end'></div> :
+                            {showBoth ? <div className='toggle-end'></div> :
                                 <div className='toggle-start'></div>}
                         </div>
                         <label className="form-check-label inline-block ms-2  text-white" for="flexSwitchCheckChecked">Show Both</label>
                     </div>
 
                     <div className='flex justify-center mt-3'>
-                    <label className="form-check-label inline-block me-2  text-white" for="flexSwitchCheckChecked">LTR</label>
+                        <label className="form-check-label inline-block me-2  text-white" for="flexSwitchCheckChecked">LTR</label>
                         <div onClick={setDirection} type="checkbox" className='toggle cursor-pointer'>
                             {directions ? <div className='toggle-end'></div> :
                                 <div className='toggle-start'></div>}

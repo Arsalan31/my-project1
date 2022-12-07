@@ -4,8 +4,7 @@ import './style.css';
 function Footer() {
   return (
     <footer className="bg-gray-100">
-      <div className="flex flex-wrap-reverse lg:flex-wrap justify-center">
-        <div className="md:w-1/2 mt-6 ps-16">
+      <div className="flex flex-wrap lg:flex-wrap justify-center">
           <svg width="70" height="26" viewBox="0 0 70 26" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M14.4611 20.4072C14.4611 20.9842 14.7233 21.2727 15.2477 21.2727C15.7923 21.2727 16.2461 21.1618 16.6091 20.9398L16.4579 24.7017C15.4897 25.5672 14.4006 26 13.1905 26C10.9114 26 9.67101 25.0346 9.46932 23.1037C8.25918 25.0346 6.6255 26 4.56826 26C2.5312 26 1.21014 25.4895 0.605068 24.4686C0.201689 23.825 0 23.0926 0 22.2715C0 21.4503 0.0605068 20.6957 0.18152 20.0077L1.87571 9.52113H7.01879L5.59688 18.3764C5.53637 18.7759 5.50612 19.1754 5.50612 19.5749C5.50612 20.6402 6.05068 21.1729 7.13981 21.1729C8.04741 21.1729 8.77349 20.8289 9.31805 20.1408L11.0425 9.52113H16.1856L14.4914 20.0077C14.4712 20.1408 14.4611 20.274 14.4611 20.4072Z" fill="#381DDB" />
             <path d="M32.6808 20.4072C32.6808 20.9842 32.943 21.2727 33.4674 21.2727C34.0119 21.2727 34.4657 21.1618 34.8288 20.9398L34.6775 24.7017C33.7094 25.5672 32.6203 26 31.4101 26C29.1915 26 27.9612 25.1123 27.7192 23.3368C26.7108 25.1123 25.2283 26 23.272 26C19.9643 26 18.3104 24.4353 18.3104 21.306C18.3104 20.7734 18.3608 20.1852 18.4617 19.5416L19.097 15.6466C19.4197 13.6492 20.1559 12.0623 21.3055 10.886C22.4753 9.68758 24.0888 9.08835 26.146 9.08835C27.4167 9.08835 28.4251 9.38796 29.1714 9.9872L30.7143 0.266324H35.8876L32.711 20.0077C32.6909 20.1408 32.6808 20.274 32.6808 20.4072ZM23.7258 18.8092C23.6854 19.009 23.6653 19.2864 23.6653 19.6415C23.6653 19.9966 23.8165 20.3517 24.1191 20.7068C24.4216 21.0397 24.9258 21.2061 25.6317 21.2061C26.3578 21.2061 26.983 20.8954 27.5074 20.274L28.415 14.6812C28.1932 14.1263 27.6688 13.8489 26.8419 13.8489C25.2889 13.8489 24.3813 14.6701 24.1191 16.3124L23.7258 18.8092Z" fill="#381DDB" />
@@ -18,17 +17,15 @@ function Footer() {
               udix is a market-leading provider of digital marketing services, using<br /> proprietary tools and methodologies to generate high-value<br /> engagement for our customers.
             </p>
           </div>
-        </div>
-        <div className="md:w-1/2">
           <div className="flex justify-end">
           <a href="Udix" className="mt-6 cursor-pointer block py-2 pe-4 ps-3 text-black font-semibold text-sm fon uppercase rounded md:bg-transparent focus-within: dark:text-white" aria-current="page">Home</a>
           <a href="#Pricing" className="mt-6 cursor-pointer block py-2 pe-4 ps-3 text-black font-semibold text-sm uppercase rounded md:hover:bg-transparent md:border-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">Blog</a>
           <a href="#Partners" className="mt-6 cursor-pointer block py-2 pe-4 ps-3 text-black font-semibold text-sm uppercase rounded md:hover:bg-transparent md:border-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">Product</a>
           <a href="#Contact" className="mt-6 cursor-pointer block py-2 pe-4 ps-3 font-semibold text-sm uppercase text-black rounded md:hover:bg-transparent md:border-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
-          <div className="m-5 ms-20 me-16">
+          </div>
+          <div className="m-5">
             <button className="text-indigo-700 uppercase text-sm py-2 pe-4 ps-3 font-semibold">SIGN IN</button>
             <button className="text-indigo-700 uppercase text-sm pe-4 ps-3 font-semibold ms-5 border-indigo-700 border-2 px-6 py-3">SIGN UP</button>
-          </div>
           </div>
           <div className="md:justify-end justify-center flex m-4 gap-12 me-16">
             <a href="https://www.facebook.com/figmadesign/">
@@ -57,8 +54,6 @@ function Footer() {
               </svg>
             </a>
           </div>
-        </div>
-
       </div>
     </footer >
   )
