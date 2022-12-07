@@ -34,7 +34,14 @@ module.exports = {
         '16':"84px"
       },
       height:{
+        '92':"360px",
+        '98':"435px",
         '100':"669px"
+      },
+      width:{
+        '70': "280px",
+        '100':"470px",
+        '120':"570px"
       },
       boxShadow:{
         '3xl':"0px 13px 19px rgba(0, 0, 0, 0.07)"

@@ -7,8 +7,8 @@ function Content() {
         <section className="flex flex-col items-start w-full h-full md:bg-transparent bg-gray-200 flex-none order-2 flex-grow-0">
             <div className="container px-16 pb-6 mx-auto">
                 <div className="flex flex-wrap-reverse lg:flex-wrap justify-center">
-                    <div className="flex flex-col flex-none flex-grow-0 text-center lg:w-1/2 lg:mt-32 mb-20">
-                        <div className="image1 lg:mt-36"></div>
+                    <div className="lg:w-1/2 lg:mt-32 mb-20">
+                        <div className="image1 lg:w-100 lg:h-92 sm:w-120 sm:h-98 w-70 h-60 lg:mt-36"></div>
                     </div>
                     <div className="flex flex-col flex-none flex-grow-0 order-0 md:order-1 text-center w-full lg:w-1/2 mt-32 mb-20">
                         <img className="image md:self-end self-center mt-24"></img>

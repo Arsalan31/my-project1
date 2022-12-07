@@ -17,8 +17,6 @@
 
   .image1 {
     background: url(assets/image.png);
-    width: 470px;
-    height: 360px;
     background-size: cover;
   }
 
