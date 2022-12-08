@@ -1,4 +1,7 @@
 import React, { useState } from "react";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+
 import Content from "./Components/Content";
 import Customer from "./Components/Customers";
 import Footer from "./Components/Footer1";

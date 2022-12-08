@@ -199,8 +199,8 @@
     position: relative;
     order: 0;
   }
-  
-  
+
+
 
   @media screen and (max-width: 767px) {
 
@@ -232,7 +232,7 @@
     }
 
     .list2 {
-      flex-direction: column; 
+      flex-direction: column;
       height: auto;
       width: 100%;
       padding: 16px;

@@ -3,7 +3,7 @@ import './style.css';
 
 function Footer() {
   return (
-    <footer className="bg-gray-100">
+    <footer className="sm:bg-gray-100 bg-gray-300">
       <div className="flex flex-wrap lg:flex-wrap justify-center">
         <div className="md:w-1/2 mt-6 md:ps-16">
           <svg className="flex md:self-start self-center" width="70" height="26" viewBox="0 0 70 26" fill="none" xmlns="http://www.w3.org/2000/svg">
