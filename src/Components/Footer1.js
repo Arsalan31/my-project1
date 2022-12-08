@@ -21,10 +21,10 @@ function Footer() {
         </div>
         <div className="md:w-1/2">
           <div className="flex flex-wrap md:justify-end justify-center">
-          <a href="Udix" className="mt-6 cursor-pointer block py-2 pe-4 ps-3 text-black font-semibold text-sm fon uppercase rounded md:bg-transparent focus-within: dark:text-white" aria-current="page">Home</a>
-          <a href="#Pricing" className="mt-6 cursor-pointer block py-2 pe-4 ps-3 text-black font-semibold text-sm uppercase rounded md:hover:bg-transparent md:border-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">Blog</a>
-          <a href="#Partners" className="mt-6 cursor-pointer block py-2 pe-4 ps-3 text-black font-semibold text-sm uppercase rounded md:hover:bg-transparent md:border-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">Product</a>
-          <a href="#Contact" className="mt-6 cursor-pointer block py-2 pe-4 ps-3 font-semibold text-sm uppercase text-black rounded md:hover:bg-transparent md:border-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+          <a href="Udix" className="mt-6 cursor-pointer block py-2 sm:pe-4 pe-1 ps-3 text-black font-semibold text-sm fon uppercase rounded md:bg-transparent focus-within: dark:text-white" aria-current="page">Home</a>
+          <a href="#Pricing" className="mt-6 cursor-pointer block py-2 sm:pe-4 pe-1 ps-3 text-black font-semibold text-sm uppercase rounded md:hover:bg-transparent md:border-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">Blog</a>
+          <a href="#Partners" className="mt-6 cursor-pointer block py-2 sm:pe-4 pe-1 ps-3 text-black font-semibold text-sm uppercase rounded md:hover:bg-transparent md:border-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">Product</a>
+          <a href="#Contact" className="mt-6 cursor-pointer block py-2 sm:pe-4 pe-1 ps-3 font-semibold text-sm uppercase text-black rounded md:hover:bg-transparent md:border-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
           <div className="m-5 sm:ms-20 sm:me-16">
             <button className="text-indigo-700 uppercase text-sm py-2 pe-4 ps-3 font-semibold">SIGN IN</button>
             <button className="text-indigo-700 uppercase text-sm pe-4 ps-3 font-semibold ms-5 border-indigo-700 border-2 px-6 py-3">SIGN UP</button>
