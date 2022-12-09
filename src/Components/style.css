@@ -242,5 +242,6 @@
 
   .slick-prev:before,
   .slick-next:before {
+    font-family: 'slick';
     color: black;
-  }
+  } 

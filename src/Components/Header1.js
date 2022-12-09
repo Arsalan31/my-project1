@@ -33,7 +33,7 @@ function Header1(props) {
     }
 
     return (
-        <header className="w-full absolute">
+        <header className="w-full">
             <nav className="flex justify-between bg-indigo-700">
                 <div className="container nav md:my-0 my-10 flex flex-wrap justify-between content-center px-2 items-center xl:mx-52 mx-auto bg-transparent ">
                     <div className="logo1 bg-no-repeat flex-none order-0 flex-grow-0 block cursor-pointer" />
