@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 
-function Header1(props) {
-
-    console.log(props)
+function Header1() {
 
     const [toggleMenu, setToggleMenu] = useState(false)
     const [screenWidth, setScreenWidth] = useState(window.innerWidth)
@@ -27,26 +25,11 @@ function Header1(props) {
 
     }, [])
 
-    const [directions, setdirections] = useState(props)
-    const setDirection = () => {
-        props.setIsRtl(!props.isRtl)
-    }
-
     return (
         <header className="w-full absolute">
             <nav className="flex justify-between bg-transparent">
-                <div className="container nav md:my-0 my-10 flex flex-wrap justify-between content-center px-2 items-center xl:mx-52 lg:mx-32 mx-auto bg-transparent ">
+                <div className="container nav md:my-0 my-10 flex flex-wrap justify-between content-center px-2 items-center xl:mx-72 lg:mx-32 mx-auto bg-transparent ">
                     <div className="logo1 bg-no-repeat flex-none order-0 flex-grow-0 block cursor-pointer" />
-                    <div className="">
-                        <div className='flex justify-center mt-3'>
-                            <label className="form-check-label inline-block me-2  text-white" for="flexSwitchCheckChecked">LTR</label>
-                            <div onClick={setDirection} type="checkbox" className='toggle cursor-pointer'>
-                                {directions ? <div className='toggle-end'></div> :
-                                    <div className='toggle-start'></div>}
-                            </div>
-                            <label className="form-check-label inline-block ms-2  text-white" for="flexSwitchCheckChecked">RTL</label>
-                        </div>
-                    </div>
                     <button onClick={toggleNav} className="block items-center p-2 ms-3 text-sm  md:hidden">
                         <svg width="28" height="16" viewBox="0 0 28 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M0.667969 0H27.3346V2.66667H0.667969V0ZM7.33463 6.66667H27.3346V9.33333H7.33463V6.66667ZM15.668 13.3333H27.3346V16H15.668V13.3333Z" fill="white" />

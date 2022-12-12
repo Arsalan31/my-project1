@@ -13,8 +13,8 @@ function Udix() {
     return (
         <React.Fragment>
             <div dir={isRtl ? "rtl" : "ltr"} className="md:bg-white bg-gray-200">
-                <Header1 isRtl={isRtl} setIsRtl={setIsRtl} />
-                <Hero1/>
+                <Header1/>
+                <Hero1 isRtl={isRtl} setIsRtl={setIsRtl} />
                 <Content />
                 <Customer />
                 <Footer />
