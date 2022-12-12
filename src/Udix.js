@@ -5,6 +5,7 @@ import Content from "./Components/Content";
 import Customer from "./Components/Customers";
 import Footer from "./Components/Footer1";
 import Header1 from "./Components/Header1";
+import Hero1 from "./Components/Hero1";
 
 
 function Udix() {
@@ -13,6 +14,7 @@ function Udix() {
         <React.Fragment>
             <div dir={isRtl ? "rtl" : "ltr"} className="md:bg-white bg-gray-200">
                 <Header1 isRtl={isRtl} setIsRtl={setIsRtl} />
+                <Hero1/>
                 <Content />
                 <Customer />
                 <Footer />
