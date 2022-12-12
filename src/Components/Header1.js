@@ -33,8 +33,8 @@ function Header1(props) {
     }
 
     return (
-        <header className="w-full">
-            <nav className="flex justify-between bg-indigo-700">
+        <header className="w-full absolute">
+            <nav className="flex justify-between bg-transparent">
                 <div className="container nav md:my-0 my-10 flex flex-wrap justify-between content-center px-2 items-center xl:mx-52 mx-auto bg-transparent ">
                     <div className="logo1 bg-no-repeat flex-none order-0 flex-grow-0 block cursor-pointer" />
                     <div className="">
@@ -70,8 +70,8 @@ function Header1(props) {
                     )}
                     {(toggleMenu || screenWidth > 767) && (
                         <div className="justify-items-center md:mt-0 mt-10">
-                            <button className="text-white">SIGN IN</button>
-                            <button className="text-white ms-5 border-white border-2 rounded-md px-6 py-3">SIGN UP</button>
+                            <button className="text-indigo-700">SIGN IN</button>
+                            <button className="text-indigo-700 ms-5 border-indigo-700 border-2 rounded-md px-6 py-3">SIGN UP</button>
                         </div>
                     )}
                 </div>

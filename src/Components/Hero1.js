@@ -3,9 +3,11 @@ import './style.css';
 
 function Hero1(){
     return(
-        <div>
+        <section>
+                <div className="background2">
 
-        </div>
+                </div>
+        </section>
     )
 }
 
