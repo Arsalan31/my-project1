@@ -47,7 +47,7 @@ function Hero1(props) {
                             </div>
                         </div>
                     </div>
-                    <div className="lg:w-1/3 w-full justify-center">
+                    <div className="lg:w-1/3 sm:w-2/3 lg:mt-0 mt-16 w-2/3 justify-center">
                         <div className="bg-white flex flex-col p-14">
                             <h3 className="con-1 h-7 font-bold text-2xl leading-10 text-black flex-none flex-grow-0 text-start mb-10">Get started now</h3>
                             <div className="relative mb-5">
