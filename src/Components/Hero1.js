@@ -27,7 +27,7 @@ function Hero1(props) {
                         <h4 className='w-full font-normal text-2xl leading-9 lg:text-start text-center flex-none flex-grow-0 mt-10 sm:mt-8 text-white'>udix is the world's first smart workspace. <br className="hidden sm:block" /> We bring all your team's content together
                             <br className="hidden sm:block" /> while letting you use the tools you love.
                         </h4>
-                        <div className="flex mt-20 lg:justify-start justify-center">
+                        <div className="flex sm:mt-20 mt-16 lg:justify-start justify-center">
                             <h4 className="font-bold text-red-300 lg:text-start text-center text-base leading-6 me-3">Read More</h4>
                             <button>
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -47,8 +47,8 @@ function Hero1(props) {
                             </div>
                         </div>
                     </div>
-                    <div className="lg:w-1/3 sm:w-2/3 lg:mt-0 mt-16 w-2/3 justify-center">
-                        <div className="bg-white flex flex-col p-14">
+                    <div className="lg:w-1/3 sm:w-2/3 lg:mt-0 mt-16 w-3/4 justify-center">
+                        <div className="bg-white flex flex-col sm:p-14 p-3">
                             <h3 className="con-1 h-7 font-bold text-2xl leading-10 text-black flex-none flex-grow-0 text-start mb-10">Get started now</h3>
                             <div className="relative mb-5">
                                 <label for="name" className="leading-7 text-sm text-gray-600"></label>
