@@ -36,7 +36,7 @@
     background: url(assets/back.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position:  inherit;
     margin: auto;
   }
 
