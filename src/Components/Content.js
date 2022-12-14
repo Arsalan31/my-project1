@@ -15,7 +15,6 @@ function Content() {
                 <div className="flex-wrap justify-center">
                     <>
                         <Swiper
-                            loop={true}
                             pagination={{
                                 type: "fraction",
                             }}

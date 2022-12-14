@@ -28,7 +28,7 @@ function Footer() {
         </div>
         <div className="lg:w-1/2 w-full lg:ps-16 lg:order-0 order-2">
           <div className="lg:text-start mt-4 text-center">
-            <p className="font-normal text-xs text-gray-400 lg:w-96 w-full">
+            <p className="font-normal text-xs text-gray-400 lg:w-96 w-1/2">
               udix is a market-leading provider of digital marketing services, using proprietary tools and methodologies to generate high-value engagement for our customers.
             </p>
           </div>
