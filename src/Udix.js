@@ -12,7 +12,7 @@ function Udix() {
     const [isRtl, setIsRtl] = useState(false)
     return (
         <React.Fragment>
-            <div dir={isRtl ? "rtl" : "ltr"} className="md:bg-white bg-gray-200">
+            <div dir={isRtl ? "rtl" : "ltr"} className="lg:bg-white bg-gray-200">
                 <Header1/>
                 <Hero1 isRtl={isRtl} setIsRtl={setIsRtl} />
                 <Content />

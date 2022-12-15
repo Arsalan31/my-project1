@@ -4,7 +4,7 @@ import './style.css';
 function Footer() {
   return (
     <footer className="sm:bg-gray-100 bg-gray-300">
-      <div className="flex flex-wrap py-10 lg:flex-wrap justify-center">
+      <div className="flex flex-wrap py-5 lg:flex-wrap justify-center">
         <div className="lg:w-1/2 mt-6 lg:ps-16">
           <svg className="flex md:self-start self-center" width="70" height="26" viewBox="0 0 70 26" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M14.4611 20.4072C14.4611 20.9842 14.7233 21.2727 15.2477 21.2727C15.7923 21.2727 16.2461 21.1618 16.6091 20.9398L16.4579 24.7017C15.4897 25.5672 14.4006 26 13.1905 26C10.9114 26 9.67101 25.0346 9.46932 23.1037C8.25918 25.0346 6.6255 26 4.56826 26C2.5312 26 1.21014 25.4895 0.605068 24.4686C0.201689 23.825 0 23.0926 0 22.2715C0 21.4503 0.0605068 20.6957 0.18152 20.0077L1.87571 9.52113H7.01879L5.59688 18.3764C5.53637 18.7759 5.50612 19.1754 5.50612 19.5749C5.50612 20.6402 6.05068 21.1729 7.13981 21.1729C8.04741 21.1729 8.77349 20.8289 9.31805 20.1408L11.0425 9.52113H16.1856L14.4914 20.0077C14.4712 20.1408 14.4611 20.274 14.4611 20.4072Z" fill="#381DDB" />
@@ -27,14 +27,14 @@ function Footer() {
           </div>
         </div>
         <div className="lg:w-1/2 w-full lg:ps-16 lg:order-0 order-2">
-          <div className="lg:text-start mt-4 text-center">
-            <p className="font-normal text-xs text-gray-400 lg:w-96 w-1/2">
+          <div className="lg:text-start text-center">
+            <p className="w-96 lg:w-96 lg:mx-0 mx-auto lg:mt-0 mt-7 font-normal text-xs lg:text-start text-center text-gray-400">
               udix is a market-leading provider of digital marketing services, using proprietary tools and methodologies to generate high-value engagement for our customers.
             </p>
           </div>
         </div>
         <div className="lg:w-1/2 w-full lg:order-2">
-          <div className="lg:justify-end justify-center flex m-4 sm:gap-12 gap-6 lg:me-16">
+          <div className="lg:justify-end justify-center flex sm:gap-12 gap-6 lg:me-16">
             <a href="https://www.facebook.com/figmadesign/">
               <svg width="10" height="30" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M8.73041 9.52795H6.29003C6.29003 13.4269 6.29003 18.2261 6.29003 18.2261H2.67386C2.67386 18.2261 2.67386 13.4734 2.67386 9.52795H0.954895V6.45376H2.67386V4.46532C2.67386 3.04121 3.35057 0.815918 6.32326 0.815918L9.00291 0.82619V3.81036C9.00291 3.81036 7.37458 3.81036 7.05797 3.81036C6.74137 3.81036 6.29124 3.96866 6.29124 4.64779V6.45436H9.04641L8.73041 9.52795Z" fill="#222222" />

@@ -48,26 +48,33 @@ function Hero1(props) {
                         </div>
                     </div>
                     <div className="lg:w-2/5 xl:w-1/3 sm:w-2/3 lg:mt-0 w-4/5 mt-16 justify-center">
-                        <div className="bg-white flex flex-col sm:p-14 p-8">
-                            <h3 className="con-1 h-7 font-bold sm:text-2xl text-xl text-black flex-none flex-grow-0 text-start mb-5">Get started now</h3>
-                            <div className="relative mb-5">
-                                <label for="name" className="leading-7 text-sm text-gray-600"></label>
-                                <input type="text" id="name" name="name" placeholder="Your Name" className="w-full h-14 placeholder-gray-400 border focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+                        <div className="bg-white flex">
+                            <div className="sm:w-2/3 flex flex-col sm:p-10 p-8">
+                                <h3 className="con-1 h-7 font-bold sm:text-2xl text-xl text-black flex-none flex-grow-0 text-start mb-5">Get started now</h3>
+                                <div className="relative mb-5">
+                                    <label for="name" className="leading-7 text-sm text-gray-600"></label>
+                                    <input type="text" id="name" name="name" placeholder="Your Name" className="w-full h-14 placeholder-gray-400 border focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+                                </div>
+                                <div className="relative mb-5">
+                                    <label for="email" className="leading-7 text-sm text-black"></label>
+                                    <input type="email" id="email" name="email" placeholder="Your Email" className="w-full h-14 placeholder-gray-400 border border-gray-200 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+                                </div>
+                                <div className="relative mb-5">
+                                    <label for="email" className="leading-7 text-sm text-black"></label>
+                                    <input type="email" id="email" name="email" placeholder="Phone Number" className="w-full h-14 placeholder-gray-400 border border-gray-200 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+                                </div>
+                                <div className="relative mb-8">
+                                    <label for="email" className="leading-7 text-sm text-black"></label>
+                                    <input type="email" id="email" name="email" placeholder="Company Name" className="w-full h-14 placeholder-gray-400 border border-gray-200 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+                                </div>
+                                <button className="text-white  font-bold text-base leading-5 bg-indigo-700 border-0 py-3 px-4 w-28 sm:w-32 sm:h-14 focus:outline-none hover:bg-blue-600">Sign Up</button>
+                                <h6 className="flex text-gray-600 mt-8">Support:<h6 className="text-indigo-700 ms-2">help@udix.com</h6></h6>
                             </div>
-                            <div className="relative mb-5">
-                                <label for="email" className="leading-7 text-sm text-black"></label>
-                                <input type="email" id="email" name="email" placeholder="Your Email" className="w-full h-14 placeholder-gray-400 border border-gray-200 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+                            <div className="w-1/6 sm:flex hidden ms-14 mx-3 my-5 bg-indigo-700 opacity-5 ">
+                                <div>
+                                    <img src="src/Components/assets/1.png"/>
+                                </div>
                             </div>
-                            <div className="relative mb-5">
-                                <label for="email" className="leading-7 text-sm text-black"></label>
-                                <input type="email" id="email" name="email" placeholder="Phone Number" className="w-full h-14 placeholder-gray-400 border border-gray-200 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
-                            </div>
-                            <div className="relative mb-8">
-                                <label for="email" className="leading-7 text-sm text-black"></label>
-                                <input type="email" id="email" name="email" placeholder="Company Name" className="w-full h-14 placeholder-gray-400 border border-gray-200 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
-                            </div>
-                            <button className="text-white  font-bold text-base leading-5 bg-indigo-700 border-0 py-3 px-4 w-28 sm:w-32 sm:h-14 focus:outline-none hover:bg-blue-600">Sign Up</button>
-                            <h6 className="flex text-gray-600 mt-8">Support:<h6 className="text-indigo-700 ms-2">help@udix.com</h6></h6>
                         </div>
                     </div>
                 </div>
