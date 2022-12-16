@@ -48,8 +48,8 @@ function Hero1(props) {
                         </div>
                     </div>
                     <div className="lg:w-2/5 xl:w-1/3 sm:w-2/3 lg:mt-0 w-4/5 mt-16 justify-center">
-                        <div className="bg-white flex">
-                            <div className="sm:w-2/3 flex flex-col sm:p-10 p-8">
+                        <div className="bg-white flex flex-nowrap">
+                            <div className="sm:w-2/3 w-auto flex flex-col sm:p-10 p-8">
                                 <h3 className="con-1 h-7 font-bold sm:text-2xl text-xl text-black flex-none flex-grow-0 text-start mb-5">Get started now</h3>
                                 <div className="relative mb-5">
                                     <label for="name" className="leading-7 text-sm text-gray-600"></label>
@@ -71,9 +71,8 @@ function Hero1(props) {
                                 <h6 className="flex text-gray-600 mt-8">Support:<h6 className="text-indigo-700 ms-2">help@udix.com</h6></h6>
                             </div>
                             <div className="w-1/6 sm:flex hidden ms-14 mx-3 my-5 bg-indigo-700 opacity-5 ">
-                                <div>
-                                    <img src="src/Components/assets/1.png"/>
-                                </div>
+                            </div>
+                            <div className="flex absolute end-80 bottom-36 items-end content  sm:-ms-36 -ms-6">
                             </div>
                         </div>
                     </div>

@@ -44,6 +44,9 @@ module.exports = {
         '100':"470px",
         '120':"570px"
       },
+      right:{
+        '86':"360px"
+      },
       boxShadow:{
         '3xl':"0px 13px 19px rgba(0, 0, 0, 0.07)"
       }

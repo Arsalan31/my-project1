@@ -219,6 +219,12 @@
     order: 0;
   }
 
+  .content{
+    background-image: url(assets/1.png);
+    height: 160px;
+    width: 160px;
+    background-size: cover;
+  }
 
 
   @media screen and (max-width: 767px) {
