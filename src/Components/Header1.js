@@ -49,9 +49,9 @@ function Header1() {
                         </div>
                     )}
                     {(toggleMenu || screenWidth > 767) && (
-                        <div className="list3 text-center flex md:bg-transparent md:w-52 w-full bg-white">
+                        <div className="list3 text-center flex md:bg-transparent md:p-0 p-5 md:w-52 w-full bg-white">
                             <button className="2xl:text-indigo-700 text-indigo-700 text-sm font-bold uppercase md:text-white ms-3 py-2">sign in</button>
-                            <button className="2xl:text-indigo-700 text-indigo-700 md:text-white ms-5 2xl:border-indigo-700 text-sm font-bold uppercase md:border-white md:border-2 px-5 py-2">sign up</button>
+                            <button className="2xl:text-indigo-700 text-indigo-700 md:text-white ms-5 2xl:border-indigo-700 border-indigo-700 text-sm font-bold uppercase md:border-white border-2 px-5 py-2">sign up</button>
                         </div>
                     )}
                 </div>

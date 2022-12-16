@@ -37,7 +37,7 @@ function Content() {
                                             <br className="sm:block" />mobile and video ads and many more. The campaigns either support our
                                             <br className="sm:block" /> publishing assets or (in most cases) direct users directly to our clients.</p>
                                     </div> */}
-                                        <div class="p-4 lg:w-1/2 lg:px-24 w-full order-0 lg:order-1 flex flex-col text-center items-center">
+                                        <div class="p-4 lg:w-1/2 lg:px-22 w-full order-0 lg:order-1 flex flex-col text-center items-center">
                                             <div className="image lg:self-end self-center mt-24"></div>
                                             <h1 className="w-full font-bold text-black mt-8 lg:text-end text-center md:text-4xl text-2xl md:leading-10 mb-2">is a leading provider of digital marketing services</h1>
                                             <p className="w-full mt-10 font-normal md:text-base text-sm lg:text-end text-center text-hex mb-20">Using proprietary tools and we run thousands of simultaneous self-funded
@@ -62,7 +62,7 @@ function Content() {
                                             <br className="sm:block" />mobile and video ads and many more. The campaigns either support our
                                             <br className="sm:block" /> publishing assets or (in most cases) direct users directly to our clients.</p>
                                     </div> */}
-                                        <div class="p-4 lg:w-1/2 lg:px-24 w-full order-0 lg:order-1 flex flex-col text-center items-center">
+                                        <div class="p-4 lg:w-1/2 lg:px-22 w-full order-0 lg:order-1 flex flex-col text-center items-center">
                                             <div className="image lg:self-end self-center mt-24"></div>
                                             <h1 className="w-full font-bold text-black mt-8 lg:text-end text-center md:text-4xl text-2xl md:leading-10 mb-2">is a leading provider of digital marketing services</h1>
                                             <p className="w-full mt-10 font-normal md:text-base text-sm lg:text-end text-center text-hex mb-20">Using proprietary tools and we run thousands of simultaneous self-funded
@@ -75,7 +75,7 @@ function Content() {
                             </SwiperSlide>
                         </Swiper>
                     </>
-                    <div className="flex md:justify-end lg:order-2 order-1 justify-center text-gray-400 md:text-gray-300">
+                    <div className="flex lg:justify-end lg:order-2 order-1 justify-center text-gray-400 md:text-gray-300">
                         <button className="swiper-button-prev"><svg xmlns="http://www.w3.org/2000/svg" className="me-3" width="60" height="30" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
                             <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
                         </svg></button>
