@@ -13,7 +13,7 @@ function Hero1(props) {
     return (
         <section>
             <div className="background2">
-                <div className="container flex flex-wrap mx-auto pt-28 md:pt-72 justify-center">
+                <div className="container flex flex-wrap mx-auto md:pt-72 justify-center">
                     <div className="lg:w-1/2 pt-7 w-full">
                         <div className="flex lg:justify-start justify-center">
                             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">

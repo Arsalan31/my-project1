@@ -26,8 +26,8 @@ function Header1() {
     }, [])
 
     return (
-        <header className="w-full absolute">
-            <nav className="flex justify-between bg-transparent">
+        <header className="w-full md:absolute relative">
+            <nav className="flex justify-between md:bg-transparent bg-indigo-600">
                 <div className="container nav md:my-0 my-10 px-10 flex flex-wrap justify-between content-center items-center xl:mx-64 lg:mx-32 mx-auto bg-transparent ">
                     <div className="logo1 bg-no-repeat flex-none order-0 flex-grow-0 block cursor-pointer" />
                     <button onClick={toggleNav} className="block items-center p-2 ms-3 text-sm font-semibold uppercase border-white border-2 px-6 py-3 text-white md:hidden">Menu
@@ -49,9 +49,9 @@ function Header1() {
                         </div>
                     )}
                     {(toggleMenu || screenWidth > 767) && (
-                        <div className="justify-items-center md:bg-transparent md:mt-0 mt-10">
-                            <button className="2xl:text-indigo-700 text-sm font-bold uppercase text-white">sign in</button>
-                            <button className="2xl:text-indigo-700 text-white ms-5 xl:border-indigo-700 text-sm font-bold uppercase border-white border-2 px-5 py-2">sign up</button>
+                        <div className="list3 text-center flex md:bg-transparent md:w-52 w-full bg-white">
+                            <button className="2xl:text-indigo-700 text-indigo-700 text-sm font-bold uppercase md:text-white ms-3 py-2">sign in</button>
+                            <button className="2xl:text-indigo-700 text-indigo-700 md:text-white ms-5 2xl:border-indigo-700 text-sm font-bold uppercase md:border-white md:border-2 px-5 py-2">sign up</button>
                         </div>
                     )}
                 </div>
