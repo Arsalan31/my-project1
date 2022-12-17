@@ -7,6 +7,8 @@ import './style.css';
 
 
 function Content() {
+    
+
     return (
 
         <section className="mt-96 lg:mt-0 flex flex-col items-start w-full h-full md:bg-transparent bg-gray-200 flex-none order-2 flex-grow-0">
