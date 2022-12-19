@@ -49,7 +49,7 @@ function Hero1(props) {
                     </div>
                     <div className="lg:w-2/5 xl:w-1/3 sm:w-2/3 lg:mt-0 w-4/5 mt-16 justify-center">
                         <div className="bg-white flex flex-nowrap">
-                            <div className="sm:w-2/3 w-4/5 flex flex-col sm:p-10 p-8">
+                            <div className="sm:w-2/3 w-full flex flex-col sm:p-10 p-8">
                                 <h3 className="con-1 h-7 font-bold sm:text-2xl text-xl text-black flex-none flex-grow-0 text-start mb-5">Get started now</h3>
                                 <div className="relative mb-5">
                                     <label for="name" className="leading-7 text-sm text-gray-600"></label>
@@ -69,9 +69,7 @@ function Hero1(props) {
                                 </div>
                                 <div className="flex">
                                     <button className="text-white  font-bold text-base leading-5 bg-indigo-700 border-0 py-3 px-4 w-28 h-14 sm:w-32 sm:h-14 focus:outline-none hover:bg-blue-600">Sign Up</button>
-                                    <div>
-                                        <div className="sm:hidden flex relative -end-6 items-end content h-24 w-24 sm:-ms-20">
-                                        </div>
+                                    <div className="sm:hidden flex relative justify-end content h-20 w-20">
                                     </div>
                                 </div>
                                 <h6 className="flex text-gray-600 mt-8">Support:<h6 className="text-indigo-700 ms-2">help@udix.com</h6></h6>
