@@ -24,7 +24,7 @@ function Hero1(props) {
                         <h1 id="#Home" className="text-6xl leading-12 sm:text-6xl mt-5 font-bold w-full  lg:text-start text-center text-red-300">Focus on the
                             <br className="hidden sm:block" /> work that <br className="hidden sm:block" /> matters
                         </h1>
-                        <h4 className='w-full font-normal text-2xl leading-9 lg:text-start text-center flex-none flex-grow-0 mt-10 sm:mt-8 text-white'>udix is the world's first smart workspace. <br className="hidden sm:block" /> We bring all your team's content together
+                        <h4 className='w-full sm:px-0 px-10 font-normal text-2xl leading-9 lg:text-start text-center flex-none flex-grow-0 mt-10 sm:mt-8 text-white'>udix is the world's first smart workspace. <br className="hidden sm:block" /> We bring all your team's content together
                             <br className="hidden sm:block" /> while letting you use the tools you love.
                         </h4>
                         <div className="flex sm:mt-20 md:mt-8 mt-5   lg:justify-start justify-center">
@@ -49,7 +49,7 @@ function Hero1(props) {
                     </div>
                     <div className="lg:w-2/5 xl:w-1/3 sm:w-2/3 lg:mt-0 w-4/5 mt-16 justify-center">
                         <div className="bg-white flex flex-nowrap">
-                            <div className="sm:w-2/3 w-3/4 flex flex-col sm:p-10 p-8">
+                            <div className="sm:w-2/3 w-4/5 flex flex-col sm:p-10 p-8">
                                 <h3 className="con-1 h-7 font-bold sm:text-2xl text-xl text-black flex-none flex-grow-0 text-start mb-5">Get started now</h3>
                                 <div className="relative mb-5">
                                     <label for="name" className="leading-7 text-sm text-gray-600"></label>
@@ -67,12 +67,18 @@ function Hero1(props) {
                                     <label for="email" className="leading-7 text-sm text-black"></label>
                                     <input type="email" id="email" name="email" placeholder="Company Name" className="w-full h-14 placeholder-gray-400 border border-gray-200 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
                                 </div>
-                                <button className="text-white  font-bold text-base leading-5 bg-indigo-700 border-0 py-3 px-4 w-28 sm:w-32 sm:h-14 focus:outline-none hover:bg-blue-600">Sign Up</button>
+                                <div className="flex">
+                                    <button className="text-white  font-bold text-base leading-5 bg-indigo-700 border-0 py-3 px-4 w-28 h-14 sm:w-32 sm:h-14 focus:outline-none hover:bg-blue-600">Sign Up</button>
+                                    <div>
+                                        <div className="sm:hidden flex relative -end-6 items-end content h-24 w-24 sm:-ms-20">
+                                        </div>
+                                    </div>
+                                </div>
                                 <h6 className="flex text-gray-600 mt-8">Support:<h6 className="text-indigo-700 ms-2">help@udix.com</h6></h6>
                             </div>
-                            <div className="w-1/6 sm:flex hidden ms-14 mx-3 my-5 bg-indigo-700 opacity-5 ">
+                            <div className="sm:w-1/6 sm:flex hidden ms-14 mx-3 my-5 bg-indigo-700 opacity-5 ">
                             </div>
-                            <div className="flex relative end-4 -bottom-80 items-end content  sm:-ms-36">
+                            <div className="sm:flex hidden relative end-4 sm:-bottom-80 -bottom-96 items-end content sm:h-40 sm:w-40 h-20 w-40 sm:-ms-36">
                             </div>
                         </div>
                     </div>
