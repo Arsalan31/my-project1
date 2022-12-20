@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper";
 import "swiper/css";
@@ -6,7 +6,6 @@ import './style.css';
 
 
 function Content() {
-
 
     return (
 
@@ -16,12 +15,8 @@ function Content() {
                     <>
                         <Swiper
                             pagination={{
-                                el: ".snp-pagination",
-                                clickable: true,
-                                renderBullet: function (index, className) {
-                                    return '<span class="' + className + '">' + (index + 1) + "</span>";
-
-                                }
+                                el: '.swiper-pagination1',
+                                type: 'fraction',
                             }
                             }
                             dir={'rtl' | 'ltr'}
@@ -71,7 +66,7 @@ function Content() {
                         <button className="swiper-button-prev"><svg xmlns="http://www.w3.org/2000/svg" className="me-3" width="60" height="30" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
                             <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
                         </svg></button>
-                        <h4 className=".snp-pagination">1 / 2</h4>
+                        <div class="swiper-pagination1"></div>
                         <button className="swiper-button-next"><svg xmlns="http://www.w3.org/2000/svg" className="ms-3" width="60" height="30" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
                             <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
                         </svg></button>

@@ -263,8 +263,7 @@
 
   }
 
-  .slick-prev:before,
-  .slick-next:before {
-    font-family: 'slick';
-    color: black;
-  } 
+  .swiper{
+    padding-inline-start: 40px !important;
+    padding-inline-end: 40px !important;
+  }
