@@ -72,7 +72,7 @@ function Hero1(props) {
                                     <div className="sm:hidden flex relative justify-end content h-20 w-20">
                                     </div>
                                 </div>
-                                <h6 className="flex text-gray-600 mt-8">Support:<h6 className="text-indigo-700 ms-2">help@udix.com</h6></h6>
+                                <h6 className="flex text-gray-600 sm:mt-8">Support:<h6 className="text-indigo-700 ms-2">help@udix.com</h6></h6>
                             </div>
                             <div className="sm:w-1/6 sm:flex hidden ms-14 mx-3 my-5 bg-indigo-700 opacity-5 ">
                             </div>

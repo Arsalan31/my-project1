@@ -16,10 +16,10 @@ function Footer() {
         </div>
         <div className="lg:w-1/2 w-full">
           <div className="flex flex-wrap lg:justify-end justify-center">
-            <a href="Udix" className="mt-6 cursor-pointer block py-2 sm:pe-4 pe-1 ps-3 text-black font-semibold text-sm fon uppercase rounded md:bg-transparent focus-within: dark:text-white" aria-current="page">Home</a>
-            <a href="#Pricing" className="mt-6 cursor-pointer block py-2 sm:pe-4 pe-1 ps-3 text-black font-semibold text-sm uppercase rounded md:hover:bg-transparent md:border-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">Blog</a>
-            <a href="#Partners" className="mt-6 cursor-pointer block py-2 sm:pe-4 pe-1 ps-3 text-black font-semibold text-sm uppercase rounded md:hover:bg-transparent md:border-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">Product</a>
-            <a href="#Contact" className="mt-6 cursor-pointer block py-2 sm:pe-4 pe-1 ps-3 font-semibold text-sm uppercase text-black rounded md:hover:bg-transparent md:border-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">Contacts</a>
+            <a href="Udix" className="mt-6 cursor-pointer block py-2 sm:pe-4 pe-1 ps-4 text-black font-semibold text-sm fon uppercase rounded md:bg-transparent focus-within: dark:text-white" aria-current="page">Home</a>
+            <a href="#Pricing" className="mt-6 cursor-pointer block py-2 sm:pe-4 pe-1 ps-4 text-black font-semibold text-sm uppercase rounded md:hover:bg-transparent md:border-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">Blog</a>
+            <a href="#Partners" className="mt-6 cursor-pointer block py-2 sm:pe-4 pe-1 ps-4 text-black font-semibold text-sm uppercase rounded md:hover:bg-transparent md:border-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">Product</a>
+            <a href="#Contact" className="mt-6 cursor-pointer block py-2 sm:pe-4 pe-1 ps-4 font-semibold text-sm uppercase text-black rounded md:hover:bg-transparent md:border-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">Contacts</a>
             <div className="m-5 xl:ms-26 xl:me-16">
               <button className="text-indigo-700 uppercase text-sm py-2 pe-4 ps-3 font-semibold">SIGN IN</button>
               <button className="text-indigo-700 uppercase text-sm pe-4 ps-3 font-semibold ms-5 border-indigo-700 border-2 px-6 py-3">SIGN UP</button>
@@ -34,7 +34,7 @@ function Footer() {
           </div>
         </div>
         <div className="lg:w-1/2 w-full lg:order-2">
-          <div className="lg:justify-end justify-center flex sm:gap-12 gap-6 lg:me-16">
+          <div className="lg:justify-end justify-center flex sm:gap-12 gap-8 lg:me-16">
             <a href="https://www.facebook.com/figmadesign/">
               <svg width="10" height="30" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M8.73041 9.52795H6.29003C6.29003 13.4269 6.29003 18.2261 6.29003 18.2261H2.67386C2.67386 18.2261 2.67386 13.4734 2.67386 9.52795H0.954895V6.45376H2.67386V4.46532C2.67386 3.04121 3.35057 0.815918 6.32326 0.815918L9.00291 0.82619V3.81036C9.00291 3.81036 7.37458 3.81036 7.05797 3.81036C6.74137 3.81036 6.29124 3.96866 6.29124 4.64779V6.45436H9.04641L8.73041 9.52795Z" fill="#222222" />
