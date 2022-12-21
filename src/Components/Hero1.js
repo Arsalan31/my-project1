@@ -19,7 +19,7 @@ function Hero1(props) {
     }
 
     return (
-        <section className="pb-52 lg:pb-0">
+        <section className="sm:pb-52 pb-80 lg:pb-0">
             <div className="background2">
                 <div className="container flex flex-wrap mx-auto lg:pt-72 pt-32 justify-center">
                     <div className="lg:w-1/2 pt-7 w-full">
@@ -87,7 +87,7 @@ function Hero1(props) {
                             </div>
                             <div className="sm:w-1/6 sm:flex hidden ms-14 mx-3 my-5 bg-indigo-700 opacity-5 ">
                             </div>
-                            <div className="sm:flex hidden relative end-4 -bottom-96 items-end content sm:h-36 sm:w-36 h-20 w-40 sm:-ms-36">
+                            <div className="sm:flex hidden relative end-4 -bottom-96  items-end content sm:h-36 sm:w-36 h-20 w-40 sm:-ms-36">
                             </div>
                         </div>
                     </div>
