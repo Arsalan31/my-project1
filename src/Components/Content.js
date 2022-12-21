@@ -36,7 +36,7 @@ function Content() {
                                         <div class="p-4 lg:w-1/2 lg:px-22 w-full order-0 lg:order-1 flex flex-col text-center items-center">
                                             <div className="image lg:self-end self-center lg:mt-24"></div>
                                             <h1 className="w-full font-bold text-black mt-8 lg:text-end text-center md:text-4xl text-2xl md:leading-10 mb-2">is a leading provider of digital marketing services</h1>
-                                            <p className="w-full mt-10 font-normal md:text-base text-sm lg:text-end text-center text-hex mb-20">Using proprietary tools and we run thousands of simultaneous self-funded
+                                            <p className="w-full mt-10 font-normal md:text-base text-sm lg:text-end text-center text-hex lg:mb-20">Using proprietary tools and we run thousands of simultaneous self-funded
                                                 campaigns across different platforms such as paid search, social advertising,
                                                 mobile and video ads and many more. The campaigns either support our
                                                 publishing assets or (in most cases) direct users directly to our clients.</p>
@@ -51,9 +51,9 @@ function Content() {
                                             <div className="image1 lg:w-100 lg:h-92 sm:w-120 sm:h-98 w-80 h-60 lg:mt-36"></div>
                                         </div>
                                         <div class="p-4 lg:w-1/2 lg:px-22 w-full order-0 lg:order-1 flex flex-col text-center items-center">
-                                            <div className="image lg:self-end self-center mt-24"></div>
+                                            <div className="image lg:self-end self-center lg:mt-24"></div>
                                             <h1 className="w-full font-bold text-black mt-8 lg:text-end text-center md:text-4xl text-2xl md:leading-10 mb-2">is a leading provider of digital marketing services</h1>
-                                            <p className="w-full mt-10 font-normal md:text-base text-sm lg:text-end text-center text-hex mb-20">Using proprietary tools and we run thousands of simultaneous self-funded
+                                            <p className="w-full mt-10 font-normal md:text-base text-sm lg:text-end text-center text-hex lg:mb-20">Using proprietary tools and we run thousands of simultaneous self-funded
                                                 campaigns across different platforms such as paid search, social advertising,
                                                 mobile and video ads and many more. The campaigns either support our
                                                 publishing assets or (in most cases) direct users directly to our clients.</p>
