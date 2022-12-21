@@ -4,12 +4,11 @@ import './style.css';
 function Hero1(props) {
 
     const [readMore, setReadMore] = useState(false);
-    const extraContent = <div>
-        <p className="extra-content sm:px-0 px-10 font-normal text-2xl leading-9 lg:text-start text-center flex-none flex-grow-0 text-white">
+    const extraContent =
+        <h4>
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
-        </p>
-    </div>
-    const linkName = readMore ? 'Read Less << ' : 'Read More >>'
+        </h4>
+    const linkName = readMore ? 'Read Less' : 'Read More '
 
     console.log(props)
 
@@ -19,7 +18,7 @@ function Hero1(props) {
     }
 
     return (
-        <section className="sm:pb-52 pb-80 lg:pb-0">
+        <section className="sm:pb-52 pb-52 lg:pb-0">
             <div className="background2">
                 <div className="container flex flex-wrap mx-auto lg:pt-52 md:pt-32 justify-center">
                     <div className="lg:w-1/2 pt-7 w-full">
@@ -34,8 +33,8 @@ function Hero1(props) {
                         </h1>
                         <h4 className='lg:w-2/3 sm:px-0 px-10 font-normal text-2xl leading-9 lg:text-start text-center flex-none flex-grow-0 mt-10 sm:mt-8 text-white'>udix is the world's first smart workspace.We bring all your team's content together while letting you use the tools you love.{readMore && extraContent}
                         </h4>
-                        <div className="flex sm:mt-20 md:mt-8 mt-5 lg:justify-start justify-center">
-                            <h4 className="font-bold text-red-300 lg:text-start text-center text-base leading-6 me-3">Read More</h4>
+                        <div className="flex md:mt-8 mt-5 lg:justify-start justify-center">
+                            <h4 className="font-bold text-red-300 lg:text-start text-center text-base leading-6 me-3">{linkName}</h4>
                             <button onClick={() => { setReadMore(!readMore) }}>
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47716 2 2 6.47715 2 12ZM3.29016e-06 12C3.00047e-06 18.6274 5.37259 24 12 24C18.6274 24 24 18.6274 24 12C24 5.37258 18.6274 -2.34843e-07 12 -5.24537e-07C5.37259 -8.1423e-07 3.57985e-06 5.37258 3.29016e-06 12Z" fill="#FFA3A3" />
@@ -54,7 +53,7 @@ function Hero1(props) {
                             </div>
                         </div>
                     </div>
-                    <div className="lg:w-2/5 xl:w-1/3 sm:w-2/3 lg:mt-0 w-4/5 mt-16 justify-center">
+                    <div className="lg:w-2/5 xl:w-1/3 sm:w-2/3 lg:mt-0 w-4/5 mt-10 justify-center">
                         <div className="bg-white flex flex-nowrap shadow-xl">
                             <div className="sm:w-2/3 w-full flex flex-col sm:p-10 p-8">
                                 <h3 className="con-1 h-7 font-bold sm:text-2xl text-xl text-black flex-none flex-grow-0 text-start mb-5">Get started now</h3>

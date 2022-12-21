@@ -14,7 +14,7 @@ function Footer() {
             <path d="M63.9191 23.6031C63.9191 22.1827 64.2014 21.1507 64.7662 20.507C65.3309 19.8412 66.2284 19.5083 67.4587 19.5083C69.1529 19.5083 70 20.3295 70 21.9718C70 23.37 69.7076 24.391 69.1227 25.0346C68.5579 25.6782 67.6604 26 66.4301 26C64.7561 26 63.9191 25.201 63.9191 23.6031Z" fill="#381DDB" />
           </svg>
         </div>
-        <div className="lg:w-1/2 w-full">
+        <div className="lg:w-1/2 mt-5 w-full">
           <div className="flex flex-wrap lg:justify-end justify-center">
             <a href="Udix" className="cursor-pointer block py-3 sm:pe-4 pe-1 ps-4 text-black font-semibold text-sm fon uppercase rounded md:bg-transparent focus-within: dark:text-white" aria-current="page">Home</a>
             <a href="#Pricing" className="cursor-pointer block py-3 sm:pe-4 pe-1 ps-4 text-black font-semibold text-sm uppercase rounded md:hover:bg-transparent md:border-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">Blog</a>
@@ -26,14 +26,14 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div className="lg:w-1/2 mt-8 w-full lg:ps-16 lg:order-0 order-2">
+        <div className="lg:w-1/2 lg:mt-8 w-full lg:ps-16 lg:order-0 order-2">
           <div className="lg:text-start text-center">
             <p className="sm:w-2/4 w-full lg:w-96 lg:mx-0 mx-auto sm:px-0 px-16 lg:mt-0 mt-7 font-normal text-xs lg:text-start text-center text-gray-400">
               udix is a market-leading provider of digital marketing services, using proprietary tools and methodologies to generate high-value engagement for our customers.
             </p>
           </div>
         </div>
-        <div className="lg:w-1/2 mt-8 w-full lg:order-2">
+        <div className="lg:w-1/2 lg:mt-8 mt-5 w-full lg:order-2">
           <div className="lg:justify-end justify-center flex sm:gap-12 gap-8 lg:me-16">
             <a href="https://www.facebook.com/figmadesign/">
               <svg width="10" height="30" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
