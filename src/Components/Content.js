@@ -9,7 +9,7 @@ function Content() {
 
     return (
 
-        <section className="mt-96 lg:mt-0 flex flex-col items-start w-full h-full md:bg-transparent bg-gray-200 flex-none order-2 flex-grow-0">
+        <section className="sm:mt-10 lg:mt-0 flex flex-col items-start w-full h-full md:bg-transparent bg-gray-200 flex-none order-2 flex-grow-0">
             <div className="container px-16 pb-6 mx-auto">
                 <div className="flex-wrap justify-center">
                     <>
@@ -25,15 +25,16 @@ function Content() {
                                 nextEl: ".swiper-button-next",
                                 prevEl: ".swiper-button-prev"
                             }}
-                            modules={[Pagination, Navigation]}>
+                            modules={[Pagination, Navigation]}
+                            >
                             <SwiperSlide>
                                 <div className="flex flex-col flex-none flex-grow-0 text-center w-full mb-20">
-                                    <div class="flex flex-wrap lg:-m-4 -mx-4 -mb-10 lg:mt-32 mt-20 lg:space-y-0 space-y-6">
+                                    <div class="flex flex-wrap lg:-m-4 -mx-4 -mb-10 lg:space-y-0 space-y-6">
                                         <div class="p-4 lg:w-1/2 lg:px-14 w-full order-1 lg:order-0 flex flex-col text-center items-center">
                                             <div className="image1 lg:w-100 lg:h-92 sm:w-120 sm:h-98 w-80 h-60 lg:mt-36"></div>
                                         </div>
                                         <div class="p-4 lg:w-1/2 lg:px-22 w-full order-0 lg:order-1 flex flex-col text-center items-center">
-                                            <div className="image lg:self-end self-center mt-24"></div>
+                                            <div className="image lg:self-end self-center lg:mt-24"></div>
                                             <h1 className="w-full font-bold text-black mt-8 lg:text-end text-center md:text-4xl text-2xl md:leading-10 mb-2">is a leading provider of digital marketing services</h1>
                                             <p className="w-full mt-10 font-normal md:text-base text-sm lg:text-end text-center text-hex mb-20">Using proprietary tools and we run thousands of simultaneous self-funded
                                                 campaigns across different platforms such as paid search, social advertising,
@@ -45,7 +46,7 @@ function Content() {
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="flex flex-col flex-none flex-grow-0 order-0 lg:order-1 text-center w-full mb-20">
-                                    <div class="flex flex-wrap lg:-m-4 -mx-4 -mb-10 lg:mt-32 mt-20 lg:space-y-0 space-y-6">
+                                    <div class="flex flex-wrap lg:-m-4 -mx-4 -mb-10 lg:space-y-0 space-y-6">
                                         <div class="p-4 lg:w-1/2 lg:px-14 w-full order-1 lg:order-0 flex flex-col text-center items-center">
                                             <div className="image1 lg:w-100 lg:h-92 sm:w-120 sm:h-98 w-80 h-60 lg:mt-36"></div>
                                         </div>
@@ -62,7 +63,7 @@ function Content() {
                             </SwiperSlide>
                         </Swiper>
                     </>
-                    <div className="flex lg:justify-end lg:order-2 order-1 justify-center text-gray-400 md:text-gray-300">
+                    <div className="flex lg:justify-end lg:order-2 order-1 justify-center text-gray-400 md:text-gray-400">
                         <button className="swiper-button-prev"><svg xmlns="http://www.w3.org/2000/svg" className="me-3" width="60" height="30" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
                             <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
                         </svg></button>
