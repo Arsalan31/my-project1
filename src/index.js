@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Udix from './Udix';
+import Akdn from './Akdn';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -12,6 +13,7 @@ root.render(
     <Routes>
       <Route path='/' element={<App />}/>
       <Route path='/Udix' element={<Udix />} />
+      <Route path='/Akdn' element={<Akdn/>} />
     </Routes>
   </BrowserRouter>
 );
