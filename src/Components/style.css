@@ -267,3 +267,9 @@
     padding-inline-start: 40px !important;
     padding-inline-end: 40px !important;
   }
+
+  .aka{
+    background-image: url(assets/image\ 3.png);
+    height: 71px;
+    width: 71px;
+  }
