@@ -18,6 +18,10 @@ module.exports = {
         'hex':"#374754",
         'indigo':{
             '650':"#381DDB"
+        },
+        'blue':{
+          '20':" #E6EDEF",
+          '30':"rgba(8, 76, 97, 0.05)"
         }
       },
       gap:{
