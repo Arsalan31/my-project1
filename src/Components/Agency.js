@@ -24,9 +24,9 @@ function Agency() {
                                 <p className="text-xs sm:hidden flex font-bold">Aga Khan Academies</p>
                             </div>
                         </div>
-                        <div class="sm:p-4 lg:w-1/5 md:w-1/3 w-full sm:w-60 sm:h-36 flex sm:flex-col flex-row text-center items-center sm:border sm:border-gray-300 md:mb-auto mb-7">
-                            <div class="sm:flex-grow sm:w-auto w-full flex-none sm:px-3 py-4">
-                                <div className="akh sm:ms-3"></div>
+                        <div class="sm:p-4 lg:w-1/5 md:w-1/3 w-full sm:w-60 sm:h-36 flex sm:flex-col flex-row text-center items-center border border-gray-300 md:mb-auto mb-7">
+                            <div class="sm:flex-grow sm:w-auto w-full flex-none px-6 py-3">
+                                <div className="akh"></div>
                                 <p class="text-xs font-bold mt-3">Aga Khan Agency For Habitat</p>
                             </div>
 
@@ -50,7 +50,7 @@ function Agency() {
                         </div>
                         <div class="sm:p-4 lg:w-1/5 md:w-1/3 w-full sm:w-60 sm:h-36 flex flex-col text-center items-center border border-gray-300 md:mb-7">
                             <div class="flex-grow py-6">
-                                <div className="aked xl:ms-14 ms-10"></div>
+                                <div className="aked xl:ms-14 ms-14"></div>
                                 <p class="text-xs font-bold mt-3">Aga Khan Fund For Economic Development</p>
                             </div>
                         </div>
@@ -72,7 +72,7 @@ function Agency() {
                         </div>
                         <div class="sm:p-4 lg:w-1/5 md:w-1/3 w-full sm:w-60 sm:h-36 flex flex-col text-center items-center border border-gray-300 md:mb-7">
                             <div class="flex-grow px-6 py-3">
-                                <div className="uca ms-14"></div>
+                                <div className="uca xl:ms-14 ms-14"></div>
                                 <p class="text-xs mt-3 font-bold uppercase">University Of Central Asia</p>
                             </div>
                         </div>
