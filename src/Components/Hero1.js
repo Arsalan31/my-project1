@@ -86,7 +86,7 @@ function Hero1(props) {
                             </div>
                             <div className="sm:w-1/6 sm:flex hidden ms-8 mx-3 my-5 bg-indigo-700 opacity-5 ">
                             </div>
-                            <div className="sm:flex hidden relative end-4 -bottom-96  items-end content sm:h-36 sm:w-36 h-20 w-40 sm:-ms-36">
+                            <div className="sm:flex hidden relative -end-1 -bottom-96  items-end content sm:h-32 sm:w-32 h-20 w-40 sm:-ms-36">
                             </div>
                         </div>
                     </div>
