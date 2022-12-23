@@ -36,7 +36,7 @@
     background: url(assets/back.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position:  inherit;
+    background-position: inherit;
     margin: auto;
   }
 
@@ -219,7 +219,7 @@
     order: 0;
   }
 
-  .content{
+  .content {
     background-image: url(assets/1.png);
     background-size: cover;
   }
@@ -263,12 +263,21 @@
 
   }
 
-  .swiper1{
+  .swiper1 {
     padding-inline-start: 40px !important;
     padding-inline-end: 40px !important;
   }
 
-  .aka{
+  @media screen and (max-width: 640px) {
+
+    .swiper1 {
+      padding-inline-start: 12px !important;
+      padding-inline-end: 12px !important;
+    }
+
+  }
+
+  .aka {
     background-image: url(assets/image\ 3.png);
     height: 71px;
     width: 71px;

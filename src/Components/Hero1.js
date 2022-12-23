@@ -55,7 +55,7 @@ function Hero1(props) {
                     </div>
                     <div className="lg:w-2/5 xl:w-1/3 sm:w-2/3 lg:mt-0 w-4/5 mt-10 justify-center">
                         <div className="bg-white flex flex-nowrap shadow-xl">
-                            <div className="sm:w-2/3 w-full flex flex-col sm:p-10 p-8">
+                            <div className="sm:w-3/4 w-full flex flex-col sm:p-10 p-8">
                                 <h3 className="con-1 h-7 font-bold sm:text-2xl text-xl text-black flex-none flex-grow-0 text-start mb-5">Get started now</h3>
                                 <div className="relative mb-5">
                                     <label for="name" className="leading-7 text-sm text-gray-600"></label>
@@ -84,7 +84,7 @@ function Hero1(props) {
                                     </div>
                                 </div>
                             </div>
-                            <div className="sm:w-1/6 sm:flex hidden ms-14 mx-3 my-5 bg-indigo-700 opacity-5 ">
+                            <div className="sm:w-1/6 sm:flex hidden ms-8 mx-3 my-5 bg-indigo-700 opacity-5 ">
                             </div>
                             <div className="sm:flex hidden relative end-4 -bottom-96  items-end content sm:h-36 sm:w-36 h-20 w-40 sm:-ms-36">
                             </div>
