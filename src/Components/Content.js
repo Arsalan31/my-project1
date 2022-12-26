@@ -14,7 +14,7 @@ function Content(props) {
     return (
 
         <section className="sm:mt-10 lg:mt-0 flex flex-col items-start w-full h-full md:bg-transparent bg-gray-200 flex-none order-2 flex-grow-0">
-            <div className="container px-16 pb-6 mx-auto">
+            <div className="container px-8 pb-6 mx-auto">
                 <div className="flex flex-wrap justify-center">
                     <>
                         <Swiper

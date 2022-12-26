@@ -30,7 +30,7 @@ function Header1() {
             <nav className="flex justify-between md:bg-transparent bg-indigo-650 opacity-90">
                 <div className="container nav md:my-0 my-10 px-10 flex flex-wrap justify-between content-center items-center xl:mx-64 lg:mx-24 mx-auto bg-transparent ">
                     <div className="logo1 bg-no-repeat flex-none order-0 flex-grow-0 block cursor-pointer" />
-                    <button onClick={toggleNav} className="block items-center p-2 ms-3 text-sm font-semibold uppercase border-white border-2 px-6 py-3 text-white md:hidden">Menu
+                    <button onClick={toggleNav} className="block items-center focus:outline-none p-2 ms-3 text-sm font-semibold uppercase border-white border-2 px-6 py-3 text-white md:hidden">Menu
                     </button>
                     {(toggleMenu || screenWidth > 767) && (
                         <div className="list2 flex flex-col md:p-4 md:mt-10 mt-10 md:bg-transparent bg-white text-indigo-650 md:border-transparent border-t-2 border-white md:flex-row md:text-sm md:font-medium  w-full md:block md:w-auto">
@@ -50,8 +50,8 @@ function Header1() {
                     )}
                     {(toggleMenu || screenWidth > 767) && (
                         <div className="list3 text-center flex md:bg-transparent md:p-0 p-5 md:w-52 w-full bg-white">
-                            <button className="lg:text-indigo-650 text-indigo-650 text-sm font-bold uppercase md:text-white ms-3 py-2">sign in</button>
-                            <button className="lg:text-indigo-650 text-indigo-650 md:text-white ms-5 lg:border-indigo-650 border-indigo-650 text-sm font-bold uppercase md:border-white border-2 px-5 py-2">sign up</button>
+                            <button className="lg:text-indigo-650 text-indigo-650 text-sm font-bold uppercase md:text-white ms-3 py-2 focus:outline-none">sign in</button>
+                            <button className="lg:text-indigo-650 text-indigo-650 md:text-white ms-5 lg:border-indigo-650 border-indigo-650 text-sm font-bold uppercase md:border-white border-2 px-5 py-2 focus:outline-none">sign up</button>
                         </div>
                     )}
                 </div>
