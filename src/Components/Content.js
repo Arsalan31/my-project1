@@ -1,11 +1,15 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper";
 import "swiper/css";
 import './style.css';
 
 
-function Content() {
+function Content(props) {
+
+    useEffect(() => {
+    }, [props.setIsRtl])
+
 
     return (
 
@@ -19,14 +23,14 @@ function Content() {
                                 type: 'fraction',
                             }
                             }
-                            dir={'rtl' | 'ltr'}
+                            // dir={rtl ? 'rtl' : 'ltr'}
                             loop={true}
                             navigation={{
                                 nextEl: ".swiper-button-next",
                                 prevEl: ".swiper-button-prev"
                             }}
                             modules={[Pagination, Navigation]}
-                            >
+                        >
                             <SwiperSlide>
                                 <div className="flex flex-col flex-none flex-grow-0 text-center w-full mb-20">
                                     <div class="flex flex-wrap lg:-m-4 -mx-4 -mb-10 lg:space-y-0 space-y-6">
