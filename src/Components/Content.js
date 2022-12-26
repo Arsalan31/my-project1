@@ -11,10 +11,14 @@ function Content(props) {
     }, [props.setIsRtl])
 
 
+    const setDirection = () => {
+        props.setIsRtl(!props.isRtl)
+    }
+
     return (
 
         <section className="sm:mt-10 lg:mt-0 flex flex-col items-start w-full h-full md:bg-transparent bg-gray-200 flex-none order-2 flex-grow-0">
-            <div className="container px-8 pb-6 mx-auto">
+            <div className="container sm:px-16 px-8 pb-6 mx-auto">
                 <div className="flex flex-wrap justify-center">
                     <>
                         <Swiper
@@ -23,7 +27,8 @@ function Content(props) {
                                 type: 'fraction',
                             }
                             }
-                            // dir={rtl ? 'rtl' : 'ltr'}
+                            dir={setDirection ? 'ltr' : 'rtl'}
+                            IsRtl={true}
                             loop={true}
                             navigation={{
                                 nextEl: ".swiper-button-next",
@@ -68,7 +73,7 @@ function Content(props) {
                         </Swiper>
                     </>
                     <div className="flex w-full lg:justify-end lg:order-2 order-1 justify-center text-gray-400 md:text-gray-400">
-                        <button className="swiper-button-prev focus:outline-none"><svg xmlns="http://www.w3.org/2000/svg" className="me-3" width="60" height="30" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                        <button className="swiper-button-prev transform focus:outline-none"><svg xmlns="http://www.w3.org/2000/svg" className="me-3" width="60" height="30" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
                             <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
                         </svg></button>
                         <div class="swiper-pagination1"></div>

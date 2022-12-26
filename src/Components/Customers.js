@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -8,7 +8,11 @@ import "swiper/css";
 import { Pagination, Navigation } from "swiper";
 
 
-function Customers() {
+function Customers(props) {
+
+    const setDirection = () => {
+        props.setIsRtl(!props.isRtl)
+    }
 
     return (
 
@@ -21,6 +25,7 @@ function Customers() {
                             slidesPerView={4}
                             spaceBetween={30}
                             loop={true}
+                            dir={setDirection ? 'ltr' : 'rtl'}
                             pagination={{
                                 el: '.swiper-pagination',
                                 type: 'fraction',
