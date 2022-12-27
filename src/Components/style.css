@@ -49,7 +49,7 @@
 
   @media screen and (max-width: 1025px) {
     .background2 {
-      background-position: inherit;
+      background: #381DDB;
     }
   }
 
@@ -321,8 +321,16 @@
     background-image: url(assets/Screen\ Shot\ 2021-02-27\ at\ 8.14\ 1\ 6.png);
   }
 
+  .akhs1 {
+    background-image: url(assets/aku.png);
+  }
+
   .aktc {
     background-image: url(assets/Screen\ Shot\ 2021-02-27\ at\ 8.14\ 1\ 7.png);
+  }
+
+  .aktc1 {
+    background-image: url(assets/aktc.png);
   }
 
   .aku {
