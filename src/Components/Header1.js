@@ -26,7 +26,7 @@ function Header1() {
     }, [])
 
     return (
-        <header className="w-full md:absolute relative">
+        <header className="w-full absolute">
             <nav className="flex justify-between md:bg-transparent bg-indigo-650 opacity-90">
                 <div className="container nav md:my-0 my-10 px-10 flex flex-wrap justify-between content-center items-center xl:mx-64 lg:mx-24 mx-auto bg-transparent ">
                     <div className="logo1 bg-no-repeat flex-none order-0 flex-grow-0 block cursor-pointer" />

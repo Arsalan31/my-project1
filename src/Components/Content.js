@@ -11,9 +11,9 @@ function Content(props) {
     }, [props.setIsRtl])
 
 
-    const setDirection = () => {
-        props.setIsRtl(!props.isRtl)
-    }
+    // const setDirection = () => {
+    //     props.setIsRtl(!props.isRtl)
+    // }
 
     return (
 
@@ -27,7 +27,7 @@ function Content(props) {
                                 type: 'fraction',
                             }
                             }
-                            dir={setDirection ? 'ltr' : 'rtl'}
+                            // dir={setDirection ? 'ltr' : 'rtl'}
                             IsRtl={true}
                             loop={true}
                             navigation={{

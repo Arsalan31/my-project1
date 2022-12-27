@@ -47,7 +47,7 @@
   );
   }
 
-  @media screen and (max-width: 1025px) {
+  @media screen and (max-width: 1023px) {
     .background2 {
       background: #381DDB;
     }

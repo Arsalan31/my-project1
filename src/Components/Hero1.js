@@ -3,12 +3,13 @@ import './style.css';
 
 function Hero1(props) {
 
-    const [readMore, setReadMore] = useState(false);
-    const extraContent =
-        <h4>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
-        </h4>
-    const linkName = readMore ? 'Read Less' : 'Read More '
+    // const [readMore, setReadMore] = useState(false);
+    // const extraContent = 
+    //     <h4>
+    //         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. udix is the world's first smart workspace.We bring all your team's content together while letting you use the tools you love.
+    //     </h4>
+
+    // const linkName = readMore ? 'Read Less' : 'Read More '
 
     console.log(props)
 
@@ -16,6 +17,28 @@ function Hero1(props) {
     const setDirection = () => {
         props.setIsRtl(!props.isRtl)
     }
+
+    const ReadMore = ({ children }) => {
+        const text = children;
+        const [isReadMore, setIsReadMore] = useState(true);
+        const toggleReadMore = () => {
+            setIsReadMore(!isReadMore);
+        };
+        return (
+            <p className="text">
+                {isReadMore ? text.slice(0, 153) : text}
+                <div className="flex md:mt-8 mt-5 lg:justify-start justify-center">
+                    <h4 className="font-bold text-red-300 lg:text-start text-center text-base leading-6 me-3"> {isReadMore ? "Read more" : " Show less"}</h4>
+                    <button className="focus:outline-none" onClick={toggleReadMore}>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47716 2 2 6.47715 2 12ZM3.29016e-06 12C3.00047e-06 18.6274 5.37259 24 12 24C18.6274 24 24 18.6274 24 12C24 5.37258 18.6274 -2.34843e-07 12 -5.24537e-07C5.37259 -8.1423e-07 3.57985e-06 5.37258 3.29016e-06 12Z" fill="#FFA3A3" />
+                            <path d="M7.80179 9.42772C8.21765 8.99019 8.90301 8.99023 9.3188 9.4279L12 12.2501L14.681 9.42799C15.0969 8.99045 15.7823 8.99023 16.1982 9.42791C16.6004 9.85119 16.6004 10.5275 16.1983 10.9507L12.7584 14.5715C12.5535 14.787 12.2788 14.8996 12 14.8996C11.721 14.8996 11.4461 14.7868 11.2414 14.5713L7.80162 10.9506C7.39942 10.5274 7.39944 9.85098 7.80179 9.42772Z" fill="#FFA3A3" />
+                        </svg>
+                    </button>
+                </div>
+            </p>
+        );
+    };
 
     return (
         <section className="sm:pb-52 pb-52 lg:pb-0">
@@ -31,17 +54,20 @@ function Hero1(props) {
                         <h1 id="#Home" className="text-6xl leading-12 sm:text-6xl mt-5 font-bold w-full  lg:text-start text-center text-red-300">Focus on the
                             <br className="hidden sm:block" /> work that <br className="hidden sm:block" /> matters
                         </h1>
-                        <h4 className='lg:w-2/3 sm:px-0 px-10 font-normal text-2xl leading-9 lg:text-start text-center flex-none flex-grow-0 mt-10 sm:mt-8 text-white'>udix is the world's first smart workspace.We bring all your team's content together while letting you use the tools you love.{readMore && extraContent}
+                        <h4 className='lg:w-2/3 sm:px-0 px-10 font-normal text-2xl leading-9 lg:text-start text-center flex-none flex-grow-0 mt-10 sm:mt-8 text-white'>
+                            <ReadMore>
+                                udix is the world's first smart workspace.We bring all your team's content together while letting you use the tools you love.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                            </ReadMore>
                         </h4>
-                        <div className="flex md:mt-8 mt-5 lg:justify-start justify-center">
-                            <h4 className="font-bold text-red-300 lg:text-start text-center text-base leading-6 me-3">{linkName}</h4>
-                            <button className="focus:outline-none" onClick={() => { setReadMore(!readMore) }}>
+                        {/* <div className="flex md:mt-8 mt-5 lg:justify-start justify-center">
+                            <h4 className="font-bold text-red-300 lg:text-start text-center text-base leading-6 me-3"></h4>
+                            <button className="focus:outline-none">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47716 2 2 6.47715 2 12ZM3.29016e-06 12C3.00047e-06 18.6274 5.37259 24 12 24C18.6274 24 24 18.6274 24 12C24 5.37258 18.6274 -2.34843e-07 12 -5.24537e-07C5.37259 -8.1423e-07 3.57985e-06 5.37258 3.29016e-06 12Z" fill="#FFA3A3" />
                                     <path d="M7.80179 9.42772C8.21765 8.99019 8.90301 8.99023 9.3188 9.4279L12 12.2501L14.681 9.42799C15.0969 8.99045 15.7823 8.99023 16.1982 9.42791C16.6004 9.85119 16.6004 10.5275 16.1983 10.9507L12.7584 14.5715C12.5535 14.787 12.2788 14.8996 12 14.8996C11.721 14.8996 11.4461 14.7868 11.2414 14.5713L7.80162 10.9506C7.39942 10.5274 7.39944 9.85098 7.80179 9.42772Z" fill="#FFA3A3" />
                                 </svg>
                             </button>
-                        </div>
+                        </div> */}
                         <div>
                             <div className='flex lg:justify-start justify-center mt-5'>
                                 <label className="form-check-label inline-block me-2  text-white" for="flexSwitchCheckChecked">LTR</label>
