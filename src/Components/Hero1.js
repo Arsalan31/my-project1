@@ -26,7 +26,7 @@ function Hero1(props) {
         };
         return (
             <p className="text">
-                {isReadMore ? text.slice(0, 153) : text}
+                {isReadMore ? text.slice(0, 125) : text}
                 <div className="flex md:mt-8 mt-5 lg:justify-start justify-center">
                     <h4 className="font-bold text-red-300 lg:text-start text-center text-base leading-6 me-3"> {isReadMore ? "Read more" : " Show less"}</h4>
                     <button className="focus:outline-none" onClick={toggleReadMore}>
