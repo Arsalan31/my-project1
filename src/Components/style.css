@@ -303,6 +303,19 @@
 
   }
 
+  .swiper-slide {
+    filter: blur(4px);
+  }
+
+  .swiper-slide-active {
+    filter: none
+  }
+
+  .swiper-slide-next {
+    filter: none
+  }
+
+
   .aka {
     background-image: url(assets/image\ 3.png);
   }

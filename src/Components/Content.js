@@ -10,7 +10,6 @@ function Content(props) {
     useEffect(() => {
     }, [props.setIsRtl])
 
-
     return (
 
         <section className="sm:mt-10 lg:mt-0 flex flex-col items-start w-full h-full md:bg-transparent bg-gray-200 flex-none order-2 flex-grow-0">
@@ -23,6 +22,7 @@ function Content(props) {
                                 type: 'fraction',
                             }
                             }
+                            // dir={setDirection ? 'ltr' : 'rtl'}
                             loop={true}
                             navigation={{
                                 nextEl: ".swiper-button-next",
