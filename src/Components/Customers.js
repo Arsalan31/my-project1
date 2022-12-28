@@ -14,8 +14,6 @@ function Customers(props) {
 
     useEffect(() => {
         console.log(swiperRef.current.swiper.rtl)
-        // swiperRef.current.swiper.changeLanguageDirection(props.isRtl)
-        // swiperRef.current.swiper.update()
         swiperRef.current.swiper.rtl = props.isRtl
         swiperRef.current.swiper.rtlTranslate = props.isRtl
         swiperRef.current.swiper.slideToLoop(0)
