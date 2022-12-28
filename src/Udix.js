@@ -15,7 +15,7 @@ function Udix() {
             <div dir={isRtl ? "rtl" : "ltr"} className="lg:bg-white bg-gray-200">
                 <Header1/>
                 <Hero1 isRtl={isRtl} setIsRtl={setIsRtl} />
-                <Content />
+                <Content  isRtl={isRtl}/>
                 <Customer />
                 <Footer />
             </div>

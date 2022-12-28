@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper";
 import "swiper/css";
@@ -7,8 +7,16 @@ import './style.css';
 
 function Content(props) {
 
+    const swiperRef = useRef(null)
+
     useEffect(() => {
-    }, [props.setIsRtl])
+        console.log(swiperRef.current.swiper.rtl)
+        // swiperRef.current.swiper.changeLanguageDirection(props.isRtl)
+        // swiperRef.current.swiper.update()
+        swiperRef.current.swiper.rtl = props.isRtl
+        swiperRef.current.swiper.rtlTranslate = props.isRtl
+        swiperRef.current.swiper.slideToLoop(0)
+    }, [props.isRtl])
 
     return (
 
@@ -22,6 +30,7 @@ function Content(props) {
                                 type: 'fraction',
                             }
                             }
+                            ref={swiperRef}
                             // dir={setDirection ? 'ltr' : 'rtl'}
                             loop={true}
                             navigation={{
