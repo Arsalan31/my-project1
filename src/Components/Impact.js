@@ -3,7 +3,7 @@ import React, { useState } from "react"
 function Impact() {
     return (
         <section id="feature" class="w-full h-full text-gray-600 body-font 2xl:p-52">
-            <div class="container p-10 mx-auto bg-blue-30">
+            <div class="container p-10 mx-auto">
                 <div class="text-center">
                     <h1 class="w-full font-bold text-gray-600 text-center text-2xl pt-12 leading-12 mb-4 uppercase">impact of akdn</h1>
                 </div>

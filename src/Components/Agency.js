@@ -12,7 +12,7 @@ function Agency() {
                     </div>
                     <div className="flex w-1/3 justify-end">
                         <a href="#" className="flex gap-4 focus:outline-none">
-                            <p className="font-medium text-base text-blue-70">How We Work </p>
+                            <p className="font-medium text-base text-blue-70">See More </p>
                             <svg className="mt-1" width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1 13L7 7L1 1" stroke="#084C61" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                             </svg>
@@ -33,7 +33,7 @@ function Agency() {
                             </div>
                         </div>
                         <div class="sm:p-4 lg:w-1/5 md:w-1/3 w-full sm:w-60 sm:h-36 flex h-20 flex-col text-center items-start sm:items-center sm:border border-b border-gray-300 sm:mb-7">
-                            <div class="flex-grow sm:px-6 py-4 sm:block inline-flex">
+                            <div class="flex-grow sm:px-6 py-7 sm:block inline-flex">
                                 <div className="akm flex xl:ms-16 lg:ms-7 sm:ms-12 sm:h-9 sm:w-12 w-12 h-9 bg-no-repeat"></div>
                                 <p class="text-xs sm:ms-0 ms-6 flex font-bold mt-2 w-full">Aga Khan Agency For Microfinance</p>
                             </div>
