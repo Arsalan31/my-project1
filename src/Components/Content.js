@@ -31,7 +31,6 @@ function Content(props) {
                             }
                             }
                             ref={swiperRef}
-                            // dir={setDirection ? 'ltr' : 'rtl'}
                             loop={true}
                             navigation={{
                                 nextEl: ".swiper-button-next",

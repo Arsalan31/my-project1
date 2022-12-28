@@ -16,7 +16,7 @@ function Udix() {
                 <Header1/>
                 <Hero1 isRtl={isRtl} setIsRtl={setIsRtl} />
                 <Content  isRtl={isRtl}/>
-                <Customer />
+                <Customer isRtl={isRtl}/>
                 <Footer />
             </div>
         </React.Fragment>

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -8,8 +8,18 @@ import "swiper/css";
 import { Pagination, Navigation } from "swiper";
 
 
-function Customers() {
+function Customers(props) {
 
+    const swiperRef = useRef(null)
+
+    useEffect(() => {
+        console.log(swiperRef.current.swiper.rtl)
+        // swiperRef.current.swiper.changeLanguageDirection(props.isRtl)
+        // swiperRef.current.swiper.update()
+        swiperRef.current.swiper.rtl = props.isRtl
+        swiperRef.current.swiper.rtlTranslate = props.isRtl
+        swiperRef.current.swiper.slideToLoop(0)
+    }, [props.isRtl])
 
     return (
 
@@ -21,6 +31,7 @@ function Customers() {
                         <Swiper
                             slidesPerView={4}
                             spaceBetween={30}
+                            ref={swiperRef}
                             loop={true}
                             pagination={{
                                 el: '.swiper-pagination',
