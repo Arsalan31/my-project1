@@ -57,13 +57,13 @@ function Agency() {
                             </div>
                         </div>
                         <div class="sm:p-4 lg:w-1/5 md:w-1/3 w-full sm:w-60 sm:h-36 flex h-20 flex-col text-center items-start sm:items-center sm:border border-b border-gray-300 sm:mb-7">
-                            <div class="flex-grow sm:px-6 py-3 sm:block inline-flex">
+                            <div class="flex-grow sm:px-6 py-5 sm:block inline-flex">
                                 <div className="akhs flex xl:ms-12 lg:ms-7 sm:ms-12 h-10 w-11"></div>
                                 <p class="text-xs sm:ms-0 ms-5 flex font-bold mt-3">Aga Khan Health Services</p>
                             </div>
                         </div>
                         <div class="sm:p-4 lg:w-1/5 md:w-1/3 w-full sm:w-60 sm:h-36 flex h-20 flex-col text-center items-start sm:items-center sm:border border-b border-gray-300 sm:mb-7">
-                            <div class="flex-grow sm:px-6 py-5 sm:block inline-flex">
+                            <div class="flex-grow sm:px-6 py-8 sm:block inline-flex">
                                 <div className="aktc flex xl:ms-12 lg:ms-7 sm:ms-12 h-7 w-11"></div>
                                 <p class="text-xs sm:ms-0 ms-5 flex font-bold mt-3">Aga Khan Trust for Culture</p>
                             </div>
