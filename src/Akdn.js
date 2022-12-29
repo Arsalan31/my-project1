@@ -1,14 +1,16 @@
 import React, { useState } from "react";
 import Agency from "./Components/Agency";
 import Impact from "./Components/Impact";
+import Subscribe from "./Components/Subscribe";
 
 
 function Akdn() {
     return (
         <React.Fragment>
-            <div className="bg-blue-50">
+            <div>
                 <Impact />
                 <Agency/>
+                <Subscribe/>
             </div>
         </React.Fragment>
     )
