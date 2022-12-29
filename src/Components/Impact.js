@@ -6,10 +6,10 @@ function Impact(props) {
         props.setIsRtl(!props.isRtl)
     }
     return (
-        <section class="w-full h-full text-gray-600 body-font 2xl:p-52">
-            <div class="container p-10 mx-auto bg-blue-30">
+        <section class="w-full h-full text-gray-600 body-font">
+            <div class="p-5 bg-blue-50">
                 <div>
-                    <div className='flex justify-center mt-5'>
+                    <div className='flex justify-center'>
                         <label className="form-check-label inline-block me-2  text-gray-600" for="flexSwitchCheckChecked">LTR</label>
                         <div onClick={setDirection} type="checkbox" className='toggle cursor-pointer'>
                             {directions ? <div className='toggle-end'></div> :
