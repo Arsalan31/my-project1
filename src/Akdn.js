@@ -5,10 +5,11 @@ import Subscribe from "./Components/Subscribe";
 
 
 function Akdn() {
+    const [isRtl, setIsRtl] = useState(false)
     return (
         <React.Fragment>
-            <div>
-                <Impact />
+            <div dir={isRtl ? "rtl" : "ltr"}>
+                <Impact isRtl={isRtl} setIsRtl={setIsRtl} />
                 <Agency/>
                 <Subscribe/>
             </div>

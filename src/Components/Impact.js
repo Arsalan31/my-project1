@@ -1,9 +1,23 @@
 import React, { useState } from "react"
 
-function Impact() {
+function Impact(props) {
+    const [directions, setdirections] = useState(props)
+    const setDirection = () => {
+        props.setIsRtl(!props.isRtl)
+    }
     return (
-        <section id="feature" class="w-full h-full text-gray-600 body-font 2xl:p-52">
+        <section class="w-full h-full text-gray-600 body-font 2xl:p-52">
             <div class="container p-10 mx-auto bg-blue-30">
+                <div>
+                    <div className='flex justify-center mt-5'>
+                        <label className="form-check-label inline-block me-2  text-gray-600" for="flexSwitchCheckChecked">LTR</label>
+                        <div onClick={setDirection} type="checkbox" className='toggle cursor-pointer'>
+                            {directions ? <div className='toggle-end'></div> :
+                                <div className='toggle-start'></div>}
+                        </div>
+                        <label className="form-check-label inline-block ms-2  text-gray-600" for="flexSwitchCheckChecked">RTL</label>
+                    </div>
+                </div>
                 <div class="text-center">
                     <h1 class="w-full font-bold text-gray-600 text-center text-2xl pt-12 leading-12 mb-4 uppercase">impact of akdn</h1>
                 </div>
@@ -45,7 +59,7 @@ function Impact() {
                                     to university level</p>
 
                             </div>
-                            
+
                         </div>
                         <div class="p-4 md:w-1/4 lg:px-14 w-full md:border-l-2 border-gray-400 border-opacity-60 flex flex-col text-center items-center">
                             <svg width="37" height="36" viewBox="0 0 37 36" fill="none" xmlns="http://www.w3.org/2000/svg">
