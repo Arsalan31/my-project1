@@ -6,7 +6,8 @@ module.exports = {
       borderRadius:
       {
         '4xl': "35px",
-        '2.5xl': "20px"
+        '2.5xl': "20px",
+        '7xl':"129px"
       },
       colors: {
         'blue': {
@@ -21,6 +22,12 @@ module.exports = {
         'hex': "#374754",
         'indigo': {
           '650': "#381DDB"
+        },
+        'purple': {
+          '650': "#5E6282"
+        },
+        'peach': {
+          '10': "#FF7D68"
         },
       },
       gap: {
