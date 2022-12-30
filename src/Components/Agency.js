@@ -13,7 +13,7 @@ function Agency() {
                     <div className="flex w-1/3 justify-end">
                         <a href="#" className="flex gap-4 focus:outline-none">
                             <p className="font-medium text-base text-blue-70">See More </p>
-                            <svg className="mt-1" width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <svg className="seemore mt-1" width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1 13L7 7L1 1" stroke="#084C61" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                             </svg>
                         </a>
