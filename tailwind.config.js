@@ -29,6 +29,9 @@ module.exports = {
         'peach': {
           '10': "#FF7D68"
         },
+        'pink': {
+          '10': "#D099D1"
+        },
       },
       gap: {
         '26': "100px",
