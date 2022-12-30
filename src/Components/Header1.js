@@ -28,12 +28,12 @@ function Header1() {
     return (
         <header className="w-full absolute">
             <nav className="flex justify-between md:bg-transparent bg-indigo-650 md:opacity-90">
-                <div className="container nav md:my-0 my-10 px-10 flex flex-wrap justify-between content-center items-center xl:mx-64 lg:mx-24 mx-auto bg-transparent ">
+                <div className="container nav md:my-0 py-5 px-10 flex flex-wrap justify-between content-center items-center xl:mx-64 lg:mx-24 mx-auto bg-transparent ">
                     <div className="logo1 bg-no-repeat flex-none order-0 flex-grow-0 block cursor-pointer" />
                     <button onClick={toggleNav} className="block items-center focus:outline-none p-2 ms-3 text-sm font-semibold uppercase border-white border-2 px-6 py-3 text-white md:hidden">Menu
                     </button>
                     {(toggleMenu || screenWidth > 767) && (
-                        <div className="list2 flex flex-col md:p-4 md:mt-10 mt-10 md:bg-transparent bg-white text-indigo-650 md:border-transparent border-t-2 border-white md:flex-row md:text-sm md:font-medium  w-full md:block md:w-auto">
+                        <div className="list2 flex flex-col md:p-4 md:bg-transparent bg-white text-indigo-650 md:border-transparent border-t-2 border-white md:flex-row md:text-sm md:font-medium  w-full md:block md:w-auto">
                             <li>
                                 <a href="Akdn" className="cursor-pointer uppercase block py-2 pe-4 ps-3 md:text-white text-indigo-650 font-normal text-1xl leading-7 rounded md:bg-transparent hover:text-red-300 focus-within: dark:text-white" aria-current="page">Home</a>
                             </li>

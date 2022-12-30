@@ -240,10 +240,10 @@
   @media screen and (max-width: 768px) {
 
     .list {
-      flex-direction: column;
+      display: flex;
+      list-style-type: none;
       background: #2091F9;
       height: auto;
-      width: 100%;
       padding: 16px;
     }
 
@@ -259,17 +259,17 @@
 
 
     .list1 {
-      flex-direction: column;
+      list-style-type: none;
+      display: flex;
       background: #2091F9;
       height: auto;
-      width: 100%;
       padding: 16px;
     }
 
     .list2 {
-      flex-direction: column;
+      list-style-type: none;
+      display: flex;
       height: auto;
-      width: 100%;
       padding: 16px;
     }
   }
