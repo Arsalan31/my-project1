@@ -38,16 +38,16 @@
     background-size: cover;
     background-position: center;
     margin: auto; */
-    background: linear-gradient(to right,
-        #381DDB 0%,
-        #381DDB 60%,
-        #ffffff 50%,
-        #ffffff 100%);
+    background: #381DDB;
   }
 
-  @media screen and (max-width: 1023px) {
+  @media screen and (min-width: 1024px) {
     .background2 {
-      background: #381DDB;
+      background: linear-gradient(to right,
+      #381DDB 0%,
+      #381DDB 60%,
+      #ffffff 50%,
+      #ffffff 100%);
     }
   }
 

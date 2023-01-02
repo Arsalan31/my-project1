@@ -23,7 +23,7 @@ function Customers(props) {
 
         <section className="w-full h-full md:bg-transparent bg-gray-200">
             <div className="container px-16 pb-6 mx-auto blur-3xl">
-                <h1 className="w-full font-bold text-black mt-8 text-center sm:text-4xl text-4xl sm:leading-10 mb-2">Working with a diverse global customer base</h1>
+                <h1 className="w-full font-bold text-black pt-8 text-center sm:text-4xl text-4xl sm:leading-10 mb-2">Working with a diverse global customer base</h1>
                 <div className="flex justify-center text-center mt-10 mb-10">
                     <>
                         <Swiper
