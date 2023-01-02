@@ -23,21 +23,21 @@ function Agency() {
                             <div class="flex-grow sm:px-6 py-5 sm:block inline-flex">
                                 {/* <div className="aka sm:-mt-0 -mt-8 sm:w-18 sm:h-18 w-18 h-18">
                                 </div> */}
-                                <img className="sm:-ms-0 ms-4 sm:-mt-0 sm:w-18 sm:h-18 h-12 w-12" src={require('./assets/image\ 3.png')}>
+                                <img className="flex justify-center sm:-mt-0 sm:w-18 sm:h-18 h-12 w-12" src={require('./assets/image\ 3.png')}>
                                 </img>
                                 <p className="text-xs sm:hidden sm:ms-0 ms-9 flex font-bold mt-4">Aga Khan Academies</p>
                             </div>
                         </div>
                         <div class="sm:p-4 lg:w-1/5 md:w-1/3 w-full sm:w-60 sm:h-36 flex h-20 sm:flex-col sm:text-center items-start sm:items-center sm:border border-b border-gray-300 md:mb-auto sm:mb-7">
                             <div class="sm:flex-grow sm:w-auto w-full flex-none sm:block inline-flex sm:px-6 py-5">
-                                <img className="sm:-ms-0 -ms-10 xl:w-40 sm:h-12 sm:w-52 w-40 h-12" src={require('./assets/Screen\ Shot\ 2021-02-27\ at\ 8.14\ 1.jpg')}></img>
+                                <img className="flex justify-center xl:w-40 sm:h-12 sm:w-52 w-40 h-12" src={require('./assets/Screen\ Shot\ 2021-02-27\ at\ 8.14\ 1.jpg')}></img>
                                 <p class="text-xs sm:ms-0 -ms-5 font-bold mt-3 sm:w-full">Aga Khan Agency For Habitat</p>
                             </div>
                         </div>
                         <div class="sm:p-4 lg:w-1/5 md:w-1/3 w-full sm:w-60 sm:h-36 flex h-20 flex-col sm:text-center items-start sm:items-center sm:border border-b border-gray-300 sm:mb-7">
                             <div class="flex-grow sm:px-6 py-5 sm:block inline-flex">
-                                <img className="2xl:ms-12 xl:ms-8 lg:ms-3 md:ms-7 sm:ms-10 ms-2 sm:-mt-0 sm:w-20 sm:h-15 h-12 w-16 focus:border-transparent" src={require('./assets/Micofinance.png')}></img>
-                                <p class="text-xs sm:ms-0 ms-7 flex font-bold w-full sm:mt-0 mt-3">Aga Khan Agency For Microfinance</p>
+                                <img className="flex justify-center sm:-mt-0 sm:w-20 sm:h-15 h-12 w-16 focus:border-transparent" src={require('./assets/Micofinance.png')}></img>
+                                <p class="text-xs flex font-bold w-full sm:mt-0 mt-3">Aga Khan Agency For Microfinance</p>
                             </div>
                         </div>
                         <div class="sm:p-4 lg:w-1/5 md:w-1/3 w-full sm:w-60 sm:h-36 flex h-20 flex-col sm:text-center items-start sm:items-center sm:border border-b border-gray-300 sm:mb-7">

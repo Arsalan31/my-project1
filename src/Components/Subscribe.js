@@ -10,8 +10,8 @@ function Subscribe() {
                         interesting offers about WindTravel</h3>
                     <div className="flex flex-wrap justify-center gap-6 mt-20">
                         <label for="email" className="leading-7 text-sm text-black"></label>
-                        <input type="email" id="email" name="email" placeholder="Your Email" className="w-1/3 h-14 placeholder-black bg-white border rounded-2xl border-gray-200 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-sm font-normal outline-none text-blue-1000 p-8 leading-8 transition-colors duration-200 ease-in-out" />
-                        <button className="bg-peach-10 px-16 rounded-xl text-white">
+                        <input type="email" id="email" name="email" placeholder="Your Email" className="lg:w-1/3 w-full h-14 placeholder-black bg-white border rounded-2xl border-gray-200 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-sm font-normal outline-none text-blue-1000 p-8 leading-8 transition-colors duration-200 ease-in-out" />
+                        <button className="bg-peach-10 px-16 h-14 rounded-xl text-white">
                                 Subscribe
                         </button>
                     </div>
