@@ -5,9 +5,9 @@ import './style.css';
 function Hero2() {
     return (
         <section>
-            <div className="lg:container lg:mt-36 lg:p-14 lg:px-5 lg:py-6 mx-auto bg-white">
-                <div className="bg lg:rounded-ts-3xl px-16 pt-32 lg:rounded-te-3xl lg:rounded-bs-3xl lg:rounded-be-7xl">
-                    <h3 className="text-6xl lg:w-2/3 w-full lg:text-start text-center text-white font-semibold">Practice your Photography skills with ease</h3>
+            <div className="mx-auto bg-white">
+                <div className="bg sm:px-16 px-4 pt-32">
+                    <h3 className="sm:text-6xl text-4xl leading-12 lg:w-2/3 w-full lg:text-start text-center text-white font-semibold">Practice your Photography skills with ease</h3>
                     <div className="flex lg:flex-nowrap flex-wrap">
                         <div className="lg:w-3/4 w-full">
                             <h4 className="text-white lg:w-7/12 w-full lg:text-start text-center text-semibold text-xl lg:mt-0 mt-10">
@@ -18,7 +18,7 @@ function Hero2() {
                                 <button className="text-white border border-white px-8 py-2 rounded-xl text-xl font-bold focus:outline-none">Discount</button>
                             </div>
                         </div>
-                        <div className="flex justify-center lg:w-10/12 w-full lg:-mt-52 mt-16">
+                        <div className="flex justify-center lg:w-10/12 w-full lg:-mt-52">
                             <img src={require('./assets/Saly-10.png')}></img>
                         </div>
                     </div>
