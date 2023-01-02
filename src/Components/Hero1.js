@@ -51,7 +51,7 @@ function Hero1(props) {
                             </svg>
                             <h5 className="ms-3 text-white font-bold text-base leading-6">Top market company</h5>
                         </div>
-                        <h1 id="#Home" className="text-6xl leading-12 sm:text-6xl mt-5 font-bold w-full  lg:text-start text-center text-red-300">Focus on the
+                        <h1 id="#Home" className="leading-12 sm:text-6xl text-5xl mt-5 font-bold w-full  lg:text-start text-center text-red-300">Focus on the
                             <br className="hidden sm:block" /> work that <br className="hidden sm:block" /> matters
                         </h1>
                         <h4 className='lg:w-2/3 sm:px-0 px-10 font-normal text-2xl leading-9 lg:text-start text-center flex-none flex-grow-0 mt-10 sm:mt-8 text-white'>
