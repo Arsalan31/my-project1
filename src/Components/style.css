@@ -316,11 +316,19 @@
     filter: none
   } */
 
-  [dir="rtl"] .swiper-button-prev {
+  [dir="rtl"] .swiper-button-prev{
     rotate: 180deg;
   }
 
-  [dir="rtl"] .swiper-button-next {
+  [dir="rtl"] .swiper-button-next{
+    rotate: 180deg;
+  }
+
+  [dir="rtl"] .swiper-button-prev1{
+    rotate: 180deg;
+  }
+
+  [dir="rtl"] .swiper-button-next1{
     rotate: 180deg;
   }
 
