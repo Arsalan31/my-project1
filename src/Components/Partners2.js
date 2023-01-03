@@ -28,7 +28,7 @@ function Partners2(props) {
                         <Swiper
                             pagination={{
                                 el: '.swiper-pagination1',
-                                type: 'fraction',
+                                dynamicBullets: true,
                             }
                             }
                             ref={swiperRef}
@@ -42,7 +42,7 @@ function Partners2(props) {
                             <SwiperSlide>
                                 <div className="flex flex-col flex-none flex-grow-0 text-center w-full mb-20">
                                     <div class="flex flex-wrap lg:-m-4 -mx-4 -mb-10 lg:space-y-0 space-y-6">
-                                        <div class="p-4 lg:w-1/2 lg:px-22 w-full order-0 lg:order-1 flex flex-col text-center">
+                                        <div class="p-4 lg:w-3/5 lg:px-22 w-full order-0 lg:order-1 flex flex-col text-center">
                                             <h1 className="w-full font-bold text-black mt-8 lg:text-start text-center md:text-4xl text-2xl md:leading-10 mb-2">The Tanzania Cancer Care Project (TCCP)</h1>
                                             <p className="w-full mt-10 font-normal md:text-base text-sm lg:text-start text-center text-hex lg:mb-20">The Tanzania Comprehensive Cancer Care Project (TCCP) is a €13.3 million private-public four-year evidence-based project funded by Agence Française de Développement (AFD) and Aga Khan Foundation (AKF). It aims to strengthen and expand the quality, access, and capacity of cancer care services across the cancer continuum in Dar es Salaam and Mwanza regions of Tanzania.
                                                 <p className="text-gray-300 text-start">The project is a joint initiative led by the Aga Khan Health Services Tanzania (AKHST) together with the Aga Khan Foundation Tanzania (AKFT), </p>
@@ -57,7 +57,7 @@ function Partners2(props) {
                             <SwiperSlide>
                                 <div className="flex flex-col flex-none flex-grow-0 order-0 lg:order-1 text-center w-full mb-20">
                                     <div class="flex flex-wrap lg:-m-4 -mx-4 -mb-10 lg:space-y-0 space-y-6">
-                                        <div class="p-4 lg:w-1/2 lg:px-22 w-full order-0 lg:order-1 flex flex-col text-center">
+                                        <div class="p-4 lg:w-3/5 lg:px-22 w-full order-0 lg:order-1 flex flex-col text-center">
                                             <h1 className="w-full font-bold text-black mt-8 lg:text-start text-center md:text-4xl text-2xl md:leading-10 mb-2">The Tanzania Cancer Care Project (TCCP)</h1>
                                             <p className="w-full mt-10 font-normal md:text-base text-sm lg:text-start text-center text-hex lg:mb-20">The Tanzania Comprehensive Cancer Care Project (TCCP) is a €13.3 million private-public four-year evidence-based project funded by Agence Française de Développement (AFD) and Aga Khan Foundation (AKF). It aims to strengthen and expand the quality, access, and capacity of cancer care services across the cancer continuum in Dar es Salaam and Mwanza regions of Tanzania.
                                                 <p className="text-gray-300 text-start">The project is a joint initiative led by the Aga Khan Health Services Tanzania (AKHST) together with the Aga Khan Foundation Tanzania (AKFT), </p>
@@ -72,13 +72,13 @@ function Partners2(props) {
                             <SwiperSlide>
                                 <div className="flex flex-col flex-none flex-grow-0 order-0 lg:order-1 text-center w-full mb-20">
                                     <div class="flex flex-wrap lg:-m-4 -mx-4 -mb-10 lg:space-y-0 space-y-6">
-                                        <div class="p-4 lg:w-1/2 lg:px-22 w-full order-0 lg:order-1 flex flex-col text-center">
+                                        <div class="p-4 lg:w-3/5 lg:px-22 w-full order-0 lg:order-1 flex flex-col text-center">
                                             <h1 className="w-full font-bold text-black mt-8 lg:text-start text-center md:text-4xl text-2xl md:leading-10 mb-2">The Tanzania Cancer Care Project (TCCP)</h1>
                                             <p className="w-full mt-10 font-normal md:text-base text-sm lg:text-start text-center text-hex lg:mb-20">The Tanzania Comprehensive Cancer Care Project (TCCP) is a €13.3 million private-public four-year evidence-based project funded by Agence Française de Développement (AFD) and Aga Khan Foundation (AKF). It aims to strengthen and expand the quality, access, and capacity of cancer care services across the cancer continuum in Dar es Salaam and Mwanza regions of Tanzania.
                                                 <p className="text-gray-300 text-start">The project is a joint initiative led by the Aga Khan Health Services Tanzania (AKHST) together with the Aga Khan Foundation Tanzania (AKFT), </p>
                                             </p>
                                         </div>
-                                        <div class="p-4 lg:w-1/2 lg:px-14 w-full order-1 lg:order-0 flex flex-col lg:items-start items-center">
+                                        <div class="p-4 lg:w-2/5 lg:px-14 w-full order-1 lg:order-0 flex flex-col lg:items-start items-center">
                                             <img src={require('./assets/Rectangle 6.png')} className="image1 lg:w-98 lg:h-80 sm:w-120 sm:h-98 w-80 h-60"></img>
                                         </div>
                                     </div>
