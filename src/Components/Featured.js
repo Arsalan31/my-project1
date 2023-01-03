@@ -12,16 +12,6 @@ import './style.css';
 import { Pagination } from "swiper";
 
 function Featured() {
-
-    const feature = [
-        {
-            "title": "Title 1"
-        },
-        {
-            "title": "Title 2"
-        }
-    ]
-
     return (
         <>
             <Swiper pagination={true} modules={[Pagination]} className="mySwiper">

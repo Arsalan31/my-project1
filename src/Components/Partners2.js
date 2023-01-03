@@ -18,6 +18,15 @@ function Partners2(props) {
         swiperRef.current.swiper.slideToLoop(0)
     }, [props.isRtl])
 
+    const feature = [
+        {
+            "title": "Title 1"
+        },
+        {
+            "title": "Title 2"
+        }
+    ]
+
     return (
         <section className="sm:mt-10 lg:mt-0 flex flex-col items-start w-full h-full md:bg-transparent bg-gray-200 flex-none order-2 flex-grow-0">
             <div className="container mt-8 sm:px-16 px-8 pb-6 mx-auto">
@@ -49,7 +58,7 @@ function Partners2(props) {
                                             </p>
                                         </div>
                                         <div class="p-4 lg:w-2/5 lg:px-14 w-full order-1 lg:order-0 flex flex-col">
-                                        <img src={require('./assets/Rectangle 6.png')} className="image1 lg:w-98 lg:h-80 sm:w-120 sm:h-98 w-80 h-60"></img>
+                                            <img src={require('./assets/Rectangle 6.png')} className="image1 lg:w-98 lg:h-80 sm:w-120 sm:h-98 w-80 h-60"></img>
                                         </div>
                                     </div>
                                 </div>
