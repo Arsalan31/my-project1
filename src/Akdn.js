@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Agency from "./Components/Agency";
+import Featured from "./Components/Featured";
 import Hero2 from "./Components/Hero2";
 import Impact from "./Components/Impact";
 import Partners2 from "./Components/Partners2";
@@ -15,6 +16,7 @@ function Akdn() {
                 <Impact isRtl={isRtl} setIsRtl={setIsRtl} />
                 <Partners2 isRtl={isRtl}/>
                 <Agency/>
+                <Featured/>
                 <Subscribe/>
             </div>
         </React.Fragment>
