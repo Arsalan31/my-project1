@@ -339,3 +339,11 @@
   .bg {
     background: #744775
   }
+
+  .swiper-pagination1{
+    width: 40px !important;
+  }
+
+  .swiper-pagination2{
+    width: 40px !important;
+  }
