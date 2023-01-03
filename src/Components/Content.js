@@ -20,7 +20,7 @@ function Content(props) {
 
     return (
 
-        <section className="sm:mt-10 lg:mt-0 flex flex-col items-start w-full h-full md:bg-transparent bg-gray-200 flex-none order-2 flex-grow-0">
+        <section className="sm:mt-10 lg:mt-0 flex flex-col items-start w-full h-full md:bg-transparent flex-none order-2 flex-grow-0">
             <div className="container sm:px-16 px-8 pb-6 mx-auto">
                 <div className="flex flex-wrap justify-center">
                     <>

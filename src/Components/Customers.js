@@ -21,7 +21,7 @@ function Customers(props) {
 
     return (
 
-        <section className="w-full h-full md:bg-transparent bg-gray-200">
+        <section className="w-full h-full md:bg-transparent">
             <div className="container px-16 pb-6 mx-auto blur-3xl">
                 <h1 className="w-full font-bold text-black pt-8 text-center sm:text-4xl text-4xl sm:leading-10 mb-2">Working with a diverse global customer base</h1>
                 <div className="flex justify-center text-center mt-10 mb-10">
@@ -41,12 +41,12 @@ function Customers(props) {
                             }}
                             breakpoints={{
                                 320: {
-                                    slidesPerView: 1,
-                                    spaceBetween: 20,
+                                    slidesPerView: 2,
+                                    spaceBetween: 60,
                                 },
                                 640: {
-                                    slidesPerView: 1,
-                                    spaceBetween: 20,
+                                    slidesPerView: 2,
+                                    spaceBetween: 50,
                                 },
                                 768: {
                                     slidesPerView: 2,

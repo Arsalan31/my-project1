@@ -36,7 +36,7 @@ function Agency() {
                         </div>
                         <div class="sm:p-4 lg:w-1/5 md:w-1/3 w-full sm:w-60 sm:h-36 flex h-20 flex-col sm:text-center items-start sm:items-center sm:border border-b border-gray-300 sm:mb-7">
                             <div class="flex-grow sm:px-6 py-5 sm:block inline-flex">
-                                <img className="2xl:ms-12 xl:ms-8 lg:ms-3 md:ms-7 sm:ms-10 ms-2 sm:-mt-0 sm:w-20 sm:h-15 h-12 w-16 focus:border-transparent" src={require('./assets/Micofinance.png')}></img>
+                                <img className="sm:-mt-0 sm:w-20 sm:h-15 h-12 w-16 focus:border-transparent" src={require('./assets/Micofinance.png')}></img>
                                 <p class="text-xs sm:ms-0 ms-7 flex font-bold w-full sm:mt-0 mt-3">Aga Khan Agency For Microfinance</p>
                             </div>
                         </div>
