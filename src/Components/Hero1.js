@@ -41,9 +41,9 @@ function Hero1(props) {
     };
 
     return (
-        <section className="sm:pb-52 pb-52 lg:pb-0">
+        <section>
             <div className="background2">
-                <div className="container flex flex-wrap mx-auto lg:pt-52 md:pt-32 sm:pt-24 pt-20 justify-center">
+                <div className="container flex flex-wrap mx-auto p-36 lg:pt-52 md:pt-32 sm:pt-24 pt-20 justify-center">
                     <div className="lg:w-1/2 pt-7 w-full">
                         <div className="flex lg:justify-start justify-center">
                             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
