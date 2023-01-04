@@ -52,6 +52,10 @@ function Customers(props) {
                                     slidesPerView: 2,
                                     spaceBetween: 50,
                                 },
+                                460: {
+                                    slidesPerView: 2,
+                                    spaceBetween: 20,
+                                },
                                 640: {
                                     slidesPerView: 2,
                                     spaceBetween: 50,
