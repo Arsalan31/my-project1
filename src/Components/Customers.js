@@ -22,7 +22,7 @@ function Customers(props) {
     return (
 
         <section className="w-full h-full md:bg-transparent">
-            <div className="container px-16 pb-6 mx-auto blur-3xl">
+            <div className="container sm:px-16 px-3 pb-6 mx-auto">
                 <h1 className="w-full font-bold text-black pt-8 text-center sm:text-4xl text-4xl sm:leading-10 mb-2">Working with a diverse global customer base</h1>
                 <div className="flex justify-center text-center mt-10 mb-10">
                     <>
@@ -40,9 +40,17 @@ function Customers(props) {
                                 prevEl: ".swiper-button-prev1"
                             }}
                             breakpoints={{
+                                280: {
+                                    slidesPerView: 1,
+                                    spaceBetween: 20,
+                                },
                                 320: {
                                     slidesPerView: 2,
-                                    spaceBetween: 60,
+                                    spaceBetween: 150,
+                                },
+                                420: {
+                                    slidesPerView: 2,
+                                    spaceBetween: 50,
                                 },
                                 640: {
                                     slidesPerView: 2,
