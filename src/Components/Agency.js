@@ -20,65 +20,65 @@ function Agency() {
                     </div>
                     <div class="flex flex-wrap sm:justify-center justify-start mt-10 ">
                         <div class="sm:p-4 lg:w-1/5 md:w-1/3 w-full sm:w-60 sm:h-36 flex h-20 sm:flex-col sm:text-center items-start sm:items-center sm:border border-b border-gray-300 md:mb-auto sm:mb-7">
-                            <div class="flex-grow sm:px-6 py-5 sm:block inline-flex">
+                            <div class="flex-grow sm:px-6 py-5 sm:flex-col sm:items-center items-start inline-flex">
                                 {/* <div className="aka sm:-mt-0 -mt-8 sm:w-18 sm:h-18 w-18 h-18">
                                 </div> */}
-                                <img className="sm:-ms-0 ms-4 flex justify-center sm:-mt-0 sm:w-18 sm:h-18 h-12 w-12" src={require('./assets/image\ 3.png')}>
+                                <img className="sm:-mt-0 sm:w-18 sm:h-18 h-12 w-12" src={require('./assets/image\ 3.png')}>
                                 </img>
                                 <p className="text-xs sm:hidden sm:ms-0 ms-9 flex font-bold mt-4">Aga Khan Academies</p>
                             </div>
                         </div>
                         <div class="sm:p-4 lg:w-1/5 md:w-1/3 w-full sm:w-60 sm:h-36 flex h-20 sm:flex-col sm:text-center items-start sm:items-center sm:border border-b border-gray-300 md:mb-auto sm:mb-7">
-                            <div class="sm:flex-grow sm:w-auto w-full flex-none sm:block inline-flex sm:px-6 py-5">
-                                <img className="sm:-ms-0 -ms-10 xl:w-40 sm:h-12 sm:w-52 w-40 h-12" src={require('./assets/Screen\ Shot\ 2021-02-27\ at\ 8.14\ 1.jpg')}></img>
+                            <div class="sm:flex-grow sm:w-auto w-full flex-none sm:flex-col sm:items-center items-start inline-flex sm:px-6 py-5">
+                                <img className="xl:w-40 sm:h-12 sm:w-52 w-40 h-12" src={require('./assets/Screen\ Shot\ 2021-02-27\ at\ 8.14\ 1.jpg')}></img>
                                 <p class="text-xs sm:ms-0 -ms-5 font-bold mt-3 sm:w-full">Aga Khan Agency For Habitat</p>
                             </div>
                         </div>
                         <div class="sm:p-4 lg:w-1/5 md:w-1/3 w-full sm:w-60 sm:h-36 flex h-20 flex-col sm:text-center items-start sm:items-center sm:border border-b border-gray-300 sm:mb-7">
-                            <div class="flex-grow sm:px-6 py-5 sm:block inline-flex">
-                                <img className="sm:-mt-0 sm:w-20 sm:h-15 h-12 w-16 focus:border-transparent" src={require('./assets/Micofinance.png')}></img>
+                            <div class="flex-grow sm:px-6 py-5 sm:flex-col sm:items-center items-start inline-flex">
+                                <img className="sm:w-20 sm:h-15 h-12 w-16" src={require('./assets/Micofinance.png')}></img>
                                 <p class="text-xs sm:ms-0 ms-7 flex font-bold w-full sm:mt-0 mt-3">Aga Khan Agency For Microfinance</p>
                             </div>
                         </div>
                         <div class="sm:p-4 lg:w-1/5 md:w-1/3 w-full sm:w-60 sm:h-36 flex h-20 flex-col sm:text-center items-start sm:items-center sm:border border-b border-gray-300 sm:mb-7">
-                            <div class="flex-grow sm:px-6 py-5 sm:block inline-flex">
-                                <img className="sm:-ms-0 -ms-6 sm:h-13 sm:w-36 w-32 h-12" src={require('./assets/Screen\ Shot\ 2021-02-27\ at\ 8.14\ 1\ 3.png')}></img>
+                            <div class="flex-grow sm:px-6 py-5 sm:flex-col sm:items-center items-start inline-flex">
+                                <img className="sm:h-13 sm:w-36 w-32 h-12" src={require('./assets/Screen\ Shot\ 2021-02-27\ at\ 8.14\ 1\ 3.png')}></img>
                                 <p class="text-xs sm:ms-0 -ms-1 font-bold sm:mt-1 mt-3">Aga Khan Education Services</p>
                             </div>
                         </div>
                         <div class="sm:p-4 lg:w-1/5 md:w-1/3 w-full sm:w-60 sm:h-36 flex h-20 flex-col sm:text-center items-start sm:items-center sm:border border-b border-gray-300 sm:mb-7">
-                            <div class="flex-grow sm:px-6 py-3 sm:block inline-flex">
-                                <img className="sm:-ms-0 -ms-8 sm:h-15 sm:w-36 w-36 h-16" src={require('./assets/Screen\ Shot\ 2021-02-27\ at\ 8.15\ 1\ 4.png')}></img>
+                            <div class="flex-grow sm:px-6 py-3 sm:flex-col sm:items-center items-start inline-flex">
+                                <img className="sm:h-15 sm:w-36 w-36 h-16" src={require('./assets/Screen\ Shot\ 2021-02-27\ at\ 8.15\ 1\ 4.png')}></img>
                                 <p class="text-xs sm:-ms-0 -ms-3 sm:mt-1 mt-5 font-bold">Aga Khan Foundation</p>
                             </div>
                         </div>
                         <div class="sm:p-4 lg:w-1/5 md:w-1/3 w-full sm:w-60 sm:h-36 flex h-20 flex-col sm:text-center items-start sm:items-center sm:border border-b border-gray-300 sm:mb-7">
-                            <div class="flex-grow py-6 sm:block inline-flex">
-                                <img className="-ms-5 h-10 w-42 sm:w-44 2xl:ms-12 xl:ms-8 lg:ms-5 md:ms-6 sm:ms-10" src={require('./assets/Screen\ Shot\ 2021-02-27\ at\ 8.14\ 1\ 5.png')}></img>
-                                <p class="text-xs sm:-ms-0 -ms-12 font-bold mt-3">Aga Khan Fund For Economic Development</p>
+                            <div class="flex-grow py-6 sm:flex-col sm:items-center items-start inline-flex">
+                                <img className="h-10 w-42 sm:w-44" src={require('./assets/Screen\ Shot\ 2021-02-27\ at\ 8.14\ 1\ 5.png')}></img>
+                                <p class="text-xs font-bold mt-3">Aga Khan Fund For Economic Development</p>
                             </div>
                         </div>
                         <div class="sm:p-4 lg:w-1/5 md:w-1/3 w-full sm:w-60 sm:h-36 flex h-20 flex-col sm:text-center items-start sm:items-center sm:border border-b border-gray-300 sm:mb-7">
-                            <div class="flex-grow sm:px-6 py-5 sm:block inline-flex">
-                                <img className="xl:ms-8 lg:ms-4 md:ms-8 sm:ms-8 ms-2 sm:-mt-0 sm:w-20 sm:h-15 h-12 w-16" src={require('./assets/aku.png')}></img>
+                            <div class="flex-grow sm:px-6 py-5 sm:flex-col sm:items-center items-start inline-flex">
+                                <img className="sm:w-20 sm:h-15 h-12 w-16" src={require('./assets/aku.png')}></img>
                                 <p class="text-xs sm:ms-0 ms-8 flex font-bold sm:mt-0 mt-4">Aga Khan Health Services</p>
                             </div>
                         </div>
                         <div class="sm:p-4 lg:w-1/5 md:w-1/3 w-full sm:w-60 sm:h-36 flex h-20 flex-col sm:text-center items-start sm:items-center sm:border border-b border-gray-300 sm:mb-7">
-                            <div class="flex-grow sm:px-6 py-5 sm:block inline-flex">
-                                <img className="xl:ms-7 lg:ms-2 md:ms-6 sm:ms-9 ms-1 sm:w-20 sm:h-15 h-12 w-16" src={require('./assets/aktc.png')}></img>
+                            <div class="flex-grow sm:px-6 py-5 sm:flex-col sm:items-center items-start inline-flex">
+                                <img className="sm:w-20 sm:h-15 h-12 w-16" src={require('./assets/aktc.png')}></img>
                                 <p class="text-xs sm:ms-0 ms-9 flex font-bold sm:mt-0 mt-3">Aga Khan Trust for Culture</p>
                             </div>
                         </div>
                         <div class="sm:p-4 lg:w-1/5 md:w-1/3 w-full sm:w-60 sm:h-36 flex h-20 flex-col sm:text-center items-start sm:items-center sm:border border-b border-gray-300 sm:mb-7">
-                            <div class="flex-grow sm:px-6 py-3 sm:block inline-flex">
-                                <img className="ms-2 xl:ms-8 lg:ms-3 md:ms-8 sm:ms-10 h-12 w-16 sm:h-16 sm:w-20" src={require('./assets/Screen\ Shot\ 2021-02-27\ at\ 8.14\ 1\ 8.png')}></img>
+                            <div class="flex-grow sm:px-6 py-3 sm:flex-col sm:items-center items-start inline-flex">
+                                <img className="h-12 w-16 sm:h-16 sm:w-20" src={require('./assets/Screen\ Shot\ 2021-02-27\ at\ 8.14\ 1\ 8.png')}></img>
                                 <p class="text-xs font-bold uppercase sm:ms-0 ms-8 sm:mt-1 mt-5">The Aga Khan University</p>
                             </div>
                         </div>
                         <div class="sm:p-4 lg:w-1/5 md:w-1/3 w-full sm:w-60 sm:h-36 flex h-20 flex-col sm:text-center items-start sm:items-center sm:border border-b border-gray-300 sm:mb-7">
-                            <div class="flex-grow sm:px-6 py-3 sm:block inline-flex">
-                                <img className="ms-2 h-12 w-16 sm:w-14 sm:h-14 xl:ms-12 lg:ms-6 md:ms-10 sm:ms-14" src={require('./assets/Screen\ Shot\ 2021-02-27\ at\ 8.14\ 1\ 9.png')}></img>
+                            <div class="flex-grow sm:px-6 py-3 sm:flex-col sm:items-center items-start inline-flex">
+                                <img className="h-12 w-16 sm:w-14 sm:h-14" src={require('./assets/Screen\ Shot\ 2021-02-27\ at\ 8.14\ 1\ 9.png')}></img>
                                 <p class="text-xs sm:ms-0 ms-8 sm:mt-3 font-bold uppercase mt-4">University Of Central Asia</p>
                             </div>
                         </div>
