@@ -4,7 +4,7 @@ function Subscribe() {
     return (
         <section>
             <div className="mx-auto bg-white">
-                <div className="bg-purple-50 sm:p-20 p-10">
+                <div className="bg-purple-50 sm:p-20 p-10 rounded-ts-7xl rounded-te-3xl rounded-bs-3xl rounded-be-3xl">
                     <h3 className="text-center text-3xl text-purple-650 font-semibold">Subscribe to get information, latest news and other
                         <br />
                         interesting offers about WindTravel</h3>

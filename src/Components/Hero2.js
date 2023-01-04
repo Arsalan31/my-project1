@@ -6,7 +6,7 @@ function Hero2() {
     return (
         <section>
             <div className="mx-auto bg-white">
-                <div className="bg p-12 pt-32">
+                <div className="bg p-12 pt-32 lg:rounded-ts-3xl px-16 lg:rounded-te-3xl lg:rounded-bs-3xl lg:rounded-be-7xl">
                     <h3 className="sm:text-6xl text-4xl leading-12 lg:w-2/3 w-full lg:text-start text-center text-white font-semibold">Practice your Photography skills with ease</h3>
                     <div className="flex lg:flex-nowrap flex-wrap">
                         <div className="lg:w-3/4 w-full">
