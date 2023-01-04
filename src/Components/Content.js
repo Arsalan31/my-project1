@@ -21,7 +21,7 @@ function Content(props) {
     return (
 
         <section className="sm:mt-10 lg:mt-0 flex flex-col items-start w-full h-full md:bg-transparent flex-none order-2 flex-grow-0">
-            <div className="container sm:px-16 px-8 pb-6 mx-auto">
+            <div className="container sm:px-16 pb-6 mx-auto sm:pt-0 pt-40">
                 <div className="flex flex-wrap justify-center">
                     <>
                         <Swiper
@@ -46,8 +46,8 @@ function Content(props) {
                                         </div>
                                         <div class="p-4 lg:w-1/2 lg:px-22 w-full order-0 lg:order-1 flex flex-col text-center">
                                             <div className="image lg:self-end self-center lg:mt-24"></div>
-                                            <h1 className="w-full font-bold text-black mt-8 lg:text-end text-center md:text-4xl text-2xl md:leading-10 mb-2">is a leading provider of digital marketing services</h1>
-                                            <p className="w-full mt-10 font-normal md:text-base text-sm lg:text-end text-center text-hex lg:mb-20">Using proprietary tools and we run thousands of simultaneous self-funded
+                                            <h1 className="w-full font-bold text-black mt-8 lg:text-end text-center md:text-4xl text-2xl md:leading-10 mb-2 px-4">is a leading provider of digital marketing services</h1>
+                                            <p className="w-full mt-10 font-normal md:text-base text-sm lg:text-end text-center text-hex lg:mb-20 px-4">Using proprietary tools and we run thousands of simultaneous self-funded
                                                 campaigns across different platforms such as paid search, social advertising,
                                                 mobile and video ads and many more. The campaigns either support our
                                                 publishing assets or (in most cases) direct users directly to our clients.</p>
@@ -63,8 +63,8 @@ function Content(props) {
                                         </div>
                                         <div class="p-4 lg:w-1/2 lg:px-22 w-full order-0 lg:order-1 flex flex-col text-center">
                                             <div className="image lg:self-end self-center lg:mt-24"></div>
-                                            <h1 className="w-full font-bold text-black mt-8 lg:text-end text-center md:text-4xl text-2xl md:leading-10 mb-2">Creativity & Technology</h1>
-                                            <p className="w-full mt-10 font-normal md:text-base text-sm lg:text-end text-center text-hex lg:mb-20">Some networks believe that by only offering a basic tracking system their affiliates can reach a high level of creativity. We like to set the bar a lot higher by offering you cutting-edge tech solutions together with a team of creative experts on-call with the tools you need based on real-time results</p>
+                                            <h1 className="w-full font-bold text-black mt-8 lg:text-end text-center md:text-4xl text-2xl md:leading-10 mb-2 px-4">Creativity & Technology</h1>
+                                            <p className="w-full mt-10 font-normal md:text-base text-sm lg:text-end text-center text-hex lg:mb-20 px-4">Some networks believe that by only offering a basic tracking system their affiliates can reach a high level of creativity. We like to set the bar a lot higher by offering you cutting-edge tech solutions together with a team of creative experts on-call with the tools you need based on real-time results</p>
                                         </div>
                                     </div>
                                 </div>
@@ -77,8 +77,8 @@ function Content(props) {
                                         </div>
                                         <div class="p-4 lg:w-1/2 lg:px-22 w-full order-0 lg:order-1 flex flex-col text-center">
                                             <div className="image lg:self-end self-center lg:mt-24"></div>
-                                            <h1 className="w-full font-bold text-black mt-8 lg:text-end text-center md:text-4xl text-2xl md:leading-10 mb-2">Title Three</h1>
-                                            <p className="w-full mt-10 font-normal md:text-base text-sm lg:text-end text-center text-hex lg:mb-20">Some networks believe that by only offering a basic tracking system their affiliates can reach a high level of creativity. We like to set the bar a lot higher by offering you cutting-edge tech solutions together with a team of creative experts on-call with the tools you need based on real-time results</p>
+                                            <h1 className="w-full font-bold text-black mt-8 lg:text-end text-center md:text-4xl text-2xl md:leading-10 mb-2 px-4">Title Three</h1>
+                                            <p className="w-full mt-10 font-normal md:text-base text-sm lg:text-end text-center text-hex lg:mb-20 px-4">Some networks believe that by only offering a basic tracking system their affiliates can reach a high level of creativity. We like to set the bar a lot higher by offering you cutting-edge tech solutions together with a team of creative experts on-call with the tools you need based on real-time results</p>
                                         </div>
                                     </div>
                                 </div>
