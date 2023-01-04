@@ -42,12 +42,12 @@ function Content(props) {
                                 <div className="flex flex-col flex-none flex-grow-0 text-center w-full mb-20">
                                     <div class="flex flex-wrap lg:-m-4 -mx-4 -mb-10 lg:space-y-0 space-y-6">
                                         <div class="p-4 lg:w-1/2 lg:px-14 w-full order-1 lg:order-0 flex flex-col lg:items-start items-center">
-                                            <div className="image1 lg:w-100 lg:h-92 sm:w-120 sm:h-98 w-80 h-60 lg:mt-36"></div>
+                                            <img src={require('./assets/image.png')} className="lg:w-100 lg:h-92 sm:w-120 sm:h-98 w-80 h-60 lg:mt-36"></img>
                                         </div>
                                         <div class="p-4 lg:w-1/2 lg:px-22 w-full order-0 lg:order-1 flex flex-col text-center">
                                             <div className="image lg:self-end self-center lg:mt-24"></div>
-                                            <h1 className="w-full font-bold text-black mt-8 lg:text-end text-center md:text-4xl text-2xl md:leading-10 mb-2 px-4">is a leading provider of digital marketing services</h1>
-                                            <p className="w-full mt-10 font-normal md:text-base text-sm lg:text-end text-center text-hex lg:mb-20 px-4">Using proprietary tools and we run thousands of simultaneous self-funded
+                                            <h1 className="w-full font-bold text-black mt-8 lg:text-end text-center md:text-4xl text-2xl md:leading-10 mb-2 lg:px-0 px-4">is a leading provider of digital marketing services</h1>
+                                            <p className="w-full mt-10 font-normal md:text-base text-sm lg:text-end text-center text-hex lg:mb-20 lg:px-0 px-4">Using proprietary tools and we run thousands of simultaneous self-funded
                                                 campaigns across different platforms such as paid search, social advertising,
                                                 mobile and video ads and many more. The campaigns either support our
                                                 publishing assets or (in most cases) direct users directly to our clients.</p>
@@ -59,12 +59,12 @@ function Content(props) {
                                 <div className="flex flex-col flex-none flex-grow-0 order-0 lg:order-1 text-center w-full mb-20">
                                     <div class="flex flex-wrap lg:-m-4 -mx-4 -mb-10 lg:space-y-0 space-y-6">
                                         <div class="p-4 lg:w-1/2 lg:px-14 w-full order-1 lg:order-0 flex flex-col lg:items-start items-center">
-                                            <div className="image1 lg:w-100 lg:h-92 sm:w-120 sm:h-98 w-80 h-60 lg:mt-36"></div>
+                                            <img src={require('./assets/image.png')} className="image1 lg:w-100 lg:h-92 sm:w-120 sm:h-98 w-80 h-60 lg:mt-36"></img>
                                         </div>
                                         <div class="p-4 lg:w-1/2 lg:px-22 w-full order-0 lg:order-1 flex flex-col text-center">
                                             <div className="image lg:self-end self-center lg:mt-24"></div>
-                                            <h1 className="w-full font-bold text-black mt-8 lg:text-end text-center md:text-4xl text-2xl md:leading-10 mb-2 px-4">Creativity & Technology</h1>
-                                            <p className="w-full mt-10 font-normal md:text-base text-sm lg:text-end text-center text-hex lg:mb-20 px-4">Some networks believe that by only offering a basic tracking system their affiliates can reach a high level of creativity. We like to set the bar a lot higher by offering you cutting-edge tech solutions together with a team of creative experts on-call with the tools you need based on real-time results</p>
+                                            <h1 className="w-full font-bold text-black mt-8 lg:text-end text-center md:text-4xl text-2xl md:leading-10 mb-2 lg:px-0 px-4">Creativity & Technology</h1>
+                                            <p className="w-full mt-10 font-normal md:text-base text-sm lg:text-end text-center text-hex lg:mb-20 lg:px-0 px-4">Some networks believe that by only offering a basic tracking system their affiliates can reach a high level of creativity. We like to set the bar a lot higher by offering you cutting-edge tech solutions together with a team of creative experts on-call with the tools you need based on real-time results</p>
                                         </div>
                                     </div>
                                 </div>
@@ -73,12 +73,12 @@ function Content(props) {
                                 <div className="flex flex-col flex-none flex-grow-0 order-0 lg:order-1 text-center w-full mb-20">
                                     <div class="flex flex-wrap lg:-m-4 -mx-4 -mb-10 lg:space-y-0 space-y-6">
                                         <div class="p-4 lg:w-1/2 lg:px-14 w-full order-1 lg:order-0 flex flex-col lg:items-start items-center">
-                                            <div className="image1 lg:w-100 lg:h-92 sm:w-120 sm:h-98 w-80 h-60 lg:mt-36"></div>
+                                            <img src={require('./assets/image.png')} className="lg:w-100 lg:h-92 sm:w-120 sm:h-98 w-80 h-60 lg:mt-36"></img>
                                         </div>
                                         <div class="p-4 lg:w-1/2 lg:px-22 w-full order-0 lg:order-1 flex flex-col text-center">
                                             <div className="image lg:self-end self-center lg:mt-24"></div>
-                                            <h1 className="w-full font-bold text-black mt-8 lg:text-end text-center md:text-4xl text-2xl md:leading-10 mb-2 px-4">Title Three</h1>
-                                            <p className="w-full mt-10 font-normal md:text-base text-sm lg:text-end text-center text-hex lg:mb-20 px-4">Some networks believe that by only offering a basic tracking system their affiliates can reach a high level of creativity. We like to set the bar a lot higher by offering you cutting-edge tech solutions together with a team of creative experts on-call with the tools you need based on real-time results</p>
+                                            <h1 className="w-full font-bold text-black mt-8 lg:text-end text-center md:text-4xl text-2xl md:leading-10 mb-2 lg:px-0 px-4">Title Three</h1>
+                                            <p className="w-full mt-10 font-normal md:text-base text-sm lg:text-end text-center text-hex lg:mb-20 lg:px-0 px-4">Some networks believe that by only offering a basic tracking system their affiliates can reach a high level of creativity. We like to set the bar a lot higher by offering you cutting-edge tech solutions together with a team of creative experts on-call with the tools you need based on real-time results</p>
                                         </div>
                                     </div>
                                 </div>
