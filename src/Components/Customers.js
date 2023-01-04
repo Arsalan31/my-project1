@@ -52,9 +52,9 @@ function Customers(props) {
                                     slidesPerView: 2,
                                     spaceBetween: 50,
                                 },
-                                460: {
+                                540: {
                                     slidesPerView: 2,
-                                    spaceBetween: 20,
+                                    spaceBetween: -60,
                                 },
                                 640: {
                                     slidesPerView: 2,
