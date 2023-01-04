@@ -30,7 +30,7 @@ function Customers(props) {
                             slidesPerView={4}
                             spaceBetween={30}
                             ref={swiperRef}
-                            loop={true}
+                            // loop={true}
                             pagination={{
                                 el: '.swiper-pagination2',
                                 type: 'fraction',
