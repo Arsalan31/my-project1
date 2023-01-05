@@ -28,7 +28,7 @@ function Agency() {
                                 <p className="text-xs sm:hidden sm:ms-0 ms-9 flex font-bold mt-4">Aga Khan Academies</p>
                             </div>
                         </div>
-                        <div class="sm:p-4 lg:w-1/5 md:w-1/3 w-full sm:w-60 sm:h-36 flex h-20 sm:flex-col sm:text-center items-start sm:items-center sm:border border-b border-gray-300 md:mb-auto sm:mb-7">
+                        <div class="sm:p-4 lg:w-1/5 md:w-1/3 w-full sm:w-60 sm:h-36 flex h-20 flex-col sm:text-center items-start sm:items-center sm:border border-b border-gray-300 md:mb-auto sm:mb-7">
                             <div class="sm:flex-grow sm:w-auto w-full flex-none sm:flex-col sm:items-center items-start inline-flex sm:px-6 py-5">
                                 <img className="xl:w-24 sm:h-12 sm:w-20 w-20 h-12" src={require('./assets/Screen Shot 2021-02-27 at 8.14 1.png')}></img>
                                 <p class="text-xs sm:ms-0 -ms-5 font-bold mt-3 sm:w-full">Aga Khan Agency For Habitat</p>
@@ -72,13 +72,13 @@ function Agency() {
                         </div>
                         <div class="sm:p-4 lg:w-1/5 md:w-1/3 w-full sm:w-60 sm:h-36 flex h-20 flex-col sm:text-center items-start sm:items-center sm:border border-b border-gray-300 sm:mb-7">
                             <div class="flex-grow sm:px-6 py-3 sm:flex-col sm:items-center items-start inline-flex">
-                                <img className="h-12 w-20 sm:h-16 sm:w-20" src={require('./assets/Screen\ Shot\ 2021-02-27\ at\ 8.14\ 1\ 8.png')}></img>
+                                <img className="h-12 w-20 sm:h-16 sm:w-20" src={require('./assets/Screen Shot 2021-02-27 at 8.14 6.png')}></img>
                                 <p class="text-xs font-bold uppercase sm:ms-0 ms-8 sm:mt-1 mt-5">The Aga Khan University</p>
                             </div>
                         </div>
                         <div class="sm:p-4 lg:w-1/5 md:w-1/3 w-full sm:w-60 sm:h-36 flex h-20 flex-col sm:text-center items-start sm:items-center sm:border border-b border-gray-300 sm:mb-7">
                             <div class="flex-grow sm:px-6 py-3 sm:flex-col sm:items-center items-start inline-flex">
-                                <img className="h-12 w-20 sm:w-14 sm:h-14" src={require('./assets/Screen\ Shot\ 2021-02-27\ at\ 8.14\ 1\ 9.png')}></img>
+                                <img className="h-12 w-20 sm:w-14 sm:h-14" src={require('./assets/Screen Shot 2021-02-27 at 8.14 7.png')}></img>
                                 <p class="text-xs sm:ms-0 ms-8 sm:mt-3 font-bold uppercase mt-4">University Of Central Asia</p>
                             </div>
                         </div>
