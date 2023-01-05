@@ -342,3 +342,7 @@
   .swiper-pagination2{
     width: 40px !important;
   }
+
+  .swiper-pagination-bullet-active{
+    background: black !important;
+  }
