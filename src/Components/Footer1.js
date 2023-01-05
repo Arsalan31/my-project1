@@ -15,7 +15,7 @@ function Footer() {
           </svg>
         </div>
         <div className="lg:w-2/3 mt-3 w-full">
-          <div className="flex flex-wrap lg:justify-end justify-center">
+          <div className="flex flex-wrap lg:justify-end sm:px-0 px-4 justify-center">
             <a href="Udix" className="cursor-pointer block py-3 sm:pe-4 pe-1 sm:ps-4 ps-2 text-black font-semibold text-sm fon uppercase rounded md:bg-transparent focus-within: dark:text-white" aria-current="page">Home</a>
             <a href="#Pricing" className="cursor-pointer block py-3 sm:pe-4 pe-1 sm:ps-4 ps-2 text-black font-semibold text-sm uppercase rounded md:hover:bg-transparent md:border-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">Blog</a>
             <a href="#Partners" className="cursor-pointer block py-3 sm:pe-4 pe-1 sm:ps-4 ps-2 text-black font-semibold text-sm uppercase rounded md:hover:bg-transparent md:border-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">Product</a>
