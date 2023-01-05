@@ -21,8 +21,8 @@ function Footer() {
             <a href="#Partners" className="cursor-pointer block py-3 sm:pe-4 pe-1 sm:ps-4 ps-2 text-black font-semibold text-sm uppercase rounded md:hover:bg-transparent md:border-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">Product</a>
             <a href="#Contact" className="cursor-pointer block py-3 sm:pe-4 pe-1 sm:ps-4 ps-2 font-semibold text-sm uppercase text-black rounded md:hover:bg-transparent md:border-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">Contacts</a>
             <div className="lg:ms-20 lg:me-16">
-              <button className="text-indigo-700 uppercase text-sm py-3 px-7 font-bold">SIGN IN</button>
-              <button className="text-indigo-700 uppercase text-sm sm:px-7 font-bold sm:ms-5 border-indigo-700 border-2 px-6 py-2">SIGN UP</button>
+              <button className="text-indigo-700 uppercase text-sm py-3 sm:px-2 px-7 font-bold">SIGN IN</button>
+              <button className="text-indigo-700 uppercase text-sm sm:px-5 font-bold sm:ms-5 border-indigo-700 border-2 px-6 py-2">SIGN UP</button>
             </div>
           </div>
         </div>
