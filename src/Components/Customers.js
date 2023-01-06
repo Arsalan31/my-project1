@@ -29,7 +29,7 @@ function Customers(props) {
                         <Swiper
                             slidesPerView = "auto"
                             spaceBetween={30}
-                            slidesPerGroup = {2}
+                            slidesPerGroup = {1}
                             ref={swiperRef}
                             loop={true}
                             pagination={{
