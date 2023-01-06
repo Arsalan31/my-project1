@@ -100,20 +100,20 @@ function Hero1(props) {
                                     <input type="email" id="email" name="email" placeholder="Company Name" className="w-full h-14 placeholder-gray-400 border border-gray-200 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
                                 </div>
                                 <div className="flex">
-                                    <div>
+                                    <div className="w-7/12">
                                         <button className="text-white  font-bold text-base leading-5 bg-indigo-650 border-0 py-3 px-4 w-28 h-14 sm:w-32 sm:h-14 focus:outline-none hover:bg-indigo-700">Sign Up</button>
-                                        {/* <div className="sm:hidden flex relative justify-end content h-20 w-20">
-                                    </div> */}
                                         <h6 className="flex text-gray-600 mt-5">Support:<h6 className="text-indigo-650 ms-2">help@udix.com</h6></h6>
                                     </div>
-                                    <div className="sm:hidden flex relative sm:end-0 end-5 justify-end content h-10 w-10 sm:h-20 sm:w-20">
+                                    <div className="w-1/2 flex justify-end">
+                                        <img src={require('./assets/1.png')} className="sm:hidden flex items-end h-20 w-20">
+                                        </img>
                                     </div>
                                 </div>
                             </div>
                             <div className="sm:w-1/6 sm:flex hidden ms-8 mx-3 my-5 bg-indigo-700 opacity-5 ">
                             </div>
-                            <div className="sm:flex hidden relative -end-1 -bottom-96  items-end content sm:h-32 sm:w-32 h-20 w-40 sm:-ms-36">
-                            </div>
+                            <img src={require('./assets/1.png')} className="sm:flex hidden relative -end-1 -bottom-96  items-end sm:h-32 sm:w-32 sm:-ms-36">
+                            </img>
                         </div>
                     </div>
                 </div>

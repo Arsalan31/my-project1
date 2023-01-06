@@ -230,12 +230,6 @@
     }
   }
 
-  .content {
-    background-image: url(assets/1.png);
-    background-size: cover;
-  }
-
-
   @media screen and (max-width: 768px) {
 
     .list {
