@@ -40,14 +40,32 @@
       #ffffff 100%);
   }
 
+  [dir="rtl"] .background2{
+    background: linear-gradient(to bottom,
+      #381DDB 0%,
+      #381DDB 70%,
+      #ffffff 50%,
+      #ffffff 100%);
+    }
+  
+
   @media screen and (min-width: 1024px) {
     .background2 {
       background: linear-gradient(to right,
       #381DDB 0%,
-      #381DDB 60%,
+      #381DDB 70%,
       #ffffff 50%,
       #ffffff 100%);
     }
+
+    [dir="rtl"] .background2{
+      background: linear-gradient(to left,
+        #381DDB 0%,
+        #381DDB 70%,
+        #ffffff 50%,
+        #ffffff 100%);
+      }
+    
   }
 
   .switch {

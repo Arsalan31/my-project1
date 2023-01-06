@@ -59,7 +59,7 @@ function Content(props) {
                                 <div className="flex flex-col flex-none flex-grow-0 order-0 lg:order-1 text-center w-full">
                                     <div class="flex flex-wrap lg:-m-4 -mx-4 -mb-10 lg:space-y-0 space-y-6">
                                         <div class="p-4 lg:w-1/2 lg:px-14 w-full order-1 lg:order-0 flex flex-col lg:items-start items-center">
-                                            <img src={require('./assets/image.png')} className="image1 lg:w-100 lg:h-92 sm:w-120 sm:h-98 w-80 h-60 lg:mt-36"></img>
+                                            <img src={require('./assets/image.png')} className="image1 lg:w-100 lg:h-92 sm:w-120 sm:h-98 w-80 h-60 lg:mt-36 mt-5"></img>
                                         </div>
                                         <div class="p-4 lg:w-1/2 lg:px-22 w-full order-0 lg:order-1 flex flex-col text-center">
                                             <div className="image lg:self-end self-center lg:mt-24"></div>
@@ -73,7 +73,7 @@ function Content(props) {
                                 <div className="flex flex-col flex-none flex-grow-0 order-0 lg:order-1 text-center w-full">
                                     <div class="flex flex-wrap lg:-m-4 -mx-4 -mb-10 lg:space-y-0 space-y-6">
                                         <div class="p-4 lg:w-1/2 lg:px-14 w-full order-1 lg:order-0 flex flex-col lg:items-start items-center">
-                                            <img src={require('./assets/image.png')} className="lg:w-100 lg:h-92 sm:w-120 sm:h-98 w-80 h-60 lg:mt-36 flex"></img>
+                                            <img src={require('./assets/image.png')} className="lg:w-100 lg:h-92 sm:w-120 sm:h-98 w-80 h-60 lg:mt-36 mt-5"></img>
                                         </div>
                                         <div class="p-4 lg:w-1/2 lg:px-22 w-full order-0 lg:order-1 flex flex-col text-center">
                                             <div className="image lg:self-end self-center lg:mt-24"></div>
@@ -85,7 +85,7 @@ function Content(props) {
                             </SwiperSlide>
                         </Swiper>
                     </>
-                    <div className="flex w-full lg:justify-end lg:order-2 order-1 justify-center text-gray-400 md:text-gray-400">
+                    <div className="flex w-full lg:justify-end lg:order-2 order-1 justify-center text-gray-400 md:text-gray-400 mt-6">
                         <button className="swiper-button-prev focus:outline-none"><svg xmlns="http://www.w3.org/2000/svg" className="me-3" width="60" height="30" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
                             <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
                         </svg></button>
