@@ -33,7 +33,11 @@
     background-size: cover;
     background-position: center;
     margin: auto; */
-    background: #381DDB;
+    background: linear-gradient(to bottom,
+      #381DDB 0%,
+      #381DDB 70%,
+      #ffffff 50%,
+      #ffffff 100%);
   }
 
   @media screen and (min-width: 1024px) {
