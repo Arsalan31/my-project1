@@ -56,7 +56,7 @@ function Partners2(props) {
                                             <p className="w-full mt-10 font-normal md:text-base text-sm text-start text-hex mb-5">The Tanzania Comprehensive Cancer Care Project (TCCP) is a €13.3 million private-public four-year evidence-based project funded by Agence Française de Développement (AFD) and Aga Khan Foundation (AKF). It aims to strengthen and expand the quality, access, and capacity of cancer care services across the cancer continuum in Dar es Salaam and Mwanza regions of Tanzania.
                                                 <p className="text-gray-300 text-start">The project is a joint initiative led by the Aga Khan Health Services Tanzania (AKHST) together with the Aga Khan Foundation Tanzania (AKFT), </p>
                                             </p>
-                                            <button className="flex justify-center">
+                                            <button className="flex justify-center focus:outline-none">
                                                 <svg width="27" height="12" viewBox="0 0 27 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M2 2L13.6575 10L25 2" stroke="#131313" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
                                                 </svg>
@@ -76,7 +76,7 @@ function Partners2(props) {
                                             <p className="w-full mt-10 font-normal md:text-base text-sm text-start text-hex mb-5">The Tanzania Comprehensive Cancer Care Project (TCCP) is a €13.3 million private-public four-year evidence-based project funded by Agence Française de Développement (AFD) and Aga Khan Foundation (AKF). It aims to strengthen and expand the quality, access, and capacity of cancer care services across the cancer continuum in Dar es Salaam and Mwanza regions of Tanzania.
                                                 <p className="text-gray-300 text-start">The project is a joint initiative led by the Aga Khan Health Services Tanzania (AKHST) together with the Aga Khan Foundation Tanzania (AKFT), </p>
                                             </p>
-                                            <button className="flex justify-center">
+                                            <button className="flex justify-center focus:outline-none">
                                                 <svg width="27" height="12" viewBox="0 0 27 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M2 2L13.6575 10L25 2" stroke="#131313" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
                                                 </svg>
@@ -96,7 +96,7 @@ function Partners2(props) {
                                             <p className="w-full mt-10 font-normal md:text-base text-sm text-start text-hex mb-5">The Tanzania Comprehensive Cancer Care Project (TCCP) is a €13.3 million private-public four-year evidence-based project funded by Agence Française de Développement (AFD) and Aga Khan Foundation (AKF). It aims to strengthen and expand the quality, access, and capacity of cancer care services across the cancer continuum in Dar es Salaam and Mwanza regions of Tanzania.
                                                 <p className="text-gray-300 text-start">The project is a joint initiative led by the Aga Khan Health Services Tanzania (AKHST) together with the Aga Khan Foundation Tanzania (AKFT), </p>
                                             </p>
-                                            <button className="flex justify-center">
+                                            <button className="flex justify-center focus:outline-none">
                                                 <svg width="27" height="12" viewBox="0 0 27 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M2 2L13.6575 10L25 2" stroke="#131313" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
                                                 </svg>
@@ -110,14 +110,22 @@ function Partners2(props) {
                             </SwiperSlide>
                         </Swiper>
                     </>
-                    <div className="lg:hidden flex w-full lg:order-2 order-1 justify-center">
-                        {/* <button className="swiper-button-prev focus:outline-none"><svg xmlns="http://www.w3.org/2000/svg" className="me-3" width="60" height="30" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
-                        </svg></button> */}
-                        <div class="swiper-pagination1 justify-center text-red-500"></div>
-                        {/* <button className="swiper-button-next focus:outline-none"><svg xmlns="http://www.w3.org/2000/svg" className="ms-3" width="60" height="30" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
-                        </svg></button> */}
+                    <div className="w-full lg:block flex lg:justify-evenly justify-center lg:order-2 order-1 lg:gap-3 lg:absolute">
+                        <div className="lg:flex hidden justify-start absolute">
+                            <button className="swiper-button-prev text-white bg-red-500 focus:outline-none px-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" className="me-3" width="20" height="40" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="lg:hidden flex swiper-pagination1 justify-center text-red-500"></div>
+                        <div className="lg:flex hidden justify-end">
+                            <button className="swiper-button-next text-white bg-red-500 focus:outline-none px-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" className="ms-3" width="20" height="40" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                </svg>
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
