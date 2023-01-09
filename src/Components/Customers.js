@@ -22,7 +22,7 @@ function Customers(props) {
     return (
 
         <section className="w-full h-full md:bg-transparent">
-            <div className="container xl:px-16 lg:px-32 md:px-40 sm:px-20 px-3 pb-6 mx-auto">
+            <div className="container xl:px-28 lg:px-16 md:px-40 sm:px-20 px-3 pb-6 mx-auto">
                 <h1 className="w-full font-bold text-black pt-8 text-center sm:text-4xl text-4xl sm:leading-10 mb-2">Working with a diverse global customer base</h1>
                 <div className="flex justify-center items-center text-center mt-10 mb-10">
                     <>
@@ -40,6 +40,7 @@ function Customers(props) {
                                 nextEl: ".swiper-button-next1",
                                 prevEl: ".swiper-button-prev1"
                             }}
+                            loopPreventsSlide='true'
                             breakpoints={{
                                 280: {
                                     slidesPerView: 1,
@@ -71,44 +72,50 @@ function Customers(props) {
                                 },
                                 1280: {
                                     slidesPerView: 4,
-                                    spaceBetween: 30,
+                                    spaceBetween: 5,
                                 },
                             }}
                             modules={[Pagination, Navigation]}
                             className="swiper1">
                             <SwiperSlide>
-                                <div class="flex px-5 xl:w-52 xl:h-28 lg:w-32 lg:h-16 items-center justify-center bg-gray-100">
-                                    <img src={require('./assets/Group 687.png')} className="w-52 h-20"></img>
+                                <div class="flex px-5 xl:w-56 xl:h-20 lg:w-40 lg:h-16 md:w-28 md:h-12 items-center justify-center bg-gray-100">
+                                    <img src={require('./assets/Group 687.png')} className="w-52 h-18"></img>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <div class="flex px-5 xl:w-56 xl:h-28 lg:w-32 lg:h-16 items-center justify-center bg-gray-100">
-                                    <img src={require('./assets/Group 688.png')} className="w-52 h-20"></img>                                   </div>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <div class="flex px-5 xl:w-56 xl:h-28 lg:w-32 lg:h-16 items-center justify-center bg-gray-100">
-                                    <img src={require('./assets/Group 689.png')} className="w-52 h-20"></img>                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <div class="flex px-5 xl:w-56 xl:h-28 lg:w-32 lg:h-16 items-center justify-center bg-gray-100">
-                                    <img src={require('./assets/Group 690.png')} className="w-52 h-20"></img>                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <div class="flex px-5 xl:w-56 xl:h-28 lg:w-32 lg:h-16 items-center justify-center bg-gray-100">
-                                    <img src={require('./assets/Group 688.png')} className="w-52 h-20"></img>
+                                <div class="flex px-5 xl:w-56 xl:h-20 lg:w-40 lg:h-16 md:w-28 md:h-12 items-center justify-center bg-gray-100">
+                                    <img src={require('./assets/Group 688.png')} className="w-48 h-18"></img>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <div class="flex px-5 xl:w-56 xl:h-28 lg:w-32 lg:h-16 items-center justify-center bg-gray-100">
-                                    <img src={require('./assets/Group 687.png')} className="w-52 h-20"></img>                                </div>
+                                <div class="flex px-5 xl:w-56 xl:h-20 lg:w-40 lg:h-16 md:w-28 md:h-12 items-center justify-center bg-gray-100">
+                                    <img src={require('./assets/Group 689.png')} className="w-48 h-18"></img>
+                                </div>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <div class="flex px-5 xl:w-56 xl:h-28 lg:w-32 lg:h-16 items-center justify-center bg-gray-100">
-                                    <img src={require('./assets/Group 692.png')} className="w-52 h-20"></img>                                </div>
+                                <div class="flex px-5 xl:w-56 xl:h-20 lg:w-40 lg:h-16 md:w-28 md:h-12 items-center justify-center bg-gray-100">
+                                    <img src={require('./assets/Group 690.png')} className="w-48 h-18"></img>
+                                </div>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <div class="flex px-5 xl:w-56 xl:h-28 lg:w-32 lg:h-16 items-center justify-center bg-gray-100">
-                                    <img src={require('./assets/Group 691.png')} className="w-52 h-20"></img>                                </div>
+                                <div class="flex px-5 xl:w-56 xl:h-20 lg:w-40 lg:h-16 md:w-28 md:h-12 items-center justify-center bg-gray-100">
+                                    <img src={require('./assets/Group 691.png')} className="w-48 h-18"></img>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div class="flex px-5 xl:w-56 xl:h-20 lg:w-40 lg:h-16 md:w-28 md:h-12 items-center justify-center bg-gray-100">
+                                    <img src={require('./assets/Group 687.png')} className="w-48 h-18"></img>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div class="flex px-5 xl:w-56 xl:h-20 lg:w-40 lg:h-16 md:w-28 md:h-12 items-center justify-center bg-gray-100">
+                                    <img src={require('./assets/Group 691.png')} className="w-48 h-18"></img>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div class="flex px-5 xl:w-56 xl:h-20 lg:w-40 lg:h-16 md:w-28 md:h-12 items-center justify-center bg-gray-100">
+                                    <img src={require('./assets/Group 692.png')} className="w-48 h-18"></img>
+                                </div>
                             </SwiperSlide>
                         </Swiper>
                     </>
