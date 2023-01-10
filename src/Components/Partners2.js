@@ -111,7 +111,7 @@ function Partners2(props) {
                         </Swiper>
                     </>
                     <div className="w-full lg:block flex lg:justify-evenly justify-center lg:order-2 order-1 lg:gap-3 lg:absolute">
-                        <div className="lg:flex hidden justify-start absolute">
+                        <div className="lg:flex hidden justify-start -bottom-36 start-8 absolute">
                             <button className="swiper-button-prev text-white bg-red-500 focus:outline-none px-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" className="me-3" width="20" height="40" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
@@ -119,7 +119,7 @@ function Partners2(props) {
                             </button>
                         </div>
                         <div class="lg:hidden flex swiper-pagination1 justify-center text-red-500"></div>
-                        <div className="lg:flex hidden justify-end">
+                        <div className="lg:flex hidden justify-end relative -bottom-36 end-8">
                             <button className="swiper-button-next text-white bg-red-500 focus:outline-none px-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" className="ms-3" width="20" height="40" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
