@@ -40,11 +40,12 @@ function Customers(props) {
                                 nextEl: ".swiper-button-next1",
                                 prevEl: ".swiper-button-prev1"
                             }}
+                            
                             loopPreventsSlide='true'
                             breakpoints={{
                                 280: {
-                                    slidesPerView: 1,
-                                    spaceBetween: 20,
+                                    slidesPerView: 3,
+                                    spaceBetween: 80,
                                 },
                                 320: {
                                     slidesPerView: 4,
