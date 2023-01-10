@@ -351,6 +351,10 @@
     background: #744775
   }
 
+  .swiper-pagination{
+    width: 60px !important;
+  }
+
   .swiper-pagination1{
     width: 40px !important;
   }
