@@ -1,4 +1,4 @@
-import React, { useEffect, useRef} from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper";
 import "swiper/css";
@@ -18,6 +18,26 @@ function Partners2(props) {
         swiperRef.current.swiper.slideToLoop(0)
     }, [props.isRtl])
 
+    const ReadMore = ({ children }) => {
+        const text = children;
+        const [isReadMore, setIsReadMore] = useState(true);
+        const toggleReadMore = () => {
+            setIsReadMore(!isReadMore);
+        };
+        return (
+            <p className="text">
+                {isReadMore ? text.slice(0, 125) : text}
+                <div className="flex md:mt-8 mt-5 justify-center">
+                    <h4 className="font-bold text-red-300 lg:text-start text-center text-base leading-6 me-3"></h4>
+                    <button className="flex justify-center focus:outline-none" onClick={toggleReadMore}>
+                        <svg width="27" height="12" viewBox="0 0 27 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 2L13.6575 10L25 2" stroke="#131313" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                </div>
+            </p>
+        );
+    };
     // const feature = [
     //     {
     //         id: 1,
@@ -71,13 +91,12 @@ function Partners2(props) {
                                         <div class="p-4 lg:w-3/5 lg:px-22 w-full order-0 lg:order-1 flex flex-col text-center">
                                             <h1 className="w-full font-bold text-black mt-8 text-start md:text-4xl text-2xl md:leading-10 mb-2">The Tanzania Cancer Care Project (TCCP)</h1>
                                             <p className="w-full mt-10 font-normal md:text-base text-sm text-start text-hex mb-5">The Tanzania Comprehensive Cancer Care Project (TCCP) is a €13.3 million private-public four-year evidence-based project funded by Agence Française de Développement (AFD) and Aga Khan Foundation (AKF). It aims to strengthen and expand the quality, access, and capacity of cancer care services across the cancer continuum in Dar es Salaam and Mwanza regions of Tanzania.
-                                                <p className="text-gray-300 text-start">The project is a joint initiative led by the Aga Khan Health Services Tanzania (AKHST) together with the Aga Khan Foundation Tanzania (AKFT), </p>
+                                                <p className="text-gray-300 text-start">
+                                                    <ReadMore>
+                                                        The project is a joint initiative led by the Aga Khan Health Services Tanzania (AKHST) together with the Aga Khan Foundation Tanzania (AKFT),It aims to strengthen and expand the quality, access, and capacity of cancer care services across the cancer continuum in Dar es Salaam and Mwanza regions of Tanzania.
+                                                    </ReadMore>
+                                                </p>
                                             </p>
-                                            <button className="flex justify-center focus:outline-none">
-                                                <svg width="27" height="12" viewBox="0 0 27 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M2 2L13.6575 10L25 2" stroke="#131313" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
-                                            </button>
                                         </div>
                                         <div class="p-4 lg:w-2/5 xl:px-14 w-full order-1 lg:order-0 flex items-center flex-col">
                                             <img src={require('./assets/Rectangle 6.png')} className="lg:w-98 lg:h-80 sm:w-120 sm:h-98 w-80 h-60"></img>
@@ -91,13 +110,12 @@ function Partners2(props) {
                                         <div class="p-4 lg:w-3/5 lg:px-22 w-full order-0 lg:order-1 flex flex-col text-center">
                                             <h1 className="w-full font-bold text-black mt-8 text-start md:text-4xl text-2xl md:leading-10 mb-2">The Tanzania Cancer Care Project (TCCP)</h1>
                                             <p className="w-full mt-10 font-normal md:text-base text-sm text-start text-hex mb-5">The Tanzania Comprehensive Cancer Care Project (TCCP) is a €13.3 million private-public four-year evidence-based project funded by Agence Française de Développement (AFD) and Aga Khan Foundation (AKF). It aims to strengthen and expand the quality, access, and capacity of cancer care services across the cancer continuum in Dar es Salaam and Mwanza regions of Tanzania.
-                                                <p className="text-gray-300 text-start">The project is a joint initiative led by the Aga Khan Health Services Tanzania (AKHST) together with the Aga Khan Foundation Tanzania (AKFT), </p>
+                                                <p className="text-gray-300 text-start">
+                                                    <ReadMore>
+                                                        The project is a joint initiative led by the Aga Khan Health Services Tanzania (AKHST) together with the Aga Khan Foundation Tanzania (AKFT), It aims to strengthen and expand the quality, access, and capacity of cancer care services across the cancer continuum in Dar es Salaam and Mwanza regions of Tanzania.
+                                                    </ReadMore>
+                                                </p>
                                             </p>
-                                            <button className="flex justify-center focus:outline-none">
-                                                <svg width="27" height="12" viewBox="0 0 27 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M2 2L13.6575 10L25 2" stroke="#131313" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
-                                            </button>
                                         </div>
                                         <div class="p-4 lg:w-2/5 xl:px-14 w-full order-1 lg:order-0 flex flex-col items-center">
                                             <img src={require('./assets/Rectangle 6.png')} className="lg:w-98 lg:h-80 sm:w-120 sm:h-98 w-80 h-60"></img>
@@ -111,13 +129,12 @@ function Partners2(props) {
                                         <div class="p-4 lg:w-3/5 lg:px-22 w-full order-0 lg:order-1 flex flex-col text-center">
                                             <h1 className="w-full font-bold text-black mt-8 text-start md:text-4xl text-2xl md:leading-10 mb-2">The Tanzania Cancer Care Project (TCCP)</h1>
                                             <p className="w-full mt-10 font-normal md:text-base text-sm text-start text-hex mb-5">The Tanzania Comprehensive Cancer Care Project (TCCP) is a €13.3 million private-public four-year evidence-based project funded by Agence Française de Développement (AFD) and Aga Khan Foundation (AKF). It aims to strengthen and expand the quality, access, and capacity of cancer care services across the cancer continuum in Dar es Salaam and Mwanza regions of Tanzania.
-                                                <p className="text-gray-300 text-start">The project is a joint initiative led by the Aga Khan Health Services Tanzania (AKHST) together with the Aga Khan Foundation Tanzania (AKFT), </p>
+                                                <p className="text-gray-300 text-start">
+                                                    <ReadMore>
+                                                        The project is a joint initiative led by the Aga Khan Health Services Tanzania (AKHST) together with the Aga Khan Foundation Tanzania (AKFT),It aims to strengthen and expand the quality, access, and capacity of cancer care services across the cancer continuum in Dar es Salaam and Mwanza regions of Tanzania.
+                                                    </ReadMore>
+                                                </p>
                                             </p>
-                                            <button className="flex justify-center focus:outline-none">
-                                                <svg width="27" height="12" viewBox="0 0 27 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M2 2L13.6575 10L25 2" stroke="#131313" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
-                                            </button>
                                         </div>
                                         <div class="p-4 lg:w-2/5 xl:px-14 w-full order-1 lg:order-0 flex flex-col items-center">
                                             <img src={require('./assets/Rectangle 6.png')} className="lg:w-98 lg:h-80 sm:w-120 sm:h-98 w-80 h-60"></img>
