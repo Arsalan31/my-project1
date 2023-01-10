@@ -18,15 +18,32 @@ function Partners2(props) {
         swiperRef.current.swiper.slideToLoop(0)
     }, [props.isRtl])
 
-    const feature = [
-        {
-            "title": "Title 1"
-        },
-        {
-            "title": "Title 2"
-        }
-    ]
+    // const feature = [
+    //     {
+    //         id: 1,
+    //         "title": "The Tanzania Cancer Care Project (TCCP)",
+    //         "para": "The Tanzania Comprehensive Cancer Care Project (TCCP) is a €13.3 million private-public four-year evidence-based project funded by Agence Française de Développement (AFD) and Aga Khan Foundation (AKF). It aims to strengthen and expand the quality, access, and capacity of cancer care services across the cancer continuum in Dar es Salaam and Mwanza regions of Tanzania."
+    //     },
+    //     {
+    //         id: 2,
+    //         "title1": "The Tanzania Cancer Care Project (TCCP)",
+    //         "para": "The Tanzania Comprehensive Cancer Care Project (TCCP) is a €13.3 million private-public four-year evidence-based project funded by Agence Française de Développement (AFD) and Aga Khan Foundation (AKF). It aims to strengthen and expand the quality, access, and capacity of cancer care services across the cancer continuum in Dar es Salaam and Mwanza regions of Tanzania."
+    //     },
+    //     {
+    //         id: 3,
+    //         "title2": "The Tanzania Cancer Care Project (TCCP)",
+    //         "para": "The Tanzania Comprehensive Cancer Care Project (TCCP) is a €13.3 million private-public four-year evidence-based project funded by Agence Française de Développement (AFD) and Aga Khan Foundation (AKF). It aims to strengthen and expand the quality, access, and capacity of cancer care services across the cancer continuum in Dar es Salaam and Mwanza regions of Tanzania."
+    //     }
+    // ]
 
+    // {
+    //     feature.map((feature, key) => (
+    //         <div
+    //             key={feature.key}
+    //             title={feature.title}
+    //         />
+    //     ))
+    // }
     return (
         <section className="sm:mt-10 lg:mt-0 flex flex-col items-start w-full h-full bg-transparent flex-none order-2 flex-grow-0">
             <div className="container mt-8 sm:px-16 px-8 pb-6 mx-auto">
