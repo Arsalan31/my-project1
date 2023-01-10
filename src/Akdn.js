@@ -16,7 +16,7 @@ function Akdn() {
                 <Impact isRtl={isRtl} setIsRtl={setIsRtl} />
                 <Partners2 isRtl={isRtl}/>
                 <Agency/>
-                {/* <Featured/> */}
+                <Featured isRtl={isRtl}/>
                 <Subscribe/>
             </div>
         </React.Fragment>
