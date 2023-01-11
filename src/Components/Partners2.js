@@ -72,11 +72,7 @@ function Partners2(props) {
                 <div className="flex flex-wrap justify-center mt-32">
                     <>
                         <Swiper
-                            pagination={{
-                                el: '.swiper-pagination1',
-                                dynamicBullets: true,
-                            }
-                            }
+                            pagination={true}
                             ref={swiperRef}
                             loop={true}
                             navigation={{
@@ -99,7 +95,7 @@ function Partners2(props) {
                                             </p>
                                         </div>
                                         <div class="p-4 lg:w-2/5 w-full order-1 lg:order-0 flex items-center flex-col">
-                                            <img src={require('./assets/Rectangle 6.png')} className="lg:w-98 lg:h-80 sm:w-120 sm:h-98 w-80 h-60"></img>
+                                            <img src={require('./assets/Rectangle 6.png')} className="w-full lg:h-80 sm:h-98 h-60"></img>
                                         </div>
                                     </div>
                                 </div>
@@ -118,7 +114,7 @@ function Partners2(props) {
                                             </p>
                                         </div>
                                         <div class="p-4 lg:w-2/5 w-full order-1 lg:order-0 flex flex-col items-center">
-                                            <img src={require('./assets/Rectangle 6.png')} className="lg:w-98 lg:h-80 sm:w-120 sm:h-98 w-80 h-60"></img>
+                                            <img src={require('./assets/Rectangle 218.png')} className="w-full lg:h-80 sm:h-98 h-60"></img>
                                         </div>
                                     </div>
                                 </div>
@@ -137,14 +133,14 @@ function Partners2(props) {
                                             </p>
                                         </div>
                                         <div class="p-4 lg:w-2/5 w-full order-1 lg:order-0 flex flex-col items-center">
-                                            <img src={require('./assets/Rectangle 6.png')} className="lg:w-98 lg:h-80 sm:w-120 sm:h-98 w-80 h-60"></img>
+                                            <img src={require('./assets/Rectangle 6.png')} className="lg:h-80 sm:h-98 w-full h-60"></img>
                                         </div>
                                     </div>
                                 </div>
                             </SwiperSlide>
                         </Swiper>
                     </>
-                    <div className="w-full lg:block flex lg:justify-evenly justify-center lg:order-2 order-1 lg:gap-3 lg:absolute">
+                    <div className="w-full lg:block flex justify-center lg:order-2 order-1 lg:gap-3 lg:absolute">
                         <div className="lg:flex hidden justify-start -bottom-36 start-8 absolute">
                             <button className="swiper-button-prev text-white bg-red-500 focus:outline-none px-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" className="me-3" width="20" height="40" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
@@ -152,7 +148,7 @@ function Partners2(props) {
                                 </svg>
                             </button>
                         </div>
-                        <div class="lg:hidden flex swiper-pagination1 justify-center text-red-500"></div>
+                        {/* <div class="lg:hidden flex swiper-pagination1 justify-center text-red-500"></div> */}
                         <div className="lg:flex hidden justify-end relative -bottom-36 end-8">
                             <button className="swiper-button-next text-white bg-red-500 focus:outline-none px-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" className="ms-3" width="20" height="40" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
