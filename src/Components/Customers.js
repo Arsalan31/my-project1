@@ -27,9 +27,6 @@ function Customers(props) {
                 <div className="flex justify-center items-center text-center mt-10 mb-10">
                     <>
                         <Swiper
-                            slidesPerView="auto"
-                            spaceBetween={30}
-                            slidesPerGroup={1}
                             ref={swiperRef}
                             loop={true}
                             pagination={{
@@ -41,11 +38,11 @@ function Customers(props) {
                                 prevEl: ".swiper-button-prev1"
                             }}
                             
-                            loopPreventsSlide='true'
+                            // loopPreventsSlide='true'
                             breakpoints={{
-                                280: {
-                                    slidesPerView: 3,
-                                    spaceBetween: 80,
+                                0: {
+                                    slidesPerView: 2.5,
+                                    spaceBetween: 20,
                                 },
                                 320: {
                                     slidesPerView: 4,
@@ -57,7 +54,7 @@ function Customers(props) {
                                 },
                                 540: {
                                     slidesPerView: 4,
-                                    spaceBetween: -40,
+                                    // spaceBetween: -40,
                                 },
                                 640: {
                                     slidesPerView: 4,

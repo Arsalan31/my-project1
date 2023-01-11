@@ -12,8 +12,8 @@ function Footer() {
                         <img src={require('./assets/Tag Line 2 1.png')} className="w-32 h-6 ms-3" />
                     </div>
                 </div>
-                <div className="lg:w-2/3 mt-3 w-full">
-                    <div className="lg:justify-end justify-center flex sm:gap-6 gap-6 lg:me-52">
+                <div className="lg:w-2/3 w-full">
+                    <div className="lg:justify-end justify-center flex sm:gap-6 gap-6 lg:me-48  ">
                         <a href="https://www.facebook.com/figmadesign/">
                             <svg width="10" height="30" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M8.73041 9.52795H6.29003C6.29003 13.4269 6.29003 18.2261 6.29003 18.2261H2.67386C2.67386 18.2261 2.67386 13.4734 2.67386 9.52795H0.954895V6.45376H2.67386V4.46532C2.67386 3.04121 3.35057 0.815918 6.32326 0.815918L9.00291 0.82619V3.81036C9.00291 3.81036 7.37458 3.81036 7.05797 3.81036C6.74137 3.81036 6.29124 3.96866 6.29124 4.64779V6.45436H9.04641L8.73041 9.52795Z" fill="#FFFFFF" />
@@ -37,22 +37,132 @@ function Footer() {
                         </a>
                     </div>
                 </div>
-                <div className="lg:w-1/2 lg:mt-8 w-full lg:ps-10 lg:order-0 order-2">
+                <div className="lg:w-1/2 lg:mt-12 w-full lg:ps-10 lg:order-0 order-2 border-b-2 border-gray-600">
                     <div className="lg:text-start text-center">
                         <p className="sm:w-1/5 w-full lg:w-60 lg:mx-0 mx-auto sm:px-0 px-16 lg:mt-0 mt-7 font-normal text-sm lg:text-start text-center text-gray-400">
                             We work with communities to address the inter-related dimensions of poverty in order to improve quality of life, promote pluralism, and enhance self-reliance.                        </p>
                     </div>
                 </div>
-                <div className="lg:w-1/2 lg:mt-8 mt-5 w-full lg:order-2">
-                    <div className="flex lg:justify-end justify-center lg:me-44">
-                        <p className="text-white text-md">Subscribe to our newsletter</p>
+                <div className="lg:w-1/2 w-full lg:order-2">
+                    <div className="flex lg:justify-end justify-center lg:me-36">
+                        <p className="text-white text-md tracking-wider">Subscribe to our newsletter</p>
                     </div>
-                    <div className="flex lg:justify-end  lg:ms-20 lg:me-44">
-                        <button className="text-white text-sm py-3 sm:px-12 px-7 font-bold flex text-start border-gray-400 border">Sign Up</button>
-                        <button className="text-white uppercase text-sm sm:px-12 font-bold sm:ms-5 text-start border-gray-400 border px-6 py-2">Contact Us</button>
+                    <div className="flex flex-col mt-1 lg:items-end lg:me-48">
+                        <button className="text-white w-1/3 text-sm py-3 sm:px-4 px-4 font-bold inline-flex text-start border-gray-400 border">Sign Up
+                            <svg className="seemore mt-1 ms-16" width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 13L7 7L1 1" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                        <button className="text-white w-1/3 text-sm py-3 sm:px-3 px-4 font-bold inline-flex  text-start border-gray-400 border mt-5">Contact Us
+                            <svg className="seemore mt-1 ms-12" width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 13L7 7L1 1" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
                     </div>
                 </div>
             </div>
+            <footer className="w-full flex flex-wrap md:flex-row flex-col justify-around items-center h-full">
+                <div className="w-1/5 md:text-start text-center lg:ps-10 mt-10">
+                    <h3 className="font-normal text-white uppercase tracking-widest pb-6">Quick Links</h3>
+                    <nav className="list-none">
+                        <li className="pb-4">
+                            <a href="#Home" className="text-white font-normal text-sm pb-2 ">Careers at AKDN</a>
+                        </li>
+                        <li className="pb-4">
+                            <a href="#" className="text-white font-normal text-sm pb-2">Partners with Us</a>
+                        </li>
+                        <li className="pb-4">
+                            <a href="#Pricing" className="text-white font-normal text-sm pb-2">Donate</a>
+                        </li>
+                        <li className="pb-4">
+                            <a href="#" className="text-white font-normal text-sm pb-2">FreQuently Asked Questions</a>
+                        </li>
+                        <li className="pb-4">
+                            <a href="#Contact" className="text-white font-normal text-sm pb-2">Covid-19 Resources Library</a>
+                        </li>
+                    </nav>
+                </div>
+                <div className="w-1/5 md:text-start text-center mt-10">
+                    <h3 className="font-normal text-white tracking-widest uppercase text-xl pb-6">who we are</h3>
+                    <nav className="list-none">
+                        <li className="pb-4">
+                            <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Eleanor Edwards</a>
+                        </li>
+                        <li className="pb-4">
+                            <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Ted Robertson</a>
+                        </li>
+                        <li className="pb-4">
+                            <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Annette Russell</a>
+                        </li>
+                        <li className="pb-4">
+                            <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Jennie Mckinney</a>
+                        </li>
+                        <li className="pb-4">
+                            <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Gloria Richards</a>
+                        </li>
+                    </nav>
+                </div>
+                <div className="w-1/5 md:text-start text-center mt-10">
+                    <h3 className="font-normal text-white tracking-widest uppercase text-xl pb-6">what we do</h3>
+                    <nav className="list-none ">
+                        <li className="pb-4">
+                            <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Philip Jones</a>
+                        </li>
+                        <li className="pb-4">
+                            <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Product</a>
+                        </li>
+                        <li className="pb-4">
+                            <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Colleen Russell</a>
+                        </li>
+                        <li className="pb-4">
+                            <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Marvin Hawkins</a>
+                        </li>
+                        <li className="pb-4">
+                            <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Bruce Simmmons</a>
+                        </li>
+                    </nav>
+                </div>
+                <div className="w-1/5 md:text-start text-center mt-10">
+                    <h3 className="font-normal text-white tracking-widest uppercase text-xl pb-6">our agencies</h3>
+                    <nav className="list-none ">
+                        <li className="pb-4">
+                            <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Philip Jones</a>
+                        </li>
+                        <li className="pb-4">
+                            <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Product</a>
+                        </li>
+                        <li className="pb-4">
+                            <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Colleen Russell</a>
+                        </li>
+                        <li className="pb-4">
+                            <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Marvin Hawkins</a>
+                        </li>
+                        <li className="pb-4">
+                            <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Bruce Simmmons</a>
+                        </li>
+                    </nav>
+                </div>
+                <div className="w-1/5 md:text-start text-center mt-10">
+                    <h3 className="font-normal text-white tracking-widest uppercase text-xl pb-6">where we work</h3>
+                    <nav className="list-none ">
+                        <li className="pb-4">
+                            <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Philip Jones</a>
+                        </li>
+                        <li className="pb-4">
+                            <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Product</a>
+                        </li>
+                        <li className="pb-4">
+                            <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Colleen Russell</a>
+                        </li>
+                        <li className="pb-4">
+                            <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Marvin Hawkins</a>
+                        </li>
+                        <li className="pb-4">
+                            <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Bruce Simmmons</a>
+                        </li>
+                    </nav>
+                </div>
+            </footer>
         </footer >
     )
 }
