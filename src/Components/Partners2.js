@@ -86,7 +86,7 @@ function Partners2(props) {
                             modules={[Pagination, Navigation]}
                         >
                             <SwiperSlide>
-                                <div className="flex flex-col flex-none flex-grow-0 text-center w-full mb-20">
+                                <div className="flex flex-col flex-none flex-grow-0 text-center w-full lg:px-6 mb-20">
                                     <div class="flex flex-wrap lg:-m-4 -mx-4 -mb-10 lg:space-y-0 space-y-6">
                                         <div class="p-4 lg:w-3/5 lg:px-22 w-full order-0 lg:order-1 flex flex-col text-center">
                                             <h1 className="w-full font-bold text-black mt-8 text-start md:text-4xl text-2xl md:leading-10 mb-2">The Tanzania Cancer Care Project (TCCP)</h1>
@@ -98,14 +98,14 @@ function Partners2(props) {
                                                 </p>
                                             </p>
                                         </div>
-                                        <div class="p-4 lg:w-2/5 xl:px-14 w-full order-1 lg:order-0 flex items-center flex-col">
+                                        <div class="p-4 lg:w-2/5 w-full order-1 lg:order-0 flex items-center flex-col">
                                             <img src={require('./assets/Rectangle 6.png')} className="lg:w-98 lg:h-80 sm:w-120 sm:h-98 w-80 h-60"></img>
                                         </div>
                                     </div>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <div className="flex flex-col flex-none flex-grow-0 order-0 lg:order-1 text-center w-full mb-20">
+                                <div className="flex flex-col flex-none flex-grow-0 text-center w-full lg:px-6 mb-20">
                                     <div class="flex flex-wrap lg:-m-4 -mx-4 -mb-10 lg:space-y-0 space-y-6">
                                         <div class="p-4 lg:w-3/5 lg:px-22 w-full order-0 lg:order-1 flex flex-col text-center">
                                             <h1 className="w-full font-bold text-black mt-8 text-start md:text-4xl text-2xl md:leading-10 mb-2">The Tanzania Cancer Care Project (TCCP)</h1>
@@ -117,14 +117,14 @@ function Partners2(props) {
                                                 </p>
                                             </p>
                                         </div>
-                                        <div class="p-4 lg:w-2/5 xl:px-14 w-full order-1 lg:order-0 flex flex-col items-center">
+                                        <div class="p-4 lg:w-2/5 w-full order-1 lg:order-0 flex flex-col items-center">
                                             <img src={require('./assets/Rectangle 6.png')} className="lg:w-98 lg:h-80 sm:w-120 sm:h-98 w-80 h-60"></img>
                                         </div>
                                     </div>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <div className="flex flex-col flex-none flex-grow-0 order-0 lg:order-1 text-center w-full mb-20">
+                                <div className="flex flex-col flex-none flex-grow-0 text-center w-full lg:px-6 mb-20">
                                     <div class="flex flex-wrap lg:-m-4 -mx-4 -mb-10 lg:space-y-0 space-y-6">
                                         <div class="p-4 lg:w-3/5 lg:px-22 w-full order-0 lg:order-1 flex flex-col text-center">
                                             <h1 className="w-full font-bold text-black mt-8 text-start md:text-4xl text-2xl md:leading-10 mb-2">The Tanzania Cancer Care Project (TCCP)</h1>
@@ -136,7 +136,7 @@ function Partners2(props) {
                                                 </p>
                                             </p>
                                         </div>
-                                        <div class="p-4 lg:w-2/5 xl:px-14 w-full order-1 lg:order-0 flex flex-col items-center">
+                                        <div class="p-4 lg:w-2/5 w-full order-1 lg:order-0 flex flex-col items-center">
                                             <img src={require('./assets/Rectangle 6.png')} className="lg:w-98 lg:h-80 sm:w-120 sm:h-98 w-80 h-60"></img>
                                         </div>
                                     </div>
