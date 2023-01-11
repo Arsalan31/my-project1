@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Agency from "./Components/Agency";
 import Featured from "./Components/Featured";
+import Footer from "./Components/Footer2";
 import Hero2 from "./Components/Hero2";
 import Impact from "./Components/Impact";
 import Partners2 from "./Components/Partners2";
@@ -18,6 +19,7 @@ function Akdn() {
                 <Agency/>
                 <Featured isRtl={isRtl}/>
                 <Subscribe/>
+                <Footer/>
             </div>
         </React.Fragment>
     )
