@@ -72,7 +72,10 @@ function Partners2(props) {
                 <div className="flex flex-wrap justify-center mt-32">
                     <>
                         <Swiper
-                            pagination={true}
+                            pagination={{
+                                el: '.swiper-pagination3',
+                                type:'bullets'
+                            }}
                             ref={swiperRef}
                             loop={true}
                             navigation={{
@@ -148,7 +151,7 @@ function Partners2(props) {
                                 </svg>
                             </button>
                         </div>
-                        {/* <div class="lg:hidden flex swiper-pagination1 justify-center text-red-500"></div> */}
+                        <div class="lg:hidden flex swiper-pagination3 justify-center bg-red-400"></div>
                         <div className="lg:flex hidden justify-end relative -bottom-36 end-8">
                             <button className="swiper-button-next text-white bg-red-500 focus:outline-none px-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" className="ms-3" width="20" height="40" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">

@@ -22,8 +22,8 @@ function Featured(props) {
                 <>
                     <Swiper
                         pagination={{
-                            el: '.swiper-pagination',
-                            dynamicBullets: true,
+                            el: '.swiper-pagination4',
+                            type:'bullets'
                         }
                         }
                         ref={swiperRef}
@@ -255,7 +255,7 @@ function Featured(props) {
                             </svg>
                         </button>
                     </div>
-                    <div class="swiper-pagination1"></div>
+                    <div class="swiper-pagination4"></div>
                     <div className="flex justify-end">
                         <button className="swiper-button-next text-gray-400 focus:outline-none px-2">
                             <svg xmlns="http://www.w3.org/2000/svg" className="ms-3" width="57" height="40" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
