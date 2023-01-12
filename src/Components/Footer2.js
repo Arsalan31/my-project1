@@ -13,7 +13,7 @@ function Footer() {
                     </div>
                 </div>
                 <div className="lg:w-2/3 w-full lg:order-1 order-2">
-                    <div className="lg:justify-end justify-center flex sm:gap-6 gap-6 lg:me-48  ">
+                    <div className="lg:justify-end justify-center flex sm:gap-6 gap-6 lg:me-48 lg:mt-0 mt-7">
                         <a href="https://www.facebook.com/figmadesign/">
                             <svg width="10" height="30" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M8.73041 9.52795H6.29003C6.29003 13.4269 6.29003 18.2261 6.29003 18.2261H2.67386C2.67386 18.2261 2.67386 13.4734 2.67386 9.52795H0.954895V6.45376H2.67386V4.46532C2.67386 3.04121 3.35057 0.815918 6.32326 0.815918L9.00291 0.82619V3.81036C9.00291 3.81036 7.37458 3.81036 7.05797 3.81036C6.74137 3.81036 6.29124 3.96866 6.29124 4.64779V6.45436H9.04641L8.73041 9.52795Z" fill="#FFFFFF" />
@@ -37,23 +37,23 @@ function Footer() {
                         </a>
                     </div>
                 </div>
-                <div className="lg:w-1/2 lg:mt-12 w-full lg:ps-10 lg:order-0 order-1 border-b pb-14 border-gray-600">
-                    <div className="lg:text-start text-center">
-                        <p className="sm:w-1/5 w-full lg:w-60 lg:mx-0 mx-auto sm:px-0 px-16 lg:mt-0 mt-7 font-normal text-sm lg:text-start text-center text-gray-400">
+                <div className="lg:w-1/2 lg:mt-12 w-full lg:ps-10 lg:order-0 order-1 border-b lg:pb-14 pb-7 border-gray-600">
+                    <div className="text-start">
+                        <p className="sm:w-5/12 w-full lg:w-60 lg:mx-0 mx-auto sm:px-0 px-16 lg:mt-0 mt-7 font-normal text-sm text-start text-gray-400">
                             We work with communities to address the inter-related dimensions of poverty in order to improve quality of life, promote pluralism, and enhance self-reliance.                        </p>
                     </div>
                 </div>
                 <div className="lg:w-1/2 w-full lg:order-2 order-2 border-b pb-14 border-gray-600">
-                    <div className="flex lg:justify-end justify-center lg:me-36">
+                    <div className="flex lg:justify-end justify-center lg:me-36 lg:mt-0 mt-5">
                         <p className="text-white text-md tracking-wider">Subscribe to our newsletter</p>
                     </div>
-                    <div className="flex flex-col mt-1 lg:items-end lg:me-48">
-                        <button className="text-white xl:w-1/3 lg:w-1/2 w-1/4 text-sm py-3 sm:px-4 px-4 font-bold inline-flex text-start border-gray-400 border">Sign Up
+                    <div className="flex items-center flex-col mt-3 lg:items-end lg:px-0 sm:px-48 px-20 lg:me-48">
+                        <button className="text-white xl:w-1/3 lg:w-1/2 md:w-1/4 sm:w-1/2 text-sm py-3 sm:px-2 px-4 font-bold inline-flex text-start border-gray-400 border">Sign Up
                             <svg className="seemore mt-1 ms-16" width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1 13L7 7L1 1" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                             </svg>
                         </button>
-                        <button className="text-white xl:w-1/3 lg:w-1/2 w-1/4 text-sm py-3 sm:px-3 px-4 font-bold inline-flex  text-start border-gray-400 border mt-5">Contact Us
+                        <button className="text-white xl:w-1/3 lg:w-1/2 md:w-1/4 sm:w-1/2 text-sm py-3 sm:px-2 px-3 font-bold inline-flex  text-start border-gray-400 border mt-5">Contact Us
                             <svg className="seemore mt-1 ms-12" width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1 13L7 7L1 1" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                             </svg>
@@ -61,8 +61,8 @@ function Footer() {
                     </div>
                 </div>
             </div>
-            <footer className="w-full flex flex-wrap md:flex-row flex-col justify-around items-center h-full">
-                <div className="w-1/5 md:text-start text-center lg:ps-10 -mt-14">
+            <footer className="w-full flex flex-wrap lg:flex-row flex-col mt-7 lg:pb-0 pb-7 h-full">
+                <div className="lg:w-1/5 px-5 text-start lg:ps-10 mt-7">
                     <h3 className="font-bold text-sm text-white uppercase tracking-widest pb-6">Quick Links</h3>
                     <nav className="list-none">
                         <li className="pb-4">
@@ -81,13 +81,13 @@ function Footer() {
                             <a href="#Contact" className="text-white font-normal text-sm pb-2">Covid-19 Resources Library</a>
                         </li>
                         <li className="pb-4">
-                            <a href="#Contact" className="text-white font-normal w-1/5 text-sm pb-2">International Scholarship<br /> Programme</a>
+                            <a href="#Contact" className="text-white font-normal w-1/5 text-sm pb-2">International Scholarship Programme</a>
                         </li>
                     </nav>
                 </div>
-                <div className="w-1/5 md:text-start text-center lg:ps-10 -mt-10">
+                <div className="lg:w-1/5 px-5 text-start lg:ps-10 mt-7">
                     <h3 className="font-bold text-sm text-white uppercase tracking-widest pb-6">who we are</h3>
-                    <nav className="list-none">
+                    <nav className="list-none lg:block hidden">
                         <li className="pb-4">
                             <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Founder & Chairman</a>
                         </li>
@@ -111,9 +111,9 @@ function Footer() {
                         </li>
                     </nav>
                 </div>
-                <div className="w-1/5 md:text-start text-center lg:ps-10 -mt-10">
+                <div className="lg:w-1/5 px-5 text-start lg:ps-10 mt-7">
                     <h3 className="font-bold text-sm text-white tracking-widest uppercase pb-6">what we do</h3>
-                    <nav className="list-none ">
+                    <nav className="list-none lg:block hidden">
                         <li className="pb-4">
                             <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Education</a>
                         </li>
@@ -141,9 +141,9 @@ function Footer() {
                         </li>
                     </nav>
                 </div>
-                <div className="w-1/5 md:text-start text-center lg:ps-10 mt-10">
+                <div className="lg:w-1/5 px-5 text-start lg:ps-10 mt-7">
                     <h3 className="font-bold text-sm text-white tracking-widest uppercase pb-6">our agencies</h3>
-                    <nav className="list-none ">
+                    <nav className="list-none lg:block hidden">
                         <li className="pb-4">
                             <a href="#" className="text-white font-normal text-start text-sm pb-2 inline-flex cursor-pointer"><p className="me-3">AKAH</p>
                                 Aga Khan Agency for Habitat</a>
@@ -182,9 +182,9 @@ function Footer() {
                         </li>
                     </nav>
                 </div>
-                <div className="w-1/5 md:text-start text-center lg:ps-10 mt-14">
+                <div className="lg:w-1/5 px-5 text-start lg:ps-10 mt-7">
                     <h3 className="font-bold text-sm text-white tracking-widest uppercase pb-6">where we work</h3>
-                    <nav className="list-none ">
+                    <nav className="list-none lg:block hidden">
                         <li className="pb-4">
                             <a href="#" className="text-white font-normal text-sm pb-2 inline-flex cursor-pointer">Eastern Africa
                                 <svg className="mt-2 ms-3" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -244,6 +244,20 @@ function Footer() {
                     </nav>
                 </div>
             </footer>
+            <div className="container mx-auto lg:border-gray-600 border-b w-full px-5 flex justify-center mt-5"></div>
+            <div className="lg:mt-8 w-full lg:ps-10">
+                <div className="flex-col justify-center">
+                    <p className="w-full lg:mx-0 mx-auto sm:px-0 px-8 lg:mt-0 mt-7 font-normal text-sm text-center text-gray-400">
+                        © 2021 Aga Khan Foundation, an agency of the Aga Khan Development Network. All rights reserved.
+                    </p>
+                    <p className="w-full flex justify-center gap-5 lg:mx-0 mx-auto sm:px-0 px-10 mt-3 font-normal text-sm text-center text-gray-400">
+                        Terms & Conditions 
+                        <p>
+                        Privacy Policy
+                        </p>
+                    </p>
+                </div>
+            </div>
         </footer >
     )
 }

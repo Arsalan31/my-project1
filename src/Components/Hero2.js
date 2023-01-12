@@ -18,7 +18,7 @@ function Hero2() {
                                 <button className="text-white border border-white px-8 py-2 rounded-xl text-xl font-bold focus:outline-none">Discount</button>
                             </div>
                         </div>
-                        <div className="flex justify-center lg:w-10/12 w-full lg:-mt-52">
+                        <div className="flex justify-center lg:w-10/12 w-full lg:me-5 lg:-mt-52">
                             <img src={require('./assets/Saly-10.png')}></img>
                         </div>
                     </div>
