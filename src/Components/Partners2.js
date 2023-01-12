@@ -69,7 +69,7 @@ function Partners2(props) {
             <div className="container mt-8 sm:px-16 px-8 pb-6 mx-auto">
                 <h4 className="text-red-500 text-3xl font-bold text-center">Our Partnership Projects</h4>
                 <div className="container mx-auto lg:border-gray-400 lg:border-b border-red-500 border-4 lg:w-1/5 w-1/4 flex justify-center mt-5"></div>
-                <div className="flex flex-wrap justify-center mt-32">
+                <div className="flex flex-wrap justify-center mt-10">
                     <>
                         <Swiper
                             pagination={{
