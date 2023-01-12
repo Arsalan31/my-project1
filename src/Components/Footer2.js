@@ -12,7 +12,7 @@ function Footer() {
                         <img src={require('./assets/Tag Line 2 1.png')} className="w-32 h-6 ms-3" />
                     </div>
                 </div>
-                <div className="lg:w-2/3 w-full">
+                <div className="lg:w-2/3 w-full lg:order-1 order-2">
                     <div className="lg:justify-end justify-center flex sm:gap-6 gap-6 lg:me-48  ">
                         <a href="https://www.facebook.com/figmadesign/">
                             <svg width="10" height="30" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -37,23 +37,23 @@ function Footer() {
                         </a>
                     </div>
                 </div>
-                <div className="lg:w-1/2 lg:mt-12 w-full lg:ps-10 lg:order-0 order-2 border-b pb-14 border-gray-600">
+                <div className="lg:w-1/2 lg:mt-12 w-full lg:ps-10 lg:order-0 order-1 border-b pb-14 border-gray-600">
                     <div className="lg:text-start text-center">
                         <p className="sm:w-1/5 w-full lg:w-60 lg:mx-0 mx-auto sm:px-0 px-16 lg:mt-0 mt-7 font-normal text-sm lg:text-start text-center text-gray-400">
                             We work with communities to address the inter-related dimensions of poverty in order to improve quality of life, promote pluralism, and enhance self-reliance.                        </p>
                     </div>
                 </div>
-                <div className="lg:w-1/2 w-full lg:order-2 border-b pb-14 border-gray-600">
+                <div className="lg:w-1/2 w-full lg:order-2 order-2 border-b pb-14 border-gray-600">
                     <div className="flex lg:justify-end justify-center lg:me-36">
                         <p className="text-white text-md tracking-wider">Subscribe to our newsletter</p>
                     </div>
                     <div className="flex flex-col mt-1 lg:items-end lg:me-48">
-                        <button className="text-white w-1/3 text-sm py-3 sm:px-4 px-4 font-bold inline-flex text-start border-gray-400 border">Sign Up
+                        <button className="text-white xl:w-1/3 lg:w-1/2 w-1/4 text-sm py-3 sm:px-4 px-4 font-bold inline-flex text-start border-gray-400 border">Sign Up
                             <svg className="seemore mt-1 ms-16" width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1 13L7 7L1 1" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                             </svg>
                         </button>
-                        <button className="text-white w-1/3 text-sm py-3 sm:px-3 px-4 font-bold inline-flex  text-start border-gray-400 border mt-5">Contact Us
+                        <button className="text-white xl:w-1/3 lg:w-1/2 w-1/4 text-sm py-3 sm:px-3 px-4 font-bold inline-flex  text-start border-gray-400 border mt-5">Contact Us
                             <svg className="seemore mt-1 ms-12" width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1 13L7 7L1 1" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                             </svg>
