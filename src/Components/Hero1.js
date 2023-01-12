@@ -51,10 +51,10 @@ function Hero1(props) {
                             </svg>
                             <h5 className="ms-3 text-white font-bold text-base leading-6">Top market company</h5>
                         </div>
-                        <h1 id="#Home" className="leading-12 sm:text-6xl text-5xl sm:px-0 px-5 mt-5 font-bold w-full  lg:text-start text-center text-red-300">Focus on the
+                        <h1 id="#Home" className="sm:leading-12 leading-10 sm:text-6xl text-4xl sm:px-0 px-5 mt-5 font-bold w-full  lg:text-start text-center text-red-300">Focus on the
                             <br className="hidden sm:block" /> work that <br className="hidden sm:block" /> matters
                         </h1>
-                        <h4 className='lg:w-2/3 sm:px-6 lg:px-0 px-10 font-normal text-2xl leading-9 lg:text-start text-center flex-none flex-grow-0 mt-10 sm:mt-8 text-white'>
+                        <h4 className='lg:w-2/3 sm:px-6 lg:px-0 px-16 font-normal sm:text-2xl text-lg leading-9 lg:text-start text-center flex-none flex-grow-0 mt-10 sm:mt-8 text-white'>
                             <ReadMore>
                                 udix is the world's first smart workspace.We bring all your team's content together while letting you use the tools you love.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
                             </ReadMore>
