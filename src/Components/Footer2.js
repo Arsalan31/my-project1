@@ -1,12 +1,33 @@
-import React from "react"
+import React, { useEffect, useState } from "react"
 import './style.css';
 
 function Footer() {
+    const [toggleSection, setTogglesection] = useState(false)
+    const [screenWidth, setScreenWidth] = useState(window.innerWidth)
+
+
+    const togglediv = () => {
+        setTogglesection(!toggleSection)
+    }
+
+    useEffect(() => {
+
+        const changeWidth = () => {
+            setScreenWidth(window.innerWidth);
+        }
+
+        window.addEventListener('resize', changeWidth)
+
+        return () => {
+            window.removeEventListener('resize', changeWidth)
+        }
+
+    }, [])
     return (
         <footer className="bg-gray-5 py-8">
             <div className="flex flex-wrap lg:flex-wrap justify-center px-5">
                 <div className="lg:w-1/3 inline-flex lg:ps-10">
-                    <img src={require('./assets/AKDN Logo 1.png')} className="sm:w-14 sm:h-12 w-8 h-8"/>
+                    <img src={require('./assets/AKDN Logo 1.png')} className="sm:w-14 sm:h-12 w-8 h-8" />
                     <img src={require('./assets/AKDN Logo 2.png')} className="sm:w-24 sm:h-6 w-16 h-4 sm:mt-3 mt-2 ms-2" />
                     <div className="border-s border-gray-600 ms-5 h-7 self-center">
                         <img src={require('./assets/Tag Line 2 1.png')} className="sm:w-32 sm:h-6 w-32 h-7 ms-3" />
@@ -89,39 +110,45 @@ function Footer() {
                 </div>
                 <div className="lg:w-1/5 px-5 text-start lg:ps-10 mt-7">
                     <div className="flex">
-                        <h3 className="w-9/12 font-bold text-sm text-white uppercase tracking-widest pb-6">who we are</h3>
-                        <svg className="lg:hidden w-1/6 mt-2 ms-3 flex items-end" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
+                        <h3 className="w-11/12 font-bold text-sm text-white uppercase tracking-widest pb-6">who we are</h3>
+                        <div className="lg:hidden border-gray-400 border-s h-8"></div>
+                        <button onClick={togglediv}>
+                            <svg className="lg:hidden w-1/12 mt-2 ms-3 flex items-end" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
                     </div>
-                    <nav className="list-none lg:block hidden">
-                        <li className="pb-4">
-                            <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Founder & Chairman</a>
-                        </li>
-                        <li className="pb-4">
-                            <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Leadership</a>
-                        </li>
-                        <li className="pb-4">
-                            <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Awards Received by AKDN</a>
-                        </li>
-                        <li className="pb-4">
-                            <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Our Partners</a>
-                        </li>
-                        <li className="pb-4">
-                            <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Fact Sheet</a>
-                        </li>
-                        <li className="pb-4">
-                            <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Frequently Asked Questions</a>
-                        </li>
-                        <li className="pb-4">
-                            <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Contact Us</a>
-                        </li>
-                    </nav>
+                    {(toggleSection || screenWidth > 1024) && (
+                        <nav className="list-none lg:block hidden">
+                            <li className="pb-4">
+                                <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Founder & Chairman</a>
+                            </li>
+                            <li className="pb-4">
+                                <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Leadership</a>
+                            </li>
+                            <li className="pb-4">
+                                <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Awards Received by AKDN</a>
+                            </li>
+                            <li className="pb-4">
+                                <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Our Partners</a>
+                            </li>
+                            <li className="pb-4">
+                                <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Fact Sheet</a>
+                            </li>
+                            <li className="pb-4">
+                                <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Frequently Asked Questions</a>
+                            </li>
+                            <li className="pb-4">
+                                <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Contact Us</a>
+                            </li>
+                        </nav>
+                    )}
                 </div>
                 <div className="lg:w-1/5 px-5 text-start lg:ps-10 mt-7">
                     <div className="flex">
-                        <h3 className="w-9/12 font-bold text-sm text-white tracking-widest uppercase pb-6">what we do</h3>
-                        <svg className="lg:hidden w-1/6 mt-2 ms-3 flex items-end" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <h3 className="w-11/12 font-bold text-sm text-white tracking-widest uppercase pb-6">what we do</h3>
+                        <div className="lg:hidden border-gray-400 border-s h-8"></div>
+                        <svg className="lg:hidden w-1/12 mt-2 ms-3 flex items-end" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                         </svg>
                     </div>
@@ -155,8 +182,9 @@ function Footer() {
                 </div>
                 <div className="lg:w-1/5 px-5 text-start lg:ps-10 mt-7">
                     <div className="flex">
-                        <h3 className="w-9/12 font-bold text-sm text-white tracking-widest uppercase pb-6">our agencies</h3>
-                        <svg className="lg:hidden w-1/6 mt-2 ms-3 flex items-end" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <h3 className="w-11/12 font-bold text-sm text-white tracking-widest uppercase pb-6">our agencies</h3>
+                        <div className="lg:hidden border-gray-400 border-s h-8"></div>
+                        <svg className="lg:hidden w-1/12 mt-2 ms-3 flex items-end" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                         </svg>
                     </div>
@@ -201,8 +229,9 @@ function Footer() {
                 </div>
                 <div className="lg:w-1/5 px-5 text-start lg:ps-10 mt-7">
                     <div className="flex">
-                        <h3 className="w-9/12 font-bold text-sm text-white tracking-widest uppercase pb-6">where we work</h3>
-                        <svg className="lg:hidden w-1/6 mt-2 ms-3 flex items-end" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <h3 className="w-11/12 font-bold text-sm text-white tracking-widest uppercase pb-6">where we work</h3>
+                        <div className="lg:hidden border-gray-400 border-s h-8"></div>
+                        <svg className="lg:hidden w-1/12 mt-2 ms-3 flex items-end" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                         </svg>
                     </div>
