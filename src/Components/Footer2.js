@@ -23,6 +23,63 @@ function Footer() {
         }
 
     }, [])
+    const [toggleSection1, setTogglesection1] = useState(false)
+
+    const togglediv1 = () => {
+        setTogglesection1(!toggleSection1)
+    }
+
+    useEffect(() => {
+
+        const changeWidth = () => {
+            setScreenWidth(window.innerWidth);
+        }
+
+        window.addEventListener('resize', changeWidth)
+
+        return () => {
+            window.removeEventListener('resize', changeWidth)
+        }
+
+    }, [])
+    const [toggleSection2, setTogglesection2] = useState(false)
+
+    const togglediv2 = () => {
+        setTogglesection2(!toggleSection2)
+    }
+
+    useEffect(() => {
+
+        const changeWidth = () => {
+            setScreenWidth(window.innerWidth);
+        }
+
+        window.addEventListener('resize', changeWidth)
+
+        return () => {
+            window.removeEventListener('resize', changeWidth)
+        }
+
+    }, [])
+    const [toggleSection3, setTogglesection3] = useState(false)
+
+    const togglediv3 = () => {
+        setTogglesection3(!toggleSection3)
+    }
+
+    useEffect(() => {
+
+        const changeWidth = () => {
+            setScreenWidth(window.innerWidth);
+        }
+
+        window.addEventListener('resize', changeWidth)
+
+        return () => {
+            window.removeEventListener('resize', changeWidth)
+        }
+
+    }, [])
     return (
         <footer className="bg-gray-5 py-8">
             <div className="flex flex-wrap lg:flex-wrap justify-center px-5">
@@ -112,14 +169,14 @@ function Footer() {
                     <div className="flex">
                         <h3 className="w-11/12 font-bold text-sm text-white uppercase tracking-widest pb-6">who we are</h3>
                         <div className="lg:hidden border-gray-400 border-s h-8"></div>
-                        <button onClick={togglediv}>
-                            <svg className="lg:hidden w-1/12 mt-2 ms-3 flex items-end" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <button className="lg:hidden w-1/12 mt-2 ms-3 flex justify-center" onClick={togglediv}>
+                            <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                             </svg>
                         </button>
                     </div>
-                    {(toggleSection || screenWidth > 1024) && (
-                        <nav className="list-none lg:block hidden">
+                    {(toggleSection || screenWidth > 1023) && (
+                        <nav className="lg:list-none list4 lg:flex flex-col hidden">
                             <li className="pb-4">
                                 <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Founder & Chairman</a>
                             </li>
@@ -148,151 +205,163 @@ function Footer() {
                     <div className="flex">
                         <h3 className="w-11/12 font-bold text-sm text-white tracking-widest uppercase pb-6">what we do</h3>
                         <div className="lg:hidden border-gray-400 border-s h-8"></div>
-                        <svg className="lg:hidden w-1/12 mt-2 ms-3 flex items-end" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
+                        <button className="lg:hidden w-1/12 mt-2 ms-3 flex justify-center" onClick={togglediv1}>
+                            <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
                     </div>
-                    <nav className="list-none lg:block hidden">
-                        <li className="pb-4">
-                            <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Education</a>
-                        </li>
-                        <li className="pb-4">
-                            <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Health</a>
-                        </li>
-                        <li className="pb-4">
-                            <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Architecture</a>
-                        </li>
-                        <li className="pb-4">
-                            <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Culture</a>
-                        </li>
-                        <li className="pb-4">
-                            <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Climate & Environment</a>
-                        </li>
-                        <li className="pb-4">
-                            <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Civil Society</a>
-                        </li>
-                        <li className="pb-4">
-                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex cursor-pointer">See More
-                                <svg className="mt-2 ms-3" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                </svg>
-                            </a>
-                        </li>
-                    </nav>
+                    {(toggleSection1 || screenWidth > 1023) && (
+                        <nav className="lg:list-none list4 lg:flex flex-col hidden">
+                            <li className="pb-4">
+                                <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Education</a>
+                            </li>
+                            <li className="pb-4">
+                                <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Health</a>
+                            </li>
+                            <li className="pb-4">
+                                <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Architecture</a>
+                            </li>
+                            <li className="pb-4">
+                                <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Culture</a>
+                            </li>
+                            <li className="pb-4">
+                                <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Climate & Environment</a>
+                            </li>
+                            <li className="pb-4">
+                                <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Civil Society</a>
+                            </li>
+                            <li className="pb-4">
+                                <a href="#" className="text-white font-normal text-sm pb-2 inline-flex cursor-pointer">See More
+                                    <svg className="mt-2 ms-3" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </a>
+                            </li>
+                        </nav>
+                    )}
                 </div>
                 <div className="lg:w-1/5 px-5 text-start lg:ps-10 mt-7">
                     <div className="flex">
                         <h3 className="w-11/12 font-bold text-sm text-white tracking-widest uppercase pb-6">our agencies</h3>
                         <div className="lg:hidden border-gray-400 border-s h-8"></div>
-                        <svg className="lg:hidden w-1/12 mt-2 ms-3 flex items-end" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
+                        <button className="lg:hidden w-1/12 mt-2 ms-3 flex justify-center" onClick={togglediv2}>
+                            <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
                     </div>
-                    <nav className="list-none lg:block hidden">
-                        <li className="pb-4">
-                            <a href="#" className="text-white font-normal text-start text-sm pb-2 inline-flex cursor-pointer"><p className="me-3">AKAH</p>
-                                Aga Khan Agency for Habitat</a>
-                        </li>
-                        <li className="pb-4">
-                            <a href="#" className="text-white font-normal text-start text-sm pb-2 inline-flex cursor-pointer"><p className="me-2">AKAM</p>
-                                Aga Khan Agency for Microfinance</a>
-                        </li>
-                        <li className="pb-4">
-                            <a href="#" className="text-white font-normal text-start text-sm pb-2 inline-flex cursor-pointer"><p className="me-6">AKF</p>
-                                Aga Khan Foundation</a>
-                        </li>
-                        <li className="pb-4">
-                            <a href="#" className="text-white font-normal text-start text-sm pb-2 inline-flex cursor-pointer"><p className="me-2">AKFED</p>
-                                Aga Khan Fund for Economic Development</a>
-                        </li>
-                        <li className="pb-4">
-                            <a href="#" className="text-white font-normal text-start text-sm pb-2 inline-flex cursor-pointer"><p className="me-4">AKHS</p>
-                                Aga Khan Health Services</a>
-                        </li>
-                        <li className="pb-4">
-                            <a href="#" className="text-white font-normal text-start text-sm pb-2 inline-flex cursor-pointer"><p className="me-7">AKS</p>
-                                Aga Khan Schools</a>
-                        </li>
-                        <li className="pb-4">
-                            <a href="#" className="text-white font-normal text-start text-sm pb-2 inline-flex cursor-pointer"><p className="me-5">AKTC</p>
-                                Aga Khan Trust for Culture</a>
-                        </li>
-                        <li className="pb-4">
-                            <a href="#" className="text-white font-normal text-start text-sm pb-2 inline-flex cursor-pointer"><p className="me-6">AKU</p>
-                                Aga Khan University</a>
-                        </li>
-                        <li className="pb-4">
-                            <a href="#" className="text-white font-normal text-start text-sm pb-2 inline-flex cursor-pointer"><p className="me-6">UCA</p>
-                                University of Central Asia</a>
-                        </li>
-                    </nav>
+                    {(toggleSection2 || screenWidth > 1023) && (
+                        <nav className="lg:list-none list4 lg:flex flex-col hidden">
+                            <li className="pb-4">
+                                <a href="#" className="text-white font-normal text-start text-sm pb-2 inline-flex cursor-pointer"><p className="me-3">AKAH</p>
+                                    Aga Khan Agency for Habitat</a>
+                            </li>
+                            <li className="pb-4">
+                                <a href="#" className="text-white font-normal text-start text-sm pb-2 inline-flex cursor-pointer"><p className="me-2">AKAM</p>
+                                    Aga Khan Agency for Microfinance</a>
+                            </li>
+                            <li className="pb-4">
+                                <a href="#" className="text-white font-normal text-start text-sm pb-2 inline-flex cursor-pointer"><p className="me-6">AKF</p>
+                                    Aga Khan Foundation</a>
+                            </li>
+                            <li className="pb-4">
+                                <a href="#" className="text-white font-normal text-start text-sm pb-2 inline-flex cursor-pointer"><p className="me-2">AKFED</p>
+                                    Aga Khan Fund for Economic Development</a>
+                            </li>
+                            <li className="pb-4">
+                                <a href="#" className="text-white font-normal text-start text-sm pb-2 inline-flex cursor-pointer"><p className="me-4">AKHS</p>
+                                    Aga Khan Health Services</a>
+                            </li>
+                            <li className="pb-4">
+                                <a href="#" className="text-white font-normal text-start text-sm pb-2 inline-flex cursor-pointer"><p className="me-7">AKS</p>
+                                    Aga Khan Schools</a>
+                            </li>
+                            <li className="pb-4">
+                                <a href="#" className="text-white font-normal text-start text-sm pb-2 inline-flex cursor-pointer"><p className="me-5">AKTC</p>
+                                    Aga Khan Trust for Culture</a>
+                            </li>
+                            <li className="pb-4">
+                                <a href="#" className="text-white font-normal text-start text-sm pb-2 inline-flex cursor-pointer"><p className="me-6">AKU</p>
+                                    Aga Khan University</a>
+                            </li>
+                            <li className="pb-4">
+                                <a href="#" className="text-white font-normal text-start text-sm pb-2 inline-flex cursor-pointer"><p className="me-6">UCA</p>
+                                    University of Central Asia</a>
+                            </li>
+                        </nav>
+                    )}
                 </div>
                 <div className="lg:w-1/5 px-5 text-start lg:ps-10 mt-7">
                     <div className="flex">
                         <h3 className="w-11/12 font-bold text-sm text-white tracking-widest uppercase pb-6">where we work</h3>
                         <div className="lg:hidden border-gray-400 border-s h-8"></div>
-                        <svg className="lg:hidden w-1/12 mt-2 ms-3 flex items-end" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
+                        <button className="lg:hidden w-1/12 mt-2 ms-3 flex justify-center" onClick={togglediv3}>
+                            <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
                     </div>
-                    <nav className="list-none lg:block hidden">
-                        <li className="pb-4">
-                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex cursor-pointer">Eastern Africa
-                                <svg className="mt-2 ms-3" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                </svg>
-                            </a>
-                        </li>
-                        <li className="pb-4">
-                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex cursor-pointer">West Africa
-                                <svg className="mt-2 ms-3" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                </svg>
-                            </a>
-                        </li>
-                        <li className="pb-4">
-                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex cursor-pointer">Middle East
-                                <svg className="mt-2 ms-3" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                </svg>
-                            </a>
-                        </li>
-                        <li className="pb-4">
-                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex cursor-pointer">Central Asia
-                                <svg className="mt-2 ms-3" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                </svg>
-                            </a>
-                        </li>
-                        <li className="pb-4">
-                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex cursor-pointer">South Asia
-                                <svg className="mt-2 ms-3" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                </svg>
-                            </a>
-                        </li>
-                        <li className="pb-4">
-                            <a href="#" className="text-white font-normal text-sm inline-flex pb-2 cursor-pointer">Asia-Pacific
-                                <svg className="mt-2 ms-3" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                </svg>
-                            </a>
-                        </li>
-                        <li className="pb-4">
-                            <a href="#" className="text-white font-normal inline-flex text-sm pb-2 cursor-pointer">North America
-                                <svg className="mt-2 ms-3" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                </svg>
-                            </a>
-                        </li>
-                        <li className="pb-4">
-                            <a href="#" className="text-white font-normal inline-flex text-sm pb-2 cursor-pointer">Europe
-                                <svg className="mt-2 ms-3" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                </svg>
-                            </a>
-                        </li>
-                    </nav>
+                    {(toggleSection3 || screenWidth > 1023) && (
+                        <nav className="lg:list-none list4 lg:flex flex-col hidden">
+                            <li className="pb-4">
+                                <a href="#" className="text-white font-normal text-sm pb-2 inline-flex cursor-pointer">Eastern Africa
+                                    <svg className="mt-2 ms-3" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li className="pb-4">
+                                <a href="#" className="text-white font-normal text-sm pb-2 inline-flex cursor-pointer">West Africa
+                                    <svg className="mt-2 ms-3" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li className="pb-4">
+                                <a href="#" className="text-white font-normal text-sm pb-2 inline-flex cursor-pointer">Middle East
+                                    <svg className="mt-2 ms-3" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li className="pb-4">
+                                <a href="#" className="text-white font-normal text-sm pb-2 inline-flex cursor-pointer">Central Asia
+                                    <svg className="mt-2 ms-3" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li className="pb-4">
+                                <a href="#" className="text-white font-normal text-sm pb-2 inline-flex cursor-pointer">South Asia
+                                    <svg className="mt-2 ms-3" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li className="pb-4">
+                                <a href="#" className="text-white font-normal text-sm inline-flex pb-2 cursor-pointer">Asia-Pacific
+                                    <svg className="mt-2 ms-3" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li className="pb-4">
+                                <a href="#" className="text-white font-normal inline-flex text-sm pb-2 cursor-pointer">North America
+                                    <svg className="mt-2 ms-3" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li className="pb-4">
+                                <a href="#" className="text-white font-normal inline-flex text-sm pb-2 cursor-pointer">Europe
+                                    <svg className="mt-2 ms-3" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </a>
+                            </li>
+                        </nav>
+                    )}
                 </div>
             </footer>
             <div className="container mx-auto lg:border-gray-600 border-b w-full px-5 flex justify-center mt-5"></div>

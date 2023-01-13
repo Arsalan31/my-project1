@@ -34,38 +34,38 @@
     background-position: center;
     margin: auto; */
     background: linear-gradient(to bottom,
-      #381DDB 0%,
-      #381DDB 70%,
-      #ffffff 50%,
-      #ffffff 100%);
-  }
-
-  [dir="rtl"] .background2{
-    background: linear-gradient(to bottom,
-      #381DDB 0%,
-      #381DDB 70%,
-      #ffffff 50%,
-      #ffffff 100%);
-    }
-  
-
-  @media screen and (min-width: 1024px) {
-    .background2 {
-      background: linear-gradient(to right,
-      #381DDB 0%,
-      #381DDB 70%,
-      #ffffff 50%,
-      #ffffff 100%);
-    }
-
-    [dir="rtl"] .background2{
-      background: linear-gradient(to left,
         #381DDB 0%,
         #381DDB 70%,
         #ffffff 50%,
         #ffffff 100%);
-      }
-    
+  }
+
+  [dir="rtl"] .background2 {
+    background: linear-gradient(to bottom,
+        #381DDB 0%,
+        #381DDB 70%,
+        #ffffff 50%,
+        #ffffff 100%);
+  }
+
+
+  @media screen and (min-width: 1024px) {
+    .background2 {
+      background: linear-gradient(to right,
+          #381DDB 0%,
+          #381DDB 70%,
+          #ffffff 50%,
+          #ffffff 100%);
+    }
+
+    [dir="rtl"] .background2 {
+      background: linear-gradient(to left,
+          #381DDB 0%,
+          #381DDB 70%,
+          #ffffff 50%,
+          #ffffff 100%);
+    }
+
   }
 
   .switch {
@@ -211,6 +211,14 @@
     box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
   }
 
+  .list4 {
+    list-style-type: none;
+    height: 100%;
+    display: flex;
+    position: relative;
+    order: 0;
+  }
+
   @media (min-width: 768px) {
     .list {
       list-style-type: none;
@@ -327,42 +335,42 @@
     filter: none
   } */
 
-  [dir="rtl"] .swiper-button-prev{
+  [dir="rtl"] .swiper-button-prev {
     rotate: 180deg;
   }
 
-  [dir="rtl"] .swiper-button-next{
+  [dir="rtl"] .swiper-button-next {
     rotate: 180deg;
   }
 
-  [dir="rtl"] .swiper-button-prev1{
+  [dir="rtl"] .swiper-button-prev1 {
     rotate: 180deg;
   }
 
-  [dir="rtl"] .swiper-button-next1{
+  [dir="rtl"] .swiper-button-next1 {
     rotate: 180deg;
   }
 
   [dir="rtl"] .seemore {
     rotate: 180deg;
   }
-  
+
   .bg {
     background: #744775
   }
 
-  .swiper-pagination{
+  .swiper-pagination {
     width: 60px !important;
   }
 
-  .swiper-pagination1{
+  .swiper-pagination1 {
     width: 40px !important;
   }
 
-  .swiper-pagination2{
+  .swiper-pagination2 {
     width: 40px !important;
   }
 
-  .swiper-pagination-bullet-active{
+  .swiper-pagination-bullet-active {
     background: black !important;
   }
