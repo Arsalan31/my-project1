@@ -4,16 +4,16 @@ import './style.css';
 function Footer() {
     return (
         <footer className="bg-gray-5 py-8">
-            <div className="flex flex-wrap lg:flex-wrap justify-center">
+            <div className="flex flex-wrap lg:flex-wrap justify-center px-5">
                 <div className="lg:w-1/3 inline-flex lg:ps-10">
-                    <img src={require('./assets/AKDN Logo 1.png')} className="w-14 h-12" />
-                    <img src={require('./assets/AKDN Logo 2.png')} className="w-24 h-6 mt-3 ms-2" />
+                    <img src={require('./assets/AKDN Logo 1.png')} className="sm:w-14 sm:h-12 w-8 h-8"/>
+                    <img src={require('./assets/AKDN Logo 2.png')} className="sm:w-24 sm:h-6 w-16 h-4 sm:mt-3 mt-2 ms-2" />
                     <div className="border-s border-gray-600 ms-5 h-7 self-center">
-                        <img src={require('./assets/Tag Line 2 1.png')} className="w-32 h-6 ms-3" />
+                        <img src={require('./assets/Tag Line 2 1.png')} className="sm:w-32 sm:h-6 w-32 h-7 ms-3" />
                     </div>
                 </div>
                 <div className="lg:w-2/3 w-full lg:order-1 order-2">
-                    <div className="lg:justify-end justify-center flex sm:gap-6 gap-6 lg:me-48 lg:mt-0 mt-7">
+                    <div className="lg:justify-end justify-center flex sm:gap-6 gap-6 lg:me-32 lg:mt-0 mt-7">
                         <a href="https://www.facebook.com/figmadesign/">
                             <svg width="10" height="30" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M8.73041 9.52795H6.29003C6.29003 13.4269 6.29003 18.2261 6.29003 18.2261H2.67386C2.67386 18.2261 2.67386 13.4734 2.67386 9.52795H0.954895V6.45376H2.67386V4.46532C2.67386 3.04121 3.35057 0.815918 6.32326 0.815918L9.00291 0.82619V3.81036C9.00291 3.81036 7.37458 3.81036 7.05797 3.81036C6.74137 3.81036 6.29124 3.96866 6.29124 4.64779V6.45436H9.04641L8.73041 9.52795Z" fill="#FFFFFF" />
@@ -44,17 +44,19 @@ function Footer() {
                     </div>
                 </div>
                 <div className="lg:w-1/2 w-full lg:order-2 order-2 border-b pb-14 border-gray-600">
-                    <div className="flex lg:justify-end justify-center lg:me-36 lg:mt-0 mt-5">
+                    <div className="flex lg:justify-end justify-center lg:me-32 lg:mt-0 mt-5">
                         <p className="text-white text-md tracking-wider">Subscribe to our newsletter</p>
                     </div>
-                    <div className="flex items-center flex-col mt-3 lg:items-end lg:px-0 sm:px-48 px-20 lg:me-48">
-                        <button className="text-white xl:w-1/3 lg:w-1/2 md:w-1/4 sm:w-1/2 text-sm py-3 sm:px-2 px-4 font-bold inline-flex text-start border-gray-400 border">Sign Up
-                            <svg className="seemore mt-1 ms-16" width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <div className="flex items-center flex-col mt-3 lg:items-end lg:px-0 sm:px-48 px-20 lg:me-32">
+                        <button className="text-white  xl:w-1/3 lg:w-1/2 md:w-1/3 sm:w-1/2 w-36 text-sm py-3 xl:px-2 sm:px-2 px-4 font-bold inline-flex text-start border-gray-400 border">
+                            <p className="w-9/12">Sign Up</p>
+                            <svg className="w-1/5 seemore mt-1 flex justify-end" width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1 13L7 7L1 1" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                             </svg>
                         </button>
-                        <button className="text-white xl:w-1/3 lg:w-1/2 md:w-1/4 sm:w-1/2 text-sm py-3 sm:px-2 px-3 font-bold inline-flex  text-start border-gray-400 border mt-5">Contact Us
-                            <svg className="seemore mt-1 ms-12" width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <button className="text-white xl:w-1/3 lg:w-1/2 md:w-1/3 sm:w-1/2 w-36 text-sm py-3 xl:px-2 sm:px-1 px-3 font-bold inline-flex  text-start border-gray-400 border mt-5">
+                            <p className="w-9/12">Contact Us</p>
+                            <svg className="w-1/5 flex justify-end seemore mt-1" width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1 13L7 7L1 1" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                             </svg>
                         </button>
@@ -86,7 +88,12 @@ function Footer() {
                     </nav>
                 </div>
                 <div className="lg:w-1/5 px-5 text-start lg:ps-10 mt-7">
-                    <h3 className="font-bold text-sm text-white uppercase tracking-widest pb-6">who we are</h3>
+                    <div className="flex">
+                        <h3 className="w-9/12 font-bold text-sm text-white uppercase tracking-widest pb-6">who we are</h3>
+                        <svg className="lg:hidden w-1/6 mt-2 ms-3 flex items-end" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
                     <nav className="list-none lg:block hidden">
                         <li className="pb-4">
                             <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Founder & Chairman</a>
@@ -112,7 +119,12 @@ function Footer() {
                     </nav>
                 </div>
                 <div className="lg:w-1/5 px-5 text-start lg:ps-10 mt-7">
-                    <h3 className="font-bold text-sm text-white tracking-widest uppercase pb-6">what we do</h3>
+                    <div className="flex">
+                        <h3 className="w-9/12 font-bold text-sm text-white tracking-widest uppercase pb-6">what we do</h3>
+                        <svg className="lg:hidden w-1/6 mt-2 ms-3 flex items-end" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
                     <nav className="list-none lg:block hidden">
                         <li className="pb-4">
                             <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Education</a>
@@ -142,7 +154,12 @@ function Footer() {
                     </nav>
                 </div>
                 <div className="lg:w-1/5 px-5 text-start lg:ps-10 mt-7">
-                    <h3 className="font-bold text-sm text-white tracking-widest uppercase pb-6">our agencies</h3>
+                    <div className="flex">
+                        <h3 className="w-9/12 font-bold text-sm text-white tracking-widest uppercase pb-6">our agencies</h3>
+                        <svg className="lg:hidden w-1/6 mt-2 ms-3 flex items-end" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
                     <nav className="list-none lg:block hidden">
                         <li className="pb-4">
                             <a href="#" className="text-white font-normal text-start text-sm pb-2 inline-flex cursor-pointer"><p className="me-3">AKAH</p>
@@ -183,7 +200,12 @@ function Footer() {
                     </nav>
                 </div>
                 <div className="lg:w-1/5 px-5 text-start lg:ps-10 mt-7">
-                    <h3 className="font-bold text-sm text-white tracking-widest uppercase pb-6">where we work</h3>
+                    <div className="flex">
+                        <h3 className="w-9/12 font-bold text-sm text-white tracking-widest uppercase pb-6">where we work</h3>
+                        <svg className="lg:hidden w-1/6 mt-2 ms-3 flex items-end" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
                     <nav className="list-none lg:block hidden">
                         <li className="pb-4">
                             <a href="#" className="text-white font-normal text-sm pb-2 inline-flex cursor-pointer">Eastern Africa
@@ -251,9 +273,9 @@ function Footer() {
                         © 2021 Aga Khan Foundation, an agency of the Aga Khan Development Network. All rights reserved.
                     </p>
                     <p className="w-full flex justify-center gap-5 lg:mx-0 mx-auto sm:px-0 px-10 mt-3 font-normal text-sm text-center text-gray-400">
-                        Terms & Conditions 
+                        Terms & Conditions
                         <p>
-                        Privacy Policy
+                            Privacy Policy
                         </p>
                     </p>
                 </div>
