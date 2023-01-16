@@ -9,7 +9,7 @@ function Subscribe() {
                 </div>
                 <div className="flex justify-end">
                     <img className="absolute opacity-10" src={require('./assets/Group 42 (1).png')}></img>
-                </div>
+                </div>  
                 <div className="bg-purple-50 sm:py-20 px-10 p-8 rounded-ts-7xl rounded-te-3xl rounded-bs-3xl rounded-be-3xl">
                     {/* <div className="flex justify-end">
                         <img className="absolute"src={require('./assets/Group 42 (1).png')}></img>
