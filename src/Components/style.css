@@ -219,6 +219,14 @@
     order: 0;
   }
 
+  .list5 {
+    list-style-type: none;
+    height: 100%;
+    display: flex;
+    position: relative;
+    order: 0;
+  }
+
   @media (min-width: 768px) {
     .list {
       list-style-type: none;

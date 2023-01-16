@@ -80,6 +80,46 @@ function Footer() {
         }
 
     }, [])
+    const [toggleSection4, setTogglesection4] = useState(false)
+
+    const togglediv4 = () => {
+        setTogglesection4(!toggleSection4)
+    }
+    const [toggleSection5, setTogglesection5] = useState(false)
+
+    const togglediv5 = () => {
+        setTogglesection5(!toggleSection5)
+    }
+    const [toggleSection6, setTogglesection6] = useState(false)
+
+    const togglediv6 = () => {
+        setTogglesection6(!toggleSection6)
+    }
+    const [toggleSection7, setTogglesection7] = useState(false)
+
+    const togglediv7 = () => {
+        setTogglesection7(!toggleSection7)
+    }
+    const [toggleSection8, setTogglesection8] = useState(false)
+
+    const togglediv8 = () => {
+        setTogglesection8(!toggleSection8)
+    }
+    const [toggleSection9, setTogglesection9] = useState(false)
+
+    const togglediv9 = () => {
+        setTogglesection9(!toggleSection9)
+    }
+    const [toggleSection10, setTogglesection10] = useState(false)
+
+    const togglediv10 = () => {
+        setTogglesection10(!toggleSection10)
+    }
+    const [toggleSection11, setTogglesection11] = useState(false)
+
+    const togglediv11 = () => {
+        setTogglesection11(!toggleSection11)
+    }
     return (
         <footer className="bg-gray-5 py-8">
             <div className="flex flex-wrap lg:flex-wrap justify-center px-5">
@@ -305,60 +345,198 @@ function Footer() {
                     {(toggleSection3 || screenWidth > 1023) && (
                         <nav className="lg:list-none list4 lg:flex flex-col hidden">
                             <li className="pb-4">
-                                <a href="#" className="text-white font-normal text-sm pb-2 inline-flex cursor-pointer">Eastern Africa
-                                    <svg className="mt-2 ms-3" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                    </svg>
+                                <a className="text-white font-normal text-sm pb-2 inline-flex">Eastern Africa
+                                    <button onClick={togglediv4}>
+                                        <svg className="mt-2 ms-3" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </button>
                                 </a>
+                                {(toggleSection4) && (
+                                    <nav className="lg:list-none list5 lg:flex flex-col hidden">
+                                        <li className="pb-4">
+                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Kenya</a>
+                                        </li>
+                                        <li className="pb-4">
+                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Madagascar</a>
+                                        </li>
+                                        <li className="pb-4">
+                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Mozambique</a>
+                                        </li>
+                                        <li className="pb-4">
+                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Rwanda</a>
+                                        </li>
+                                        <li className="pb-4">
+                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Tanzania</a>
+                                        </li>
+                                        <li className="pb-4">
+                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Uganda</a>
+                                        </li>
+                                    </nav>
+                                )}
                             </li>
                             <li className="pb-4">
-                                <a href="#" className="text-white font-normal text-sm pb-2 inline-flex cursor-pointer">West Africa
-                                    <svg className="mt-2 ms-3" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                    </svg>
+                                <a className="text-white font-normal text-sm pb-2 inline-flex cursor-pointer">West Africa
+                                    <button onClick={togglediv5}>
+                                        <svg className="mt-2 ms-3" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </button>
                                 </a>
+                                {(toggleSection5) && (
+                                    <nav className="lg:list-none list5 lg:flex flex-col hidden">
+                                        <li className="pb-4">
+                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Burkina Faso</a>
+                                        </li>
+                                        <li className="pb-4">
+                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Côte d'Ivoire</a>
+                                        </li>
+                                        <li className="pb-4">
+                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Mali</a>
+                                        </li>
+                                        <li className="pb-4">
+                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Senegal</a>
+                                        </li>
+                                    </nav>
+                                )}
                             </li>
                             <li className="pb-4">
-                                <a href="#" className="text-white font-normal text-sm pb-2 inline-flex cursor-pointer">Middle East
-                                    <svg className="mt-2 ms-3" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                    </svg>
+                                <a className="text-white font-normal text-sm pb-2 inline-flex cursor-pointer">Middle East
+                                    <button onClick={togglediv6}>
+                                        <svg className="mt-2 ms-3" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </button>
                                 </a>
+                                {(toggleSection6) && (
+                                    <nav className="lg:list-none list5 lg:flex flex-col hidden">
+                                        <li className="pb-4">
+                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Egypt</a>
+                                        </li>
+                                        <li className="pb-4">
+                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Syria</a>
+                                        </li>
+                                        <li className="pb-4">
+                                            <a className="text-white font-normal text-sm pb-2 inline-flex">United Arab Emirates</a>
+                                        </li>
+                                    </nav>
+                                )}
                             </li>
                             <li className="pb-4">
-                                <a href="#" className="text-white font-normal text-sm pb-2 inline-flex cursor-pointer">Central Asia
-                                    <svg className="mt-2 ms-3" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                    </svg>
+                                <a className="text-white font-normal text-sm pb-2 inline-flex cursor-pointer">Central Asia
+                                    <button onClick={togglediv7}>
+                                        <svg className="mt-2 ms-3" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </button>
                                 </a>
+                                {(toggleSection7) && (
+                                    <nav className="lg:list-none list5 lg:flex flex-col hidden">
+                                        <li className="pb-4">
+                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Afghanistan</a>
+                                        </li>
+                                        <li className="pb-4">
+                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Kazakhstan</a>
+                                        </li>
+                                        <li className="pb-4">
+                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Kyrgyz Republic</a>
+                                        </li>
+                                        <li className="pb-4">
+                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Tajikistan</a>
+                                        </li>
+                                    </nav>
+                                )}
                             </li>
                             <li className="pb-4">
-                                <a href="#" className="text-white font-normal text-sm pb-2 inline-flex cursor-pointer">South Asia
-                                    <svg className="mt-2 ms-3" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                    </svg>
+                                <a className="text-white font-normal text-sm pb-2 inline-flex cursor-pointer">South Asia
+                                    <button onClick={togglediv8}>
+                                        <svg className="mt-2 ms-3" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </button>
                                 </a>
+                                {(toggleSection8) && (
+                                    <nav className="lg:list-none list5 lg:flex flex-col hidden">
+                                        <li className="pb-4">
+                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Bangladesh</a>
+                                        </li>
+                                        <li className="pb-4">
+                                            <a className="text-white font-normal text-sm pb-2 inline-flex">India</a>
+                                        </li>
+                                        <li className="pb-4">
+                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Pakistan</a>
+                                        </li>
+                                    </nav>
+                                )}
                             </li>
                             <li className="pb-4">
-                                <a href="#" className="text-white font-normal text-sm inline-flex pb-2 cursor-pointer">Asia-Pacific
-                                    <svg className="mt-2 ms-3" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                    </svg>
+                                <a className="text-white font-normal text-sm inline-flex pb-2 cursor-pointer">Asia-Pacific
+                                    <button onClick={togglediv9}>
+                                        <svg className="mt-2 ms-3" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </button>
                                 </a>
+                                {(toggleSection9) && (
+                                    <nav className="lg:list-none list5 lg:flex flex-col hidden">
+                                        <li className="pb-4">
+                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Malaysia</a>
+                                        </li>
+                                        <li className="pb-4">
+                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Singapore</a>
+                                        </li>
+                                    </nav>
+                                )}
                             </li>
                             <li className="pb-4">
-                                <a href="#" className="text-white font-normal inline-flex text-sm pb-2 cursor-pointer">North America
-                                    <svg className="mt-2 ms-3" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                    </svg>
+                                <a className="text-white font-normal inline-flex text-sm pb-2 cursor-pointer">North America
+                                    <button onClick={togglediv10}>
+                                        <svg className="mt-2 ms-3" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </button>
                                 </a>
+                                {(toggleSection10) && (
+                                    <nav className="lg:list-none list5 lg:flex flex-col hidden">
+                                        <li className="pb-4">
+                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Canada</a>
+                                        </li>
+                                        <li className="pb-4">
+                                            <a className="text-white font-normal text-sm pb-2 inline-flex">United States of America</a>
+                                        </li>
+                                    </nav>
+                                )}
                             </li>
                             <li className="pb-4">
-                                <a href="#" className="text-white font-normal inline-flex text-sm pb-2 cursor-pointer">Europe
-                                    <svg className="mt-2 ms-3" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                    </svg>
+                                <a className="text-white font-normal inline-flex text-sm pb-2 cursor-pointer">Europe
+                                    <button onClick={togglediv11}>
+                                        <svg className="mt-2 ms-3" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </button>
                                 </a>
+                                {(toggleSection11) && (
+                                    <nav className="lg:list-none list5 lg:flex flex-col hidden">
+                                        <li className="pb-4">
+                                            <a className="text-white font-normal text-sm pb-2 inline-flex">France</a>
+                                        </li>
+                                        <li className="pb-4">
+                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Germany</a>
+                                        </li>
+                                        <li className="pb-4">
+                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Norway</a>
+                                        </li>
+                                        <li className="pb-4">
+                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Portugal</a>
+                                        </li>
+                                        <li className="pb-4">
+                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Switzerland</a>
+                                        </li>
+                                        <li className="pb-4">
+                                            <a className="text-white font-normal text-sm pb-2 inline-flex">United Kingdom</a>
+                                        </li>
+                                    </nav>
+                                )}
                             </li>
                         </nav>
                     )}
