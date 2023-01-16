@@ -30,27 +30,27 @@ function Header2() {
         <header className="w-full fixed">
             <div className="flex flex-wrap justify-between content-center items-center bg-white ">
                 <img href="Akdn" src={require('./assets/AKDN Identity with Tag Line 1.png')}></img>
-                <button onClick={toggleNav} className="block items-center focus:outline-none p-2 ms-3 text-sm font-semibold uppercase border-white border-2 px-6 py-3 text-white md:hidden">Menu
+                <button onClick={toggleNav} className="block items-center focus:outline-none p-2 ms-3 text-sm font-semibold uppercase border-white border-2 px-6 py-3 text-gray-5 md:hidden">Menu
                 </button>
                 {(toggleMenu || screenWidth > 767) && (
-                    <div className="list-none flex flex-row p-6 lg:justify-center justify-start ">
+                    <div className="list-none flex flex-row p-6 lg:justify-center justify-start">
                         <li>
-                            <a href="#" className="cursor-pointer uppercase block py-2 pe-4 ps-3 md:text-gray-5 text-white font-bold text-xs leading-7 rounded md:bg-transparent hover:text-red-300 focus-within: dark:text-white" aria-current="page">Who We Are</a>
+                            <a href="#" className="cursor-pointer uppercase block py-2 pe-4 ps-3 md:text-gray-5 text-white font-bold text-xs leading-7 rounded md:bg-transparent focus-within: dark:text-white" aria-current="page">Who We Are</a>
                         </li>
                         <li>
-                            <a href="#" className="cursor-pointer uppercase block py-2 pe-4 ps-3 md:text-gray-5 text-white font-bold text-xs leading-7 rounded md:hover:bg-transparent hover:text-red-300 md:border-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">What We Do</a>
+                            <a href="#" className="cursor-pointer uppercase block py-2 pe-4 ps-3 md:text-gray-5 text-white font-bold text-xs leading-7 rounded">What We Do</a>
                         </li>
                         <li>
-                            <a href="#" className="cursor-pointer uppercase block py-2 pe-4 ps-3 md:text-gray-5 text-white font-bold text-xs leading-7 rounded md:hover:bg-transparent hover:text-red-300 md:border-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">Where We Work</a>
+                            <a href="#" className="cursor-pointer uppercase block py-2 pe-4 ps-3 md:text-gray-5 text-white font-bold text-xs leading-7 rounded">Where We Work</a>
                         </li>
                         <li>
-                            <a href="#" className="cursor-pointer uppercase block py-2 pe-4 ps-3 font-bold text-xs leading-7 md:text-gray-5 text-white rounded md:hover:bg-transparent hover:text-red-300 md:border-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">How We Work</a>
+                            <a href="#" className="cursor-pointer uppercase block py-2 pe-4 ps-3 font-bold text-xs leading-7 md:text-gray-5 text-white rounded">How We Work</a>
                         </li>
                         <li>
-                            <a href="#" className="cursor-pointer uppercase block py-2 pe-4 ps-3 font-bold text-xs leading-7 md:text-gray-5 text-white rounded md:hover:bg-transparent hover:text-red-300 md:border-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">RESOURCES & MEDIA</a>
+                            <a href="#" className="cursor-pointer uppercase block py-2 pe-4 ps-3 font-bold text-xs leading-7 md:text-gray-5 text-white rounded">RESOURCES & MEDIA</a>
                         </li>
                         <li>
-                            <a href="#" className="cursor-pointer uppercase block py-2 pe-4 ps-3 font-bold text-xs leading-7 md:text-gray-5 text-white rounded md:hover:bg-transparent hover:text-red-300 md:border-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">Get Involved</a>
+                            <a href="#" className="cursor-pointer uppercase block py-2 pe-4 ps-3 font-bold text-xs leading-7 md:text-gray-5 text-white rounded">Get Involved</a>
                         </li>
                     </div>
                 )}
