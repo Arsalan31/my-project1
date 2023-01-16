@@ -117,7 +117,7 @@ function Footer() {
                 </div>
                 <div className="lg:w-1/2 lg:mt-12 w-full lg:ps-10 lg:order-0 order-1 border-b lg:pb-14 pb-7 border-gray-600">
                     <div className="text-start">
-                        <p className="sm:w-5/12 w-full lg:w-60 lg:mx-0 mx-auto sm:px-0 px-16 lg:mt-0 mt-7 font-normal text-sm text-start text-gray-400">
+                        <p className="sm:w-5/12 w-full lg:w-60 lg:mx-0 mx-auto sm:px-0 px-1 lg:mt-0 mt-7 font-normal text-sm text-start text-gray-400">
                             We work with communities to address the inter-related dimensions of poverty in order to improve quality of life, promote pluralism, and enhance self-reliance.                        </p>
                     </div>
                 </div>

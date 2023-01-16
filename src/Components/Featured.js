@@ -17,9 +17,9 @@ function Featured(props) {
     }, [props.isRtl])
     return (
         <section className="sm:mt-10 lg:mt-0 flex flex-col items-start w-full h-full bg-transparent flex-none order-2 flex-grow-0">
-            <div className="container mt-8 sm:px-16 px-8 pb-6 mx-auto">
+            <div className="container mt-8 sm:px-16 px-8 mx-auto">
                 <h3 className=" font-bold text-3xl uppercase text-center text-black">Featured Videos</h3>
-                <div className="flex flex-wrap justify-center px-5 mt-10 mb-10">
+                <div className="flex flex-wrap justify-center px-5 mt-10 mb-5">
                     <>
                         <Swiper
                             pagination={{

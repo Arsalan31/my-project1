@@ -374,3 +374,9 @@
   .swiper-pagination-bullet-active {
     background: black !important;
   }
+
+  .text1{
+    background-image: url(assets/Group\ 46.png);
+    background-repeat: no-repeat;
+    background-position: left; 
+  }
