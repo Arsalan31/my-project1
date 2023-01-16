@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Agency from "./Components/Agency";
 import Featured from "./Components/Featured";
 import Footer from "./Components/Footer2";
+import Header2 from "./Components/Header2";
 import Hero2 from "./Components/Hero2";
 import Impact from "./Components/Impact";
 import Partners2 from "./Components/Partners2";
@@ -13,13 +14,14 @@ function Akdn() {
     return (
         <React.Fragment>
             <div dir={isRtl ? "rtl" : "ltr"}>
-                <Hero2/>
+                <Header2 />
+                <Hero2 />
                 <Impact isRtl={isRtl} setIsRtl={setIsRtl} />
-                <Partners2 isRtl={isRtl}/>
-                <Agency/>
-                <Featured isRtl={isRtl}/>
-                <Subscribe/>
-                <Footer/>
+                <Partners2 isRtl={isRtl} />
+                <Agency />
+                <Featured isRtl={isRtl} />
+                <Subscribe />
+                <Footer />
             </div>
         </React.Fragment>
     )
