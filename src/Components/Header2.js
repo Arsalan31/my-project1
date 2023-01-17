@@ -38,25 +38,25 @@ function Header2() {
                 <img href="Akdn" className="flex order-0 " src={require('./assets/AKDN Identity with Tag Line 1.png')}></img>
                 <button onClick={toggleNav} className="flex items-center lg:order-1 order-0 focus:outline-none p-2 ms-3 text-sm font-semibold uppercase border-white border-2 px-6 py-3 text-gray-5 md:hidden">Menu
                 </button>
-                {(toggleMenu || screenWidth > 1024) && (
+                {(toggleMenu || screenWidth > 1023) && (
                     <div className="list-none flex flex-row p-6 order-0 lg:justify-center justify-start">
                         <li>
-                            <a href="#" className="cursor-pointer uppercase block py-2 pe-4 ps-3 md:text-gray-5 text-white font-bold text-xs leading-7 rounded md:bg-transparent focus-within: dark:text-white" aria-current="page">Who We Are</a>
+                            <a href="#" className="cursor-pointer uppercase block py-2 px-2 md:text-gray-5 text-white font-bold text-xs leading-7 rounded md:bg-transparent focus-within: dark:text-white" aria-current="page">Who We Are</a>
                         </li>
                         <li>
-                            <a href="#" className="cursor-pointer uppercase block py-2 pe-4 ps-3 md:text-gray-5 text-white font-bold text-xs leading-7 rounded">What We Do</a>
+                            <a href="#" className="cursor-pointer uppercase block py-2 px-2 md:text-gray-5 text-white font-bold text-xs leading-7 rounded">What We Do</a>
                         </li>
                         <li>
-                            <a href="#" className="cursor-pointer uppercase block py-2 pe-4 ps-3 md:text-gray-5 text-white font-bold text-xs leading-7 rounded">Where We Work</a>
+                            <a href="#" className="cursor-pointer uppercase block py-2 px-2 md:text-gray-5 text-white font-bold text-xs leading-7 rounded">Where We Work</a>
                         </li>
                         <li>
-                            <a href="#" className="cursor-pointer uppercase block py-2 pe-4 ps-3 font-bold text-xs leading-7 md:text-gray-5 text-white rounded">How We Work</a>
+                            <a href="#" className="cursor-pointer uppercase block py-2 px-2 font-bold text-xs leading-7 md:text-gray-5 text-white rounded">How We Work</a>
                         </li>
                         <li>
-                            <a href="#" className="cursor-pointer uppercase block py-2 pe-4 ps-3 font-bold text-xs leading-7 md:text-gray-5 text-white rounded">RESOURCES & MEDIA</a>
+                            <a href="#" className="cursor-pointer uppercase block py-2 px-2 font-bold text-xs leading-7 md:text-gray-5 text-white rounded">RESOURCES & MEDIA</a>
                         </li>
                         <li>
-                            <a href="#" className="cursor-pointer uppercase block py-2 pe-4 ps-3 font-bold text-xs leading-7 md:text-gray-5 text-white rounded">Get Involved</a>
+                            <a href="#" className="cursor-pointer uppercase block py-2 px-2 font-bold text-xs leading-7 md:text-gray-5 text-white rounded">Get Involved</a>
                         </li>
                     </div>
                 )}

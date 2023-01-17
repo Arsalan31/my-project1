@@ -155,17 +155,17 @@ function Footer() {
                         </a>
                     </div>
                 </div>
-                <div className="lg:w-1/2 lg:mt-12 w-full lg:ps-10 lg:order-0 order-1 border-b lg:pb-14 pb-7 border-gray-600">
+                <div className="lg:w-1/2 lg:mt-12 w-full lg:ps-10 lg:order-0 order-1 border-b lg:pb-14 pb-7 border-white">
                     <div className="text-start">
-                        <p className="sm:w-5/12 w-full lg:w-60 lg:mx-0 mx-auto sm:px-0 px-1 lg:mt-0 mt-7 font-normal text-sm text-start text-gray-400">
+                        <p className="sm:w-5/12 w-full lg:w-60 lg:mx-0 mx-auto sm:px-0 px-1 lg:mt-0 mt-7 font-normal text-sm text-start text-white">
                             We work with communities to address the inter-related dimensions of poverty in order to improve quality of life, promote pluralism, and enhance self-reliance.                        </p>
                     </div>
                 </div>
-                <div className="lg:w-1/2 w-full lg:order-2 order-2 border-b pb-14 border-gray-600">
+                <div className="lg:w-1/2 w-full lg:order-2 order-2 border-b pb-14 border-white">
                     <div className="flex lg:justify-end justify-center lg:me-32 lg:mt-0 mt-5">
                         <p className="text-white text-md tracking-wider">Subscribe to our newsletter</p>
                     </div>
-                    <div className="flex items-center flex-col mt-3 lg:items-end lg:px-0 sm:px-48 px-20 lg:me-32">
+                    <div className="flex items-center flex-col mt-3 lg:items-end lg:px-0 md:px-48 sm:px-36 px-20 lg:me-32">
                         <button className="text-white  xl:w-1/3 lg:w-1/2 md:w-1/3 sm:w-1/2 w-36 text-sm py-3 xl:px-2 sm:px-2 px-4 font-bold inline-flex text-start border-gray-400 border">
                             <p className="w-9/12">Sign Up</p>
                             <svg className="w-1/5 seemore mt-1 flex justify-end" width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -542,13 +542,13 @@ function Footer() {
                     )}
                 </div>
             </footer>
-            <div className="container mx-auto lg:border-gray-600 border-b w-full px-5 flex justify-center mt-5"></div>
+            <div className="container mx-auto border-white border-b w-full px-5 flex justify-center mt-5"></div>
             <div className="lg:mt-8 w-full lg:ps-10">
                 <div className="flex-col justify-center">
-                    <p className="w-full lg:mx-0 mx-auto sm:px-0 px-8 lg:mt-0 mt-7 font-normal text-sm text-center text-gray-400">
+                    <p className="w-full lg:mx-0 mx-auto sm:px-0 px-8 lg:mt-0 mt-7 font-normal text-sm text-center text-white">
                         © 2021 Aga Khan Foundation, an agency of the Aga Khan Development Network. All rights reserved.
                     </p>
-                    <p className="w-full flex justify-center gap-5 lg:mx-0 mx-auto sm:px-0 px-10 mt-3 font-normal text-sm text-center text-gray-400">
+                    <p className="w-full flex justify-center gap-5 lg:mx-0 mx-auto sm:px-0 px-10 mt-3 font-normal text-sm text-center text-white">
                         Terms & Conditions
                         <p>
                             Privacy Policy
