@@ -227,6 +227,13 @@
     order: 0;
   }
 
+  .list6 {
+    list-style-type: none;
+    display: flex;
+    position: absolute;
+    order: 0;
+  }
+
   @media (min-width: 768px) {
     .list {
       list-style-type: none;
