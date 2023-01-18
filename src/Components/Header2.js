@@ -120,7 +120,7 @@ function Header2() {
                         <li ref={ref}>
                             <a onClick={toggleabt} className="cursor-pointer uppercase block py-2 px-2 md:text-gray-5 text-white font-bold text-xs leading-7 rounded">Who We Are</a>
                             {(toggleabout) && (
-                                <nav className="lg:list-none bg-gray-5 p-5 list6 lg:flex flex-col hidden">
+                                <nav className="lg:list-none bg-gray-4 p-5 list6 lg:flex flex-col hidden">
                                     <li>
                                         <a className="text-white font-normal text-sm pb-2 inline-flex">Founder & Chairman</a>
                                     </li>
@@ -150,7 +150,13 @@ function Header2() {
                             {(toggleabout1) && (
                                 <div className="flex">
                                     <div className="w-1/2" ref={ref1}>
-                                        <nav className="lg:list-none bg-gray-5 p-5 list6 lg:flex flex-col hidden">
+                                        <nav className="lg:list-none bg-gray-4 p-5 list6 lg:flex flex-col hidden">
+                                            <li className="pb-3">
+                                                <a className="uppercase text-blue-200 font-bold text-xs leading-5">developing human capacity</a>
+                                            </li>
+                                            <div className="pb-4">
+                                                <li className="border w-1/3"></li>
+                                            </div>
                                             <li>
                                                 <a className="text-white font-normal text-sm pb-2 inline-flex">Early Childhood Development</a>
                                             </li>
@@ -162,8 +168,8 @@ function Header2() {
                                             </li>
                                         </nav>
                                     </div>
-                                    <div className="w-1/2">
-                                        <nav className="lg:list-none bg-gray-5 p-5 list6 lg:flex flex-col">
+                                    {/* <div className="w-1/2">
+                                        <nav className="lg:list-none bg-gray-4 p-5 list6 lg:flex flex-col">
                                             <li>
                                                 <a className="text-white font-normal text-sm pb-2 inline-flex">Fact sheet</a>
                                             </li>
@@ -177,7 +183,7 @@ function Header2() {
                                                 <a className="text-white font-normal text-sm pb-2 inline-flex">Contact Us</a>
                                             </li>
                                         </nav>
-                                    </div>
+                                    </div> */}
                                 </div>
                             )}
                         </li>
@@ -220,7 +226,7 @@ function Header2() {
                                 </button>
                             </a>
                             {(togglelanguage) && (
-                                <nav className="lg:list-none list6 p-5 lg:flex flex-col bg-gray-5 hidden">
+                                <nav className="lg:list-none list6 p-5 lg:flex flex-col bg-gray-4 hidden">
                                     <li>
                                         <a className="text-white font-normal text-sm pb-2 inline-flex">Arabic</a>
                                     </li>
