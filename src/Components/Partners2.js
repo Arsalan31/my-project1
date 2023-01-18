@@ -18,12 +18,31 @@ function Partners2(props) {
         swiperRef.current.swiper.slideToLoop(0)
     }, [props.isRtl])
 
+    const read = useRef()
+
     const ReadMore = ({ children }) => {
         const text = children;
-        const [isReadMore, setIsReadMore] = useState(true);
+        const [isReadMore, setIsReadMore] = useState(true)
         const toggleReadMore = () => {
-            setIsReadMore(!isReadMore);
-        };
+            setIsReadMore(!isReadMore)
+        }
+
+        useEffect(() => {
+            const checkIfClickedOutside = a => {
+                // If the menu is open and the clicked target is not within the menu,
+                // then close the menu
+                if (isReadMore && read.current && !read.current.contains(a.target)) {
+                    setIsReadMore(false)
+                }
+            }
+
+            document.addEventListener("mousedown", checkIfClickedOutside)
+
+            return () => {
+                // Cleanup the event listener
+                document.removeEventListener("mousedown", checkIfClickedOutside)
+            }
+        }, [isReadMore])
 
         return (
             <p className="text">
@@ -90,7 +109,7 @@ function Partners2(props) {
                                     <div class="flex flex-wrap lg:-m-4 -mx-4 -mb-10 lg:space-y-0 space-y-6">
                                         <div class="p-4 lg:w-3/5 lg:px-22 w-full order-0 lg:order-1 flex flex-col text-center">
                                             <h1 className="w-full font-bold text-black mt-8 text-start md:text-4xl text-2xl md:leading-10 mb-2">The Tanzania Cancer Care Project (TCCP)</h1>
-                                            <p className="w-full mt-10 font-normal md:text-base text-sm text-start text-hex mb-5">The Tanzania Comprehensive Cancer Care Project (TCCP) is a €13.3 million private-public four-year evidence-based project funded by Agence Française de Développement (AFD) and Aga Khan Foundation (AKF). It aims to strengthen and expand the quality, access, and capacity of cancer care services across the cancer continuum in Dar es Salaam and Mwanza regions of Tanzania.
+                                            <p ref={read} className="w-full mt-10 font-normal md:text-base text-sm text-start text-hex mb-5">The Tanzania Comprehensive Cancer Care Project (TCCP) is a €13.3 million private-public four-year evidence-based project funded by Agence Française de Développement (AFD) and Aga Khan Foundation (AKF). It aims to strengthen and expand the quality, access, and capacity of cancer care services across the cancer continuum in Dar es Salaam and Mwanza regions of Tanzania.
                                                 <p className="text-gray-300 text-start">
                                                     <ReadMore>
                                                         The project is a joint initiative led by the Aga Khan Health Services Tanzania (AKHST) together with the Aga Khan Foundation Tanzania (AKFT),It aims to strengthen and expand the quality, access, and capacity of cancer care services across the cancer continuum in Dar es Salaam and Mwanza regions of Tanzania.For over 100 years the Aga Khan Development Network (AKDN) has worked to ensure that students of all ages have access to quality learning opportunities.
