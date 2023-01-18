@@ -102,6 +102,7 @@ function Header2() {
         }
     }, [toggleAbout1])
 
+    const ref2 = useRef()
 
     const [toggleAbout2, setToggleabout2] = useState(false)
 
@@ -109,17 +110,73 @@ function Header2() {
         setToggleabout2(!toggleAbout2)
     }
 
+    useEffect(() => {
+        const checkIfClickedOutside = e => {
+            // If the menu is open and the clicked target is not within the menu,
+            // then close the menu
+            if (toggleAbout2 && ref2.current && !ref2.current.contains(e.target)) {
+                setToggleabout2(false)
+            }
+        }
+
+        document.addEventListener("mousedown", checkIfClickedOutside)
+
+        return () => {
+            // Cleanup the event listener
+            document.removeEventListener("mousedown", checkIfClickedOutside)
+        }
+    }, [toggleAbout2])
+
     const [toggleAbout3, setToggleabout3] = useState(false)
+
+    const ref3 = useRef()
 
     const toggleAbt3 = () => {
         setToggleabout3(!toggleAbout3)
     }
+
+    useEffect(() => {
+        const checkIfClickedOutside = e => {
+            // If the menu is open and the clicked target is not within the menu,
+            // then close the menu
+            if (toggleAbout3 && ref3.current && !ref3.current.contains(e.target)) {
+                setToggleabout3(false)
+            }
+        }
+
+        document.addEventListener("mousedown", checkIfClickedOutside)
+
+        return () => {
+            // Cleanup the event listener
+            document.removeEventListener("mousedown", checkIfClickedOutside)
+        }
+    }, [toggleAbout3])
+
+    const ref4 = useRef()
 
     const [toggleAbout4, setToggleabout4] = useState(false)
 
     const toggleAbt4 = () => {
         setToggleabout4(!toggleAbout4)
     }
+
+    useEffect(() => {
+        const checkIfClickedOutside = e => {
+            // If the menu is open and the clicked target is not within the menu,
+            // then close the menu
+            if (toggleAbout4 && ref4.current && !ref4.current.contains(e.target)) {
+                setToggleabout4(false)
+            }
+        }
+
+        document.addEventListener("mousedown", checkIfClickedOutside)
+
+        return () => {
+            // Cleanup the event listener
+            document.removeEventListener("mousedown", checkIfClickedOutside)
+        }
+    }, [toggleAbout4])
+
 
     const ref5 = useRef()
 
@@ -134,7 +191,7 @@ function Header2() {
             // If the menu is open and the clicked target is not within the menu,
             // then close the menu
             if (toggleAbout5 && ref5.current && !ref5.current.contains(e.target)) {
-                setToggleabout5 (false)
+                setToggleabout5(false)
             }
         }
 
@@ -187,37 +244,386 @@ function Header2() {
                         <li>
                             <a onClick={toggleAbt1} className="cursor-pointer uppercase block py-2 px-2 md:text-gray-5 text-white font-bold text-xs leading-7 rounded">What We Do</a>
                             {(toggleAbout1) && (
-                                <div className="flex">
-                                    <div className="w-1/2" ref={ref1}>
-                                        <nav className="lg:list-none bg-gray-4 p-5 list6 lg:flex flex-col hidden">
+                                <nav ref={ref1} className="lg:list-none gap-28 bg-gray-4 p-5 list6 lg:flex flex-row hidden">
+                                    <nav>
+                                        <li className="pb-3">
+                                            <a className="uppercase text-blue-200 font-bold text-xs leading-5">developing human capacity</a>
+                                        </li>
+                                        <div className="pb-4">
+                                            <li className="border border-gray-3 w-1/4"></li>
+                                        </div>
+                                        <li>
+                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Early Childhood Development</a>
+                                        </li>
+                                        <li>
+                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Education</a>
+                                        </li>
+                                        <li>
+                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Health</a>
+                                        </li>
+                                        <nav className="pt-16">
                                             <li className="pb-3">
-                                                <a className="uppercase text-blue-200 font-bold text-xs leading-5">developing human capacity</a>
+                                                <a className="uppercase text-blue-200 font-bold text-xs leading-5">building resilient communities</a>
                                             </li>
                                             <div className="pb-4">
-                                                <li className="border border-gray-3 w-1/3"></li>
+                                                <li className="border border-gray-3 w-1/4"></li>
                                             </div>
                                             <li>
-                                                <a className="text-white font-normal text-sm pb-2 inline-flex">Early Childhood Development</a>
+                                                <a className="text-white font-normal text-sm pb-2 inline-flex">Addressing Climate Change</a>
                                             </li>
                                             <li>
-                                                <a className="text-white font-normal text-sm pb-2 inline-flex">Education</a>
+                                                <a className="text-white font-normal text-sm pb-2 inline-flex">Agriculture & Food Security</a>
                                             </li>
                                             <li>
-                                                <a className="text-white font-normal text-sm pb-2 inline-flex">Health</a>
+                                                <a className="text-white font-normal text-sm pb-2 inline-flex">Civil Society</a>
+                                            </li>
+                                            <li>
+                                                <a className="text-white font-normal text-sm pb-2 inline-flex">Disaster Preparedness & Response</a>
                                             </li>
                                         </nav>
-                                    </div>
-                                </div>
+                                    </nav>
+                                    <nav>
+                                        <li className="pb-3">
+                                            <a className="uppercase text-blue-200 font-bold text-xs leading-5">GENERATING ECONOMIC GROWTH</a>
+                                        </li>
+                                        <div className="pb-4">
+                                            <li className="border border-gray-3 w-1/4"></li>
+                                        </div>
+                                        <li>
+                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Enterprise Development</a>
+                                        </li>
+                                        <li>
+                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Financial Inclusion</a>
+                                        </li>
+                                        <li>
+                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Industrial Development</a>
+                                        </li>
+                                        <li>
+                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Infrastructure Development</a>
+                                        </li>
+                                        <li>
+                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Media</a>
+                                        </li>
+                                        <li>
+                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Tourism Promotion</a>
+                                        </li>
+                                        <nav className="pt-16">
+                                            <li className="pb-3">
+                                                <a className="uppercase text-blue-200 font-bold text-xs leading-5">honoUring cultural heritage</a>
+                                            </li>
+                                            <div className="pb-4">
+                                                <li className="border border-gray-3 w-1/4"></li>
+                                            </div>
+                                            <li>
+                                                <a className="text-white font-normal text-sm pb-2 inline-flex">Architecture & Planning</a>
+                                            </li>
+                                            <li>
+                                                <a className="text-white font-normal text-sm pb-2 inline-flex">Culture</a>
+                                            </li>
+                                            <li>
+                                                <a className="text-white font-normal text-sm pb-2 inline-flex">Historic Cities</a>
+                                            </li>
+                                            <li>
+                                                <a className="text-white font-normal text-sm pb-2 inline-flex">Music</a>
+                                            </li>
+                                        </nav>
+                                    </nav>
+                                </nav>
                             )}
                         </li>
-                        <li>
-                            <a className="cursor-pointer uppercase block py-2 px-2 md:text-gray-5 text-white font-bold text-xs leading-7 rounded">Where We Work</a>
+                        <li ref={ref2}>
+                            <a onClick={toggleAbt2} className="cursor-pointer uppercase block py-2 px-2 md:text-gray-5 text-white font-bold text-xs leading-7 rounded">Where We Work</a>
+                            {(toggleAbout2) && (
+                                <nav className="lg:list-none bg-gray-4 p-5 list6 lg:flex flex-row hidden">
+                                    <nav className="list-none px-8">
+                                        <li className="pb-3">
+                                            <a className="uppercase text-blue-200 font-bold text-xs leading-5">Eastern africa</a>
+                                        </li>
+                                        <div className="pb-4">
+                                            <li className="border border-gray-3 w-7/12"></li>
+                                        </div>
+                                        <li className="pb-4">
+                                            <a href="#Home" className="text-white font-normal text-sm pb-2 ">Kenya</a>
+                                        </li>
+                                        <li className="pb-4">
+                                            <a href="#" className="text-white font-normal text-sm pb-2">Madagascar</a>
+                                        </li>
+                                        <li className="pb-4">
+                                            <a href="#Pricing" className="text-white font-normal text-sm pb-2">Mozambique</a>
+                                        </li>
+                                        <li className="pb-4">
+                                            <a href="#" className="text-white font-normal text-sm pb-2">Rwanda</a>
+                                        </li>
+                                        <li className="pb-4">
+                                            <a href="#Contact" className="text-white font-normal text-sm pb-2">Tanzania</a>
+                                        </li>
+                                        <li className="pb-4">
+                                            <a href="#Contact" className="text-white font-normal text-sm pb-2">Uganda</a>
+                                        </li>
+                                        <nav className="pt-16">
+                                            <li className="pb-3">
+                                                <a className="uppercase text-blue-200 font-bold text-xs leading-5">west africa</a>
+                                            </li>
+                                            <div className="pb-4">
+                                                <li className="border border-gray-3 w-7/12"></li>
+                                            </div>
+                                            <li className="pb-4">
+                                                <a href="#Home" className="text-white font-normal text-sm pb-2 ">Burkina Faso</a>
+                                            </li>
+                                            <li className="pb-4">
+                                                <a href="#" className="text-white font-normal text-sm pb-2">Côte d'Ivoire</a>
+                                            </li>
+                                            <li className="pb-4">
+                                                <a href="#Pricing" className="text-white font-normal text-sm pb-2">Mali</a>
+                                            </li>
+                                            <li className="pb-4">
+                                                <a href="#" className="text-white font-normal text-sm pb-2">Senegal</a>
+                                            </li>
+                                        </nav>
+                                    </nav>
+                                    <nav className="list-none px-8">
+                                        <li className="pb-3">
+                                            <a className="uppercase text-blue-200 font-bold text-xs leading-5">middle east</a>
+                                        </li>
+                                        <div className="pb-4">
+                                            <li className="border border-gray-3 w-7/12"></li>
+                                        </div>
+                                        <li className="pb-4">
+                                            <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Egypt</a>
+                                        </li>
+                                        <li className="pb-4">
+                                            <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Syria</a>
+                                        </li>
+                                        <li className="pb-4">
+                                            <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">United Arab Emirates</a>
+                                        </li>
+                                        <nav className="pt-16">
+                                            <li className="pb-3">
+                                                <a className="uppercase text-blue-200 font-bold text-xs leading-5">central asia</a>
+                                            </li>
+                                            <div className="pb-4">
+                                                <li className="border border-gray-3 w-7/12"></li>
+                                            </div>
+                                            <li className="pb-4">
+                                                <a href="#Home" className="text-white font-normal text-sm pb-2 ">Afghanistan</a>
+                                            </li>
+                                            <li className="pb-4">
+                                                <a href="#" className="text-white font-normal text-sm pb-2">Kazakhstan</a>
+                                            </li>
+                                            <li className="pb-4">
+                                                <a href="#Pricing" className="text-white font-normal text-sm pb-2">Kyrgyz Republic</a>
+                                            </li>
+                                            <li className="pb-4">
+                                                <a href="#" className="text-white font-normal text-sm pb-2">Tajikistan</a>
+                                            </li>
+                                        </nav>
+                                    </nav>
+
+                                    <nav className="list-none px-8">
+                                        <li className="pb-3">
+                                            <a className="uppercase text-blue-200 font-bold text-xs leading-5">south asia</a>
+                                        </li>
+                                        <div className="pb-4">
+                                            <li className="border border-gray-3 w-7/12"></li>
+                                        </div>
+                                        <li className="pb-4">
+                                            <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Bangladesh</a>
+                                        </li>
+                                        <li className="pb-4">
+                                            <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">India</a>
+                                        </li>
+                                        <li className="pb-4">
+                                            <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Pakistan</a>
+                                        </li>
+                                        <nav className="pt-16">
+                                            <li className="pb-3">
+                                                <a className="uppercase text-blue-200 font-bold text-xs leading-5">ASIA-PACIFIC</a>
+                                            </li>
+                                            <div className="pb-4">
+                                                <li className="border border-gray-3 w-7/12"></li>
+                                            </div>
+                                            <li className="pb-4">
+                                                <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Malaysia</a>
+                                            </li>
+                                            <li className="pb-4">
+                                                <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Singapore</a>
+                                            </li>
+                                        </nav>
+                                    </nav>
+                                    <nav className="list-none px-8">
+                                        <li className="pb-3">
+                                            <a className="uppercase text-blue-200 font-bold text-xs leading-5">north america</a>
+                                        </li>
+                                        <div className="pb-4">
+                                            <li className="border border-gray-3 w-7/12"></li>
+                                        </div>
+                                        <li className="pb-4">
+                                            <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Canada</a>
+                                        </li>
+                                        <li className="pb-4">
+                                            <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">United States of America</a>
+                                        </li>
+                                        <nav className="pt-16">
+                                            <li className="pb-3">
+                                                <a className="uppercase text-blue-200 font-bold text-xs leading-5">europe</a>
+                                            </li>
+                                            <div className="pb-4">
+                                                <li className="border border-gray-3 w-2/5"></li>
+                                            </div>
+                                            <li className="pb-4">
+                                                <a href="#Home" className="text-white font-normal text-sm pb-2 ">France</a>
+                                            </li>
+                                            <li className="pb-4">
+                                                <a href="#" className="text-white font-normal text-sm pb-2">Germany</a>
+                                            </li>
+                                            <li className="pb-4">
+                                                <a href="#Pricing" className="text-white font-normal text-sm pb-2">Norway</a>
+                                            </li>
+                                            <li className="pb-4">
+                                                <a href="#" className="text-white font-normal text-sm pb-2">Portugal</a>
+                                            </li>
+                                            <li className="pb-4">
+                                                <a href="#Contact" className="text-white font-normal text-sm pb-2">Switzerland</a>
+                                            </li>
+                                            <li className="pb-4">
+                                                <a href="#Contact" className="text-white font-normal text-sm pb-2">United Kingdom</a>
+                                            </li>
+                                        </nav>
+                                    </nav>
+                                </nav>
+                            )}
                         </li>
-                        <li>
-                            <a className="cursor-pointer uppercase block py-2 px-2 font-bold text-xs leading-7 md:text-gray-5 text-white rounded">How We Work</a>
+                        <li ref={ref3}>
+                            <a onClick={toggleAbt3} className="cursor-pointer uppercase block py-2 px-2 font-bold text-xs leading-7 md:text-gray-5 text-white rounded">How We Work</a>
+                            {(toggleAbout3) && (
+                                <nav className="lg:list-none list6 bg-gray-4 p-5 lg:flex flex-row hidden">
+                                    <nav>
+                                        <li className="pb-3">
+                                            <a className="uppercase text-blue-200 font-bold text-xs leading-5">Our agencies</a>
+                                        </li>
+                                        <div className="pb-4">
+                                            <li className="border border-gray-3 w-1/5"></li>
+                                        </div>
+                                        <li>
+                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Aga Khan Academies</a>
+                                        </li>
+                                        <li>
+                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Aga Khan Agency for Habitat</a>
+                                        </li>
+                                        <li>
+                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Aga Khan Agency for Microfinance</a>
+                                        </li>
+                                        <li>
+                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Aga Khan Education Services</a>
+                                        </li>
+                                        <li>
+                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Aga Khan Foundation</a>
+                                        </li>
+                                        <li>
+                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Aga Khan Fund for Economic Development</a>
+                                        </li>
+                                        <li>
+                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Aga Khan Health Services</a>
+                                        </li>
+                                        <li>
+                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Aga Khan Trust for Culture</a>
+                                        </li>
+                                        <li>
+                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Aga Khan University</a>
+                                        </li>
+                                        <li>
+                                            <a className="text-white font-normal text-sm pb-2 inline-flex">University of Central Asia</a>
+                                        </li>
+                                    </nav>
+                                    <nav className="list-none px-8">
+                                        <li className="pb-3">
+                                            <a className="uppercase text-blue-200 font-bold text-xs leading-5">Our approach</a>
+                                        </li>
+                                        <div className="pb-4">
+                                            <li className="border border-gray-3 w-1/3"></li>
+                                        </div>
+                                        <li className="pb-4">
+                                            <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Our Approach to Development</a>
+                                        </li>
+                                        <li className="pb-4">
+                                            <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Frequently Asked Questions</a>
+                                        </li>
+                                    </nav>
+                                </nav>
+                            )}
                         </li>
-                        <li>
-                            <a className="cursor-pointer uppercase block py-2 px-2 font-bold text-xs leading-7 md:text-gray-5 text-white rounded">RESOURCES & MEDIA</a>
+                        <li ref={ref4}>
+                            <a onClick={toggleAbt4} className="cursor-pointer uppercase block py-2 px-2 font-bold text-xs leading-7 md:text-gray-5 text-white rounded">RESOURCES & MEDIA</a>
+                            {(toggleAbout4) && (
+                                <nav className="lg:list-none list6 bg-gray-4 p-5 lg:flex flex-row hidden">
+                                    <nav>
+                                        <li className="pb-3">
+                                            <a className="uppercase text-blue-200 font-bold text-xs leading-5">What's New</a>
+                                        </li>
+                                        <div className="pb-4">
+                                            <li className="border border-gray-3 w-1/2"></li>
+                                        </div>
+                                        <li>
+                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Our Stories</a>
+                                        </li>
+                                        <li>
+                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Project Spotlights</a>
+                                        </li>
+                                        <li>
+                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Press Releases</a>
+                                        </li>
+                                        <li>
+                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Event Summaries</a>
+                                        </li>
+                                        <li>
+                                            <a className="text-white font-normal text-sm pb-2 inline-flex">AKDN in the Media</a>
+                                        </li>
+                                        <li>
+                                            <a className="text-white font-normal text-sm pb-2 inline-flex">COVID-19 Responses</a>
+                                        </li>
+                                    </nav>
+                                    <nav className="px-8">
+                                        <li className="pb-3">
+                                            <a className="uppercase text-blue-200 font-bold text-xs leading-5">multimedia</a>
+                                        </li>
+                                        <div className="pb-4">
+                                            <li className="border border-gray-3 w-7/12"></li>
+                                        </div>
+                                        <li>
+                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Photographs</a>
+                                        </li>
+                                        <li>
+                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Videos</a>
+                                        </li>
+                                    </nav>
+                                    <nav className="px-8">
+                                        <li className="pb-3">
+                                            <a className="uppercase text-blue-200 font-bold text-xs leading-5">Resources</a>
+                                        </li>
+                                        <div className="pb-4">
+                                            <li className="border border-gray-3 w-7/12"></li>
+                                        </div>
+                                        <li>
+                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Fact Sheet</a>
+                                        </li>
+                                        <li>
+                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Annual Reports</a>
+                                        </li>
+                                        <li>
+                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Briefs</a>
+                                        </li>
+                                        <li>
+                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Speeches</a>
+                                        </li>
+                                        <li>
+                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Research</a>
+                                        </li>
+                                        <li>
+                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Publications</a>
+                                        </li>
+                                    </nav>
+                                </nav>
+                            )}
                         </li>
                         <li ref={ref5}>
                             <a onClick={toggleAbt5} className="cursor-pointer uppercase block py-2 px-2 font-bold text-xs leading-7 md:text-gray-5 text-white rounded">Get Involved</a>
@@ -241,8 +647,9 @@ function Header2() {
                                 </nav>
                             )}
                         </li>
-                    </div>
-                )}
+                    </div >
+                )
+                }
                 <div className="list3 text-center flex md:bg-transparent lg:order-1 order-2 md:p-0 p-5 md:w-52 w-full bg-white">
                     <button className="font-bold uppercase ms-3 py-2 focus:outline-none">
                         <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -308,7 +715,7 @@ function Header2() {
                         </nav>
                     )} */}
                 </div>
-            </div>
+            </div >
         </header >
     )
 }
