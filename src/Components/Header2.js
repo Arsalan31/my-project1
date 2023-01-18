@@ -207,22 +207,6 @@ function Header2() {
                                             </li>
                                         </nav>
                                     </div>
-                                    {/* <div className="w-1/2">
-                                        <nav className="lg:list-none bg-gray-4 p-5 list6 lg:flex flex-col">
-                                            <li>
-                                                <a className="text-white font-normal text-sm pb-2 inline-flex">Fact sheet</a>
-                                            </li>
-                                            <li>
-                                                <a className="text-white font-normal text-sm pb-2 inline-flex">Awards Received by AKDN</a>
-                                            </li>
-                                            <li>
-                                                <a className="text-white font-normal text-sm pb-2 inline-flex">Frequently Asked Questions</a>
-                                            </li>
-                                            <li>
-                                                <a className="text-white font-normal text-sm pb-2 inline-flex">Contact Us</a>
-                                            </li>
-                                        </nav>
-                                    </div> */}
                                 </div>
                             )}
                         </li>
