@@ -155,7 +155,7 @@ function Header2() {
                                                 <a className="uppercase text-blue-200 font-bold text-xs leading-5">developing human capacity</a>
                                             </li>
                                             <div className="pb-4">
-                                                <li className="border w-1/3"></li>
+                                                <li className="border border-gray-3 w-1/3"></li>
                                             </div>
                                             <li>
                                                 <a className="text-white font-normal text-sm pb-2 inline-flex">Early Childhood Development</a>
