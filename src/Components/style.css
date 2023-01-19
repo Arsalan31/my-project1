@@ -216,7 +216,7 @@
     height: 100%;
     display: flex;
     position: relative;
-    order: 0;
+    order: 2;
   }
 
   .list5 {
@@ -312,14 +312,12 @@
       height: 100%;
       display: flex;
       position: relative;
-      background-color: darkgreen;
     }
   
     .list6 {
       list-style-type: none;
       display: flex;
       position: absolute;
-      background-color: darkgreen;
     }
   }
 
