@@ -207,12 +207,13 @@ function Header2() {
 
     return (
         <header className="w-full absolute">
-            <div className="flex flex-wrap justify-between content-center items-center bg-white ">
+            <div className="flex flex-wrap justify-between content-center items-center bg-white">
                 <img href="Akdn" className="flex order-0 " src={require('./assets/AKDN Identity with Tag Line 1.png')}></img>
-                <button onClick={toggleNav} className="flex items-center lg:order-1 order-0 focus:outline-none p-2 ms-3 text-sm font-semibold uppercase border-white border-2 px-6 py-3 text-gray-5 md:hidden">Menu
+                <button onClick={toggleNav} className="flex items-center lg:order-1 order-0 focus:outline-none p-2 ms-3 text-sm font-semibold uppercase border-white border-2 px-6 py-3 text-gray-5 lg:hidden">
+                    <img src={require('./assets/Menu.png')}></img>
                 </button>
                 {(toggleMenu || screenWidth > 1023) && (
-                    <div className="list-none flex flex-row p-6 order-0 lg:justify-center justify-start">
+                    <div className="list-none flex flex-row py-6 order-0 lg:justify-center justify-start">
                         <li ref={ref}>
                             <a onClick={toggleAbt} className="cursor-pointer uppercase block py-2 px-2 md:text-gray-5 text-white font-bold text-xs leading-7 rounded">Who We Are</a>
                             {(toggleAbout) && (
