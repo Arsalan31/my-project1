@@ -21,7 +21,7 @@ function Content(props) {
     return (
 
         <section className="sm:mt-10 lg:mt-0 flex flex-col items-start w-full h-full md:bg-transparent flex-none order-2 flex-grow-0">
-            <div className="container sm:px-28 pb-6 mx-auto">
+            <div className="container sm:px-20 pb-6 mx-auto">
                 <div className="flex flex-wrap justify-center">
                     <div className="flex flex-col flex-none flex-grow-0 text-center w-full">
                         <div class="flex flex-wrap lg:-m-4 -mx-4 -mb-10 lg:space-y-0 space-y-6">
@@ -47,7 +47,7 @@ function Content(props) {
                                     <SwiperSlide>
                                         <div class="p-4 lg:px-22 w-full order-0 lg:order-1 flex flex-col text-center">
                                             <div className="image lg:self-end self-center lg:mt-24"></div>
-                                            <h1 className="w-full font-bold text-black mt-8 lg:text-end text-center md:text-4xl text-2xl md:leading-10 mb-2 lg:px-0 px-4">is a leading provider of digital marketing services</h1>
+                                            <h1 className="w-full font-bold text-black mt-8 lg:text-end text-center md:text-4xl text-2xl md:leading-10 lg:px-0 px-4">is a leading provider of digital marketing services</h1>
                                             <p className="w-full mt-10 font-normal md:text-base text-sm lg:text-end text-center text-hex lg:px-0 px-4">Using proprietary tools and we run thousands of simultaneous self-funded
                                                 campaigns across different platforms such as paid search, social advertising,
                                                 mobile and video ads and many more. The campaigns either support our
@@ -57,7 +57,7 @@ function Content(props) {
                                     <SwiperSlide>
                                         <div class="p-4 lg:px-22 w-full order-0 lg:order-1 flex flex-col text-center">
                                             <div className="image lg:self-end self-center lg:mt-24"></div>
-                                            <h1 className="w-full font-bold text-black mt-8 lg:text-end text-center md:text-4xl text-2xl md:leading-10 mb-2 lg:px-0 px-4">is a leading provider of digital marketing services</h1>
+                                            <h1 className="w-full font-bold text-black mt-8 lg:text-end text-center md:text-4xl text-2xl md:leading-10 lg:px-0 px-4">is a leading provider of digital marketing services</h1>
                                             <p className="w-full mt-10 font-normal md:text-base text-sm lg:text-end text-center text-hex lg:px-0 px-4">Using proprietary tools and we run thousands of simultaneous self-funded
                                                 campaigns across different platforms such as paid search, social advertising,
                                                 mobile and video ads and many more. The campaigns either support our
@@ -67,7 +67,7 @@ function Content(props) {
                                     <SwiperSlide>
                                         <div class="p-4 lg:px-22 w-full order-0 lg:order-1 flex flex-col text-center">
                                             <div className="image lg:self-end self-center lg:mt-24"></div>
-                                            <h1 className="w-full font-bold text-black mt-8 lg:text-end text-center md:text-4xl text-2xl md:leading-10 mb-2 lg:px-0 px-4">is a leading provider of digital marketing services</h1>
+                                            <h1 className="w-full font-bold text-black mt-8 lg:text-end text-center md:text-4xl text-2xl md:leading-10 lg:px-0 px-4">is a leading provider of digital marketing services</h1>
                                             <p className="w-full mt-10 font-normal md:text-base text-sm lg:text-end text-center text-hex lg:px-0 px-4">Using proprietary tools and we run thousands of simultaneous self-funded
                                                 campaigns across different platforms such as paid search, social advertising,
                                                 mobile and video ads and many more. The campaigns either support our
