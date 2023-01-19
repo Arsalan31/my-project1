@@ -33,7 +33,7 @@ function Header1() {
                     <button onClick={toggleNav} className="block items-center focus:outline-none p-2 ms-3 text-sm font-semibold uppercase border-white border-2 px-6 py-3 text-white md:hidden">Menu
                     </button>
                     {(toggleMenu || screenWidth > 767) && (
-                        <div className="list2 flex flex-col md:p-4 xl:-ms-24 lg:-ms-16 md:bg-transparent bg-white text-indigo-650 md:border-transparent border-t-2 border-white md:flex-row md:text-sm md:font-medium  w-full md:block md:w-auto">
+                        <div className="list2 flex flex-col md:p-4 2xl:-ms-96 xl:-ms-40 md:bg-transparent bg-white text-indigo-650 md:border-transparent border-t-2 border-white md:flex-row md:text-sm md:font-medium  w-full md:block md:w-auto">
                             <li>
                                 <a href="Akdn" className="cursor-pointer uppercase block py-2 pe-4 ps-3 md:text-white text-indigo-650 font-normal text-1xl leading-7 rounded md:bg-transparent hover:text-red-300 focus-within: dark:text-white" aria-current="page">Home</a>
                             </li>
