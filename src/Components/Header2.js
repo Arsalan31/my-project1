@@ -248,7 +248,7 @@ function Header2() {
                                 <nav ref={ref1} className="lg:list-none gap-28 bg-gray-4 p-5 list6 lg:flex flex-row hidden">
                                     <nav>
                                         <li className="pb-3">
-                                            <a className="uppercase text-blue-200 font-bold text-xs leading-5">developing human capacity</a>
+                                            <a className="uppercase text-green-100 font-bold text-xs leading-5">developing human capacity</a>
                                         </li>
                                         <div className="pb-4">
                                             <li className="border border-gray-3 w-1/4"></li>
@@ -264,7 +264,7 @@ function Header2() {
                                         </li>
                                         <nav className="pt-16">
                                             <li className="pb-3">
-                                                <a className="uppercase text-blue-200 font-bold text-xs leading-5">building resilient communities</a>
+                                                <a className="uppercase text-green-100 font-bold text-xs leading-5">building resilient communities</a>
                                             </li>
                                             <div className="pb-4">
                                                 <li className="border border-gray-3 w-1/4"></li>
@@ -285,7 +285,7 @@ function Header2() {
                                     </nav>
                                     <nav>
                                         <li className="pb-3">
-                                            <a className="uppercase text-blue-200 font-bold text-xs leading-5">GENERATING ECONOMIC GROWTH</a>
+                                            <a className="uppercase text-green-100 font-bold text-xs leading-5">GENERATING ECONOMIC GROWTH</a>
                                         </li>
                                         <div className="pb-4">
                                             <li className="border border-gray-3 w-1/4"></li>
@@ -310,7 +310,7 @@ function Header2() {
                                         </li>
                                         <nav className="pt-16">
                                             <li className="pb-3">
-                                                <a className="uppercase text-blue-200 font-bold text-xs leading-5">honoUring cultural heritage</a>
+                                                <a className="uppercase text-green-100 font-bold text-xs leading-5">honoUring cultural heritage</a>
                                             </li>
                                             <div className="pb-4">
                                                 <li className="border border-gray-3 w-1/4"></li>
@@ -338,7 +338,7 @@ function Header2() {
                                 <nav className="lg:list-none bg-gray-4 p-5 list6 lg:flex flex-row hidden">
                                     <nav className="list-none px-8">
                                         <li className="pb-3">
-                                            <a className="uppercase text-blue-200 font-bold text-xs leading-5">Eastern africa</a>
+                                            <a className="uppercase text-green-100 font-bold text-xs leading-5">Eastern africa</a>
                                         </li>
                                         <div className="pb-4">
                                             <li className="border border-gray-3 w-7/12"></li>
@@ -363,7 +363,7 @@ function Header2() {
                                         </li>
                                         <nav className="pt-16">
                                             <li className="pb-3">
-                                                <a className="uppercase text-blue-200 font-bold text-xs leading-5">west africa</a>
+                                                <a className="uppercase text-green-100 font-bold text-xs leading-5">west africa</a>
                                             </li>
                                             <div className="pb-4">
                                                 <li className="border border-gray-3 w-7/12"></li>
@@ -384,7 +384,7 @@ function Header2() {
                                     </nav>
                                     <nav className="list-none px-8">
                                         <li className="pb-3">
-                                            <a className="uppercase text-blue-200 font-bold text-xs leading-5">middle east</a>
+                                            <a className="uppercase text-green-100 font-bold text-xs leading-5">middle east</a>
                                         </li>
                                         <div className="pb-4">
                                             <li className="border border-gray-3 w-7/12"></li>
@@ -400,7 +400,7 @@ function Header2() {
                                         </li>
                                         <nav className="pt-16">
                                             <li className="pb-3">
-                                                <a className="uppercase text-blue-200 font-bold text-xs leading-5">central asia</a>
+                                                <a className="uppercase text-green-100 font-bold text-xs leading-5">central asia</a>
                                             </li>
                                             <div className="pb-4">
                                                 <li className="border border-gray-3 w-7/12"></li>
@@ -422,7 +422,7 @@ function Header2() {
 
                                     <nav className="list-none px-8">
                                         <li className="pb-3">
-                                            <a className="uppercase text-blue-200 font-bold text-xs leading-5">south asia</a>
+                                            <a className="uppercase text-green-100 font-bold text-xs leading-5">south asia</a>
                                         </li>
                                         <div className="pb-4">
                                             <li className="border border-gray-3 w-7/12"></li>
@@ -438,7 +438,7 @@ function Header2() {
                                         </li>
                                         <nav className="pt-16">
                                             <li className="pb-3">
-                                                <a className="uppercase text-blue-200 font-bold text-xs leading-5">ASIA-PACIFIC</a>
+                                                <a className="uppercase text-green-100 font-bold text-xs leading-5">ASIA-PACIFIC</a>
                                             </li>
                                             <div className="pb-4">
                                                 <li className="border border-gray-3 w-7/12"></li>
@@ -453,7 +453,7 @@ function Header2() {
                                     </nav>
                                     <nav className="list-none px-8">
                                         <li className="pb-3">
-                                            <a className="uppercase text-blue-200 font-bold text-xs leading-5">north america</a>
+                                            <a className="uppercase text-green-100 font-bold text-xs leading-5">north america</a>
                                         </li>
                                         <div className="pb-4">
                                             <li className="border border-gray-3 w-7/12"></li>
@@ -466,7 +466,7 @@ function Header2() {
                                         </li>
                                         <nav className="pt-16">
                                             <li className="pb-3">
-                                                <a className="uppercase text-blue-200 font-bold text-xs leading-5">europe</a>
+                                                <a className="uppercase text-green-100 font-bold text-xs leading-5">europe</a>
                                             </li>
                                             <div className="pb-4">
                                                 <li className="border border-gray-3 w-2/5"></li>
@@ -500,7 +500,7 @@ function Header2() {
                                 <nav className="lg:list-none list6 bg-gray-4 p-5 lg:flex flex-row hidden">
                                     <nav>
                                         <li className="pb-3">
-                                            <a className="uppercase text-blue-200 font-bold text-xs leading-5">Our agencies</a>
+                                            <a className="uppercase text-green-100 font-bold text-xs leading-5">Our agencies</a>
                                         </li>
                                         <div className="pb-4">
                                             <li className="border border-gray-3 w-1/5"></li>
@@ -538,7 +538,7 @@ function Header2() {
                                     </nav>
                                     <nav className="list-none px-8">
                                         <li className="pb-3">
-                                            <a className="uppercase text-blue-200 font-bold text-xs leading-5">Our approach</a>
+                                            <a className="uppercase text-green-100 font-bold text-xs leading-5">Our approach</a>
                                         </li>
                                         <div className="pb-4">
                                             <li className="border border-gray-3 w-1/3"></li>
@@ -559,7 +559,7 @@ function Header2() {
                                 <nav className="lg:list-none list6 bg-gray-4 p-5 lg:flex flex-row hidden">
                                     <nav>
                                         <li className="pb-3">
-                                            <a className="uppercase text-blue-200 font-bold text-xs leading-5">What's New</a>
+                                            <a className="uppercase text-green-100 font-bold text-xs leading-5">What's New</a>
                                         </li>
                                         <div className="pb-4">
                                             <li className="border border-gray-3 w-1/2"></li>
@@ -585,7 +585,7 @@ function Header2() {
                                     </nav>
                                     <nav className="px-8">
                                         <li className="pb-3">
-                                            <a className="uppercase text-blue-200 font-bold text-xs leading-5">multimedia</a>
+                                            <a className="uppercase text-green-100 font-bold text-xs leading-5">multimedia</a>
                                         </li>
                                         <div className="pb-4">
                                             <li className="border border-gray-3 w-7/12"></li>
@@ -599,7 +599,7 @@ function Header2() {
                                     </nav>
                                     <nav className="px-8">
                                         <li className="pb-3">
-                                            <a className="uppercase text-blue-200 font-bold text-xs leading-5">Resources</a>
+                                            <a className="uppercase text-green-100 font-bold text-xs leading-5">Resources</a>
                                         </li>
                                         <div className="pb-4">
                                             <li className="border border-gray-3 w-7/12"></li>
