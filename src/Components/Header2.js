@@ -211,7 +211,7 @@ function Header2() {
                     <img src={require('./assets/Menu.png')}></img>
                 </button>
                 {(toggleMenu || screenWidth > 1023) && (
-                    <div className="list7 list-none lg:bg-white bg-green-20  flex lg:flex-row flex-col py-6 order-0 lg:justify-center justify-start">
+                    <div className="list7 list-none lg:bg-white bg-green-20 flex lg:flex-row flex-col py-6 order-0 lg:justify-center justify-start">
                         <li ref={ref}>
                             <div className="flex">
                                 <a onClick={toggleAbt} className="lg:w-auto w-1/2 cursor-pointer uppercase block py-3 lg:py-2 px-2 font-bold text-xs leading-7 lg:text-gray-5 text-white">Who We Are</a>
@@ -259,7 +259,7 @@ function Header2() {
                                 </button>
                             </div>
                             {(toggleAbout1) && (
-                                <nav ref={ref1} className="lg:list-none gap-28 bg-gray-4 lg:p-5 list6 lg:flex lg:flex-row flex-col hidden">
+                                <nav ref={ref1} className="lg:list-none lg:gap-28 bg-gray-4 lg:p-5 list6 lg:flex lg:flex-row flex-col hidden">
                                     <nav>
                                         <li className="pb-3">
                                             <a className="uppercase text-green-100 font-bold text-xs leading-5">developing human capacity</a>
@@ -276,7 +276,7 @@ function Header2() {
                                         <li>
                                             <a className="text-white font-normal text-sm pb-2 inline-flex">Health</a>
                                         </li>
-                                        <nav className="pt-16">
+                                        <nav className="lg:pt-16 pt-2">
                                             <li className="pb-3">
                                                 <a className="uppercase text-green-100 font-bold text-xs leading-5">building resilient communities</a>
                                             </li>
@@ -297,7 +297,7 @@ function Header2() {
                                             </li>
                                         </nav>
                                     </nav>
-                                    <nav>
+                                    <nav className="lg:pt-0 pt-2">
                                         <li className="pb-3">
                                             <a className="uppercase text-green-100 font-bold text-xs leading-5">GENERATING ECONOMIC GROWTH</a>
                                         </li>
@@ -322,7 +322,7 @@ function Header2() {
                                         <li>
                                             <a className="text-white font-normal text-sm pb-2 inline-flex">Tourism Promotion</a>
                                         </li>
-                                        <nav className="pt-16">
+                                        <nav className="lg:pt-16 pt-2">
                                             <li className="pb-3">
                                                 <a className="uppercase text-green-100 font-bold text-xs leading-5">honoUring cultural heritage</a>
                                             </li>
@@ -383,7 +383,7 @@ function Header2() {
                                         <li className="pb-4">
                                             <a href="#Contact" className="text-white font-normal text-sm pb-2">Uganda</a>
                                         </li>
-                                        <nav className="pt-16">
+                                        <nav className="lg:pt-16 pt-2">
                                             <li className="pb-3">
                                                 <a className="uppercase text-green-100 font-bold text-xs leading-5">west africa</a>
                                             </li>
@@ -420,7 +420,7 @@ function Header2() {
                                         <li className="pb-4">
                                             <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">United Arab Emirates</a>
                                         </li>
-                                        <nav className="pt-16">
+                                        <nav className="lg:pt-16 pt-2">
                                             <li className="pb-3">
                                                 <a className="uppercase text-green-100 font-bold text-xs leading-5">central asia</a>
                                             </li>
@@ -458,7 +458,7 @@ function Header2() {
                                         <li className="pb-4">
                                             <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Pakistan</a>
                                         </li>
-                                        <nav className="pt-16">
+                                        <nav className="lg:pt-16 pt-2">
                                             <li className="pb-3">
                                                 <a className="uppercase text-green-100 font-bold text-xs leading-5">ASIA-PACIFIC</a>
                                             </li>
@@ -486,7 +486,7 @@ function Header2() {
                                         <li className="pb-4">
                                             <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">United States of America</a>
                                         </li>
-                                        <nav className="pt-16">
+                                        <nav className="lg:pt-16 pt-2">
                                             <li className="pb-3">
                                                 <a className="uppercase text-green-100 font-bold text-xs leading-5">europe</a>
                                             </li>
@@ -566,7 +566,7 @@ function Header2() {
                                             <a className="text-white font-normal text-sm pb-2 inline-flex">University of Central Asia</a>
                                         </li>
                                     </nav>
-                                    <nav className="list-none lg:px-8">
+                                    <nav className="list-none lg:pt-0 pt-2 lg:px-8">
                                         <li className="pb-3">
                                             <a className="uppercase text-green-100 font-bold text-xs leading-5">Our approach</a>
                                         </li>
@@ -621,7 +621,7 @@ function Header2() {
                                             <a className="text-white font-normal text-sm pb-2 inline-flex">COVID-19 Responses</a>
                                         </li>
                                     </nav>
-                                    <nav className="lg:px-8">
+                                    <nav className="lg:pt-0 pt-2 lg:px-8">
                                         <li className="pb-3">
                                             <a className="uppercase text-green-100 font-bold text-xs leading-5">multimedia</a>
                                         </li>
@@ -635,7 +635,7 @@ function Header2() {
                                             <a className="text-white font-normal text-sm pb-2 inline-flex">Videos</a>
                                         </li>
                                     </nav>
-                                    <nav className="lg:px-8">
+                                    <nav className="lg:px-8 lg:pt-0 pt-2">
                                         <li className="pb-3">
                                             <a className="uppercase text-green-100 font-bold text-xs leading-5">Resources</a>
                                         </li>
@@ -667,7 +667,7 @@ function Header2() {
                         <li ref={ref5}>
                             <div className="flex">
                                 <a onClick={toggleAbt5} className="lg:w-auto w-1/2 cursor-pointer uppercase block py-3 lg:py-2 px-2 font-bold text-xs leading-7 lg:text-gray-5 text-white">Get Involved</a>
-                                <button className="lg:hidden w-1/2 flex justify-end py-3 px-2" onClick={toggleAbt5}>
+                                <button className="lg:hidden w-1/2 flex justify-end py-3 px-2">
                                     <div className="lg:hidden border-gray-400 border-s me-4 h-6"></div>
                                     <svg className="mt-2" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />

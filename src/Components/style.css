@@ -306,7 +306,6 @@
       display: flex;
       height: auto;
       width: 100%;
-      padding: 16px;
     }
 
     .list6 {
@@ -314,6 +313,7 @@
       display: flex;
       height: auto;
       padding: 16px;
+      background: linear-gradient(0deg, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), #00843D;
     }
   }
 
@@ -327,7 +327,7 @@
       display: flex;
       position: absolute;
       order: 0;
-    } 
+    }
   }
 
   @media screen and (min-width: 1024px) {
