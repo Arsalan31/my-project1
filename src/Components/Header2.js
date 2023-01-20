@@ -214,8 +214,9 @@ function Header2() {
                     <div className="list7 list-none lg:bg-white bg-green-20 flex lg:flex-row flex-col py-6 order-0 lg:justify-center justify-start">
                         <li ref={ref}>
                             <div className="flex">
-                                <a onClick={toggleAbt} className="lg:w-auto w-1/2 cursor-pointer uppercase block py-3 lg:py-2 px-2 font-bold text-xs leading-7 lg:text-gray-5 text-white">Who We Are</a>
-                                <button className="lg:hidden w-1/2 flex justify-end py-3 px-2" onClick={toggleAbt}>
+                                <a onClick={toggleAbt} className="lg:w-auto w-1/2 cursor-pointer uppercase lg:block hidden py-3 lg:py-2 px-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">Who We Are</a>
+                                <a className="lg:hidden lg:w-auto w-1/2 cursor-pointer uppercase block py-3 lg:py-2 px-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">Who We Are</a>
+                                <button className="lg:hidden w-1/2 flex justify-end py-3 px-2 focus:outline-none" onClick={toggleAbt}>
                                     <div className="lg:hidden border-gray-400 border-s me-4 h-6"></div>
                                     <svg className="mt-2" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -250,8 +251,9 @@ function Header2() {
                         </li>
                         <li>
                             <div className="flex">
-                                <a onClick={toggleAbt1} className="lg:w-auto w-1/2 cursor-pointer uppercase block py-3 lg:py-2 px-2 font-bold text-xs leading-7 lg:text-gray-5 text-white">What We Do</a>
-                                <button className="lg:hidden w-1/2 flex justify-end py-3 px-2" onClick={toggleAbt1}>
+                                <a onClick={toggleAbt1} className="hidden lg:w-auto w-1/2 cursor-pointer uppercase lg:block py-3 lg:py-2 px-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">What We Do</a>
+                                <a className="lg:hidden lg:w-auto w-1/2 cursor-pointer uppercase block py-3 lg:py-2 px-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">What We Do</a>
+                                <button className="lg:hidden w-1/2 flex justify-end py-3 px-2 focus:outline-none" onClick={toggleAbt1}>
                                     <div className="lg:hidden border-gray-400 border-s me-4 h-6"></div>
                                     <svg className="mt-2" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -348,8 +350,9 @@ function Header2() {
                         </li>
                         <li ref={ref2}>
                             <div className="flex">
-                                <a onClick={toggleAbt2} className="lg:w-auto w-1/2 cursor-pointer uppercase block py-3 lg:py-2 px-2 font-bold text-xs leading-7 lg:text-gray-5 text-white">How We Work</a>
-                                <button className="lg:hidden w-1/2 flex justify-end py-3 px-2" onClick={toggleAbt2}>
+                                <a onClick={toggleAbt2} className="hidden lg:w-auto w-1/2 cursor-pointer uppercase lg:block py-3 lg:py-2 px-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">How We Work</a>
+                                <a className="lg:hidden lg:w-auto w-1/2 cursor-pointer uppercase block py-3 lg:py-2 px-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">How We Work</a>
+                                <button className="lg:hidden w-1/2 flex justify-end py-3 px-2 focus:outline-none" onClick={toggleAbt2}>
                                     <div className="lg:hidden border-gray-400 border-s me-4 h-6"></div>
                                     <svg className="mt-2" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -366,22 +369,22 @@ function Header2() {
                                             <li className="border border-gray-3 w-7/12"></li>
                                         </div>
                                         <li className="pb-4">
-                                            <a href="#Home" className="text-white font-normal text-sm pb-2 ">Kenya</a>
+                                            <a className="text-white font-normal text-sm pb-2 ">Kenya</a>
                                         </li>
                                         <li className="pb-4">
-                                            <a href="#" className="text-white font-normal text-sm pb-2">Madagascar</a>
+                                            <a className="text-white font-normal text-sm pb-2">Madagascar</a>
                                         </li>
                                         <li className="pb-4">
-                                            <a href="#Pricing" className="text-white font-normal text-sm pb-2">Mozambique</a>
+                                            <a className="text-white font-normal text-sm pb-2">Mozambique</a>
                                         </li>
                                         <li className="pb-4">
-                                            <a href="#" className="text-white font-normal text-sm pb-2">Rwanda</a>
+                                            <a className="text-white font-normal text-sm pb-2">Rwanda</a>
                                         </li>
                                         <li className="pb-4">
-                                            <a href="#Contact" className="text-white font-normal text-sm pb-2">Tanzania</a>
+                                            <a className="text-white font-normal text-sm pb-2">Tanzania</a>
                                         </li>
                                         <li className="pb-4">
-                                            <a href="#Contact" className="text-white font-normal text-sm pb-2">Uganda</a>
+                                            <a className="text-white font-normal text-sm pb-2">Uganda</a>
                                         </li>
                                         <nav className="lg:pt-16 pt-2">
                                             <li className="pb-3">
@@ -391,16 +394,16 @@ function Header2() {
                                                 <li className="border border-gray-3 w-7/12"></li>
                                             </div>
                                             <li className="pb-4">
-                                                <a href="#Home" className="text-white font-normal text-sm pb-2 ">Burkina Faso</a>
+                                                <a className="text-white font-normal text-sm pb-2 ">Burkina Faso</a>
                                             </li>
                                             <li className="pb-4">
-                                                <a href="#" className="text-white font-normal text-sm pb-2">Côte d'Ivoire</a>
+                                                <a className="text-white font-normal text-sm pb-2">Côte d'Ivoire</a>
                                             </li>
                                             <li className="pb-4">
-                                                <a href="#Pricing" className="text-white font-normal text-sm pb-2">Mali</a>
+                                                <a className="text-white font-normal text-sm pb-2">Mali</a>
                                             </li>
                                             <li className="pb-4">
-                                                <a href="#" className="text-white font-normal text-sm pb-2">Senegal</a>
+                                                <a className="text-white font-normal text-sm pb-2">Senegal</a>
                                             </li>
                                         </nav>
                                     </nav>
@@ -412,13 +415,13 @@ function Header2() {
                                             <li className="border border-gray-3 w-7/12"></li>
                                         </div>
                                         <li className="pb-4">
-                                            <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Egypt</a>
+                                            <a className="text-white font-normal text-sm pb-2 cursor-pointer">Egypt</a>
                                         </li>
                                         <li className="pb-4">
-                                            <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Syria</a>
+                                            <a className="text-white font-normal text-sm pb-2 cursor-pointer">Syria</a>
                                         </li>
                                         <li className="pb-4">
-                                            <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">United Arab Emirates</a>
+                                            <a className="text-white font-normal text-sm pb-2 cursor-pointer">United Arab Emirates</a>
                                         </li>
                                         <nav className="lg:pt-16 pt-2">
                                             <li className="pb-3">
@@ -428,16 +431,16 @@ function Header2() {
                                                 <li className="border border-gray-3 w-7/12"></li>
                                             </div>
                                             <li className="pb-4">
-                                                <a href="#Home" className="text-white font-normal text-sm pb-2 ">Afghanistan</a>
+                                                <a className="text-white font-normal text-sm pb-2 ">Afghanistan</a>
                                             </li>
                                             <li className="pb-4">
-                                                <a href="#" className="text-white font-normal text-sm pb-2">Kazakhstan</a>
+                                                <a className="text-white font-normal text-sm pb-2">Kazakhstan</a>
                                             </li>
                                             <li className="pb-4">
-                                                <a href="#Pricing" className="text-white font-normal text-sm pb-2">Kyrgyz Republic</a>
+                                                <a className="text-white font-normal text-sm pb-2">Kyrgyz Republic</a>
                                             </li>
                                             <li className="pb-4">
-                                                <a href="#" className="text-white font-normal text-sm pb-2">Tajikistan</a>
+                                                <a className="text-white font-normal text-sm pb-2">Tajikistan</a>
                                             </li>
                                         </nav>
                                     </nav>
@@ -450,13 +453,13 @@ function Header2() {
                                             <li className="border border-gray-3 w-7/12"></li>
                                         </div>
                                         <li className="pb-4">
-                                            <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Bangladesh</a>
+                                            <a className="text-white font-normal text-sm pb-2 cursor-pointer">Bangladesh</a>
                                         </li>
                                         <li className="pb-4">
-                                            <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">India</a>
+                                            <a className="text-white font-normal text-sm pb-2 cursor-pointer">India</a>
                                         </li>
                                         <li className="pb-4">
-                                            <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Pakistan</a>
+                                            <a className="text-white font-normal text-sm pb-2 cursor-pointer">Pakistan</a>
                                         </li>
                                         <nav className="lg:pt-16 pt-2">
                                             <li className="pb-3">
@@ -466,10 +469,10 @@ function Header2() {
                                                 <li className="border border-gray-3 w-7/12"></li>
                                             </div>
                                             <li className="pb-4">
-                                                <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Malaysia</a>
+                                                <a className="text-white font-normal text-sm pb-2 cursor-pointer">Malaysia</a>
                                             </li>
                                             <li className="pb-4">
-                                                <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Singapore</a>
+                                                <a className="text-white font-normal text-sm pb-2 cursor-pointer">Singapore</a>
                                             </li>
                                         </nav>
                                     </nav>
@@ -494,22 +497,22 @@ function Header2() {
                                                 <li className="border border-gray-3 w-2/5"></li>
                                             </div>
                                             <li className="pb-4">
-                                                <a href="#Home" className="text-white font-normal text-sm pb-2 ">France</a>
+                                                <a className="text-white font-normal text-sm pb-2 ">France</a>
                                             </li>
                                             <li className="pb-4">
-                                                <a href="#" className="text-white font-normal text-sm pb-2">Germany</a>
+                                                <a className="text-white font-normal text-sm pb-2">Germany</a>
                                             </li>
                                             <li className="pb-4">
-                                                <a href="#Pricing" className="text-white font-normal text-sm pb-2">Norway</a>
+                                                <a className="text-white font-normal text-sm pb-2">Norway</a>
                                             </li>
                                             <li className="pb-4">
-                                                <a href="#" className="text-white font-normal text-sm pb-2">Portugal</a>
+                                                <a className="text-white font-normal text-sm pb-2">Portugal</a>
                                             </li>
                                             <li className="pb-4">
-                                                <a href="#Contact" className="text-white font-normal text-sm pb-2">Switzerland</a>
+                                                <a className="text-white font-normal text-sm pb-2">Switzerland</a>
                                             </li>
                                             <li className="pb-4">
-                                                <a href="#Contact" className="text-white font-normal text-sm pb-2">United Kingdom</a>
+                                                <a className="text-white font-normal text-sm pb-2">United Kingdom</a>
                                             </li>
                                         </nav>
                                     </nav>
@@ -518,8 +521,9 @@ function Header2() {
                         </li>
                         <li ref={ref3}>
                             <div className="flex">
-                                <a onClick={toggleAbt3} className="lg:w-auto w-1/2 cursor-pointer uppercase block py-3 lg:py-2 px-2 font-bold text-xs leading-7 lg:text-gray-5 text-white">Where We Work</a>
-                                <button className="lg:hidden w-1/2 flex justify-end py-3 px-2" onClick={toggleAbt3}>
+                                <a onClick={toggleAbt3} className="hidden lg:w-auto w-1/2 cursor-pointer uppercase lg:block py-3 lg:py-2 px-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">Where We Work</a>
+                                <a className="lg:hidden lg:w-auto w-1/2 cursor-pointer uppercase block py-3 lg:py-2 px-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">Where We Work</a>
+                                <button className="lg:hidden w-1/2 flex justify-end py-3 px-2 focus:outline-none" onClick={toggleAbt3}>
                                     <div className="lg:hidden border-gray-400 border-s me-4 h-6"></div>
                                     <svg className="mt-2" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -574,10 +578,10 @@ function Header2() {
                                             <li className="border border-gray-3 w-1/3"></li>
                                         </div>
                                         <li className="pb-4">
-                                            <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Our Approach to Development</a>
+                                            <a className="text-white font-normal text-sm pb-2 cursor-pointer">Our Approach to Development</a>
                                         </li>
                                         <li className="pb-4">
-                                            <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Frequently Asked Questions</a>
+                                            <a className="text-white font-normal text-sm pb-2 cursor-pointer">Frequently Asked Questions</a>
                                         </li>
                                     </nav>
                                 </nav>
@@ -585,8 +589,9 @@ function Header2() {
                         </li>
                         <li ref={ref4}>
                             <div className="flex">
-                                <a onClick={toggleAbt4} className="lg:w-auto w-1/2 cursor-pointer uppercase block py-3 lg:py-2 px-2 font-bold text-xs leading-7 lg:text-gray-5 text-white">RESOURCES & MEDIA</a>
-                                <button className="lg:hidden w-1/2 flex justify-end py-3 px-2" onClick={toggleAbt4}>
+                                <a onClick={toggleAbt4} className="hidden lg:w-auto w-1/2 cursor-pointer uppercase lg:block py-3 lg:py-2 px-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">RESOURCES & MEDIA</a>
+                                <a className="lg:hidden lg:w-auto w-1/2 cursor-pointer uppercase block py-3 lg:py-2 px-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">RESOURCES & MEDIA</a>
+                                <button className="lg:hidden w-1/2 flex justify-end py-3 px-2 focus:outline-none" onClick={toggleAbt4}>
                                     <div className="lg:hidden border-gray-400 border-s me-4 h-6"></div>
                                     <svg className="mt-2" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -666,8 +671,9 @@ function Header2() {
                         </li>
                         <li ref={ref5}>
                             <div className="flex">
-                                <a onClick={toggleAbt5} className="lg:w-auto w-1/2 cursor-pointer uppercase block py-3 lg:py-2 px-2 font-bold text-xs leading-7 lg:text-gray-5 text-white">Get Involved</a>
-                                <button className="lg:hidden w-1/2 flex justify-end py-3 px-2">
+                                <a onClick={toggleAbt5} className="hidden lg:w-auto w-1/2 cursor-pointer uppercase lg:block py-3 lg:py-2 px-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">Get Involved</a>
+                                <a className="lg:hidden lg:w-auto w-1/2 cursor-pointer uppercase block py-3 lg:py-2 px-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">Get Involved</a>
+                                <button className="lg:hidden w-1/2 flex justify-end py-3 px-2 focus:outline-none">
                                     <div className="lg:hidden border-gray-400 border-s me-4 h-6"></div>
                                     <svg className="mt-2" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -711,7 +717,7 @@ function Header2() {
                                         English
                                     </h3>
 
-                                    <button className="lg:hidden w-1/2 flex justify-end py-3 px-2" onClick={toggleLang}>
+                                    <button className="lg:hidden w-1/2 flex justify-end py-3 px-2 focus:outline-none" onClick={toggleLang}>
                                         <div className="lg:hidden border-gray-400 border-s me-4 h-6"></div>
                                         <svg className="mt-2" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
