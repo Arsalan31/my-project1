@@ -219,20 +219,6 @@
     order: 2;
   }
 
-  .list5 {
-    list-style-type: none;
-    height: 100%;
-    display: flex;
-    position: relative;
-    order: 0;
-  }
-
-  .list6 {
-    list-style-type: none;
-    display: flex;
-    position: absolute;
-    order: 0;
-  }
 
   @media (min-width: 768px) {
     .list {
@@ -281,6 +267,7 @@
       padding: 16px;
     }
 
+
     .logo {
       width: 186px;
       height: 58px;
@@ -306,19 +293,41 @@
       height: auto;
       padding: 16px;
     }
+  }
 
-    .list5 {
-      list-style-type: none;
-      height: 100%;
-      display: flex;
-      position: relative;
+  @media screen and (max-width: 1024px) {
+
+    .img {
+      order: 1;
     }
-  
+
+    .list7 {
+      list-style-type: none;
+      display: flex;
+      height: auto;
+      width: 100%;
+      padding: 16px;
+    }
+
+    .list6 {
+      list-style-type: none;
+      display: flex;
+      height: auto;
+      padding: 16px;
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    .img {
+      order: 0;
+    }
+
     .list6 {
       list-style-type: none;
       display: flex;
       position: absolute;
-    }
+      order: 0;
+    } 
   }
 
   @media screen and (min-width: 1024px) {
@@ -403,13 +412,13 @@
     background: black !important;
   }
 
-  .text1{
+  .text1 {
     background-image: url(assets/Group\ 46.png);
     background-repeat: no-repeat;
     background-position: left;
-    background-position-x: 25px; 
+    background-position-x: 25px;
   }
 
-  .text2{
+  .text2 {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   }
