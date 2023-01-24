@@ -18,7 +18,7 @@ function Partners2(props) {
         swiperRef.current.swiper.slideToLoop(0)
     }, [props.isRtl])
 
-    const read = useRef()
+    // const read = useRef()
 
     const ReadMore = ({ children }) => {
         const text = children;
@@ -27,22 +27,22 @@ function Partners2(props) {
             setIsReadMore(!isReadMore)
         }
 
-        useEffect(() => {
-            const checkIfClickedOutside = a => {
-                // If the menu is open and the clicked target is not within the menu,
-                // then close the menu
-                if (isReadMore && read.current && !read.current.contains(a.target)) {
-                    setIsReadMore(false)
-                }
-            }
+        // useEffect(() => {
+        //     const checkIfClickedOutside = a => {
+        //         // If the menu is open and the clicked target is not within the menu,
+        //         // then close the menu
+        //         if (isReadMore && read.current && !read.current.contains(a.target)) {
+        //             setIsReadMore(false)
+        //         }
+        //     }
 
-            document.addEventListener("mousedown", checkIfClickedOutside)
+        //     document.addEventListener("mousedown", checkIfClickedOutside)
 
-            return () => {
-                // Cleanup the event listener
-                document.removeEventListener("mousedown", checkIfClickedOutside)
-            }
-        }, [isReadMore])
+        //     return () => {
+        //         // Cleanup the event listener
+        //         document.removeEventListener("mousedown", checkIfClickedOutside)
+        //     }
+        // }, [isReadMore])
 
         return (
             <p className="text">
@@ -85,11 +85,11 @@ function Partners2(props) {
     //     ))
     // }
     return (
-        <section className="sm:mt-10 lg:mt-0 flex flex-col items-start w-full h-full bg-transparent flex-none order-2 flex-grow-0">
+        <section className="flex flex-col items-start w-full h-full bg-transparent flex-none order-2 flex-grow-0">
             <div className="container mt-8 sm:px-16 px-8 pb-6 mx-auto">
                 <h4 className="text-red-500 text-3xl font-bold text-center">Our Partnership Projects</h4>
                 <div className="container mx-auto border-b lg:border border-red-500 border-4 lg:w-1/5 w-1/4 flex justify-center mt-5"></div>
-                <div className="flex flex-wrap justify-center mt-10">
+                <div className="flex flex-wrap justify-center mt-9">
                     <>
                         <Swiper
                             pagination={{
@@ -108,8 +108,8 @@ function Partners2(props) {
                                 <div className="flex flex-col flex-none flex-grow-0 text-center w-full lg:px-6 mb-20">
                                     <div class="flex flex-wrap lg:-m-4 -mx-4 -mb-10 lg:space-y-0 space-y-6">
                                         <div class="p-4 lg:w-3/5 lg:px-22 w-full order-0 lg:order-1 flex flex-col text-center">
-                                            <h1 className="w-full font-bold text-black mt-8 text-start md:text-4xl text-2xl md:leading-10 mb-2">The Tanzania Cancer Care Project (TCCP)</h1>
-                                            <p ref={read} className="w-full mt-10 font-normal md:text-base text-sm text-start text-hex mb-5">The Tanzania Comprehensive Cancer Care Project (TCCP) is a €13.3 million private-public four-year evidence-based project funded by Agence Française de Développement (AFD) and Aga Khan Foundation (AKF). It aims to strengthen and expand the quality, access, and capacity of cancer care services across the cancer continuum in Dar es Salaam and Mwanza regions of Tanzania.
+                                            <h1 className="w-full font-bold text-black text-start md:text-4xl text-2xl md:leading-10 mb-2">The Tanzania Cancer Care Project (TCCP)</h1>
+                                            <p className="w-9/12 font-normal font-sans md:text-base text-xs text-start text-black mb-5">The Tanzania Comprehensive Cancer Care Project (TCCP) is a €13.3 million private-public four-year evidence-based project funded by Agence Française de Développement (AFD) and Aga Khan Foundation (AKF). It aims to strengthen and expand the quality, access, and capacity of cancer care services across the cancer continuum in Dar es Salaam and Mwanza regions of Tanzania.
                                                 <p className="text-gray-300 text-start">
                                                     <ReadMore>
                                                         The project is a joint initiative led by the Aga Khan Health Services Tanzania (AKHST) together with the Aga Khan Foundation Tanzania (AKFT),It aims to strengthen and expand the quality, access, and capacity of cancer care services across the cancer continuum in Dar es Salaam and Mwanza regions of Tanzania.For over 100 years the Aga Khan Development Network (AKDN) has worked to ensure that students of all ages have access to quality learning opportunities.
@@ -127,8 +127,8 @@ function Partners2(props) {
                                 <div className="flex flex-col flex-none flex-grow-0 text-center w-full lg:px-6 mb-20">
                                     <div class="flex flex-wrap lg:-m-4 -mx-4 -mb-10 lg:space-y-0 space-y-6">
                                         <div class="p-4 lg:w-3/5 lg:px-22 w-full order-0 lg:order-1 flex flex-col text-center">
-                                            <h1 className="w-full font-bold text-black mt-8 text-start md:text-4xl text-2xl md:leading-10 mb-2">The Tanzania Cancer Care Project (TCCP)</h1>
-                                            <p className="w-full mt-10 font-normal md:text-base text-sm text-start text-hex mb-5">The Tanzania Comprehensive Cancer Care Project (TCCP) is a €13.3 million private-public four-year evidence-based project funded by Agence Française de Développement (AFD) and Aga Khan Foundation (AKF). It aims to strengthen and expand the quality, access, and capacity of cancer care services across the cancer continuum in Dar es Salaam and Mwanza regions of Tanzania.
+                                            <h1 className="w-full font-bold text-black text-start md:text-4xl text-2xl md:leading-10 mb-2">The Tanzania Cancer Care Project (TCCP)</h1>
+                                            <p className="w-9/12 font-normal md:text-base text-xs text-start text-black mb-5">The Tanzania Comprehensive Cancer Care Project (TCCP) is a €13.3 million private-public four-year evidence-based project funded by Agence Française de Développement (AFD) and Aga Khan Foundation (AKF). It aims to strengthen and expand the quality, access, and capacity of cancer care services across the cancer continuum in Dar es Salaam and Mwanza regions of Tanzania.
                                                 <p className="text-gray-300 text-start">
                                                     <ReadMore>
                                                         The project is a joint initiative led by the Aga Khan Health Services Tanzania (AKHST) together with the Aga Khan Foundation Tanzania (AKFT),It aims to strengthen and expand the quality, access, and capacity of cancer care services across the cancer continuum in Dar es Salaam and Mwanza regions of Tanzania.For over 100 years the Aga Khan Development Network (AKDN) has worked to ensure that students of all ages have access to quality learning opportunities.
@@ -146,8 +146,8 @@ function Partners2(props) {
                                 <div className="flex flex-col flex-none flex-grow-0 text-center w-full lg:px-6 mb-20">
                                     <div class="flex flex-wrap lg:-m-4 -mx-4 -mb-10 lg:space-y-0 space-y-6">
                                         <div class="p-4 lg:w-3/5 lg:px-22 w-full order-0 lg:order-1 flex flex-col text-center">
-                                            <h1 className="w-full font-bold text-black mt-8 text-start md:text-4xl text-2xl md:leading-10 mb-2">The Tanzania Cancer Care Project (TCCP)</h1>
-                                            <p className="w-full mt-10 font-normal md:text-base text-sm text-start text-hex mb-5">The Tanzania Comprehensive Cancer Care Project (TCCP) is a €13.3 million private-public four-year evidence-based project funded by Agence Française de Développement (AFD) and Aga Khan Foundation (AKF). It aims to strengthen and expand the quality, access, and capacity of cancer care services across the cancer continuum in Dar es Salaam and Mwanza regions of Tanzania.
+                                            <h1 className="w-full font-bold text-black text-start md:text-4xl text-2xl md:leading-10 mb-2">The Tanzania Cancer Care Project (TCCP)</h1>
+                                            <p className="w-9/12 font-normal md:text-base text-xs text-start text-black mb-5">The Tanzania Comprehensive Cancer Care Project (TCCP) is a €13.3 million private-public four-year evidence-based project funded by Agence Française de Développement (AFD) and Aga Khan Foundation (AKF). It aims to strengthen and expand the quality, access, and capacity of cancer care services across the cancer continuum in Dar es Salaam and Mwanza regions of Tanzania.
                                                 <p className="text-gray-300 text-start">
                                                     <ReadMore>
                                                         The project is a joint initiative led by the Aga Khan Health Services Tanzania (AKHST) together with the Aga Khan Foundation Tanzania (AKFT),It aims to strengthen and expand the quality, access, and capacity of cancer care services across the cancer continuum in Dar es Salaam and Mwanza regions of Tanzania.For over 100 years the Aga Khan Development Network (AKDN) has worked to ensure that students of all ages have access to quality learning opportunities.
@@ -164,17 +164,17 @@ function Partners2(props) {
                         </Swiper>
                     </>
                     <div className="w-full lg:block flex justify-center lg:order-2 order-1 lg:gap-3 lg:absolute">
-                        <div className="lg:flex hidden justify-start absolute -bottom-36 start-8">
-                            <button className="swiper-button-prev text-white bg-red-500 focus:outline-none px-2">
-                                <svg xmlns="http://www.w3.org/2000/svg" className="me-3" width="20" height="40" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                        <div className="lg:flex hidden justify-start absolute -bottom-44 start-8">
+                            <button className="swiper-button-prev text-white bg-red-600 focus:outline-none px-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" className="me-3" width="20" height="35" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
                                 </svg>
                             </button>
                         </div>
-                        <div class="lg:hidden flex swiper-pagination3 justify-center bg-red-400"></div>
-                        <div className="lg:flex hidden justify-end absolute -bottom-36 end-8">
-                            <button className="swiper-button-next text-white bg-red-500 focus:outline-none px-2">
-                                <svg xmlns="http://www.w3.org/2000/svg" className="ms-3" width="20" height="40" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <div class="lg:hidden flex swiper-pagination3 justify-center bg-red-600"></div>
+                        <div className="lg:flex hidden justify-end absolute -bottom-44 end-8">
+                            <button className="swiper-button-next text-white bg-red-600 focus:outline-none px-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" className="ms-3" width="20" height="35" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
                                 </svg>
                             </button>
