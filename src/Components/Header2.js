@@ -210,7 +210,7 @@ function Header2() {
                 <button onClick={toggleNav} className="flex items-center lg:order-1 order-0 focus:outline-none p-2 ms-3 text-sm font-semibold uppercase border-white border-2 px-6 py-3 text-gray-5 lg:hidden">
                     <img src={require('./assets/Menu.png')}></img>
                 </button>
-                {(toggleMenu || screenWidth > 1023) && (
+                {(toggleMenu || screenWidth > 1024) && (
                     <div className="list7 list-none lg:bg-white bg-green-20 flex lg:flex-row flex-col py-6 order-0 lg:justify-center justify-start">
                             {/* <div className="flex flex-wrap">
                                 <img href="Akdn" className="img flex w-20 h-8" src={require('./assets/White.png')}></img>
