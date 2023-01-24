@@ -212,6 +212,10 @@ function Header2() {
                 </button>
                 {(toggleMenu || screenWidth > 1023) && (
                     <div className="list7 list-none lg:bg-white bg-green-20 flex lg:flex-row flex-col py-6 order-0 lg:justify-center justify-start">
+                        <img href="Akdn" className="img flex" src={require('./assets/AKDN Identity with Tag Line 1.png')}></img>
+                        <button onClick={toggleNav} className="flex items-center lg:order-1 order-0 focus:outline-none p-2 ms-3 text-sm font-semibold uppercase border-white border-2 px-6 py-3 text-gray-5 lg:hidden">
+                            <img src={require('./assets/White.png')}></img>
+                        </button>
                         <li ref={ref}>
                             <div className="flex">
                                 <a onClick={toggleAbt} className="lg:w-auto w-1/2 cursor-pointer uppercase lg:block hidden py-3 lg:py-2 px-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">Who We Are</a>
