@@ -15,6 +15,7 @@ function Featured(props) {
         swiperRef.current.swiper.rtlTranslate = props.isRtl
         swiperRef.current.swiper.slideToLoop(0)
     }, [props.isRtl])
+    
     return (
         <section className="sm:mt-10 lg:mt-0 flex flex-col items-start w-full h-full bg-transparent flex-none order-2 flex-grow-0">
             <div className="container mt-8 sm:px-16 px-8 mx-auto">
@@ -22,11 +23,7 @@ function Featured(props) {
                 <div className="flex flex-wrap justify-center px-5 mt-10 mb-5">
                     <>
                         <Swiper
-                            pagination={{
-                                el: '.swiper-pagination4',
-                                type: 'bullets'
-                            }
-                            }
+                            pagination={true}
                             ref={swiperRef}
                             loop={true}
                             navigation={{
@@ -34,7 +31,7 @@ function Featured(props) {
                                 prevEl: ".swiper-button-prev"
                             }}
                             modules={[Pagination, Navigation]}
-                        // className="mySwiper"
+                            className="mySwiper"
                         >
                             <SwiperSlide>
                                 <div class="flex flex-wrap md:-m-4 -mx-4 -mb-10 md:space-y-0 space-y-6">
@@ -256,8 +253,8 @@ function Featured(props) {
                                 </svg>
                             </button>
                         </div>
-                        <div className="w-9/12">
-                            <div class="swiper-pagination4"></div>
+                        <div className="flex justify-center w-9/12">
+                            <div class="swiper-pagination"></div>
                         </div>
                         <div className="flex justify-end">
                             <button className="swiper-button-next text-gray-400 focus:outline-none px-2">
