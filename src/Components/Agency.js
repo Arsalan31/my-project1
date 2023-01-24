@@ -76,7 +76,7 @@ function Agency() {
                                 <p class="text-xs font-bold uppercase sm:ms-0 ms-8 sm:mt-1 mt-5">The Aga Khan University</p>
                             </div>
                         </div>
-                        <div class="sm:p-4 lg:w-1/5 md:w-1/3 w-full sm:w-60 sm:h-36 flex h-20 flex-col sm:text-center items-start sm:items-center sm:border border-b border-gray-300 sm:mb-7">
+                        <div class="sm:p-4 lg:w-1/5 md:w-1/3 w-full sm:w-60 sm:h-36 flex h-20 flex-col sm:text-center items-start sm:items-center sm:border sm:border-b border-gray-300 sm:mb-7">
                             <div class="flex-grow sm:px-6 py-3 sm:flex-col sm:items-center items-start inline-flex">
                                 <img className="h-12 w-16 sm:w-14 sm:h-14" src={require('./assets/Screen Shot 2021-02-27 at 8.14 7.png')}></img>
                                 <p class="text-xs sm:ms-0 ms-8 sm:mt-3 font-bold uppercase mt-4">University Of Central Asia</p>
