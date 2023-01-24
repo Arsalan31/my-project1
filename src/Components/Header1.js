@@ -28,7 +28,7 @@ function Header1() {
     return (
         <header className="w-full absolute">
             <nav className="flex justify-between md:opacity-90">
-                <div className="container nav md:my-0 lg:px-0 px-10 py-5 flex flex-wrap justify-between content-center items-center xl:mx-40 lg:mx-20 mx-auto bg-transparent ">
+                <div className="container nav md:my-0 lg:px-0 px-10 py-5 flex flex-wrap justify-between content-center items-center xl:mx-40 lg:mx-28 mx-auto bg-transparent ">
                     <div className="logo1 bg-no-repeat flex-none order-0 flex-grow-0 block cursor-pointer" />
                     <button onClick={toggleNav} className="block items-center focus:outline-none p-2 ms-3 text-sm font-semibold uppercase border-white border-2 px-6 py-3 text-white md:hidden">Menu
                     </button>
