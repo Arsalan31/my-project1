@@ -205,7 +205,7 @@ function Header2() {
 
     return (
         <header className="w-full absolute">
-            <div className="flex flex-wrap justify-between content-center items-center bg-white">
+            <div className="flex lg:flex-wrap flex-wrap-reverse justify-between content-center items-center bg-white">
                 <img href="Akdn" className="img flex" src={require('./assets/AKDN Identity with Tag Line 1.png')}></img>
                 <button onClick={toggleNav} className="flex items-center lg:order-1 order-0 focus:outline-none p-2 ms-3 text-sm font-semibold uppercase border-white border-2 px-6 py-3 text-gray-5 lg:hidden">
                     <img src={require('./assets/Menu.png')}></img>
