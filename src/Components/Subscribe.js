@@ -3,7 +3,7 @@ import React, { useState } from "react"
 function Subscribe() {
     return (
         <section>
-            <div className="container sm:p-20 p-10 mx-auto bg-white">
+            <div className="container p-10 mx-auto bg-white">
                 <div className="flex justify-end">
                     <img src={require('./assets/Group 77.png')} className="relative sm:h-12 sm:w-12 w-8 h-8 sm:-bottom-7 -bottom-5 -end-2 sm:-end-4"></img>
                 </div>
