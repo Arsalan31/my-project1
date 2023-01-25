@@ -16,16 +16,25 @@ function Featured(props) {
         swiperRef.current.swiper.rtlTranslate = props.isRtl
         swiperRef.current.swiper.slideToLoop(0)
     }, [props.isRtl])
-    
+
     return (
         <section className="sm:mt-10 lg:mt-0 flex flex-col items-start w-full h-full bg-transparent flex-none order-2 flex-grow-0">
-            <div className="container mt-8 sm:px-16 px-8 mx-auto">
+            <div className="container mt-8 mx-auto">
                 <h3 className=" font-bold text-3xl uppercase text-center text-black">Featured Videos</h3>
-                <div className="flex flex-wrap justify-center px-5 mt-10 mb-5">
+                <div className="flex lg:flex-wrap justify-center px-5 mt-10 mb-5">
                     <>
                         <Swiper
+                            breakpoints={{
+                                0: {
+                                    slidesPerView: 1,
+                                },
+                                1024: {
+                                    slidesPerView: 3,
+                                    spaceBetween: 20
+                                },
+                            }}
                             pagination={{
-                                el: '.swiper-pagination',
+                                el: '.swiper-pagination4',
                                 type: 'bullets'
                             }}
                             ref={swiperRef}
@@ -39,16 +48,7 @@ function Featured(props) {
                         >
                             <SwiperSlide>
                                 <div class="flex flex-wrap md:-m-4 -mx-4 -mb-10 md:space-y-0 space-y-6">
-                                    <div class="p-4 lg:w-1/3 xl:px-14 w-full flex flex-col text-center items-center">
-                                        <img src={require('./assets/Rectangle 1450.png')}></img>
-                                        <div class="flex-grow mt-7">
-                                            <h2 class="text-center font-bold text-3xl text-black mb-3">Warm Invitation</h2>
-                                            <h3 class="text-center font-medium text-base text-black mb-3">You're invited to SIGNAL 2021</h3>
-                                            <p class="text-gray-600 text-base text-center px-6 font-medium">Join us for the digital engagement event of the year bringing together 50,000+ developers, product leaders and visionaries to talk about the future of customer engagement.</p>
-
-                                        </div>
-                                    </div>
-                                    <div class="p-4 lg:w-1/3 xl:px-14 w-full flex flex-col text-center items-center">
+                                    <div class="p-4 w-full flex flex-col text-center items-center">
                                         <img src={require('./assets/Rectangle 1450.png')}></img>
                                         <div class="flex-grow mt-7">
                                             <h2 class="text-center font-bold text-3xl text-black mb-3">Warm Invitation</h2>
@@ -56,7 +56,23 @@ function Featured(props) {
                                             <p class="text-gray-600 text-base text-center px-6 font-medium">Join us for the digital engagement event of the year bringing together 50,000+ developers, product leaders and visionaries to talk about the future of customer engagement.</p>
                                         </div>
                                     </div>
-                                    <div class="p-4 lg:w-1/3 xl:px-14 w-full flex flex-col text-center items-center">
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div class="flex flex-wrap md:-m-4 -mx-4 -mb-10 md:space-y-0 space-y-6">
+                                    <div class="p-4 xl:w-full flex flex-col text-center items-center">
+                                        <img src={require('./assets/Rectangle 1450.png')}></img>
+                                        <div class="flex-grow mt-7">
+                                            <h2 class="text-center font-bold text-3xl text-black mb-3">Warm Invitation</h2>
+                                            <h3 class="text-center font-medium text-base text-black mb-3">You're invited to SIGNAL 2021</h3>
+                                            <p class="text-gray-600 text-base text-center px-6 font-medium">Join us for the digital engagement event of the year bringing together 50,000+ developers, product leaders and visionaries to talk about the future of customer engagement.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div class="flex flex-wrap md:-m-4 -mx-4 -mb-10 md:space-y-0 space-y-6">
+                                    <div class="p-4 w-full flex flex-col text-center items-center">
                                         <img src={require('./assets/Rectangle 1450.png')}></img>
                                         <div class="flex-grow mt-7">
                                             <h2 class="text-center font-bold text-3xl text-black mb-3">Warm Invitation</h2>
@@ -69,16 +85,7 @@ function Featured(props) {
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div class="flex flex-wrap md:-m-4 -mx-4 -mb-10 md:space-y-0 space-y-6">
-                                    <div class="p-4 lg:w-1/3 xl:px-14 w-full flex flex-col text-center items-center">
-                                        <img src={require('./assets/Rectangle 1450.png')}></img>
-                                        <div class="flex-grow mt-7">
-                                            <h2 class="text-center font-bold text-3xl text-black mb-3">Warm Invitation</h2>
-                                            <h3 class="text-center font-medium text-base text-black mb-3">You're invited to SIGNAL 2021</h3>
-                                            <p class="text-gray-600 text-base text-center px-6 font-medium">Join us for the digital engagement event of the year bringing together 50,000+ developers, product leaders and visionaries to talk about the future of customer engagement.</p>
-
-                                        </div>
-                                    </div>
-                                    <div class="p-4 lg:w-1/3 xl:px-14 w-full flex flex-col text-center items-center">
+                                    <div class="p-4 w-full flex flex-col text-center items-center">
                                         <img src={require('./assets/Rectangle 1450.png')}></img>
                                         <div class="flex-grow mt-7">
                                             <h2 class="text-center font-bold text-3xl text-black mb-3">Warm Invitation</h2>
@@ -86,7 +93,23 @@ function Featured(props) {
                                             <p class="text-gray-600 text-base text-center px-6 font-medium">Join us for the digital engagement event of the year bringing together 50,000+ developers, product leaders and visionaries to talk about the future of customer engagement.</p>
                                         </div>
                                     </div>
-                                    <div class="p-4 lg:w-1/3 xl:px-14 w-full flex flex-col text-center items-center">
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div class="flex flex-wrap md:-m-4 -mx-4 -mb-10 md:space-y-0 space-y-6">
+                                    <div class="p-4 xl:w-full flex flex-col text-center items-center">
+                                        <img src={require('./assets/Rectangle 1450.png')}></img>
+                                        <div class="flex-grow mt-7">
+                                            <h2 class="text-center font-bold text-3xl text-black mb-3">Warm Invitation</h2>
+                                            <h3 class="text-center font-medium text-base text-black mb-3">You're invited to SIGNAL 2021</h3>
+                                            <p class="text-gray-600 text-base text-center px-6 font-medium">Join us for the digital engagement event of the year bringing together 50,000+ developers, product leaders and visionaries to talk about the future of customer engagement.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div class="flex flex-wrap md:-m-4 -mx-4 -mb-10 md:space-y-0 space-y-6">
+                                    <div class="p-4 w-full flex flex-col text-center items-center">
                                         <img src={require('./assets/Rectangle 1450.png')}></img>
                                         <div class="flex-grow mt-7">
                                             <h2 class="text-center font-bold text-3xl text-black mb-3">Warm Invitation</h2>
@@ -99,144 +122,7 @@ function Featured(props) {
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div class="flex flex-wrap md:-m-4 -mx-4 -mb-10 md:space-y-0 space-y-6">
-                                    <div class="p-4 lg:w-1/3 xl:px-14 w-full flex flex-col text-center items-center">
-                                        <img src={require('./assets/Rectangle 1450.png')}></img>
-                                        <div class="flex-grow mt-7">
-                                            <h2 class="text-center font-bold text-3xl text-black mb-3">Warm Invitation</h2>
-                                            <h3 class="text-center font-medium text-base text-black mb-3">You're invited to SIGNAL 2021</h3>
-                                            <p class="text-gray-600 text-base text-center px-6 font-medium">Join us for the digital engagement event of the year bringing together 50,000+ developers, product leaders and visionaries to talk about the future of customer engagement.</p>
-
-                                        </div>
-                                    </div>
-                                    <div class="p-4 lg:w-1/3 xl:px-14 w-full flex flex-col text-center items-center">
-                                        <img src={require('./assets/Rectangle 1450.png')}></img>
-                                        <div class="flex-grow mt-7">
-                                            <h2 class="text-center font-bold text-3xl text-black mb-3">Warm Invitation</h2>
-                                            <h3 class="text-center font-medium text-base text-black mb-3">You're invited to SIGNAL 2021</h3>
-                                            <p class="text-gray-600 text-base text-center px-6 font-medium">Join us for the digital engagement event of the year bringing together 50,000+ developers, product leaders and visionaries to talk about the future of customer engagement.</p>
-                                        </div>
-                                    </div>
-                                    <div class="p-4 lg:w-1/3 xl:px-14 w-full flex flex-col text-center items-center">
-                                        <img src={require('./assets/Rectangle 1450.png')}></img>
-                                        <div class="flex-grow mt-7">
-                                            <h2 class="text-center font-bold text-3xl text-black mb-3">Warm Invitation</h2>
-                                            <h3 class="text-center font-medium text-base text-black mb-3">You're invited to SIGNAL 2021</h3>
-                                            <p class="text-gray-600 text-base text-center px-6 font-medium">Join us for the digital engagement event of the year bringing together 50,000+ developers, product leaders and visionaries to talk about the future of customer engagement.</p>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <div class="flex flex-wrap md:-m-4 -mx-4 -mb-10 md:space-y-0 space-y-6">
-                                    <div class="p-4 lg:w-1/3 xl:px-14 w-full flex flex-col text-center items-center">
-                                        <img src={require('./assets/Rectangle 1450.png')}></img>
-                                        <div class="flex-grow mt-7">
-                                            <h2 class="text-center font-bold text-3xl text-black mb-3">Warm Invitation</h2>
-                                            <h3 class="text-center font-medium text-base text-black mb-3">You're invited to SIGNAL 2021</h3>
-                                            <p class="text-gray-600 text-base text-center px-6 font-medium">Join us for the digital engagement event of the year bringing together 50,000+ developers, product leaders and visionaries to talk about the future of customer engagement.</p>
-
-                                        </div>
-                                    </div>
-                                    <div class="p-4 lg:w-1/3 xl:px-14 w-full flex flex-col text-center items-center">
-                                        <img src={require('./assets/Rectangle 1450.png')}></img>
-                                        <div class="flex-grow mt-7">
-                                            <h2 class="text-center font-bold text-3xl text-black mb-3">Warm Invitation</h2>
-                                            <h3 class="text-center font-medium text-base text-black mb-3">You're invited to SIGNAL 2021</h3>
-                                            <p class="text-gray-600 text-base text-center px-6 font-medium">Join us for the digital engagement event of the year bringing together 50,000+ developers, product leaders and visionaries to talk about the future of customer engagement.</p>
-                                        </div>
-                                    </div>
-                                    <div class="p-4 lg:w-1/3 xl:px-14 w-full flex flex-col text-center items-center">
-                                        <img src={require('./assets/Rectangle 1450.png')}></img>
-                                        <div class="flex-grow mt-7">
-                                            <h2 class="text-center font-bold text-3xl text-black mb-3">Warm Invitation</h2>
-                                            <h3 class="text-center font-medium text-base text-black mb-3">You're invited to SIGNAL 2021</h3>
-                                            <p class="text-gray-600 text-base text-center px-6 font-medium">Join us for the digital engagement event of the year bringing together 50,000+ developers, product leaders and visionaries to talk about the future of customer engagement.</p>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <div class="flex flex-wrap md:-m-4 -mx-4 -mb-10 md:space-y-0 space-y-6">
-                                    <div class="p-4 lg:w-1/3 xl:px-14 w-full flex flex-col text-center items-center">
-                                        <img src={require('./assets/Rectangle 1450.png')}></img>
-                                        <div class="flex-grow mt-7">
-                                            <h2 class="text-center font-bold text-3xl text-black mb-3">Warm Invitation</h2>
-                                            <h3 class="text-center font-medium text-base text-black mb-3">You're invited to SIGNAL 2021</h3>
-                                            <p class="text-gray-600 text-base text-center px-6 font-medium">Join us for the digital engagement event of the year bringing together 50,000+ developers, product leaders and visionaries to talk about the future of customer engagement.</p>
-
-                                        </div>
-                                    </div>
-                                    <div class="p-4 lg:w-1/3 xl:px-14 w-full flex flex-col text-center items-center">
-                                        <img src={require('./assets/Rectangle 1450.png')}></img>
-                                        <div class="flex-grow mt-7">
-                                            <h2 class="text-center font-bold text-3xl text-black mb-3">Warm Invitation</h2>
-                                            <h3 class="text-center font-medium text-base text-black mb-3">You're invited to SIGNAL 2021</h3>
-                                            <p class="text-gray-600 text-base text-center px-6 font-medium">Join us for the digital engagement event of the year bringing together 50,000+ developers, product leaders and visionaries to talk about the future of customer engagement.</p>
-                                        </div>
-                                    </div>
-                                    <div class="p-4 lg:w-1/3 xl:px-14 w-full flex flex-col text-center items-center">
-                                        <img src={require('./assets/Rectangle 1450.png')}></img>
-                                        <div class="flex-grow mt-7">
-                                            <h2 class="text-center font-bold text-3xl text-black mb-3">Warm Invitation</h2>
-                                            <h3 class="text-center font-medium text-base text-black mb-3">You're invited to SIGNAL 2021</h3>
-                                            <p class="text-gray-600 text-base text-center px-6 font-medium">Join us for the digital engagement event of the year bringing together 50,000+ developers, product leaders and visionaries to talk about the future of customer engagement.</p>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <div class="flex flex-wrap md:-m-4 -mx-4 -mb-10 md:space-y-0 space-y-6">
-                                    <div class="p-4 lg:w-1/3 xl:px-14 w-full flex flex-col text-center items-center">
-                                        <img src={require('./assets/Rectangle 1450.png')}></img>
-                                        <div class="flex-grow mt-7">
-                                            <h2 class="text-center font-bold text-3xl text-black mb-3">Warm Invitation</h2>
-                                            <h3 class="text-center font-medium text-base text-black mb-3">You're invited to SIGNAL 2021</h3>
-                                            <p class="text-gray-600 text-base text-center px-6 font-medium">Join us for the digital engagement event of the year bringing together 50,000+ developers, product leaders and visionaries to talk about the future of customer engagement.</p>
-
-                                        </div>
-                                    </div>
-                                    <div class="p-4 lg:w-1/3 xl:px-14 w-full flex flex-col text-center items-center">
-                                        <img src={require('./assets/Rectangle 1450.png')}></img>
-                                        <div class="flex-grow mt-7">
-                                            <h2 class="text-center font-bold text-3xl text-black mb-3">Warm Invitation</h2>
-                                            <h3 class="text-center font-medium text-base text-black mb-3">You're invited to SIGNAL 2021</h3>
-                                            <p class="text-gray-600 text-base text-center px-6 font-medium">Join us for the digital engagement event of the year bringing together 50,000+ developers, product leaders and visionaries to talk about the future of customer engagement.</p>
-                                        </div>
-                                    </div>
-                                    <div class="p-4 lg:w-1/3 xl:px-14 w-full flex flex-col text-center items-center">
-                                        <img src={require('./assets/Rectangle 1450.png')}></img>
-                                        <div class="flex-grow mt-7">
-                                            <h2 class="text-center font-bold text-3xl text-black mb-3">Warm Invitation</h2>
-                                            <h3 class="text-center font-medium text-base text-black mb-3">You're invited to SIGNAL 2021</h3>
-                                            <p class="text-gray-600 text-base text-center px-6 font-medium">Join us for the digital engagement event of the year bringing together 50,000+ developers, product leaders and visionaries to talk about the future of customer engagement.</p>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <div class="flex flex-wrap md:-m-4 -mx-4 -mb-10 md:space-y-0 space-y-6">
-                                    <div class="p-4 lg:w-1/3 xl:px-14 w-full flex flex-col text-center items-center">
-                                        <img src={require('./assets/Rectangle 1450.png')}></img>
-                                        <div class="flex-grow mt-7">
-                                            <h2 class="text-center font-bold text-3xl text-black mb-3">Warm Invitation</h2>
-                                            <h3 class="text-center font-medium text-base text-black mb-3">You're invited to SIGNAL 2021</h3>
-                                            <p class="text-gray-600 text-base text-center px-6 font-medium">Join us for the digital engagement event of the year bringing together 50,000+ developers, product leaders and visionaries to talk about the future of customer engagement.</p>
-
-                                        </div>
-                                    </div>
-                                    <div class="p-4 lg:w-1/3 xl:px-14 w-full flex flex-col text-center items-center">
-                                        <img src={require('./assets/Rectangle 1450.png')}></img>
-                                        <div class="flex-grow mt-7">
-                                            <h2 class="text-center font-bold text-3xl text-black mb-3">Warm Invitation</h2>
-                                            <h3 class="text-center font-medium text-base text-black mb-3">You're invited to SIGNAL 2021</h3>
-                                            <p class="text-gray-600 text-base text-center px-6 font-medium">Join us for the digital engagement event of the year bringing together 50,000+ developers, product leaders and visionaries to talk about the future of customer engagement.</p>
-                                        </div>
-                                    </div>
-                                    <div class="p-4 lg:w-1/3 xl:px-14 w-full flex flex-col text-center items-center">
+                                    <div class="p-4 w-full flex flex-col text-center items-center">
                                         <img src={require('./assets/Rectangle 1450.png')}></img>
                                         <div class="flex-grow mt-7">
                                             <h2 class="text-center font-bold text-3xl text-black mb-3">Warm Invitation</h2>
@@ -249,28 +135,28 @@ function Featured(props) {
                             </SwiperSlide>
                         </Swiper>
                     </>
-                    <div className="w-full flex justify-center xl:mt-16">
-                        <div className="flex justify-start">
-                            <button className="swiper-button-prev text-gray-400 focus:outline-none px-2">
-                                <svg xmlns="http://www.w3.org/2000/svg" className="me-3" width="57" height="40" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
-                                </svg>
-                            </button>
-                        </div>
-                        <div className="flex justify-center w-9/12">
-                            <div class="swiper-pagination"></div>
-                        </div>
-                        <div className="flex justify-end">
-                            <button className="swiper-button-next text-gray-400 focus:outline-none px-2">
-                                <svg xmlns="http://www.w3.org/2000/svg" className="ms-3" width="57" height="40" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
-                                </svg>
-                            </button>
-                        </div>
+                </div>
+                <div className="w-full flex justify-center xl:mt-16">
+                    <div className="flex justify-start">
+                        <button className="swiper-button-prev text-gray-400 focus:outline-none px-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="me-3" width="57" height="40" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div className="flex justify-center w-full">
+                        <div class="swiper-pagination4"></div>
+                    </div>
+                    <div className="flex justify-end">
+                        <button className="swiper-button-next text-gray-400 focus:outline-none px-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="ms-3" width="57" height="40" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                            </svg>
+                        </button>
                     </div>
                 </div>
             </div>
-        </section>
+        </section >
     )
 }
 
