@@ -172,7 +172,7 @@ function Footer() {
                                 <path d="M1 13L7 7L1 1" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                             </svg>
                         </button>
-                        <button className="text-white xl:w-1/3 lg:w-1/2 md:w-1/3 sm:w-1/2 w-36 text-sm py-3 xl:px-2 sm:px-1 px-3 font-bold inline-flex  text-start border-gray-400 border mt-5">
+                        <button className="text-white xl:w-1/3 lg:w-1/2 md:w-1/3 sm:w-1/2 w-36 text-sm py-3 xl:px-2 sm:px-2 px-4 font-bold inline-flex  text-start border-gray-400 border mt-5">
                             <p className="w-9/12">Contact Us</p>
                             <svg className="w-1/5 flex justify-end seemore mt-1" width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1 13L7 7L1 1" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -542,7 +542,7 @@ function Footer() {
                     )}
                 </div>
             </footer>
-            <div className="container mx-auto border-white border-b w-full px-5 flex justify-center mt-5"></div>
+            <div className="container md:mx-auto border-white border-b w-full px-5 flex justify-center"></div>
             <div className="lg:mt-8 w-full lg:ps-10">
                 <div className="flex-col justify-center">
                     <p className="w-full lg:mx-0 mx-auto sm:px-0 px-8 lg:mt-0 mt-7 font-normal text-sm text-center text-white">

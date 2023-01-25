@@ -31,7 +31,7 @@ function Customers(props) {
                             loop={true}
                             pagination={{
                                 el: '.swiper-pagination2',
-                                type: 'fraction',
+                                type: 'bullets',
                             }}
                             navigation={{
                                 nextEl: ".swiper-button-next1",

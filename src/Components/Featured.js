@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper";
 import "swiper/css";
 import './style.css';
+//import "swiper/modules/pagination/pagination.min.css";
 
 function Featured(props) {
     const swiperRef = useRef(null)
@@ -23,7 +24,10 @@ function Featured(props) {
                 <div className="flex flex-wrap justify-center px-5 mt-10 mb-5">
                     <>
                         <Swiper
-                            pagination={true}
+                            pagination={{
+                                el: '.swiper-pagination',
+                                type: 'bullets'
+                            }}
                             ref={swiperRef}
                             loop={true}
                             navigation={{

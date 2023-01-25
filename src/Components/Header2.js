@@ -204,7 +204,7 @@ function Header2() {
     }, [toggleAbout5])
 
     return (
-        <header className="w-full absolute">
+        <header className="w-full relative">
             <div className="flex lg:flex-wrap flex-wrap-reverse justify-between content-center items-center bg-white">
                 <img href="Akdn" className="img flex" src={require('./assets/AKDN Identity with Tag Line 1.png')}></img>
                 <button onClick={toggleNav} className="flex items-center lg:order-1 order-0 focus:outline-none p-2 ms-3 text-sm font-semibold uppercase border-white border-2 px-6 py-3 text-gray-5 lg:hidden">

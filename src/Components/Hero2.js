@@ -19,7 +19,8 @@ function Hero2() {
                             </div>
                         </div>
                         <div className="flex justify-center lg:w-10/12 w-full lg:me-5 lg:-mt-52">
-                            <img src={require('./assets/Saly-10.png')}></img>
+                            <img className="lg:flex hidden" src={require('./assets/Saly-10 1.png')}></img>
+                            <img className="lg:hidden flex" src={require('./assets/Saly-10.png')}></img>
                         </div>
                     </div>
                     {/* <div className="w-1/2 flex content-end">
