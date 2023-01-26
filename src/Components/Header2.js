@@ -212,12 +212,18 @@ function Header2() {
                 </button>
                 {(toggleMenu || screenWidth > 1024) && (
                     <div className="list7 list-none lg:bg-white bg-green-20 flex lg:flex-row flex-col py-6 order-0 lg:justify-center justify-start">
-                            {/* <div className="flex flex-wrap">
-                                <img href="Akdn" className="img flex w-20 h-8" src={require('./assets/White.png')}></img>
-                                <button onClick={toggleNav} className="flex items-center lg:order-1 order-0 focus:outline-none p-2 ms-3 text-sm font-semibold uppercase border-white border-2 px-6 py-3 text-gray-5 lg:hidden">
-                                    <img src={require('./assets/Menu.png')}></img>
-                                </button>
-                            </div> */}
+                        <div className="lg:hidden flex flex-wrap justify-between content-center items-center">
+                            <img href="Akdn" className="order-1 flex w-20 h-8" src={require('./assets/White.png')}></img>
+                            <button onClick={toggleNav} className="flex items-center order-0 focus:outline-none p-2 ms-3 text-sm font-semibold uppercase px-6 py-3 text-gray-5 lg:hidden">
+                                <img src={require('./assets/Group.png')}></img>
+                            </button>
+                            <button className="font-bold order-2 uppercase ms-3 py-2 px-6 focus:outline-none">
+                                <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15.3604 9.16667C15.3604 12.2963 12.8234 14.8333 9.69377 14.8333C6.56415 14.8333 4.0271 12.2963 4.0271 9.16667C4.0271 6.03705 6.56415 3.5 9.69377 3.5C12.8234 3.5 15.3604 6.03705 15.3604 9.16667Z" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M18.0271 17.5L14.4021 13.875" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </button>
+                        </div>
                         <li ref={ref}>
                             <div className="flex">
                                 <a onClick={toggleAbt} className="lg:w-auto w-1/2 cursor-pointer uppercase lg:block hidden py-3 lg:py-2 px-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">Who We Are</a>
