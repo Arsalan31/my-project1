@@ -35,7 +35,7 @@ function Featured(props) {
                             }}
                             pagination={{
                                 el: '.swiper-pagination4',
-                                type: 'fraction'
+                                type: 'bullets'
                             }}
                             ref={swiperRef}
                             loop={true}

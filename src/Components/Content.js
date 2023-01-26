@@ -42,7 +42,7 @@ function Content(props) {
                                         prevEl: ".swiper-button-prev"
                                     }}
                                     modules={[Pagination, Navigation]}
-                                    className="lg:order-1 order-0 w-full h-3/4 lg:w-1/2"
+                                    className="lg:order-1 order-0 w-full lg:h-3/4 lg:w-1/2"
                                 >
                                     <SwiperSlide>
                                         <div class="p-4 lg:px-22 w-full order-0 lg:order-1 flex flex-col text-center">
@@ -76,7 +76,7 @@ function Content(props) {
                                     </SwiperSlide>
                                 </Swiper>
                             </>
-                            <div className="flex w-full relative bottom-24 lg:justify-end lg:order-2 order-1 justify-center text-gray-400 md:text-gray-400 mt-6">
+                            <div className="flex w-full relative lg:bottom-24 lg:justify-end lg:order-2 order-1 justify-center text-gray-400 md:text-gray-400 mt-6">
                                 <button className="swiper-button-prev focus:outline-none"><svg xmlns="http://www.w3.org/2000/svg" className="me-3" width="60" height="30" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
                                 </svg></button>
