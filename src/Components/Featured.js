@@ -4,7 +4,6 @@ import { Pagination, Navigation } from "swiper";
 import "swiper/css";
 import './style.css';
 import "swiper/css/pagination";
-//import "swiper/modules/pagination/pagination.min.css";
 
 function Featured(props) {
     const swiperRef = useRef(null)
