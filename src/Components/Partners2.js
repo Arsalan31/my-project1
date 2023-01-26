@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper";
 import "swiper/css";
 import './style.css';
+import "swiper/css/pagination";
 
 
 function Partners2(props) {
@@ -171,7 +172,7 @@ function Partners2(props) {
                                 </svg>
                             </button>
                         </div>
-                        <div class="lg:hidden flex swiper-pagination3 justify-center bg-red-600"></div>
+                        <div class="lg:hidden flex swiper-pagination3 gap-2 justify-center"></div>
                         <div className="lg:flex hidden justify-end absolute -bottom-44 end-8">
                             <button className="swiper-button-next text-white bg-red-600 focus:outline-none px-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" className="ms-3" width="20" height="35" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
