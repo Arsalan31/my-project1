@@ -236,7 +236,7 @@ function Header2() {
                                 </button>
                             </div>
                             {(toggleAbout) && (
-                                <nav className="lg:list-none bg-gray-4 lg:p-5 list6 lg:flex flex-col hidden">
+                                <nav className="list-none absolute bg-gray-4 lg:p-5 list6 lg:flex flex-col hidden">
                                     <li>
                                         <a className="text-white font-normal text-sm pb-2 inline-flex">Founder & Chairman</a>
                                     </li>
@@ -261,7 +261,7 @@ function Header2() {
                                 </nav>
                             )}
                         </li>
-                        <li>
+                        <li ref={ref1}>
                             <div className="flex">
                                 <a onClick={toggleAbt1} className="hidden lg:w-auto w-1/2 cursor-pointer uppercase lg:block py-3 lg:py-2 px-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">What We Do</a>
                                 <a className="lg:hidden lg:w-auto w-1/2 cursor-pointer uppercase block py-3 lg:py-2 px-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">What We Do</a>
@@ -273,7 +273,7 @@ function Header2() {
                                 </button>
                             </div>
                             {(toggleAbout1) && (
-                                <nav ref={ref1} className="lg:list-none lg:gap-28 bg-gray-4 lg:p-5 list6 lg:flex lg:flex-row flex-col hidden">
+                                <nav className="list-none absolute lg:gap-28 bg-gray-4 lg:p-5 list6 flex lg:flex-row flex-col">
                                     <nav>
                                         <li className="pb-3">
                                             <a className="uppercase text-green-100 font-bold text-xs leading-5">developing human capacity</a>
@@ -372,7 +372,7 @@ function Header2() {
                                 </button>
                             </div>
                             {(toggleAbout2) && (
-                                <nav className="lg:list-none bg-gray-4 lg:p-5 list6 lg:flex lg:flex-row flex-col hidden">
+                                <nav className="list-none bg-gray-4 lg:p-5 list6 absolute flex lg:flex-row flex-col">
                                     <nav className="list-none lg:px-8">
                                         <li className="pb-3">
                                             <a className="uppercase text-green-100 font-bold text-xs leading-5">Eastern africa</a>
@@ -543,7 +543,7 @@ function Header2() {
                                 </button>
                             </div>
                             {(toggleAbout3) && (
-                                <nav className="lg:list-none list6 bg-gray-4 lg:p-5 lg:flex lg:flex-row flex-col hidden">
+                                <nav className="list-none absolute list6 bg-gray-4 lg:p-5 flex lg:flex-row flex-col">
                                     <nav>
                                         <li className="pb-3">
                                             <a className="uppercase text-green-100 font-bold text-xs leading-5">Our agencies</a>
@@ -611,7 +611,7 @@ function Header2() {
                                 </button>
                             </div>
                             {(toggleAbout4) && (
-                                <nav className="lg:list-none list6 bg-gray-4 lg:p-5 lg:flex lg:flex-row flex-col hidden">
+                                <nav className="list-none absolute list6 bg-gray-4 lg:p-5 flex lg:flex-row flex-col">
                                     <nav>
                                         <li className="pb-3">
                                             <a className="uppercase text-green-100 font-bold text-xs leading-5">What's New</a>
@@ -693,7 +693,7 @@ function Header2() {
                                 </button>
                             </div>
                             {(toggleAbout5) && (
-                                <nav className="lg:list-none list6 bg-gray-4 lg:p-5 lg:flex flex-col hidden">
+                                <nav className="list-none absolute list6 bg-gray-4 lg:p-5 flex flex-col">
                                     <li>
                                         <a className="text-white font-normal text-sm pb-2 inline-flex">Careers</a>
                                     </li>
@@ -737,7 +737,7 @@ function Header2() {
                                     </button>
                                 </a>
                                 {(toggleLanguage) && (
-                                    <nav className="lg:list-none list6 p-5 text-start lg:flex flex-col bg-gray-4 hidden">
+                                    <nav className="list-none absolute list6 p-5 text-start flex flex-col bg-gray-4">
                                         <li>
                                             <a className="text-white font-normal text-sm pb-2 inline-flex">Arabic</a>
                                         </li>
@@ -792,7 +792,7 @@ function Header2() {
                             </button>
                         </a>
                         {(toggleLanguage) && (
-                            <nav className="lg:list-none list6 p-5 text-start lg:flex flex-col bg-gray-4 hidden">
+                            <nav className="list-none absolute list6 p-5 text-start flex flex-col bg-gray-4">
                                 <li>
                                     <a className="text-white font-normal text-sm pb-2 inline-flex">Arabic</a>
                                 </li>
