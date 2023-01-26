@@ -213,7 +213,7 @@ function Header2() {
                 {(toggleMenu || screenWidth > 1024) && (
                     <div className="list7 list-none lg:bg-white bg-green-20 flex lg:flex-row flex-col py-6 order-0 lg:justify-center justify-start">
                         <div className="lg:hidden flex flex-wrap justify-between content-center items-center">
-                            <img href="Akdn" className="order-1 flex w-20 h-8" src={require('./assets/White.png')}></img>
+                            <img href="Akdn" className="order-1 flex w-24 h-8" src={require('./assets/White.png')}></img>
                             <button onClick={toggleNav} className="flex items-center order-0 focus:outline-none p-2 ms-3 text-sm font-semibold uppercase px-6 py-3 text-gray-5 lg:hidden">
                                 <img src={require('./assets/Group.png')}></img>
                             </button>
@@ -279,7 +279,7 @@ function Header2() {
                                             <a className="uppercase text-green-100 font-bold text-xs leading-5">developing human capacity</a>
                                         </li>
                                         <div className="pb-4">
-                                            <li className="border border-gray-3 w-1/4"></li>
+                                            <li className="border border-gray-3 lg:w-1/4 w-7"></li>
                                         </div>
                                         <li>
                                             <a className="text-white font-normal text-sm pb-2 inline-flex">Early Childhood Development</a>
@@ -295,7 +295,7 @@ function Header2() {
                                                 <a className="uppercase text-green-100 font-bold text-xs leading-5">building resilient communities</a>
                                             </li>
                                             <div className="pb-4">
-                                                <li className="border border-gray-3 w-1/4"></li>
+                                                <li className="border border-gray-3 lg:w-1/4 w-7"></li>
                                             </div>
                                             <li>
                                                 <a className="text-white font-normal text-sm pb-2 inline-flex">Addressing Climate Change</a>
@@ -316,7 +316,7 @@ function Header2() {
                                             <a className="uppercase text-green-100 font-bold text-xs leading-5">GENERATING ECONOMIC GROWTH</a>
                                         </li>
                                         <div className="pb-4">
-                                            <li className="border border-gray-3 w-1/4"></li>
+                                            <li className="border border-gray-3 lg:w-1/4 w-7"></li>
                                         </div>
                                         <li>
                                             <a className="text-white font-normal text-sm pb-2 inline-flex">Enterprise Development</a>
@@ -341,7 +341,7 @@ function Header2() {
                                                 <a className="uppercase text-green-100 font-bold text-xs leading-5">honoUring cultural heritage</a>
                                             </li>
                                             <div className="pb-4">
-                                                <li className="border border-gray-3 w-1/4"></li>
+                                                <li className="border border-gray-3 lg:w-1/4 w-7"></li>
                                             </div>
                                             <li>
                                                 <a className="text-white font-normal text-sm pb-2 inline-flex">Architecture & Planning</a>
@@ -378,7 +378,7 @@ function Header2() {
                                             <a className="uppercase text-green-100 font-bold text-xs leading-5">Eastern africa</a>
                                         </li>
                                         <div className="pb-4">
-                                            <li className="border border-gray-3 w-7/12"></li>
+                                            <li className="border border-gray-3 lg:w-7/12 w-7"></li>
                                         </div>
                                         <li className="pb-4">
                                             <a className="text-white font-normal text-sm pb-2 ">Kenya</a>
@@ -403,7 +403,7 @@ function Header2() {
                                                 <a className="uppercase text-green-100 font-bold text-xs leading-5">west africa</a>
                                             </li>
                                             <div className="pb-4">
-                                                <li className="border border-gray-3 w-7/12"></li>
+                                                <li className="border border-gray-3 lg:w-7/12 w-7"></li>
                                             </div>
                                             <li className="pb-4">
                                                 <a className="text-white font-normal text-sm pb-2 ">Burkina Faso</a>
@@ -424,7 +424,7 @@ function Header2() {
                                             <a className="uppercase text-green-100 font-bold text-xs leading-5">middle east</a>
                                         </li>
                                         <div className="pb-4">
-                                            <li className="border border-gray-3 w-7/12"></li>
+                                            <li className="border border-gray-3 lg:w-7/12 w-7"></li>
                                         </div>
                                         <li className="pb-4">
                                             <a className="text-white font-normal text-sm pb-2 cursor-pointer">Egypt</a>
@@ -440,7 +440,7 @@ function Header2() {
                                                 <a className="uppercase text-green-100 font-bold text-xs leading-5">central asia</a>
                                             </li>
                                             <div className="pb-4">
-                                                <li className="border border-gray-3 w-7/12"></li>
+                                                <li className="border border-gray-3 lg:w-7/12 w-7"></li>
                                             </div>
                                             <li className="pb-4">
                                                 <a className="text-white font-normal text-sm pb-2 ">Afghanistan</a>
@@ -462,7 +462,7 @@ function Header2() {
                                             <a className="uppercase text-green-100 font-bold text-xs leading-5">south asia</a>
                                         </li>
                                         <div className="pb-4">
-                                            <li className="border border-gray-3 w-7/12"></li>
+                                            <li className="border border-gray-3 lg:w-7/12 w-7"></li>
                                         </div>
                                         <li className="pb-4">
                                             <a className="text-white font-normal text-sm pb-2 cursor-pointer">Bangladesh</a>
@@ -478,7 +478,7 @@ function Header2() {
                                                 <a className="uppercase text-green-100 font-bold text-xs leading-5">ASIA-PACIFIC</a>
                                             </li>
                                             <div className="pb-4">
-                                                <li className="border border-gray-3 w-7/12"></li>
+                                                <li className="border border-gray-3 lg:w-7/12 w-7"></li>
                                             </div>
                                             <li className="pb-4">
                                                 <a className="text-white font-normal text-sm pb-2 cursor-pointer">Malaysia</a>
@@ -493,7 +493,7 @@ function Header2() {
                                             <a className="uppercase text-green-100 font-bold text-xs leading-5">north america</a>
                                         </li>
                                         <div className="pb-4">
-                                            <li className="border border-gray-3 w-7/12"></li>
+                                            <li className="border border-gray-3 lg:w-7/12 w-7"></li>
                                         </div>
                                         <li className="pb-4">
                                             <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Canada</a>
@@ -506,7 +506,7 @@ function Header2() {
                                                 <a className="uppercase text-green-100 font-bold text-xs leading-5">europe</a>
                                             </li>
                                             <div className="pb-4">
-                                                <li className="border border-gray-3 w-2/5"></li>
+                                                <li className="border border-gray-3 lg:w-2/5 w-7"></li>
                                             </div>
                                             <li className="pb-4">
                                                 <a className="text-white font-normal text-sm pb-2 ">France</a>
@@ -549,7 +549,7 @@ function Header2() {
                                             <a className="uppercase text-green-100 font-bold text-xs leading-5">Our agencies</a>
                                         </li>
                                         <div className="pb-4">
-                                            <li className="border border-gray-3 w-1/5"></li>
+                                            <li className="border border-gray-3 lg:w-1/5 w-7"></li>
                                         </div>
                                         <li>
                                             <a className="text-white font-normal text-sm pb-2 inline-flex">Aga Khan Academies</a>
@@ -587,7 +587,7 @@ function Header2() {
                                             <a className="uppercase text-green-100 font-bold text-xs leading-5">Our approach</a>
                                         </li>
                                         <div className="pb-4">
-                                            <li className="border border-gray-3 w-1/3"></li>
+                                            <li className="border border-gray-3 lg:w-1/3 w-7"></li>
                                         </div>
                                         <li className="pb-4">
                                             <a className="text-white font-normal text-sm pb-2 cursor-pointer">Our Approach to Development</a>
@@ -617,7 +617,7 @@ function Header2() {
                                             <a className="uppercase text-green-100 font-bold text-xs leading-5">What's New</a>
                                         </li>
                                         <div className="pb-4">
-                                            <li className="border border-gray-3 w-1/2"></li>
+                                            <li className="border border-gray-3 lg:w-1/2 w-7"></li>
                                         </div>
                                         <li>
                                             <a className="text-white font-normal text-sm pb-2 inline-flex">Our Stories</a>
@@ -643,7 +643,7 @@ function Header2() {
                                             <a className="uppercase text-green-100 font-bold text-xs leading-5">multimedia</a>
                                         </li>
                                         <div className="pb-4">
-                                            <li className="border border-gray-3 w-7/12"></li>
+                                            <li className="border border-gray-3 lg:w-7/12 w-7"></li>
                                         </div>
                                         <li>
                                             <a className="text-white font-normal text-sm pb-2 inline-flex">Photographs</a>
@@ -657,7 +657,7 @@ function Header2() {
                                             <a className="uppercase text-green-100 font-bold text-xs leading-5">Resources</a>
                                         </li>
                                         <div className="pb-4">
-                                            <li className="border border-gray-3 w-7/12"></li>
+                                            <li className="border border-gray-3 lg:w-7/12 w-7"></li>
                                         </div>
                                         <li>
                                             <a className="text-white font-normal text-sm pb-2 inline-flex">Fact Sheet</a>
@@ -685,7 +685,7 @@ function Header2() {
                             <div className="flex">
                                 <a onClick={toggleAbt5} className="hidden lg:w-auto w-1/2 cursor-pointer uppercase lg:block py-3 lg:py-2 px-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">Get Involved</a>
                                 <a className="lg:hidden lg:w-auto w-1/2 cursor-pointer uppercase block py-3 lg:py-2 px-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">Get Involved</a>
-                                <button className="lg:hidden w-1/2 flex justify-end py-3 px-2 focus:outline-none">
+                                <button className="lg:hidden w-1/2 flex justify-end py-3 px-2 focus:outline-none" onClick={toggleAbt5}>
                                     <div className="lg:hidden border-gray-400 border-s me-4 h-6"></div>
                                     <svg className="mt-2" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
