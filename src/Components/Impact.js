@@ -65,7 +65,7 @@ function Impact(props) {
                         {
                             slidesData.map((Impact) => {
                                 return (
-                                    <div class="lg:w-1/4 p-4 lg:px-14 w-full flex flex-col text-center items-center">
+                                    <div class="lg:w-1/4 p-4 lg:px-14 w-full border-e-2 border-gray-400 border-opacity-60 flex flex-col text-center items-center">
                                         <div>{Impact.img}</div>
                                         <div className="text-center font-medium text-2xl text-black mt-7">{Impact.title}</div>
                                         <div className="mt-3 text-base font-normal text-gray-600 text-center">{Impact.subTitle}</div>
@@ -86,7 +86,7 @@ function Impact(props) {
                         {
                             slidesData.map((Impact) => {
                                 return (
-                                    <div class="lg:w-1/4 p-4 lg:px-14 w-full flex flex-col text-center items-center">
+                                    <div class="lg:w-1/4 p-4 lg:px-14 w-full flex flex-col border-e-2 border-gray-400 border-opacity-60 text-center items-center">
                                         <div>{Impact.img}</div>
                                         <div className="text-center font-medium text-2xl text-black mt-7">{Impact.title}</div>
                                         <div className="mt-3 text-base font-normal text-gray-600 text-center">{Impact.subTitle}</div>
@@ -107,7 +107,7 @@ function Impact(props) {
                         {
                             slidesData.map((Impact) => {
                                 return (
-                                    <div class="lg:w-1/4 p-4 lg:px-14 w-full flex flex-col text-center items-center">
+                                    <div class="lg:w-1/4 p-4 lg:px-14 w-full flex flex-col border-e-2 border-gray-400 border-opacity-60 text-center items-center">
                                         <div>{Impact.img}</div>
                                         <div className="text-center font-medium text-2xl text-black mt-7">{Impact.title}</div>
                                         <div className="mt-3 text-base font-normal text-gray-600 text-center">{Impact.subTitle}</div>
@@ -128,7 +128,7 @@ function Impact(props) {
                         {
                             slidesData.map((Impact) => {
                                 return (
-                                    <div class="lg:w-1/4 p-4 lg:px-14 w-full flex flex-col text-center items-center">
+                                    <div class="lg:w-1/4 p-4 lg:px-14 w-full flex flex-col text-center items-center border-e-2 border-gray-400 border-opacity-60">
                                         <div>{Impact.img}</div>
                                         <div className="text-center font-medium text-2xl text-black mt-7">{Impact.title}</div>
                                         <div className="mt-3 text-base font-normal text-gray-600 text-center">{Impact.subTitle}</div>
