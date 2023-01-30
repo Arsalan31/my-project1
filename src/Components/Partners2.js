@@ -105,7 +105,12 @@ function Partners2(props) {
                             }}
                             modules={[Pagination, Navigation]}
                             onSlideChange={() => {
-                                
+                                if (ReadMore == false) {
+                                    ReadMore(true)
+                                }
+                                else{
+                                    ReadMore(true)
+                                }
                             }}
                         >
                             <SwiperSlide>
