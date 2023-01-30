@@ -104,6 +104,9 @@ function Partners2(props) {
                                 prevEl: ".swiper-button-prev"
                             }}
                             modules={[Pagination, Navigation]}
+                            onSlideChange={() => {
+                                
+                            }}
                         >
                             <SwiperSlide>
                                 <div className="flex flex-col flex-none flex-grow-0 text-center w-full lg:px-6 mb-20">

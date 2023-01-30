@@ -161,7 +161,7 @@ function Featured(props) {
                         </button>
                     </div>
                     <div className="flex justify-center w-full">
-                        <div class="flex justify-center gap-6 mt-3 swiper-pagination4"></div>
+                        <div class="flex justify-center gap-5 mt-3 swiper-pagination4"></div>
                     </div>
                     <div className="flex justify-end">
                         <button className="swiper-button-next text-gray-400 focus:outline-none px-2">
