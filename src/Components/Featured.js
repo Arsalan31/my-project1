@@ -61,7 +61,10 @@ function Featured(props) {
                             <SwiperSlide>
                                 <div class="flex flex-wrap md:-m-4 -mx-4 -mb-10 md:space-y-0 space-y-6">
                                     <div class="p-4 xl:w-full flex flex-col text-center items-center">
-                                        <img src={require('./assets/Rectangle 1450.png')}></img>
+                                        {/* <img src={require('./assets/Rectangle 1450.png')}></img> */}
+                                        <video className="w-full h-full rounded-t-2xl" controls>
+                                            <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4" type="video/mp4" />
+                                        </video>
                                         <div class="flex-grow mt-7">
                                             <h2 class="text-center font-bold text-3xl text-black mb-3">Warm Invitation</h2>
                                             <h3 class="text-center font-medium text-base text-black mb-3">You're invited to SIGNAL 2021</h3>
@@ -74,6 +77,10 @@ function Featured(props) {
                                 <div class="flex flex-wrap md:-m-4 -mx-4 -mb-10 md:space-y-0 space-y-6">
                                     <div class="p-4 w-full flex flex-col text-center items-center">
                                         <img src={require('./assets/Rectangle 1450.png')}></img>
+                                        <audio className="absolute" controls>
+                                            <source src={require('./assets/Free_Test_Data_500KB_MP3.mp3')} type="audio/mpeg" />
+                                            Your browser does not support the audio element.
+                                        </audio>
                                         <div class="flex-grow mt-7">
                                             <h2 class="text-center font-bold text-3xl text-black mb-3">Warm Invitation</h2>
                                             <h3 class="text-center font-medium text-base text-black mb-3">You're invited to SIGNAL 2021</h3>
@@ -98,7 +105,10 @@ function Featured(props) {
                             <SwiperSlide>
                                 <div class="flex flex-wrap md:-m-4 -mx-4 -mb-10 md:space-y-0 space-y-6">
                                     <div class="p-4 xl:w-full flex flex-col text-center items-center">
-                                        <img src={require('./assets/Rectangle 1450.png')}></img>
+                                        {/* <img src={require('./assets/Rectangle 1450.png')}></img> */}
+                                        <video className="w-full h-full rounded-t-2xl" controls>
+                                            <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4" type="video/mp4" />
+                                        </video>
                                         <div class="flex-grow mt-7">
                                             <h2 class="text-center font-bold text-3xl text-black mb-3">Warm Invitation</h2>
                                             <h3 class="text-center font-medium text-base text-black mb-3">You're invited to SIGNAL 2021</h3>
@@ -111,6 +121,10 @@ function Featured(props) {
                                 <div class="flex flex-wrap md:-m-4 -mx-4 -mb-10 md:space-y-0 space-y-6">
                                     <div class="p-4 w-full flex flex-col text-center items-center">
                                         <img src={require('./assets/Rectangle 1450.png')}></img>
+                                        <audio controls>
+                                            <source src={require('./assets/Free_Test_Data_500KB_MP3.mp3')} type="audio/mpeg" />
+                                            Your browser does not support the audio element.
+                                        </audio>
                                         <div class="flex-grow mt-7">
                                             <h2 class="text-center font-bold text-3xl text-black mb-3">Warm Invitation</h2>
                                             <h3 class="text-center font-medium text-base text-black mb-3">You're invited to SIGNAL 2021</h3>
@@ -122,13 +136,15 @@ function Featured(props) {
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div class="flex flex-wrap md:-m-4 -mx-4 -mb-10 md:space-y-0 space-y-6">
-                                    <div class="p-4 w-full flex flex-col text-center items-center">
-                                        <img src={require('./assets/Rectangle 1450.png')}></img>
+                                    <div class="p-4 xl:w-full flex flex-col text-center items-center">
+                                        {/* <img src={require('./assets/Rectangle 1450.png')}></img> */}
+                                        <video className="w-full h-full rounded-t-2xl" controls>
+                                            <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4" type="video/mp4" />
+                                        </video>
                                         <div class="flex-grow mt-7">
                                             <h2 class="text-center font-bold text-3xl text-black mb-3">Warm Invitation</h2>
                                             <h3 class="text-center font-medium text-base text-black mb-3">You're invited to SIGNAL 2021</h3>
                                             <p class="text-gray-600 text-base text-center px-6 font-medium">Join us for the digital engagement event of the year bringing together 50,000+ developers, product leaders and visionaries to talk about the future of customer engagement.</p>
-
                                         </div>
                                     </div>
                                 </div>
