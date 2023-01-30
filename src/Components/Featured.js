@@ -77,7 +77,7 @@ function Featured(props) {
                                 <div class="flex flex-wrap md:-m-4 -mx-4 -mb-10 md:space-y-0 space-y-6">
                                     <div class="p-4 w-full flex flex-col text-center items-center">
                                         <img src={require('./assets/Rectangle 1450.png')}></img>
-                                        <audio controls>
+                                        <audio className="absolute top-60" controls="transparent">
                                             <source src={require('./assets/Free_Test_Data_500KB_MP3.mp3')} type="audio/mpeg" />
                                             Your browser does not support the audio element.
                                         </audio>
@@ -121,7 +121,7 @@ function Featured(props) {
                                 <div class="flex flex-wrap md:-m-4 -mx-4 -mb-10 md:space-y-0 space-y-6">
                                     <div class="p-4 w-full flex flex-col text-center items-center">
                                         <img src={require('./assets/Rectangle 1450.png')}></img>
-                                        <audio controls>
+                                        <audio className="absolute top-60" controls>
                                             <source src={require('./assets/Free_Test_Data_500KB_MP3.mp3')} type="audio/mpeg" />
                                             Your browser does not support the audio element.
                                         </audio>

@@ -20,7 +20,7 @@ function Agency() {
                     </div>
                     <div class="flex flex-wrap sm:justify-center justify-start mt-10 ">
                         <div class="sm:p-4 lg:w-1/5 md:w-1/3 w-full sm:w-60 h-auto flex sm:flex-col sm:text-center items-start sm:items-center sm:border border-b border-gray-300 md:mb-auto sm:mb-7">
-                            <div class="flex-grow sm:px-6 py-5 sm:justify-center sm:flex-col sm:items-center items-start inline-flex">
+                            <div class="flex-grow sm:px-6 py-7 sm:justify-center sm:flex-col sm:items-center items-start inline-flex">
                                 {/* <div className="aka sm:-mt-0 -mt-8 sm:w-18 sm:h-18 w-18 h-18">
                                 </div> */}
                                 <img className="sm:-mt-0 sm:w-18 sm:h-18 h-12 w-16" src={require('./assets/image\ 3.png')}>
