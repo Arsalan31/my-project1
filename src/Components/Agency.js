@@ -5,7 +5,7 @@ import './style.css';
 function Agency() {
     return (
         <section>
-            <div className="container sm:p-12 px-5 py-6 mx-auto bg-white">
+            <div className="container sm:p-12 px-5 py-6 mx-auto">
                 <div className="flex flex-wrap lg:flex-wrap justify-center">
                     <div className="w-2/3">
                         <p className="font-bold sm:text-2xl text-xl uppercase">our agency</p>
