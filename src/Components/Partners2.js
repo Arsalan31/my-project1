@@ -49,7 +49,6 @@ function Partners2(props) {
             <p className="text">
                 {isReadMore ? text.slice(0, 125) : text}
                 <div className="flex md:mt-8 mt-5 justify-center">
-                    <h4 className="font-bold text-red-300 lg:text-start text-center text-base leading-6 me-3"></h4>
                     <button className="flex justify-center focus:outline-none" onClick={toggleReadMore}>
                         <svg width="27" height="12" viewBox="0 0 27 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M2 2L13.6575 10L25 2" stroke="#131313" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
@@ -104,6 +103,9 @@ function Partners2(props) {
                                 prevEl: ".swiper-button-prev"
                             }}
                             modules={[Pagination, Navigation]}
+                            onSlideChange={() => {
+                                
+                            }}
                         >
                             <SwiperSlide>
                                 <div className="flex flex-col flex-none flex-grow-0 text-center w-full lg:px-6 mb-20">

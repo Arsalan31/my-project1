@@ -48,9 +48,9 @@ function Maininfo() {
             <div className="flex flex-wrap justify-center md:p-12 md:pt-20 md:px-0 sm:px-20 px-14">
                 <div class="flex flex-wrap md:-m-4 -mx-4 -mb-1 md:space-y-0 space-y-6">
                     {
-                        slidesData2.map((Impact) => {
+                        slidesData2.map((Impact,index) => {
                             return (
-                                <div class="p-4 lg:px-20 md:w-1/4 w-full flex md:flex-col flex-row md:border-e-2 border-blue-30 border-opacity-60 text-center items-center">
+                                <div className = {`p-4 lg:px-20 md:w-1/4 w-full flex md:flex-col flex-row  text-center items-center ${slidesData2.length - 1 === index ? '' : 'md:border-e-2 border-blue-30 border-opacity-60'}`}>
                                     <div>{Impact.img}</div>
                                     <div className="md:flex-wrap flex-wrap-reverse">
                                         <div className="md:w-full md:ps-0 ps-5 w-auto flex flex-wrap md:flex-col flex-row">

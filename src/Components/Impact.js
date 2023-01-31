@@ -121,9 +121,9 @@ function Impact(props) {
                 <div className="flex flex-wrap justify-center p-12">
                     <div class="flex flex-wrap md:-m-4 -mx-4 -mb-1 md:space-y-0 space-y-6">
                         {
-                            slidesData.map((Impact) => {
+                            slidesData.map((Impact,index) => {
                                 return (
-                                    <div class="lg:w-1/4 p-4 lg:px-24 w-full lg:border-e-2 border-blue-30 border-opacity-60 flex flex-col text-center items-center">
+                                    <div className = {`lg:w-1/4 p-4 lg:px-24 w-full flex flex-col text-center items-center ${slidesData.length - 1 === index ? '' : 'lg:border-e-2 border-blue-30 border-opacity-60'}`}>
                                         <div>{Impact.img}</div>
                                         <div className="text-center font-medium text-2xl text-black mt-7">{Impact.title}</div>
                                         <div className="mt-3 text-base font-normal text-gray-600 text-center">{Impact.subTitle}</div>
@@ -142,9 +142,9 @@ function Impact(props) {
                 <div className="flex flex-wrap justify-center p-12">
                     <div class="flex flex-wrap md:-m-4 -mx-4 -mb-1 md:space-y-0 space-y-6">
                         {
-                            slidesData1.map((Impact) => {
+                            slidesData1.map((Impact,index) => {
                                 return (
-                                    <div class="lg:max-w-xs p-4 lg:px-16 w-full flex flex-col lg:border-e-2 border-blue-30 border-opacity-60 text-center items-center">
+                                    <div class={`lg:max-w-xs p-4 lg:px-16 w-full flex flex-col text-center items-center ${slidesData1.length - 1 === index ? '' : 'lg:border-e-2 border-blue-30 border-opacity-60'}`}>
                                         <div>{Impact.img}</div>
                                         <div className="text-center font-medium text-2xl text-black mt-7">{Impact.title}</div>
                                         <div className="mt-3 text-base font-normal text-gray-600 text-center">{Impact.subTitle}</div>
@@ -163,9 +163,9 @@ function Impact(props) {
                 <div className="flex flex-wrap justify-center p-12">
                     <div class="flex flex-wrap md:-m-4 -mx-4 -mb-1 md:space-y-0 space-y-6">
                         {
-                            slidesData2.map((Impact) => {
+                            slidesData2.map((Impact,index) => {
                                 return (
-                                    <div class="p-4 lg:px-14 lg:max-w-xs w-full flex flex-col lg:border-e-2 border-blue-30 border-opacity-60 text-center items-center">
+                                    <div class={`p-4 lg:px-14 lg:max-w-xs w-full flex flex-col text-center items-center ${slidesData2.length - 1 === index ? '' : 'lg:border-e-2 border-blue-30 border-opacity-60'}`}>
                                         <div>{Impact.img}</div>
                                         <div className="text-center font-medium text-2xl text-black mt-7">{Impact.title}</div>
                                         <div className="mt-3 text-base font-normal text-gray-600 text-center">{Impact.subTitle}</div>
