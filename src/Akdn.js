@@ -6,6 +6,7 @@ import Header2 from "./Components/Header2";
 import Hero2 from "./Components/Hero2";
 import Impact from "./Components/Impact";
 import Info from "./Components/Info";
+import Maininfo from "./Components/Maininfo";
 import Partners2 from "./Components/Partners2";
 import Subscribe from "./Components/Subscribe";
 
@@ -18,6 +19,7 @@ function Akdn() {
                 <Header2 />
                 <Hero2 />
                 <Impact isRtl={isRtl} setIsRtl={setIsRtl} />
+                <Maininfo/>
                 <Partners2 isRtl={isRtl} />
                 <Agency />
                 <Info/>
