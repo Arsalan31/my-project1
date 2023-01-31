@@ -45,12 +45,12 @@ function Maininfo() {
                 <h4 className="flex text-2xl font-bold text-gray-5 md:justify-center justify-start">AKDN | Education</h4>
                 <p className="text-gray-5 mt-3 md:mt-9 font-normal text-2xl md:text-center px-5">For over 100 years the Aga Khan Development Network (AKDN) has worked to ensure that students of all ages have access to quality learning opportunities.  The Network operates programmes and institutions that span the educational ladder, from early childhood programmes to primary and secondary schools, from vocational studies for youth and adults to university degrees and continuing professional development.  Each year, the AKDN reaches 2 million learners across 16 countries.</p>
             </div>
-            <div className="flex flex-wrap justify-center md:p-12 md:pt-20 md:px-0 px-28">
+            <div className="flex flex-wrap justify-center md:p-12 md:pt-20 md:px-0 sm:px-20 px-14">
                 <div class="flex flex-wrap md:-m-4 -mx-4 -mb-1 md:space-y-0 space-y-6">
                     {
                         slidesData2.map((Impact) => {
                             return (
-                                <div class="p-4 lg:px-20 md:w-1/4 w-full flex md:flex-col flex-row lg:border-e-2 border-blue-30 border-opacity-60 text-center items-center">
+                                <div class="p-4 lg:px-20 md:w-1/4 w-full flex md:flex-col flex-row md:border-e-2 border-blue-30 border-opacity-60 text-center items-center">
                                     <div>{Impact.img}</div>
                                     <div className="md:flex-wrap flex-wrap-reverse">
                                         <div className="md:w-full md:ps-0 ps-5 w-auto flex flex-wrap md:flex-col flex-row">
@@ -67,8 +67,8 @@ function Maininfo() {
                     }
                 </div>
             </div>
-            <div className="container mx-auto py-16 w-1/3">
-                <div className="text-center p-7 flex bg-blue-30">
+            <div className="container mx-auto md:px-0 px-10 py-16 sm:w-1/3">
+                <div className="md:text-center text-start p-7 flex bg-blue-30">
                     <p className="text-lg font-normal text-blue-70">Overview Document: AKDN Afghanistan</p>
                     <button className="ms-10 mt-2">
                         <svg xmlns="http://www.w3.org/2000/svg" width="18.67" height="18.67" fill="#084C61" class="bi bi-arrow-right" viewBox="0 0 16 16">
