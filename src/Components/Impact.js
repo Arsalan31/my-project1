@@ -123,7 +123,7 @@ function Impact(props) {
                         {
                             slidesData.map((Impact) => {
                                 return (
-                                    <div class="lg:w-1/4 p-4 lg:px-14 w-full lg:border-e-2 border-gray-400 border-opacity-60 flex flex-col text-center items-center">
+                                    <div class="lg:w-1/4 p-4 lg:px-24 w-full lg:border-e-2 border-gray-400 border-opacity-60 flex flex-col text-center items-center">
                                         <div>{Impact.img}</div>
                                         <div className="text-center font-medium text-2xl text-black mt-7">{Impact.title}</div>
                                         <div className="mt-3 text-base font-normal text-gray-600 text-center">{Impact.subTitle}</div>
@@ -144,7 +144,7 @@ function Impact(props) {
                         {
                             slidesData1.map((Impact) => {
                                 return (
-                                    <div class="lg:w-1/3 p-4 lg:px-14 w-full flex flex-col lg:border-e-2 border-gray-400 border-opacity-60 text-center items-center">
+                                    <div class="max-w-xs p-4 lg:px-16 w-full flex flex-col lg:border-e-2 border-gray-400 border-opacity-60 text-center items-center">
                                         <div>{Impact.img}</div>
                                         <div className="text-center font-medium text-2xl text-black mt-7">{Impact.title}</div>
                                         <div className="mt-3 text-base font-normal text-gray-600 text-center">{Impact.subTitle}</div>
@@ -165,7 +165,7 @@ function Impact(props) {
                         {
                             slidesData2.map((Impact) => {
                                 return (
-                                    <div class="lg:w-1/2 p-4 lg:px-14 w-full flex flex-col lg:border-e-2 border-gray-400 border-opacity-60 text-center items-center">
+                                    <div class="p-4 lg:px-14 max-w-xs w-full flex flex-col lg:border-e-2 border-gray-400 border-opacity-60 text-center items-center">
                                         <div>{Impact.img}</div>
                                         <div className="text-center font-medium text-2xl text-black mt-7">{Impact.title}</div>
                                         <div className="mt-3 text-base font-normal text-gray-600 text-center">{Impact.subTitle}</div>
