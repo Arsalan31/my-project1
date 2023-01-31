@@ -12,8 +12,8 @@ function Info() {
             <p className="text">
                 {isReadMore ? text.slice(0, 158) : text}
                 <div className="flex md:mt-3 mt-2 justify-start">
-                    <button className="flex gap-4 font-medium text-base text-blue-70 justify-start focus:outline-none" onClick={toggleReadMore}>See More
-                        <svg className="transform rotate-90 mt-1.5" width="6" height="12" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <button className="flex gap-4 font-medium text-base text-blue-70 justify-start focus:outline-none" onClick={toggleReadMore}>{isReadMore ? 'See more' : 'Show less'}
+                        <svg className="transform rotate-90 mt-2" width="6" height="12" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M1 13L7 7L1 1" stroke="#084C61" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                         </svg>
                     </button>
