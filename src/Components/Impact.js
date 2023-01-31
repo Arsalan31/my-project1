@@ -186,7 +186,7 @@ function Impact(props) {
                         {
                             slidesData3.map((Impact) => {
                                 return (
-                                    <div class="p-4 lg:px-14 w-full flex flex-col text-center items-center">
+                                    <div class="max-w-xs p-4 lg:px-12 w-full flex flex-col text-center items-center">
                                         <div>{Impact.img}</div>
                                         <div className="text-center font-medium text-2xl text-black mt-7">{Impact.title}</div>
                                         <div className="mt-3 text-base font-normal text-gray-600 text-center">{Impact.subTitle}</div>
