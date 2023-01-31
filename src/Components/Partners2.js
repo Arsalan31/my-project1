@@ -86,7 +86,7 @@ function Partners2(props) {
     //     ))
     // }
     return (
-        <section className="flex flex-col items-start w-full h-full bg-transparent flex-none order-2 flex-grow-0">
+        <section className="flex flex-col items-start w-full h-full bg-transparent">
             <div className="container mt-8 sm:px-16 px-8 pb-6 mx-auto">
                 <h4 className="text-red-500 text-3xl font-bold text-center">Our Partnership Projects</h4>
                 <div className="container mx-auto border-b lg:border border-red-500 border-4 lg:w-1/5 w-1/4 flex justify-center mt-5"></div>
