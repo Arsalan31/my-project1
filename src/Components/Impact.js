@@ -104,7 +104,7 @@ function Impact(props) {
 
     return (
         <section class="w-full h-full text-gray-600 body-font">
-            <div class="p-5 bg-blue-50">
+            <div class="p-5 bg-blue-30">
                 <div>
                     <div className='flex justify-center'>
                         <label className="form-check-label inline-block me-2  text-gray-600" for="flexSwitchCheckChecked">LTR</label>
@@ -135,7 +135,7 @@ function Impact(props) {
                     </div>
                 </div>
             </div>
-            <div class="p-5 mt-24 bg-blue-50">
+            <div class="p-5 mt-24 bg-blue-30">
                 <div class="text-center">
                     <h1 class="w-full font-bold text-gray-600 text-center text-2xl pt-12 leading-12 mb-4 uppercase">impact of akdn</h1>
                 </div>
@@ -156,7 +156,7 @@ function Impact(props) {
                     </div>
                 </div>
             </div>
-            <div class="p-5 mt-24 bg-blue-50">
+            <div class="p-5 mt-24 bg-blue-30">
                 <div class="text-center">
                     <h1 class="w-full font-bold text-gray-600 text-center text-2xl pt-12 leading-12 mb-4 uppercase">impact of akdn</h1>
                 </div>
@@ -177,7 +177,7 @@ function Impact(props) {
                     </div>
                 </div>
             </div >
-            <div class="p-5 mt-24 bg-blue-50">
+            <div class="p-5 mt-24 bg-blue-30">
                 <div class="text-center">
                     <h1 class="w-full font-bold text-gray-600 text-center text-2xl pt-12 leading-12 mb-4 uppercase">impact of akdn</h1>
                 </div>
