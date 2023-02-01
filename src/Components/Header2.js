@@ -43,11 +43,11 @@ function Header2() {
             }
         }
 
-        document.addEventListener("mousedown", checkIfClickedOutside)
+        document.addEventListener("mouseout", checkIfClickedOutside)
 
         return () => {
             // Cleanup the event listener
-            document.removeEventListener("mousedown", checkIfClickedOutside)
+            document.removeEventListener("mouseout", checkIfClickedOutside)
         }
     }, [toggleLanguage])
 
@@ -69,11 +69,11 @@ function Header2() {
             }
         }
 
-        document.addEventListener("mousedown", checkIfClickedOutside)
+        document.addEventListener("mouseout", checkIfClickedOutside)
 
         return () => {
             // Cleanup the event listener
-            document.removeEventListener("mousedown", checkIfClickedOutside)
+            document.removeEventListener("mouseout", checkIfClickedOutside)
         }
     }, [toggleAbout])
 
@@ -94,11 +94,11 @@ function Header2() {
             }
         }
 
-        document.addEventListener("mousedown", checkIfClickedOutside)
+        document.addEventListener("mouseout", checkIfClickedOutside)
 
         return () => {
             // Cleanup the event listener
-            document.removeEventListener("mousedown", checkIfClickedOutside)
+            document.removeEventListener("mouseout", checkIfClickedOutside)
         }
     }, [toggleAbout1])
 
@@ -119,11 +119,11 @@ function Header2() {
             }
         }
 
-        document.addEventListener("mousedown", checkIfClickedOutside)
+        document.addEventListener("mouseout", checkIfClickedOutside)
 
         return () => {
             // Cleanup the event listener
-            document.removeEventListener("mousedown", checkIfClickedOutside)
+            document.removeEventListener("mouseout", checkIfClickedOutside)
         }
     }, [toggleAbout2])
 
@@ -144,11 +144,11 @@ function Header2() {
             }
         }
 
-        document.addEventListener("mousedown", checkIfClickedOutside)
+        document.addEventListener("mouseout", checkIfClickedOutside)
 
         return () => {
             // Cleanup the event listener
-            document.removeEventListener("mousedown", checkIfClickedOutside)
+            document.removeEventListener("mouseout", checkIfClickedOutside)
         }
     }, [toggleAbout3])
 
@@ -169,11 +169,11 @@ function Header2() {
             }
         }
 
-        document.addEventListener("mousedown", checkIfClickedOutside)
+        document.addEventListener("mouseout", checkIfClickedOutside)
 
         return () => {
             // Cleanup the event listener
-            document.removeEventListener("mousedown", checkIfClickedOutside)
+            document.removeEventListener("mouseout", checkIfClickedOutside)
         }
     }, [toggleAbout4])
 
@@ -195,11 +195,11 @@ function Header2() {
             }
         }
 
-        document.addEventListener("mousedown", checkIfClickedOutside)
+        document.addEventListener("mouseout", checkIfClickedOutside)
 
         return () => {
             // Cleanup the event listener
-            document.removeEventListener("mousedown", checkIfClickedOutside)
+            document.removeEventListener("mouseout", checkIfClickedOutside)
         }
     }, [toggleAbout5])
 
@@ -226,7 +226,7 @@ function Header2() {
                         </div>
                         <li ref={ref}>
                             <div className="flex">
-                                <a onClick={toggleAbt} className="lg:w-auto w-1/2 cursor-pointer uppercase lg:block hidden py-3 lg:py-2 px-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">Who We Are</a>
+                                <a onClick={toggleAbt} className="lg:w-auto w-1/2 group-hover:{toggleAbt} cursor-pointer uppercase lg:block hidden py-3 lg:py-2 px-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">Who We Are</a>
                                 <a className="lg:hidden lg:w-auto w-1/2 cursor-pointer uppercase block py-3 lg:py-2 px-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">Who We Are</a>
                                 <button className="lg:hidden w-1/2 flex justify-end py-3 px-2 focus:outline-none" onClick={toggleAbt}>
                                     <div className="lg:hidden border-gray-400 border-s me-4 h-6"></div>
@@ -380,22 +380,22 @@ function Header2() {
                                         <div className="pb-4">
                                             <li className="border border-gray-3 lg:w-7/12 w-7"></li>
                                         </div>
-                                        <li className="pb-4">
+                                        <li>
                                             <a className="text-white font-normal text-sm pb-2 ">Kenya</a>
                                         </li>
-                                        <li className="pb-4">
+                                        <li>
                                             <a className="text-white font-normal text-sm pb-2">Madagascar</a>
                                         </li>
-                                        <li className="pb-4">
+                                        <li>
                                             <a className="text-white font-normal text-sm pb-2">Mozambique</a>
                                         </li>
-                                        <li className="pb-4">
+                                        <li>
                                             <a className="text-white font-normal text-sm pb-2">Rwanda</a>
                                         </li>
-                                        <li className="pb-4">
+                                        <li>
                                             <a className="text-white font-normal text-sm pb-2">Tanzania</a>
                                         </li>
-                                        <li className="pb-4">
+                                        <li>
                                             <a className="text-white font-normal text-sm pb-2">Uganda</a>
                                         </li>
                                         <nav className="lg:pt-16 pt-2">
@@ -405,16 +405,16 @@ function Header2() {
                                             <div className="pb-4">
                                                 <li className="border border-gray-3 lg:w-7/12 w-7"></li>
                                             </div>
-                                            <li className="pb-4">
+                                            <li>
                                                 <a className="text-white font-normal text-sm pb-2 ">Burkina Faso</a>
                                             </li>
-                                            <li className="pb-4">
+                                            <li>
                                                 <a className="text-white font-normal text-sm pb-2">Côte d'Ivoire</a>
                                             </li>
-                                            <li className="pb-4">
+                                            <li>
                                                 <a className="text-white font-normal text-sm pb-2">Mali</a>
                                             </li>
-                                            <li className="pb-4">
+                                            <li>
                                                 <a className="text-white font-normal text-sm pb-2">Senegal</a>
                                             </li>
                                         </nav>
@@ -426,13 +426,13 @@ function Header2() {
                                         <div className="pb-4">
                                             <li className="border border-gray-3 lg:w-7/12 w-7"></li>
                                         </div>
-                                        <li className="pb-4">
+                                        <li>
                                             <a className="text-white font-normal text-sm pb-2 cursor-pointer">Egypt</a>
                                         </li>
-                                        <li className="pb-4">
+                                        <li>
                                             <a className="text-white font-normal text-sm pb-2 cursor-pointer">Syria</a>
                                         </li>
-                                        <li className="pb-4">
+                                        <li>
                                             <a className="text-white font-normal text-sm pb-2 cursor-pointer">United Arab Emirates</a>
                                         </li>
                                         <nav className="lg:pt-16 pt-2">
@@ -442,16 +442,16 @@ function Header2() {
                                             <div className="pb-4">
                                                 <li className="border border-gray-3 lg:w-7/12 w-7"></li>
                                             </div>
-                                            <li className="pb-4">
+                                            <li>
                                                 <a className="text-white font-normal text-sm pb-2 ">Afghanistan</a>
                                             </li>
-                                            <li className="pb-4">
+                                            <li>
                                                 <a className="text-white font-normal text-sm pb-2">Kazakhstan</a>
                                             </li>
-                                            <li className="pb-4">
+                                            <li>
                                                 <a className="text-white font-normal text-sm pb-2">Kyrgyz Republic</a>
                                             </li>
-                                            <li className="pb-4">
+                                            <li>
                                                 <a className="text-white font-normal text-sm pb-2">Tajikistan</a>
                                             </li>
                                         </nav>
@@ -464,13 +464,13 @@ function Header2() {
                                         <div className="pb-4">
                                             <li className="border border-gray-3 lg:w-7/12 w-7"></li>
                                         </div>
-                                        <li className="pb-4">
+                                        <li>
                                             <a className="text-white font-normal text-sm pb-2 cursor-pointer">Bangladesh</a>
                                         </li>
-                                        <li className="pb-4">
+                                        <li>
                                             <a className="text-white font-normal text-sm pb-2 cursor-pointer">India</a>
                                         </li>
-                                        <li className="pb-4">
+                                        <li>
                                             <a className="text-white font-normal text-sm pb-2 cursor-pointer">Pakistan</a>
                                         </li>
                                         <nav className="lg:pt-16 pt-2">
@@ -480,10 +480,10 @@ function Header2() {
                                             <div className="pb-4">
                                                 <li className="border border-gray-3 lg:w-7/12 w-7"></li>
                                             </div>
-                                            <li className="pb-4">
+                                            <li>
                                                 <a className="text-white font-normal text-sm pb-2 cursor-pointer">Malaysia</a>
                                             </li>
-                                            <li className="pb-4">
+                                            <li>
                                                 <a className="text-white font-normal text-sm pb-2 cursor-pointer">Singapore</a>
                                             </li>
                                         </nav>
@@ -495,10 +495,10 @@ function Header2() {
                                         <div className="pb-4">
                                             <li className="border border-gray-3 lg:w-7/12 w-7"></li>
                                         </div>
-                                        <li className="pb-4">
+                                        <li>
                                             <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Canada</a>
                                         </li>
-                                        <li className="pb-4">
+                                        <li>
                                             <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">United States of America</a>
                                         </li>
                                         <nav className="lg:pt-16 pt-2">
@@ -508,22 +508,22 @@ function Header2() {
                                             <div className="pb-4">
                                                 <li className="border border-gray-3 lg:w-2/5 w-7"></li>
                                             </div>
-                                            <li className="pb-4">
+                                            <li>
                                                 <a className="text-white font-normal text-sm pb-2 ">France</a>
                                             </li>
-                                            <li className="pb-4">
+                                            <li>
                                                 <a className="text-white font-normal text-sm pb-2">Germany</a>
                                             </li>
-                                            <li className="pb-4">
+                                            <li>
                                                 <a className="text-white font-normal text-sm pb-2">Norway</a>
                                             </li>
-                                            <li className="pb-4">
+                                            <li>
                                                 <a className="text-white font-normal text-sm pb-2">Portugal</a>
                                             </li>
-                                            <li className="pb-4">
+                                            <li>
                                                 <a className="text-white font-normal text-sm pb-2">Switzerland</a>
                                             </li>
-                                            <li className="pb-4">
+                                            <li>
                                                 <a className="text-white font-normal text-sm pb-2">United Kingdom</a>
                                             </li>
                                         </nav>
@@ -589,10 +589,10 @@ function Header2() {
                                         <div className="pb-4">
                                             <li className="border border-gray-3 lg:w-1/3 w-7"></li>
                                         </div>
-                                        <li className="pb-4">
+                                        <li>
                                             <a className="text-white font-normal text-sm pb-2 cursor-pointer">Our Approach to Development</a>
                                         </li>
-                                        <li className="pb-4">
+                                        <li>
                                             <a className="text-white font-normal text-sm pb-2 cursor-pointer">Frequently Asked Questions</a>
                                         </li>
                                     </nav>
