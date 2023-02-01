@@ -24,7 +24,7 @@ function Content(props) {
             <div className="container sm:px-20 pb-6 mx-auto">
                 <div className="flex flex-wrap justify-center">
                     <div className="flex flex-col flex-none flex-grow-0 text-center w-full">
-                        <div class="flex flex-wrap lg:-m-4 -mx-4 -mb-10 lg:space-y-0 space-y-6">
+                        <div class="flex flex-wrap lg:-m-4 -mb-10 lg:space-y-0 space-y-6">
                             <div class="p-4 lg:w-1/2 lg:px-14 px-8 w-full lg:order-1 order-2 flex flex-col lg:items-start items-center">
                                 <img src={require('./assets/image.png')} className="lg:w-100 lg:h-92 sm:w-120 sm:h-98 w-80 h-60 lg:mt-36"></img>
                             </div>
