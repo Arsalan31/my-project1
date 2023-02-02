@@ -49,7 +49,7 @@ function Featured(props) {
                             <SwiperSlide>
                                 <div class="flex flex-wrap md:-m-4 -mx-4 -mb-10 md:space-y-0 space-y-6">
                                     <div class="p-4 w-full flex flex-col text-center items-center">
-                                        <img src={require('./assets/Rectangle 1450.png')}></img>
+                                        <img className="w-full" src={require('./assets/Rectangle 1450.png')}></img>
                                         <div class="flex-grow mt-7">
                                             <h2 class="text-center font-bold text-3xl text-black mb-3">Warm Invitation</h2>
                                             <h3 class="text-center font-medium text-base text-black mb-3">You're invited to SIGNAL 2021</h3>
@@ -62,7 +62,7 @@ function Featured(props) {
                                 <div class="flex flex-wrap md:-m-4 -mx-4 -mb-10 md:space-y-0 space-y-6">
                                     <div class="p-4 xl:w-full flex flex-col text-center items-center">
                                         {/* <img src={require('./assets/Rectangle 1450.png')}></img> */}
-                                        <video className="rounded-t-2xl" controls poster={require('./assets/Rectangle 1450.png')}>
+                                        <video className="rounded-t-2xl w-full" controls poster={require('./assets/Rectangle 1450.png')}>
                                             <source  src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4" type="video/mp4" />
                                         </video>
                                         <div class="flex-grow mt-7">
@@ -76,8 +76,8 @@ function Featured(props) {
                             <SwiperSlide>
                                 <div class="flex flex-wrap md:-m-4 -mx-4 -mb-10 md:space-y-0 space-y-6">
                                     <div class="p-4 w-full flex flex-col text-center items-center">
-                                        <img src={require('./assets/Rectangle 1450.png')}></img>
-                                        <audio className="absolute top-64 h-11 w-96" controls="transparent">
+                                        <img className="w-full" src={require('./assets/Rectangle 1450.png')}></img>
+                                        <audio className="absolute top-64 h-15 w-full" controls="transparent">
                                             <source className="rounded-none" src={require('./assets/Free_Test_Data_500KB_MP3.mp3')} type="audio/mpeg" />
                                             Your browser does not support the audio element.
                                         </audio>
@@ -93,7 +93,7 @@ function Featured(props) {
                             <SwiperSlide>
                                 <div class="flex flex-wrap md:-m-4 -mx-4 -mb-10 md:space-y-0 space-y-6">
                                     <div class="p-4 w-full flex flex-col text-center items-center">
-                                        <img src={require('./assets/Rectangle 1450.png')}></img>
+                                        <img className="w-full" src={require('./assets/Rectangle 1450.png')}></img>
                                         <div class="flex-grow mt-7">
                                             <h2 class="text-center font-bold text-3xl text-black mb-3">Warm Invitation</h2>
                                             <h3 class="text-center font-medium text-base text-black mb-3">You're invited to SIGNAL 2021</h3>
@@ -106,7 +106,7 @@ function Featured(props) {
                                 <div class="flex flex-wrap md:-m-4 -mx-4 -mb-10 md:space-y-0 space-y-6">
                                     <div class="p-4 xl:w-full flex flex-col text-center items-center">
                                         {/* <img src={require('./assets/Rectangle 1450.png')}></img> */}
-                                        <video className="rounded-t-2xl" controls poster={require('./assets/Rectangle 1450.png')}>
+                                        <video className="rounded-t-2xl w-full" controls poster={require('./assets/Rectangle 1450.png')}>
                                             <source  src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4" type="video/mp4" />
                                         </video>
                                         <div class="flex-grow mt-7">
@@ -120,8 +120,8 @@ function Featured(props) {
                             <SwiperSlide>
                                 <div class="flex flex-wrap md:-m-4 -mx-4 -mb-10 md:space-y-0 space-y-6">
                                     <div class="p-4 w-full flex flex-col text-center items-center">
-                                        <img src={require('./assets/Rectangle 1450.png')}></img>
-                                        <audio className="absolute top-64 h-11 w-96" controls>
+                                        <img className="w-full" src={require('./assets/Rectangle 1450.png')}></img>
+                                        <audio className="absolute top-64 h-15 w-full" controls>
                                             <source src={require('./assets/Free_Test_Data_500KB_MP3.mp3')} type="audio/mpeg" />
                                             Your browser does not support the audio element.
                                         </audio>
@@ -138,7 +138,7 @@ function Featured(props) {
                                 <div class="flex flex-wrap md:-m-4 -mx-4 -mb-10 md:space-y-0 space-y-6">
                                     <div class="p-4 xl:w-full flex flex-col text-center items-center">
                                         {/* <img src={require('./assets/Rectangle 1450.png')}></img> */}
-                                        <video className="rounded-t-2xl" controls poster={require('./assets/Rectangle 1450.png')}>
+                                        <video className="rounded-t-2xl w-full" controls poster={require('./assets/Rectangle 1450.png')}>
                                             <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4" type="video/mp4" />
                                         </video>
                                         <div class="flex-grow mt-7">
