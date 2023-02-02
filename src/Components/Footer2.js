@@ -120,6 +120,11 @@ function Footer() {
     const togglediv11 = () => {
         setTogglesection11(!toggleSection11)
     }
+    const [toggleSeemore, setToggleseemore] = useState(false)
+
+    const togglesee = () => {
+        setToggleseemore(!toggleSeemore)
+    }
     return (
         <footer className="bg-gray-5 py-8">
             <div className="flex flex-wrap justify-center px-5">
@@ -165,7 +170,7 @@ function Footer() {
                     <div className="flex justify-center md:mt-0 mt-5">
                         <p className="text-white text-md tracking-wider">Subscribe to our newsletter</p>
                     </div>
-                    <div className="flex items-center flex-col mt-3 md:items-center me-16 md:px-12 sm:px-36 px-20">
+                    <div className="flex items-center flex-col mt-3 md:items-center md:me-16 md:px-12 sm:px-36 px-20">
                         <button className="text-white xl:w-1/2 md:w-1/2 sm:w-1/2 w-36 text-sm py-3 xl:px-2 sm:px-2 px-4 font-bold inline-flex text-start border-gray-400 border">
                             <p className="w-9/12">Sign Up</p>
                             <svg className="w-1/5 seemore mt-1 flex justify-end" width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -209,7 +214,7 @@ function Footer() {
                     <div className="flex">
                         <h3 className="w-11/12 font-bold text-sm text-white uppercase tracking-widest pb-6">who we are</h3>
                         <div className="lg:hidden border-gray-400 border-s h-8"></div>
-                        <button className="lg:hidden w-1/12 mt-2 ms-3 flex justify-center" onClick={togglediv}>
+                        <button className="focus:outline-none lg:hidden w-1/12 mt-2 ms-3 flex justify-center" onClick={togglediv}>
                             <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                             </svg>
@@ -245,7 +250,7 @@ function Footer() {
                     <div className="flex">
                         <h3 className="w-11/12 font-bold text-sm text-white tracking-widest uppercase pb-6">what we do</h3>
                         <div className="lg:hidden border-gray-400 border-s h-8"></div>
-                        <button className="lg:hidden w-1/12 mt-2 ms-3 flex justify-center" onClick={togglediv1}>
+                        <button className="lg:hidden focus:outline-none w-1/12 mt-2 ms-3 flex justify-center" onClick={togglediv1}>
                             <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                             </svg>
@@ -272,11 +277,27 @@ function Footer() {
                                 <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Civil Society</a>
                             </li>
                             <li className="pb-4">
-                                <a href="#" className="text-white font-normal text-sm pb-2 inline-flex cursor-pointer">See More
+                                <a onClick={togglesee} className="focus:outline-none text-white font-normal text-sm pb-2 inline-flex cursor-pointer">See More
                                     <svg className="mt-2 ms-3" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                                     </svg>
                                 </a>
+                                {(toggleSeemore) && (
+                                    <nav className="pt-2">
+                                        <li>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Architecture & Planning</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Culture</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Historic Cities</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Music</a>
+                                        </li>
+                                    </nav>
+                                )}
                             </li>
                         </nav>
                     )}
@@ -285,7 +306,7 @@ function Footer() {
                     <div className="flex">
                         <h3 className="w-11/12 font-bold text-sm text-white tracking-widest uppercase pb-6">our agencies</h3>
                         <div className="lg:hidden border-gray-400 border-s h-8"></div>
-                        <button className="lg:hidden w-1/12 mt-2 ms-3 flex justify-center" onClick={togglediv2}>
+                        <button className="focus:outline-none lg:hidden w-1/12 mt-2 ms-3 flex justify-center" onClick={togglediv2}>
                             <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                             </svg>
@@ -336,7 +357,7 @@ function Footer() {
                     <div className="flex">
                         <h3 className="w-11/12 font-bold text-sm text-white tracking-widest uppercase pb-6">where we work</h3>
                         <div className="lg:hidden border-gray-400 border-s h-8"></div>
-                        <button className="lg:hidden w-1/12 mt-2 ms-3 flex justify-center" onClick={togglediv3}>
+                        <button className="lg:hidden w-1/12 mt-2 ms-3 flex justify-center focus:outline-none" onClick={togglediv3}>
                             <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                             </svg>
@@ -348,31 +369,31 @@ function Footer() {
                                 <div className="flex">
                                     <a className="text-white w-2/3 font-normal text-sm pb-2 inline-flex">Eastern Africa
                                     </a>
-                                    <button onClick={togglediv4}>
+                                    <button className="focus:outline-none" onClick={togglediv4}>
                                         <svg className="ms-3" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                                         </svg>
                                     </button>
                                 </div>
                                 {(toggleSection4) && (
-                                    <nav className="lg:list-none list5 lg:flex flex-col hidden">
+                                    <nav className="lg:list-none list5 flex flex-col">
                                         <li className="pb-2">
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Kenya</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Kenya</a>
                                         </li>
                                         <li className="pb-2">
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Madagascar</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Madagascar</a>
                                         </li>
                                         <li className="pb-2">
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Mozambique</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Mozambique</a>
                                         </li>
                                         <li className="pb-2">
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Rwanda</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Rwanda</a>
                                         </li>
                                         <li className="pb-2">
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Tanzania</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Tanzania</a>
                                         </li>
                                         <li className="pb-2">
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Uganda</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Uganda</a>
                                         </li>
                                     </nav>
                                 )}
@@ -381,25 +402,25 @@ function Footer() {
                                 <div className="flex">
                                     <a className="text-white w-2/3 font-normal text-sm pb-2 inline-flex">West Africa
                                     </a>
-                                    <button onClick={togglediv5}>
+                                    <button className="focus:outline-none" onClick={togglediv5}>
                                         <svg className="ms-3" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                                         </svg>
                                     </button>
                                 </div>
                                 {(toggleSection5) && (
-                                    <nav className="lg:list-none list5 lg:flex flex-col hidden">
+                                    <nav className="lg:list-none list5 flex flex-col">
                                         <li className="pb-2">
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Burkina Faso</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Burkina Faso</a>
                                         </li>
                                         <li className="pb-2">
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Côte d'Ivoire</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Côte d'Ivoire</a>
                                         </li>
                                         <li className="pb-2">
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Mali</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Mali</a>
                                         </li>
                                         <li className="pb-2">
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Senegal</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Senegal</a>
                                         </li>
                                     </nav>
                                 )}
@@ -408,22 +429,22 @@ function Footer() {
                                 <div className="flex">
                                     <a className="text-white w-2/3 font-normal text-sm pb-2 inline-flex">Middle East
                                     </a>
-                                    <button onClick={togglediv6}>
+                                    <button className="focus:outline-none" onClick={togglediv6}>
                                         <svg className="ms-3" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                                         </svg>
                                     </button>
                                 </div>
                                 {(toggleSection6) && (
-                                    <nav className="lg:list-none list5 lg:flex flex-col hidden">
+                                    <nav className="lg:list-none list5 flex flex-col">
                                         <li className="pb-2">
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Egypt</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Egypt</a>
                                         </li>
                                         <li className="pb-2">
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Syria</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Syria</a>
                                         </li>
                                         <li className="pb-2">
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">United Arab Emirates</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">United Arab Emirates</a>
                                         </li>
                                     </nav>
                                 )}
@@ -432,25 +453,25 @@ function Footer() {
                                 <div className="flex">
                                     <a className="text-white w-2/3 font-normal text-sm pb-2 inline-flex">Central Asia
                                     </a>
-                                    <button onClick={togglediv7}>
+                                    <button className="focus:outline-none" onClick={togglediv7}>
                                         <svg className="ms-3" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                                         </svg>
                                     </button>
                                 </div>
                                 {(toggleSection7) && (
-                                    <nav className="lg:list-none list5 lg:flex flex-col hidden">
+                                    <nav className="lg:list-none list5 flex flex-col">
                                         <li className="pb-2">
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Afghanistan</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Afghanistan</a>
                                         </li>
                                         <li className="pb-2">
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Kazakhstan</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Kazakhstan</a>
                                         </li>
                                         <li className="pb-2">
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Kyrgyz Republic</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Kyrgyz Republic</a>
                                         </li>
                                         <li className="pb-2">
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Tajikistan</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Tajikistan</a>
                                         </li>
                                     </nav>
                                 )}
@@ -459,22 +480,22 @@ function Footer() {
                                 <div className="flex">
                                     <a className="text-white w-2/3 font-normal text-sm pb-2 inline-flex">South Asia
                                     </a>
-                                    <button onClick={togglediv8}>
+                                    <button className="focus:outline-none" onClick={togglediv8}>
                                         <svg className="ms-3" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                                         </svg>
                                     </button>
                                 </div>
                                 {(toggleSection8) && (
-                                    <nav className="lg:list-none list5 lg:flex flex-col hidden">
+                                    <nav className="lg:list-none list5 flex flex-col">
                                         <li className="pb-2">
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Bangladesh</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Bangladesh</a>
                                         </li>
                                         <li className="pb-2">
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">India</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">India</a>
                                         </li>
                                         <li className="pb-2">
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Pakistan</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Pakistan</a>
                                         </li>
                                     </nav>
                                 )}
@@ -483,19 +504,19 @@ function Footer() {
                                 <div className="flex">
                                     <a className="text-white w-2/3 font-normal text-sm pb-2 inline-flex">Asia Pacific
                                     </a>
-                                    <button onClick={togglediv9}>
+                                    <button className="focus:outline-none" onClick={togglediv9}>
                                         <svg className="ms-3" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                                         </svg>
                                     </button>
                                 </div>
                                 {(toggleSection9) && (
-                                    <nav className="lg:list-none list5 lg:flex flex-col hidden">
+                                    <nav className="lg:list-none list5 flex flex-col">
                                         <li className="pb-2">
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Malaysia</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Malaysia</a>
                                         </li>
                                         <li className="pb-2">
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Singapore</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Singapore</a>
                                         </li>
                                     </nav>
                                 )}
@@ -504,19 +525,19 @@ function Footer() {
                                 <div className="flex">
                                     <a className="text-white w-2/3 font-normal text-sm pb-2 inline-flex">North America
                                     </a>
-                                    <button onClick={togglediv10}>
+                                    <button className="focus:outline-none" onClick={togglediv10}>
                                         <svg className="ms-3" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                                         </svg>
                                     </button>
                                 </div>
                                 {(toggleSection10) && (
-                                    <nav className="lg:list-none list5 lg:flex flex-col hidden">
+                                    <nav className="lg:list-none list5 flex flex-col">
                                         <li className="pb-2">
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Canada</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Canada</a>
                                         </li>
                                         <li className="pb-2">
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">United States of America</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">United States of America</a>
                                         </li>
                                     </nav>
                                 )}
@@ -525,31 +546,31 @@ function Footer() {
                                 <div className="flex">
                                     <a className="text-white w-2/3 font-normal text-sm pb-2 inline-flex">Europe
                                     </a>
-                                    <button onClick={togglediv11}>
+                                    <button className="focus:outline-none" onClick={togglediv11}>
                                         <svg className="ms-3" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                                         </svg>
                                     </button>
                                 </div>
                                 {(toggleSection11) && (
-                                    <nav className="lg:list-none list5 lg:flex flex-col hidden">
+                                    <nav className="lg:list-none list5 flex flex-col">
                                         <li className="pb-2">
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">France</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">France</a>
                                         </li>
                                         <li className="pb-2">
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Germany</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Germany</a>
                                         </li>
                                         <li className="pb-2">
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Norway</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Norway</a>
                                         </li>
                                         <li className="pb-2">
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Portugal</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Portugal</a>
                                         </li>
                                         <li className="pb-2">
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Switzerland</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Switzerland</a>
                                         </li>
                                         <li className="pb-2">
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">United Kingdom</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">United Kingdom</a>
                                         </li>
                                     </nav>
                                 )}
@@ -558,7 +579,7 @@ function Footer() {
                     )}
                 </div>
             </footer>
-            <div className="container md:mx-auto border-white border-b w-full px-5 flex justify-center"></div>
+            <div className="container mx-auto border-white border-b md:w-full w-11/12 flex justify-center"></div>
             <div className="lg:mt-8 w-full lg:ps-10">
                 <div className="flex-col justify-center">
                     <p className="w-full lg:mx-0 mx-auto sm:px-0 px-8 lg:mt-0 mt-7 font-normal text-sm text-center text-white">
