@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 function Maininfo() {
     const slidesData2 = [
@@ -46,18 +46,18 @@ function Maininfo() {
                 <p className="text-gray-5 mt-3 md:mt-9 font-normal text-2xl md:text-center px-5">For over 100 years the Aga Khan Development Network (AKDN) has worked to ensure that students of all ages have access to quality learning opportunities.  The Network operates programmes and institutions that span the educational ladder, from early childhood programmes to primary and secondary schools, from vocational studies for youth and adults to university degrees and continuing professional development.  Each year, the AKDN reaches 2 million learners across 16 countries.</p>
             </div>
             <div className="flex flex-wrap justify-center md:p-12 md:pt-20 md:px-0 sm:px-20 px-14">
-                <div class="flex flex-wrap md:-m-4 -mx-4 -mb-1 md:space-y-0 space-y-6">
+                <div class="flex flex-wrap md:-m-4 -mx-4 -mb-1">
                     {
-                        slidesData2.map((Impact,index) => {
+                        slidesData2.map((Impact, index) => {
                             return (
-                                <div className = {`p-4 lg:px-20 md:w-1/4 w-full flex md:flex-col flex-row  text-center items-center ${slidesData2.length - 1 === index ? '' : 'md:border-e-2 border-blue-30 border-opacity-60'}`}>
+                                <div className={`md:p-4 p-3 lg:px-20 md:w-1/4 w-full flex md:flex-col flex-row  text-center items-center ${slidesData2.length - 1 === index ? '' : 'md:border-e-2 md:border-b-0 border-b-2 border-blue-30 border-opacity-60'}`}>
                                     <div>{Impact.img}</div>
                                     <div className="md:flex-wrap flex-wrap-reverse">
                                         <div className="md:w-full md:ps-0 ps-5 w-auto flex flex-wrap md:flex-col flex-row">
-                                            <div className="text-center font-medium text-2xl text-black mt-7">{Impact.title}</div>
+                                            <div className="text-center font-medium text-2xl text-black md:mt-3">{Impact.title}</div>
                                         </div>
                                         <div className="md:w-full w-auto md:ps-0 ps-5 flex flex-wrap md:flex-col flex-row">
-                                            <div className="mt-3 text-base font-normal text-gray-600 text-center">{Impact.subTitle}</div>
+                                            <div className="text-base font-normal text-gray-600 text-center">{Impact.subTitle}</div>
                                         </div>
                                     </div>
                                 </div>
@@ -68,13 +68,15 @@ function Maininfo() {
                 </div>
             </div>
             <div className="container mx-auto md:px-0 px-10 py-16 sm:w-1/3">
-                <div className="md:text-center text-start p-7 flex bg-blue-30">
-                    <p className="text-lg font-normal text-blue-70">Overview Document: AKDN Afghanistan</p>
-                    <button className="ms-10 mt-2">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="18.67" height="18.67" fill="#084C61" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
-                        </svg>
-                    </button>
+                <div className="p-7 flex md:justify-center justify-start bg-blue-30">
+                    <div className="flex items-center md:text-center">
+                        <p className="text-lg font-normal text-blue-70">Overview Document: AKDN Afghanistan</p>
+                        <button className="ms-8 mt-1 flex self-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18.67" height="18.67" fill="#084C61" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                            </svg>
+                        </button>
+                    </div>
                 </div>
             </div>
         </section>

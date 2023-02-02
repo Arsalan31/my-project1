@@ -4,6 +4,7 @@ import Featured from "./Components/Featured";
 import Footer from "./Components/Footer2";
 import Header2 from "./Components/Header2";
 import Hero2 from "./Components/Hero2";
+import HeroSlider from "./Components/HeroSlider";
 import Impact from "./Components/Impact";
 import Info from "./Components/Info";
 import Maininfo from "./Components/Maininfo";
@@ -18,6 +19,7 @@ function Akdn() {
             <div dir={isRtl ? "rtl" : "ltr"}>
                 <Header2 />
                 <Hero2 />
+                <HeroSlider isRtl={isRtl}/>
                 <Impact isRtl={isRtl} setIsRtl={setIsRtl} />
                 <Maininfo/>
                 <Partners2 isRtl={isRtl} />
