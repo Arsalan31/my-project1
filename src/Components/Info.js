@@ -26,7 +26,7 @@ function Info() {
         <section className="p-12 container mx-auto w-full h-full">
             <h4 className="font-bold text-2xl uppercase text-start">Our work</h4>
             <div className="md:flex mt-6">
-                <div className="md:w-2/3 w-full">
+                <div className="md:w-1/3 w-full">
                     <p className="font-normal text-base text-gray-5 uppercase text-start">Early Childhood Development</p>
                 </div>
                 <div className="md:w-3/4 w-full">
@@ -38,7 +38,7 @@ function Info() {
                 </div>
             </div>
             <div className="md:flex mt-6">
-                <div className="md:w-2/3 w-full">
+                <div className="md:w-1/3 w-full">
                     <p className="font-normal text-base text-gray-5 uppercase text-start">Primary & Secondary
                     </p>
                 </div>
@@ -51,7 +51,7 @@ function Info() {
                 </div>
             </div>
             <div className="md:flex mt-6">
-                <div className="md:w-2/3 w-full">
+                <div className="md:w-1/3 w-full">
                     <p className="font-normal text-base text-gray-5 uppercase text-start">Higher Education</p>
                 </div>
                 <div className="md:w-3/4 w-full">
@@ -63,7 +63,7 @@ function Info() {
                 </div>
             </div>
             <div className="md:flex mt-6">
-                <div className="md:w-2/3 w-full">
+                <div className="md:w-1/3 w-full">
                     <p className="font-normal text-base text-gray-5 uppercase text-start">Continuing Education</p>
                 </div>
                 <div className="md:w-3/4 w-full">
