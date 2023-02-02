@@ -19,7 +19,7 @@ function Akdn() {
             <div dir={isRtl ? "rtl" : "ltr"}>
                 <Header2 />
                 <Hero2 />
-                <HeroSlider isRtl={isRtl}/>
+                {/* <HeroSlider isRtl={isRtl}/> */}
                 <Impact isRtl={isRtl} setIsRtl={setIsRtl} />
                 <Maininfo/>
                 <Partners2 isRtl={isRtl} />
