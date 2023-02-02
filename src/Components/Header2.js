@@ -239,25 +239,25 @@ function Header2() {
                             {(toggleAbout) && (
                                 <nav className="list-none absolute w-full lg:w-auto bg-gray-4 lg:p-5 list6 lg:flex flex-col hidden">
                                     <li>
-                                        <a className="text-white font-normal text-sm pb-2 inline-flex">Founder & Chairman</a>
+                                        <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Founder & Chairman</a>
                                     </li>
                                     <li>
-                                        <a className="text-white font-normal text-sm pb-2 inline-flex">AKDN Leadership</a>
+                                        <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">AKDN Leadership</a>
                                     </li>
                                     <li>
-                                        <a className="text-white font-normal text-sm pb-2 inline-flex">Our Partners</a>
+                                        <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Our Partners</a>
                                     </li>
                                     <li>
-                                        <a className="text-white font-normal text-sm pb-2 inline-flex">Fact sheet</a>
+                                        <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Fact sheet</a>
                                     </li>
                                     <li>
-                                        <a className="text-white font-normal text-sm pb-2 inline-flex">Awards Received by AKDN</a>
+                                        <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Awards Received by AKDN</a>
                                     </li>
                                     <li>
-                                        <a className="text-white font-normal text-sm pb-2 inline-flex">Frequently Asked Questions</a>
+                                        <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Frequently Asked Questions</a>
                                     </li>
                                     <li>
-                                        <a className="text-white font-normal text-sm pb-2 inline-flex">Contact Us</a>
+                                        <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Contact Us</a>
                                     </li>
                                 </nav>
                             )}
@@ -283,13 +283,13 @@ function Header2() {
                                             <li className="border border-gray-3 lg:w-1/4 w-7"></li>
                                         </div>
                                         <li>
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Early Childhood Development</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Early Childhood Development</a>
                                         </li>
                                         <li>
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Education</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Education</a>
                                         </li>
                                         <li>
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Health</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Health</a>
                                         </li>
                                         <nav className="lg:pt-16 pt-2">
                                             <li className="pb-3">
@@ -299,16 +299,16 @@ function Header2() {
                                                 <li className="border border-gray-3 lg:w-1/4 w-7"></li>
                                             </div>
                                             <li>
-                                                <a className="text-white font-normal text-sm pb-2 inline-flex">Addressing Climate Change</a>
+                                                <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Addressing Climate Change</a>
                                             </li>
                                             <li>
-                                                <a className="text-white font-normal text-sm pb-2 inline-flex">Agriculture & Food Security</a>
+                                                <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Agriculture & Food Security</a>
                                             </li>
                                             <li>
-                                                <a className="text-white font-normal text-sm pb-2 inline-flex">Civil Society</a>
+                                                <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Civil Society</a>
                                             </li>
                                             <li>
-                                                <a className="text-white font-normal text-sm pb-2 inline-flex">Disaster Preparedness & Response</a>
+                                                <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Disaster Preparedness & Response</a>
                                             </li>
                                         </nav>
                                     </nav>
@@ -320,22 +320,22 @@ function Header2() {
                                             <li className="border border-gray-3 lg:w-1/4 w-7"></li>
                                         </div>
                                         <li>
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Enterprise Development</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Enterprise Development</a>
                                         </li>
                                         <li>
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Financial Inclusion</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Financial Inclusion</a>
                                         </li>
                                         <li>
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Industrial Development</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Industrial Development</a>
                                         </li>
                                         <li>
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Infrastructure Development</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Infrastructure Development</a>
                                         </li>
                                         <li>
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Media</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Media</a>
                                         </li>
                                         <li>
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Tourism Promotion</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Tourism Promotion</a>
                                         </li>
                                         <nav className="lg:pt-16 pt-2">
                                             <li className="pb-3">
@@ -345,16 +345,16 @@ function Header2() {
                                                 <li className="border border-gray-3 lg:w-1/4 w-7"></li>
                                             </div>
                                             <li>
-                                                <a className="text-white font-normal text-sm pb-2 inline-flex">Architecture & Planning</a>
+                                                <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Architecture & Planning</a>
                                             </li>
                                             <li>
-                                                <a className="text-white font-normal text-sm pb-2 inline-flex">Culture</a>
+                                                <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Culture</a>
                                             </li>
                                             <li>
-                                                <a className="text-white font-normal text-sm pb-2 inline-flex">Historic Cities</a>
+                                                <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Historic Cities</a>
                                             </li>
                                             <li>
-                                                <a className="text-white font-normal text-sm pb-2 inline-flex">Music</a>
+                                                <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Music</a>
                                             </li>
                                         </nav>
                                     </nav>
@@ -382,22 +382,22 @@ function Header2() {
                                             <li className="border border-gray-3 lg:w-7/12 w-7"></li>
                                         </div>
                                         <li>
-                                            <a className="text-white font-normal text-sm pb-2 ">Kenya</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 ">Kenya</a>
                                         </li>
                                         <li>
-                                            <a className="text-white font-normal text-sm pb-2">Madagascar</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2">Madagascar</a>
                                         </li>
                                         <li>
-                                            <a className="text-white font-normal text-sm pb-2">Mozambique</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2">Mozambique</a>
                                         </li>
                                         <li>
-                                            <a className="text-white font-normal text-sm pb-2">Rwanda</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2">Rwanda</a>
                                         </li>
                                         <li>
-                                            <a className="text-white font-normal text-sm pb-2">Tanzania</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2">Tanzania</a>
                                         </li>
                                         <li>
-                                            <a className="text-white font-normal text-sm pb-2">Uganda</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2">Uganda</a>
                                         </li>
                                         <nav className="lg:pt-16 pt-2">
                                             <li className="pb-3">
@@ -407,16 +407,16 @@ function Header2() {
                                                 <li className="border border-gray-3 lg:w-7/12 w-7"></li>
                                             </div>
                                             <li>
-                                                <a className="text-white font-normal text-sm pb-2 ">Burkina Faso</a>
+                                                <a href="#" className="text-white font-normal text-sm pb-2 ">Burkina Faso</a>
                                             </li>
                                             <li>
-                                                <a className="text-white font-normal text-sm pb-2">Côte d'Ivoire</a>
+                                                <a href="#" className="text-white font-normal text-sm pb-2">Côte d'Ivoire</a>
                                             </li>
                                             <li>
-                                                <a className="text-white font-normal text-sm pb-2">Mali</a>
+                                                <a href="#" className="text-white font-normal text-sm pb-2">Mali</a>
                                             </li>
                                             <li>
-                                                <a className="text-white font-normal text-sm pb-2">Senegal</a>
+                                                <a href="#" className="text-white font-normal text-sm pb-2">Senegal</a>
                                             </li>
                                         </nav>
                                     </nav>
@@ -428,13 +428,13 @@ function Header2() {
                                             <li className="border border-gray-3 lg:w-7/12 w-7"></li>
                                         </div>
                                         <li>
-                                            <a className="text-white font-normal text-sm pb-2 cursor-pointer">Egypt</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Egypt</a>
                                         </li>
                                         <li>
-                                            <a className="text-white font-normal text-sm pb-2 cursor-pointer">Syria</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Syria</a>
                                         </li>
                                         <li>
-                                            <a className="text-white font-normal text-sm pb-2 cursor-pointer">United Arab Emirates</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">United Arab Emirates</a>
                                         </li>
                                         <nav className="lg:pt-16 pt-2">
                                             <li className="pb-3">
@@ -444,16 +444,16 @@ function Header2() {
                                                 <li className="border border-gray-3 lg:w-7/12 w-7"></li>
                                             </div>
                                             <li>
-                                                <a className="text-white font-normal text-sm pb-2 ">Afghanistan</a>
+                                                <a href="#" className="text-white font-normal text-sm pb-2 ">Afghanistan</a>
                                             </li>
                                             <li>
-                                                <a className="text-white font-normal text-sm pb-2">Kazakhstan</a>
+                                                <a href="#" className="text-white font-normal text-sm pb-2">Kazakhstan</a>
                                             </li>
                                             <li>
-                                                <a className="text-white font-normal text-sm pb-2">Kyrgyz Republic</a>
+                                                <a href="#" className="text-white font-normal text-sm pb-2">Kyrgyz Republic</a>
                                             </li>
                                             <li>
-                                                <a className="text-white font-normal text-sm pb-2">Tajikistan</a>
+                                                <a href="#" className="text-white font-normal text-sm pb-2">Tajikistan</a>
                                             </li>
                                         </nav>
                                     </nav>
@@ -466,13 +466,13 @@ function Header2() {
                                             <li className="border border-gray-3 lg:w-7/12 w-7"></li>
                                         </div>
                                         <li>
-                                            <a className="text-white font-normal text-sm pb-2 cursor-pointer">Bangladesh</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Bangladesh</a>
                                         </li>
                                         <li>
-                                            <a className="text-white font-normal text-sm pb-2 cursor-pointer">India</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">India</a>
                                         </li>
                                         <li>
-                                            <a className="text-white font-normal text-sm pb-2 cursor-pointer">Pakistan</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Pakistan</a>
                                         </li>
                                         <nav className="lg:pt-16 pt-2">
                                             <li className="pb-3">
@@ -482,10 +482,10 @@ function Header2() {
                                                 <li className="border border-gray-3 lg:w-7/12 w-7"></li>
                                             </div>
                                             <li>
-                                                <a className="text-white font-normal text-sm pb-2 cursor-pointer">Malaysia</a>
+                                                <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Malaysia</a>
                                             </li>
                                             <li>
-                                                <a className="text-white font-normal text-sm pb-2 cursor-pointer">Singapore</a>
+                                                <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Singapore</a>
                                             </li>
                                         </nav>
                                     </nav>
@@ -510,22 +510,22 @@ function Header2() {
                                                 <li className="border border-gray-3 lg:w-2/5 w-7"></li>
                                             </div>
                                             <li>
-                                                <a className="text-white font-normal text-sm pb-2 ">France</a>
+                                                <a href="#" className="text-white font-normal text-sm pb-2 ">France</a>
                                             </li>
                                             <li>
-                                                <a className="text-white font-normal text-sm pb-2">Germany</a>
+                                                <a href="#" className="text-white font-normal text-sm pb-2">Germany</a>
                                             </li>
                                             <li>
-                                                <a className="text-white font-normal text-sm pb-2">Norway</a>
+                                                <a href="#" className="text-white font-normal text-sm pb-2">Norway</a>
                                             </li>
                                             <li>
-                                                <a className="text-white font-normal text-sm pb-2">Portugal</a>
+                                                <a href="#" className="text-white font-normal text-sm pb-2">Portugal</a>
                                             </li>
                                             <li>
-                                                <a className="text-white font-normal text-sm pb-2">Switzerland</a>
+                                                <a href="#" className="text-white font-normal text-sm pb-2">Switzerland</a>
                                             </li>
                                             <li>
-                                                <a className="text-white font-normal text-sm pb-2">United Kingdom</a>
+                                                <a href="#" className="text-white font-normal text-sm pb-2">United Kingdom</a>
                                             </li>
                                         </nav>
                                     </nav>
@@ -553,34 +553,34 @@ function Header2() {
                                             <li className="border border-gray-3 lg:w-1/5 w-7"></li>
                                         </div>
                                         <li>
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Aga Khan Academies</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Aga Khan Academies</a>
                                         </li>
                                         <li>
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Aga Khan Agency for Habitat</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Aga Khan Agency for Habitat</a>
                                         </li>
                                         <li>
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Aga Khan Agency for Microfinance</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Aga Khan Agency for Microfinance</a>
                                         </li>
                                         <li>
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Aga Khan Education Services</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Aga Khan Education Services</a>
                                         </li>
                                         <li>
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Aga Khan Foundation</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Aga Khan Foundation</a>
                                         </li>
                                         <li>
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Aga Khan Fund for Economic Development</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Aga Khan Fund for Economic Development</a>
                                         </li>
                                         <li>
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Aga Khan Health Services</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Aga Khan Health Services</a>
                                         </li>
                                         <li>
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Aga Khan Trust for Culture</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Aga Khan Trust for Culture</a>
                                         </li>
                                         <li>
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Aga Khan University</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Aga Khan University</a>
                                         </li>
                                         <li>
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">University of Central Asia</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">University of Central Asia</a>
                                         </li>
                                     </nav>
                                     <nav className="list-none lg:pt-0 pt-2 lg:px-8">
@@ -591,10 +591,10 @@ function Header2() {
                                             <li className="border border-gray-3 lg:w-1/3 w-7"></li>
                                         </div>
                                         <li>
-                                            <a className="text-white font-normal text-sm pb-2 cursor-pointer">Our Approach to Development</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Our Approach to Development</a>
                                         </li>
                                         <li>
-                                            <a className="text-white font-normal text-sm pb-2 cursor-pointer">Frequently Asked Questions</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 cursor-pointer">Frequently Asked Questions</a>
                                         </li>
                                     </nav>
                                 </nav>
@@ -621,22 +621,22 @@ function Header2() {
                                             <li className="border border-gray-3 lg:w-1/2 w-7"></li>
                                         </div>
                                         <li>
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Our Stories</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Our Stories</a>
                                         </li>
                                         <li>
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Project Spotlights</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Project Spotlights</a>
                                         </li>
                                         <li>
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Press Releases</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Press Releases</a>
                                         </li>
                                         <li>
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Event Summaries</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Event Summaries</a>
                                         </li>
                                         <li>
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">AKDN in the Media</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">AKDN in the Media</a>
                                         </li>
                                         <li>
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">COVID-19 Responses</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">COVID-19 Responses</a>
                                         </li>
                                     </nav>
                                     <nav className="lg:pt-0 pt-2 lg:px-8">
@@ -647,10 +647,10 @@ function Header2() {
                                             <li className="border border-gray-3 lg:w-7/12 w-7"></li>
                                         </div>
                                         <li>
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Photographs</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Photographs</a>
                                         </li>
                                         <li>
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Videos</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Videos</a>
                                         </li>
                                     </nav>
                                     <nav className="lg:px-8 lg:pt-0 pt-2">
@@ -661,22 +661,22 @@ function Header2() {
                                             <li className="border border-gray-3 lg:w-7/12 w-7"></li>
                                         </div>
                                         <li>
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Fact Sheet</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Fact Sheet</a>
                                         </li>
                                         <li>
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Annual Reports</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Annual Reports</a>
                                         </li>
                                         <li>
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Briefs</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Briefs</a>
                                         </li>
                                         <li>
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Speeches</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Speeches</a>
                                         </li>
                                         <li>
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Research</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Research</a>
                                         </li>
                                         <li>
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Publications</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Publications</a>
                                         </li>
                                     </nav>
                                 </nav>
@@ -696,19 +696,19 @@ function Header2() {
                             {(toggleAbout5) && (
                                 <nav className="list-none absolute list6 bg-gray-4 lg:p-5 lg:w-auto flex w-full flex-col">
                                     <li>
-                                        <a className="text-white font-normal text-sm pb-2 inline-flex">Careers</a>
+                                        <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Careers</a>
                                     </li>
                                     <li>
-                                        <a className="text-white font-normal text-sm pb-2 inline-flex">Donate</a>
+                                        <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Donate</a>
                                     </li>
                                     <li>
-                                        <a className="text-white font-normal text-sm pb-2 inline-flex">Events</a>
+                                        <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Events</a>
                                     </li>
                                     <li>
-                                        <a className="text-white font-normal text-sm pb-2 inline-flex">Partner with Us</a>
+                                        <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Partner with Us</a>
                                     </li>
                                     <li>
-                                        <a className="text-white font-normal text-sm pb-2 inline-flex">Contact Us</a>
+                                        <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Contact Us</a>
                                     </li>
                                 </nav>
                             )}
@@ -740,19 +740,19 @@ function Header2() {
                                 {(toggleLanguage) && (
                                     <nav className="list-none absolute list6 p-5 lg:w-auto text-start flex w-full flex-col bg-gray-4">
                                         <li>
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Arabic</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Arabic</a>
                                         </li>
                                         <li>
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">English</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">English</a>
                                         </li>
                                         <li>
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Français</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Français</a>
                                         </li>
                                         <li>
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Português</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Português</a>
                                         </li>
                                         <li>
-                                            <a className="text-white font-normal text-sm pb-2 inline-flex">Pyccкий</a>
+                                            <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Pyccкий</a>
                                         </li>
                                     </nav>
                                 )}
@@ -795,42 +795,23 @@ function Header2() {
                         {(toggleLanguage) && (
                             <nav className="list-none absolute list6 p-5 text-start lg:w-auto w-full flex flex-col bg-gray-4">
                                 <li>
-                                    <a className="text-white font-normal text-sm pb-2 inline-flex">Arabic</a>
+                                    <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Arabic</a>
                                 </li>
                                 <li>
-                                    <a className="text-white font-normal text-sm pb-2 inline-flex">English</a>
+                                    <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">English</a>
                                 </li>
                                 <li>
-                                    <a className="text-white font-normal text-sm pb-2 inline-flex">Français</a>
+                                    <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Français</a>
                                 </li>
                                 <li>
-                                    <a className="text-white font-normal text-sm pb-2 inline-flex">Português</a>
+                                    <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Português</a>
                                 </li>
                                 <li>
-                                    <a className="text-white font-normal text-sm pb-2 inline-flex">Pyccкий</a>
+                                    <a href="#" className="text-white font-normal text-sm pb-2 inline-flex">Pyccкий</a>
                                 </li>
                             </nav>
                         )}
                     </li>
-                    {/* {(togglelanguage) && (
-                        <nav className="lg:list-none list6 p-5 lg:flex flex-col bg-gray-5 hidden">
-                            <li className="pb-4">
-                                <a className="text-white font-normal text-sm pb-2 inline-flex">Arabic</a>
-                            </li>
-                            <li className="pb-4">
-                                <a className="text-white font-normal text-sm pb-2 inline-flex">English</a>
-                            </li>
-                            <li className="pb-4">
-                                <a className="text-white font-normal text-sm pb-2 inline-flex">Français</a>
-                            </li>
-                            <li className="pb-4">
-                                <a className="text-white font-normal text-sm pb-2 inline-flex">Português</a>
-                            </li>
-                            <li className="pb-4">
-                                <a className="text-white font-normal text-sm pb-2 inline-flex">Pyccкий</a>
-                            </li>
-                        </nav>
-                    )} */}
                 </div>
             </div >
         </header >
