@@ -62,8 +62,8 @@ function Featured(props) {
                                 <div class="flex flex-wrap md:-m-4 -mx-4 -mb-10 md:space-y-0 space-y-6">
                                     <div class="p-4 xl:w-full flex flex-col text-center items-center">
                                         {/* <img src={require('./assets/Rectangle 1450.png')}></img> */}
-                                        <video className="rounded-t-2xl max-h-full aspect-h-10 w-full" controls poster={require('./assets/Rectangle 1450.png')}>
-                                            <source  src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4" type="video/mp4" />
+                                        <video className="rounded-t-2xl h-full w-full" controls poster={require('./assets/Rectangle 1450.png')}>
+                                            <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4" type="video/mp4" />
                                         </video>
                                         <div class="flex-grow mt-7">
                                             <h2 class="text-center font-bold text-3xl text-black mb-3">Warm Invitation</h2>
