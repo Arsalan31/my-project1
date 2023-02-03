@@ -46,7 +46,7 @@ function Partners2(props) {
         // }, [isReadMore])
 
         return (
-            <p className="text">
+            <div className="text">
                 {isReadMore ? text.slice(0, 125) : text}
                 <div className="flex md:mt-8 mt-5 justify-center">
                     <button className="flex justify-center focus:outline-none" onClick={toggleReadMore}>
@@ -55,9 +55,9 @@ function Partners2(props) {
                         </svg>
                     </button>
                 </div>
-            </p>
-        );
-    };
+            </div>
+        )
+    }
     // const feature = [
     //     {
     //         id: 1,
