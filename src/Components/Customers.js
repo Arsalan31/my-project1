@@ -45,23 +45,23 @@ function Customers(props) {
                                     spaceBetween: 20,
                                 },
                                 320: {
-                                    slidesPerView: 4,
-                                    spaceBetween: 100,
+                                    slidesPerView: 3,
+                                    spaceBetween: 30,
                                 },
                                 420: {
-                                    slidesPerView: 4,
-                                    spaceBetween: 50,
+                                    slidesPerView: 4.5,
+                                    spaceBetween: 30,
                                 },
                                 540: {
-                                    slidesPerView: 4,
-                                    // spaceBetween: -40,
+                                    slidesPerView: 5.5,
+                                    spaceBetween:20,
                                 },
                                 640: {
-                                    slidesPerView: 4,
+                                    slidesPerView: 4.5,
                                     spaceBetween: 50,
                                 },
                                 768: {
-                                    slidesPerView: 4,
+                                    slidesPerView: 4.5,
                                     spaceBetween: 20,
                                 },
                                 1024: {
