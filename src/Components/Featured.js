@@ -47,7 +47,6 @@ function Featured(props) {
                                 type: 'bullets'
                             }}
                             ref={swiperRef}
-                            // loop={true}
                             navigation={{
                                 nextEl: ".swiper-button-next",
                                 prevEl: ".swiper-button-prev"
@@ -55,7 +54,7 @@ function Featured(props) {
                             modules={[Pagination, Navigation]}
                             className="mySwiper"
                             onSlideChange={(swiper) => {
-                                if (swiper.activeIndex !== isPlaying,
+                                if (swiper.index=1 !== isPlaying,
                                     toggleaudio == true) {
                                     setIsPlaying(false)
                                 }
@@ -77,7 +76,7 @@ function Featured(props) {
                                 <div class="flex flex-wrap md:-m-4 -mx-4 -mb-10 md:space-y-0 space-y-6">
                                     <div class="p-4 xl:w-full flex flex-col text-center items-center">
                                         {/* <img src={require('./assets/Rectangle 1450.png')}></img> */}
-                                        <video className="rounded-t-2xl md:h-76 h-full bg-black w-full" controls poster={require('./assets/Rectangle 1450.png')}>
+                                        <video className="rounded-t-2xl lg:h-76 h-99 bg-black w-full" controls poster={require('./assets/Rectangle 1450.png')}>
                                             <source onClick={togglevideo} src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4" type="video/mp4" />
                                         </video>
                                         <div class="flex-grow mt-7">
@@ -121,7 +120,7 @@ function Featured(props) {
                                 <div class="flex flex-wrap md:-m-4 -mx-4 -mb-10 md:space-y-0 space-y-6">
                                     <div class="p-4 xl:w-full flex flex-col text-center items-center">
                                         {/* <img src={require('./assets/Rectangle 1450.png')}></img> */}
-                                        <video className="rounded-t-2xl h-76 bg-black w-full" controls poster={require('./assets/Rectangle 1450.png')}>
+                                        <video className="rounded-t-2xl lg:h-76 h-96 bg-black w-full" controls poster={require('./assets/Rectangle 1450.png')}>
                                             <source onClick={togglevideo} src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4" type="video/mp4" />
                                         </video>
                                         <div class="flex-grow mt-7">
@@ -153,7 +152,7 @@ function Featured(props) {
                                 <div class="flex flex-wrap md:-m-4 -mx-4 -mb-10 md:space-y-0 space-y-6">
                                     <div class="p-4 xl:w-full flex flex-col text-center items-center">
                                         {/* <img src={require('./assets/Rectangle 1450.png')}></img> */}
-                                        <video className="rounded-t-2xl h-76 bg-black w-full" controls poster={require('./assets/Rectangle 1450.png')}>
+                                        <video className="rounded-t-2xl lg:h-76 h-96 bg-black w-full" controls poster={require('./assets/Rectangle 1450.png')}>
                                             <source onClick={togglevideo} src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4" type="video/mp4" />
                                         </video>
                                         <div class="flex-grow mt-7">
