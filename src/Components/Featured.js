@@ -17,7 +17,14 @@ function Featured(props) {
         swiperRef.current.swiper.slideToLoop(0)
     }, [props.isRtl])
 
-    const [isPlaying, setIsPlaying] = useState(false)
+    const [isPlaying, setIsPlaying] = useState(true)
+    const togglevideo = () => {
+        setIsPlaying(!isPlaying)
+    }
+    const [isaudioPlaying, setIsAudioPlaying] = useState(true)
+    const toggleaudio = () => {
+        setIsAudioPlaying(!isaudioPlaying)
+    }
     
     return (
         <section className="sm:mt-10 lg:mt-0 flex flex-col items-start w-full h-full">
@@ -27,7 +34,7 @@ function Featured(props) {
                     <>
                         <Swiper
                             breakpoints={{
-                                0: {
+                                0: {    
                                     slidesPerView: 1,
                                 },
                                 1024: {
@@ -40,7 +47,7 @@ function Featured(props) {
                                 type: 'bullets'
                             }}
                             ref={swiperRef}
-                            loop={true}
+                            // loop={true}
                             navigation={{
                                 nextEl: ".swiper-button-next",
                                 prevEl: ".swiper-button-prev"
@@ -48,7 +55,8 @@ function Featured(props) {
                             modules={[Pagination, Navigation]}
                             className="mySwiper"
                             onSlideChange={(swiper) => {
-                                if (swiper.activeIndex !== 'video') {
+                                if (swiper.activeIndex !== isPlaying,
+                                    toggleaudio == true) {
                                     setIsPlaying(false)
                                 }
                             }}
@@ -69,8 +77,8 @@ function Featured(props) {
                                 <div class="flex flex-wrap md:-m-4 -mx-4 -mb-10 md:space-y-0 space-y-6">
                                     <div class="p-4 xl:w-full flex flex-col text-center items-center">
                                         {/* <img src={require('./assets/Rectangle 1450.png')}></img> */}
-                                        <video video className="rounded-t-2xl h-76 bg-black w-full" controls poster={require('./assets/Rectangle 1450.png')}>
-                                            <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4" type="video/mp4" />
+                                        <video className="rounded-t-2xl md:h-76 h-full bg-black w-full" controls poster={require('./assets/Rectangle 1450.png')}>
+                                            <source onClick={togglevideo} src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4" type="video/mp4" />
                                         </video>
                                         <div class="flex-grow mt-7">
                                             <h2 class="text-center font-bold text-3xl text-black mb-3">Warm Invitation</h2>
@@ -84,7 +92,7 @@ function Featured(props) {
                                 <div class="flex flex-wrap md:-m-4 -mx-4 -mb-10 md:space-y-0 space-y-6">
                                     <div class="p-4 w-full flex flex-col text-center items-center">
                                         <img className="w-full" src={require('./assets/Rectangle 1450.png')}></img>
-                                        <audio className="absolute xl:top-64 lg:top-48 xl:h-15 lg:h-14 w-full" controls="transparent">
+                                        <audio onClick={toggleaudio} className="absolute xl:top-64 lg:top-48 xl:h-15 lg:h-14 w-full" controls="transparent">
                                             <source className="rounded-none" src={require('./assets/Free_Test_Data_500KB_MP3.mp3')} type="audio/mpeg" />
                                             Your browser does not support the audio element.
                                         </audio>
@@ -113,8 +121,8 @@ function Featured(props) {
                                 <div class="flex flex-wrap md:-m-4 -mx-4 -mb-10 md:space-y-0 space-y-6">
                                     <div class="p-4 xl:w-full flex flex-col text-center items-center">
                                         {/* <img src={require('./assets/Rectangle 1450.png')}></img> */}
-                                        <video video className="rounded-t-2xl h-76 bg-black w-full" controls poster={require('./assets/Rectangle 1450.png')}>
-                                            <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4" type="video/mp4" />
+                                        <video className="rounded-t-2xl h-76 bg-black w-full" controls poster={require('./assets/Rectangle 1450.png')}>
+                                            <source onClick={togglevideo} src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4" type="video/mp4" />
                                         </video>
                                         <div class="flex-grow mt-7">
                                             <h2 class="text-center font-bold text-3xl text-black mb-3">Warm Invitation</h2>
@@ -145,8 +153,8 @@ function Featured(props) {
                                 <div class="flex flex-wrap md:-m-4 -mx-4 -mb-10 md:space-y-0 space-y-6">
                                     <div class="p-4 xl:w-full flex flex-col text-center items-center">
                                         {/* <img src={require('./assets/Rectangle 1450.png')}></img> */}
-                                        <video video className="rounded-t-2xl h-76 bg-black w-full" controls poster={require('./assets/Rectangle 1450.png')}>
-                                            <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4" type="video/mp4" />
+                                        <video className="rounded-t-2xl h-76 bg-black w-full" controls poster={require('./assets/Rectangle 1450.png')}>
+                                            <source onClick={togglevideo} src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4" type="video/mp4" />
                                         </video>
                                         <div class="flex-grow mt-7">
                                             <h2 class="text-center font-bold text-3xl text-black mb-3">Warm Invitation</h2>
