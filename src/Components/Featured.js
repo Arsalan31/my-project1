@@ -54,7 +54,7 @@ function Featured(props) {
                             modules={[Pagination, Navigation]}
                             className="mySwiper"
                             onSlideChange={(swiper) => {
-                                if (swiper.index=1 !== isPlaying,
+                                if (swiper.index !== 2,
                                     toggleaudio == true) {
                                     setIsPlaying(false)
                                 }
