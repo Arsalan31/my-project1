@@ -58,33 +58,12 @@ function Partners2(props) {
             </div>
         )
     }
-    // const feature = [
-    //     {
-    //         id: 1,
-    //         "title": "The Tanzania Cancer Care Project (TCCP)",
-    //         "para": "The Tanzania Comprehensive Cancer Care Project (TCCP) is a €13.3 million private-public four-year evidence-based project funded by Agence Française de Développement (AFD) and Aga Khan Foundation (AKF). It aims to strengthen and expand the quality, access, and capacity of cancer care services across the cancer continuum in Dar es Salaam and Mwanza regions of Tanzania."
-    //     },
-    //     {
-    //         id: 2,
-    //         "title1": "The Tanzania Cancer Care Project (TCCP)",
-    //         "para": "The Tanzania Comprehensive Cancer Care Project (TCCP) is a €13.3 million private-public four-year evidence-based project funded by Agence Française de Développement (AFD) and Aga Khan Foundation (AKF). It aims to strengthen and expand the quality, access, and capacity of cancer care services across the cancer continuum in Dar es Salaam and Mwanza regions of Tanzania."
-    //     },
-    //     {
-    //         id: 3,
-    //         "title2": "The Tanzania Cancer Care Project (TCCP)",
-    //         "para": "The Tanzania Comprehensive Cancer Care Project (TCCP) is a €13.3 million private-public four-year evidence-based project funded by Agence Française de Développement (AFD) and Aga Khan Foundation (AKF). It aims to strengthen and expand the quality, access, and capacity of cancer care services across the cancer continuum in Dar es Salaam and Mwanza regions of Tanzania."
-    //     }
-    // ]
 
-    // {
-    //     feature.map((feature, key) => (
-    //         <div
-    //             key={feature.key}
-    //             title={feature.title}
-    //         />
-    //     ))
-    // }
-    return (
+    const [isReadMore, setIsReadMore] = useState(true)
+    const toggleReadMore = () => {
+        setIsReadMore(!isReadMore)
+    }
+        return (
         <section className="flex flex-col items-start w-full h-full bg-transparent">
             <div className="container mt-8 sm:px-16 px-8 pb-6 mx-auto">
                 <h4 className="text-red-500 text-3xl font-bold text-center">Our Partnership Projects</h4>
@@ -103,8 +82,10 @@ function Partners2(props) {
                                 prevEl: ".swiper-button-prev"
                             }}
                             modules={[Pagination, Navigation]}
-                            onSlideChange={() => {
-                                
+                            onSlideChange={(swiper) => {
+                                if (swiper.activeIndex !== isReadMore) {
+                                    toggleReadMore(false)
+                                }
                             }}
                         >
                             <SwiperSlide>
