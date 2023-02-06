@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper";
 import "swiper/css";
@@ -17,6 +17,8 @@ function Featured(props) {
         swiperRef.current.swiper.slideToLoop(0)
     }, [props.isRtl])
 
+    const [isPlaying, setIsPlaying] = useState(false)
+    
     return (
         <section className="sm:mt-10 lg:mt-0 flex flex-col items-start w-full h-full">
             <div className="container mt-8 mx-auto">
@@ -32,7 +34,7 @@ function Featured(props) {
                                     slidesPerView: 3,
                                     spaceBetween: 20
                                 },
-                            }}
+                            }}  
                             pagination={{
                                 el: '.swiper-pagination4',
                                 type: 'bullets'
@@ -45,8 +47,10 @@ function Featured(props) {
                             }}
                             modules={[Pagination, Navigation]}
                             className="mySwiper"
-                            onSlideChange={() => {
-                                
+                            onSlideChange={(swiper) => {
+                                if (swiper.activeIndex !== 'video') {
+                                    setIsPlaying(false)
+                                }
                             }}
                         >
                             <SwiperSlide>
@@ -65,7 +69,7 @@ function Featured(props) {
                                 <div class="flex flex-wrap md:-m-4 -mx-4 -mb-10 md:space-y-0 space-y-6">
                                     <div class="p-4 xl:w-full flex flex-col text-center items-center">
                                         {/* <img src={require('./assets/Rectangle 1450.png')}></img> */}
-                                        <video className="rounded-t-2xl h-76 bg-black w-full" controls poster={require('./assets/Rectangle 1450.png')}>
+                                        <video video className="rounded-t-2xl h-76 bg-black w-full" controls poster={require('./assets/Rectangle 1450.png')}>
                                             <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4" type="video/mp4" />
                                         </video>
                                         <div class="flex-grow mt-7">
@@ -109,8 +113,8 @@ function Featured(props) {
                                 <div class="flex flex-wrap md:-m-4 -mx-4 -mb-10 md:space-y-0 space-y-6">
                                     <div class="p-4 xl:w-full flex flex-col text-center items-center">
                                         {/* <img src={require('./assets/Rectangle 1450.png')}></img> */}
-                                        <video className="rounded-t-2xl h-76 bg-black w-full" controls poster={require('./assets/Rectangle 1450.png')}>
-                                            <source  src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4" type="video/mp4" />
+                                        <video video className="rounded-t-2xl h-76 bg-black w-full" controls poster={require('./assets/Rectangle 1450.png')}>
+                                            <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4" type="video/mp4" />
                                         </video>
                                         <div class="flex-grow mt-7">
                                             <h2 class="text-center font-bold text-3xl text-black mb-3">Warm Invitation</h2>
@@ -141,7 +145,7 @@ function Featured(props) {
                                 <div class="flex flex-wrap md:-m-4 -mx-4 -mb-10 md:space-y-0 space-y-6">
                                     <div class="p-4 xl:w-full flex flex-col text-center items-center">
                                         {/* <img src={require('./assets/Rectangle 1450.png')}></img> */}
-                                        <video className="rounded-t-2xl h-76 bg-black w-full" controls poster={require('./assets/Rectangle 1450.png')}>
+                                        <video video className="rounded-t-2xl h-76 bg-black w-full" controls poster={require('./assets/Rectangle 1450.png')}>
                                             <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4" type="video/mp4" />
                                         </video>
                                         <div class="flex-grow mt-7">
