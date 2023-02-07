@@ -25,8 +25,7 @@ function HeroSlider(props) {
                     <>
                         <Swiper
                             pagination={{
-                                el: '.swiper-pagination5',
-                                bulletClass:'.swiper-pagination-bullets1',
+                                el: '.swiper-pagination5-bullets1',
                                 type: 'bullets',
                             }
                             }
@@ -67,7 +66,7 @@ function HeroSlider(props) {
                                     </button>
                                 </div>
                                 <div className="flex lg:bottom-0 bottom-14 relative justify-center">
-                                    <div class="flex justify-center gap-2 swiper-pagination5">
+                                    <div class="flex justify-center gap-2 swiper-pagination-bullets1 swiper-pagination5">
                                     </div>
                                 </div>
                                 <div className="lg:flex hidden justify-end">
