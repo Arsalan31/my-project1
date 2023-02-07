@@ -39,7 +39,14 @@ function HeroSlider(props) {
                             className="mySwiper w-full lg:h-3/4 lg:w-11/12"
                         >
                             <SwiperSlide>
-                                <img className="w-full" src={require('./assets/Rectangle 275.png')} />
+                                <img src={require('./assets/Rectangle 275.png')} />
+                                <h3 className="relative px-3 text-white bottom-32 font-medium text-4xl">AWARDING SUSTAINABLE ARCHITECTURE</h3>
+                                <p className="bottom-28 w-2/3 px-3 text-white text-sm font-normal relative">"Sustainable architecture" is now well known, especially as a reaction to the risks inherent in climate change, but the Aga Khan Award for Architecture has been giving out its prize to projects that are good for people and the planet for at least 40 years.</p>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <video className="rounded-t-2xl h-full bg-black w-full" controls poster={require('./assets/Rectangle 275.png')}>
+                                    <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4" type="video/mp4" />
+                                </video>
                                 <h3 className="relative px-3 text-white bottom-32 font-medium text-4xl">AWARDING SUSTAINABLE ARCHITECTURE</h3>
                                 <p className="bottom-28 w-2/3 px-3 text-white text-sm font-normal relative">"Sustainable architecture" is now well known, especially as a reaction to the risks inherent in climate change, but the Aga Khan Award for Architecture has been giving out its prize to projects that are good for people and the planet for at least 40 years.</p>
                             </SwiperSlide>
@@ -48,26 +55,22 @@ function HeroSlider(props) {
                                 <h3 className="relative px-3 text-white bottom-32 font-medium text-4xl">AWARDING SUSTAINABLE ARCHITECTURE</h3>
                                 <p className="bottom-28 w-2/3 px-3 text-white text-sm font-normal relative">"Sustainable architecture" is now well known, especially as a reaction to the risks inherent in climate change, but the Aga Khan Award for Architecture has been giving out its prize to projects that are good for people and the planet for at least 40 years.</p>
                             </SwiperSlide>
-                            <SwiperSlide>
-                                <img src={require('./assets/Rectangle 275.png')} />
-                                <h3 className="relative px-3 text-white bottom-32 font-medium text-4xl">AWARDING SUSTAINABLE ARCHITECTURE</h3>
-                                <p className="bottom-28 w-2/3 px-3 text-white text-sm font-normal relative">"Sustainable architecture" is now well known, especially as a reaction to the risks inherent in climate change, but the Aga Khan Award for Architecture has been giving out its prize to projects that are good for people and the planet for at least 40 years.</p>
-                            </SwiperSlide>
-                            <div className="w-full flex justify-center">
+                            <div className="w-full relative z-50 bottom-28 flex justify-end">
                                 <div className="flex justify-start">
-                                    <button className="swiper-button-prev text-gray-400 focus:outline-none sm:px-2">
-                                        <svg xmlns="http://www.w3.org/2000/svg" className="me-3" width="57" height="40" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
-                                            <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+                                    <button className="swiper-button-prev flex justify-center text-gray-400 transform rotate-180 focus:outline-none sm:px-2">
+                                        <svg className="seemore" width="7.41" height="15.19" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1 13L7 7L1 1" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                                         </svg>
                                     </button>
                                 </div>
                                 <div className="flex justify-center">
-                                    <div class="flex justify-center sm:gap-5 gap-2 mt-3 swiper-pagination5"></div>
+                                    <div class="flex justify-center gap-2 swiper-pagination-bullet1">
+                                    </div>
                                 </div>
                                 <div className="flex justify-end">
                                     <button className="swiper-button-next text-gray-400 focus:outline-none sm:px-2">
-                                        <svg xmlns="http://www.w3.org/2000/svg" className="ms-3" width="57" height="40" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                        <svg className="seemore" width="7.41" height="15.19" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1 13L7 7L1 1" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                                         </svg>
                                     </button>
                                 </div>
