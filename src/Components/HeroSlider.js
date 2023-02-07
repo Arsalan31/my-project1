@@ -64,7 +64,7 @@ function HeroSlider(props) {
                                     </button>
                                 </div>
                                 <div className="flex justify-center">
-                                    <div class="flex justify-center gap-2 swiper-pagination-bullet1">
+                                    <div class="flex justify-center gap-2 swiper-pagination5">
                                     </div>
                                 </div>
                                 <div className="flex justify-end">
