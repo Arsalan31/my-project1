@@ -76,7 +76,7 @@ function Featured(props) {
                                 <div class="flex flex-wrap md:-m-4 -mx-4 -mb-10 md:space-y-0 space-y-6">
                                     <div class="p-4 xl:w-full flex flex-col text-center items-center">
                                         {/* <img src={require('./assets/Rectangle 1450.png')}></img> */}
-                                        <video className="rounded-t-2xl lg:h-76 h-99 bg-black w-full" controls poster={require('./assets/Rectangle 1450.png')}>
+                                        <video className="rounded-t-2xl xl:h-76 lg:h-62 h-99.5 bg-black w-full" controls poster={require('./assets/Rectangle 1450.png')}>
                                             <source onClick={togglevideo} src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4" type="video/mp4" />
                                         </video>
                                         <div class="flex-grow mt-7">
@@ -91,7 +91,7 @@ function Featured(props) {
                                 <div class="flex flex-wrap md:-m-4 -mx-4 -mb-10 md:space-y-0 space-y-6">
                                     <div class="p-4 w-full flex flex-col text-center items-center">
                                         <img className="w-full" src={require('./assets/Rectangle 1450.png')}></img>
-                                        <audio onClick={toggleaudio} className="absolute xl:top-64 lg:top-48 xl:h-15 lg:h-14 w-full" controls="transparent">
+                                        <audio onClick={toggleaudio} className="absolute xl:top-64 lg:top-48 bottom-40 xl:h-15 lg:h-14 w-full" controls="transparent">
                                             <source className="rounded-none" src={require('./assets/Free_Test_Data_500KB_MP3.mp3')} type="audio/mpeg" />
                                             Your browser does not support the audio element.
                                         </audio>
@@ -120,7 +120,7 @@ function Featured(props) {
                                 <div class="flex flex-wrap md:-m-4 -mx-4 -mb-10 md:space-y-0 space-y-6">
                                     <div class="p-4 xl:w-full flex flex-col text-center items-center">
                                         {/* <img src={require('./assets/Rectangle 1450.png')}></img> */}
-                                        <video className="rounded-t-2xl lg:h-76 h-96 bg-black w-full" controls poster={require('./assets/Rectangle 1450.png')}>
+                                        <video className="rounded-t-2xl xl:h-76 lg:h-62 h-99.5 bg-black w-full" controls poster={require('./assets/Rectangle 1450.png')}>
                                             <source onClick={togglevideo} src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4" type="video/mp4" />
                                         </video>
                                         <div class="flex-grow mt-7">
@@ -135,7 +135,7 @@ function Featured(props) {
                                 <div class="flex flex-wrap md:-m-4 -mx-4 -mb-10 md:space-y-0 space-y-6">
                                     <div class="p-4 w-full flex flex-col text-center items-center">
                                         <img className="w-full" src={require('./assets/Rectangle 1450.png')}></img>
-                                        <audio className="absolute xl:top-64 lg:top-48 xl:h-15 lg:h-14 w-full" controls>
+                                        <audio className="absolute xl:top-64 lg:top-48 bottom-40 xl:h-15 lg:h-14 w-full" controls>
                                             <source src={require('./assets/Free_Test_Data_500KB_MP3.mp3')} type="audio/mpeg" />
                                             Your browser does not support the audio element.
                                         </audio>
@@ -152,7 +152,7 @@ function Featured(props) {
                                 <div class="flex flex-wrap md:-m-4 -mx-4 -mb-10 md:space-y-0 space-y-6">
                                     <div class="p-4 xl:w-full flex flex-col text-center items-center">
                                         {/* <img src={require('./assets/Rectangle 1450.png')}></img> */}
-                                        <video className="rounded-t-2xl lg:h-76 h-96 bg-black w-full" controls poster={require('./assets/Rectangle 1450.png')}>
+                                        <video className="rounded-t-2xl xl:h-76 lg:h-62 h-99.5 bg-black w-full" controls poster={require('./assets/Rectangle 1450.png')}>
                                             <source onClick={togglevideo} src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4" type="video/mp4" />
                                         </video>
                                         <div class="flex-grow mt-7">
