@@ -407,12 +407,13 @@
     background: black !important;
   }
 
-  .swiper-pagination-bullet{
+  .swiper-pagination-bullet {
     width: 14px !important;
     height: 14px !important;
   }
 
-  .swiper-pagination-bullet1{
+  .swiper-pagination-bullets1 {
+    background:black;
     width: 46px !important;
     height: 0px !important;
   }

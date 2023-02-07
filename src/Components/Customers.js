@@ -24,9 +24,12 @@ function Customers(props) {
         <section className="w-full h-full md:bg-transparent">
             <div className="container xl:px-28 lg:px-16 md:px-32 sm:px-20 px-3 pb-6 mx-auto">
                 <h1 className="w-full font-bold text-black pt-8 text-center sm:text-4xl text-2.5xl leading-9 mb-2">Working with a diverse global customer base</h1>
-                <div className="flex justify-center items-center text-center mt-10 mb-10">
+                <div className="flex justify-center items-center text-center op mt-10 mb-10">
                     <>
                         <Swiper
+                            style={{
+                                "--swiper-slide-opacity": "0.05",
+                            }}
                             ref={swiperRef}
                             loop={true}
                             pagination={{
@@ -37,7 +40,7 @@ function Customers(props) {
                                 nextEl: ".swiper-button-next1",
                                 prevEl: ".swiper-button-prev1"
                             }}
-                            
+
                             // loopPreventsSlide='true'
                             breakpoints={{
                                 0: {
@@ -54,7 +57,7 @@ function Customers(props) {
                                 },
                                 540: {
                                     slidesPerView: 5.5,
-                                    spaceBetween:20,
+                                    spaceBetween: 20,
                                 },
                                 640: {
                                     slidesPerView: 4.5,
