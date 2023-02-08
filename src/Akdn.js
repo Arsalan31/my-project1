@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Agency from "./Components/Agency";
+import AkhssHeader from "./Components/AkkssHeader";
 import Featured from "./Components/Featured";
 import Footer from "./Components/Footer2";
 import Header2 from "./Components/Header2";
@@ -17,6 +18,7 @@ function Akdn() {
     return (
         <React.Fragment>
             <div dir={isRtl ? "rtl" : "ltr"}>
+                <AkhssHeader/>
                 <Header2 />
                 <Hero2 />
                 <HeroSlider isRtl={isRtl}/>
