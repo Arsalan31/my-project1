@@ -170,14 +170,14 @@ function Footer() {
                     <div className="flex justify-center md:mt-0 mt-5">
                         <p className="text-white text-md tracking-wider">Subscribe to our newsletter</p>
                     </div>
-                    <div className="flex items-center flex-col mt-3 md:items-center md:me-16 md:px-12 sm:px-36 px-20">
-                        <button className="text-white xl:w-1/2 md:w-1/2 sm:w-1/2 w-36 text-sm py-3 xl:px-2 sm:px-2 px-4 font-bold inline-flex text-start border-gray-400 border">
+                    <div className="flex items-center flex-col mt-3 md:items-center md:me-16">
+                        <button className="text-white xl:w-1/3 md:w-2/3 sm:w-1/5 w-36 text-sm py-3 xl:px-2 sm:px-2 px-4 font-bold inline-flex text-start border-gray-400 border">
                             <p className="w-9/12">Sign Up</p>
                             <svg className="w-1/5 seemore mt-1 flex justify-end" width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1 13L7 7L1 1" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                             </svg>
                         </button>
-                        <button className="text-white xl:w-1/2 md:w-1/2 sm:w-1/2 w-36 text-sm py-3 xl:px-2 sm:px-2 px-4 font-bold inline-flex  text-start border-gray-400 border mt-5">
+                        <button className="text-white xl:w-1/3 md:w-2/3 sm:w-1/5 w-36 text-sm py-3 xl:px-2 sm:px-2 px-4 font-bold inline-flex  text-start border-gray-400 border mt-5">
                             <p className="w-9/12">Contact Us</p>
                             <svg className="w-1/5 flex justify-end seemore mt-1" width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1 13L7 7L1 1" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
