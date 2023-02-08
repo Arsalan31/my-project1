@@ -26,7 +26,7 @@ function Subscribe() {
                     </div>
                 </div>
                 <div className="sm:flex hidden justify-end absolute lg:end-24 sm:end-20">
-                    <img src={require('./assets/Group 5.png')} className="sm:flex hidden justify-end relative bottom-24 sm:-end-20"></img>
+                    <img src={require('./assets/Group 5.png')} className=" sm:flex hidden justify-end relative bottom-24 sm:-end-20"></img>
                 </div>
             </div>
         </section>

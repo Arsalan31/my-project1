@@ -71,8 +71,8 @@ function Maininfo() {
                 <div className="p-7 flex md:justify-center justify-start bg-blue-30">
                     <div className="flex items-center md:text-center">
                         <p className="text-lg font-normal text-blue-70">Overview Document: AKDN Afghanistan</p>
-                        <button className="ms-8 mt-1 flex self-center">
-                            <svg className="seemore" xmlns="http://www.w3.org/2000/svg" width="18.67" height="18.67" fill="#084C61" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <button className="seemore ms-8 mt-1 flex self-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18.67" height="18.67" fill="#084C61" class="bi bi-arrow-right" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
                             </svg>
                         </button>
