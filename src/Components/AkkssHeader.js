@@ -3,8 +3,8 @@ import React from "react";
 
 function AkhssHeader(){
     return(
-        <section>
-            <div>
+        <section className="w-full z-50 fixed">
+            <div className="h-50 bg-white shadow">
                 
             </div>
         </section>
