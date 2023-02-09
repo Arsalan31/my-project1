@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 
 
 function AkhssHeader() {
@@ -24,13 +24,147 @@ function AkhssHeader() {
 
     }, [])
 
+    const ref = useRef()
+
+    const [toggleCenters, setTogglecenters] = useState(false)
+
+    const toggleCenter = () => {
+        setTogglecenters(!toggleCenters)
+
+    }
+
+    useEffect(() => {
+        const checkIfClickedOutside = e => {
+            // If the menu is open and the clicked target is not within the menu,
+            // then close the menu
+            if (toggleCenters && ref.current && !ref.current.contains(e.target)) {
+                setTogglecenters(false)
+            }
+        }
+
+        document.addEventListener("mouseout", checkIfClickedOutside)
+
+        return () => {
+            // Cleanup the event listener
+            document.removeEventListener("mouseout", checkIfClickedOutside)
+        }
+    }, [toggleCenters])
+
+
+    const ref1 = useRef()
+
+    const [toggleCountries, setTogglecountries] = useState(false)
+
+    const toggleCountry = () => {
+        setTogglecountries(!toggleCountries)
+
+    }
+
+    useEffect(() => {
+        const checkIfClickedOutside = e => {
+            // If the menu is open and the clicked target is not within the menu,
+            // then close the menu
+            if (toggleCountries && ref.current && !ref.current.contains(e.target)) {
+                setTogglecountries(false)
+            }
+        }
+
+        document.addEventListener("mouseout", checkIfClickedOutside)
+
+        return () => {
+            // Cleanup the event listener
+            document.removeEventListener("mouseout", checkIfClickedOutside)
+        }
+    }, [toggleCountries])
     return (
         <section className="w-full z-50 absolute">
-            <div className="h-auto">
-                <img src={require('./assets/Rectangle 80.png')}></img>
-                <div className="inline-flex justify-center absolute bottom-10 px-10">
-                    <img src={require('./assets/AKH_Logo_Small 1.png')}></img>
-                    <p className="font-extrabold self-center text-3xl">Aga Khan Health Services</p>
+            <div className="flex">
+                <div>
+                    <img src={require('./assets/Rectangle 80.png')}></img>
+                    <div className="inline-flex justify-center absolute bottom-10">
+                        <img src={require('./assets/AKH_Logo_Small 1.png')}></img>
+                        <p className="font-extrabold self-center text-3xl">Aga Khan Health Services</p>
+                    </div>
+                </div>
+                <div className="w-2/3">
+                    <div className="bg-gray-100 w-full h-auto">
+                        <nav className="list-none gap-3 flex p-4">
+                            <li>
+                                <a className="font-semibold text-sm text-black">Programs</a>
+                            </li>
+                            <li>
+                                <a className="border-s border-black"></a>
+                            </li>
+                            <li>
+                                <a className="font-semibold text-sm text-black">Education</a>
+                            </li>
+                            <li>
+                                <a className="border-s border-black"></a>
+                            </li>
+                            <li>
+                                <a className="font-semibold text-sm text-black">Research</a>
+                            </li>
+                            <li className="w-2/3 flex justify-end">
+                                <input className="w-2/4" type="text" src={require('./assets/Vector.png')} />
+                            </li>
+                        </nav>
+                    </div>
+                    <nav className="list-none gap-4 flex">
+                        <li>
+                            <a href="#" className="font-semibold text-sm text-red-600">Home</a>
+                        </li>
+                        <li>
+                            <a href="#" className="font-semibold text-sm text-black">About Us </a>
+                        </li>
+                        <li>
+                            <a href="#" className="font-semibold text-sm text-black">Hospitals & Medical Centers</a>
+                        </li>
+                        <li ref={ref}>
+                            <a href="#" onMouseEnter={toggleCenter} className="font-semibold text-sm text-black">Regional Outreach Centers</a>
+                            {(toggleCenters) && (
+                                <nav className="list-none lg:absolute w-full lg:border-red-700 lg:border lg:w-1/6 bg-white list6 lg:flex flex-col hidden">
+                                    <li className="hover:bg-red-300">
+                                        <a href="#" className="text-black font-medium text-xs pb-2 hover:text-red-700 p-3 inline-flex">Pakistan</a>
+                                    </li>
+                                    <li ref={ref1} className="hover:bg-red-300">
+                                        <a href="#" onMouseEnter={toggleCountry} className="text-black font-medium hover:text-red-700 p-3 text-xs pb-2 inline-flex">Tanzania</a>
+                                        <nav className="list-none lg:absolute w-full lg:border-red-700 lg:border lg:w-full bg-white list6 lg:flex flex-col hidden">
+                                            <li>
+                                                <a href="#" className="text-black font-normal text-sm pb-2 p-3 inline-flex">Tanzania</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" className="text-black font-normal text-sm pb-2 p-3 inline-flex">Tanzania</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" className="text-black font-normal text-sm pb-2 p-3 inline-flex">Tanzania</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" className="text-black font-normal text-sm pb-2 p-3 inline-flex">Tanzania</a>
+                                            </li>
+                                        </nav>
+                                    </li>
+                                    <li className="hover:bg-red-300">
+                                        <a href="#" className="text-black font-medium hover:text-red-700 p-3 text-xs pb-2 inline-flex">India</a>
+                                    </li>
+                                    <li className="hover:bg-red-300">
+                                        <a href="#" className="text-black font-medium hover:text-red-700 p-3 text-xs pb-2 inline-flex">Tajkistan</a>
+                                    </li>
+                                    <li className="hover:bg-red-300">
+                                        <a href="#" className="text-black font-medium hover:text-red-700 p-3 text-xs pb-2 inline-flex">Syria</a>
+                                    </li>
+                                    <li className="hover:bg-red-300">
+                                        <a href="#" className="text-black font-medium hover:text-red-700 p-3 text-xs pb-2 inline-flex">Kenya</a>
+                                    </li>
+                                </nav>
+                            )}
+                        </li>
+                        <li>
+                            <a href="#" className="font-semibold text-sm text-black">Media Resources</a>
+                        </li>
+                        <li>
+                            <a href="#" className="font-semibold text-sm text-black">Join Us!</a>
+                        </li>
+                    </nav>
                 </div>
             </div>
             {/* <div className="flex w-full flex-wrap justify-between content-center items-center absolute bg-white">
