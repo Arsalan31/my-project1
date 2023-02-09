@@ -25,12 +25,12 @@ function AkhssHeader() {
     }, [])
 
     return (
-        <section className="w-full z-50 fixed">
-            <div>
+        <section className="w-full z-50 absolute">
+            <div className="h-auto">
                 <img src={require('./assets/Rectangle 80.png')}></img>
                 <div className="inline-flex justify-center absolute bottom-10 px-10">
                     <img src={require('./assets/AKH_Logo_Small 1.png')}></img>
-                    <p className="font-extrabold text-3xl">Aga Khan Health Services</p>
+                    <p className="font-extrabold self-center text-3xl">Aga Khan Health Services</p>
                 </div>
             </div>
             {/* <div className="flex w-full flex-wrap justify-between content-center items-center absolute bg-white">
