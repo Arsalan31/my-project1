@@ -384,14 +384,14 @@
   .swiper-pagination2 {
     width: 40px !important;
   }
-
+      
   .swiper-pagination-bullet-active {
     background: black !important;
   }
 
   .swiper-pagination-bullet {
-    width: 46px !important;
-    height: 1px !important;
+    width: 14px !important;
+    height: 14px !important;
   }
 
   .text1 {
