@@ -86,8 +86,13 @@ function AkhssHeader() {
                         <p className="xl:font-extrabold font-bold self-center xl:text-3xl text-xl">Aga Khan Health Services</p>
                     </div>
                 </div>
+                <button onClick={toggleNav} className="flex justify-end items-center p-2 ms-3 text-sm  lg:hidden">
+                    <svg width="28" height="16" viewBox="0 0 28 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.667969 0H27.3346V2.66667H0.667969V0ZM7.33463 6.66667H27.3346V9.33333H7.33463V6.66667ZM15.668 13.3333H27.3346V16H15.668V13.3333Z" fill="red" />
+                    </svg>
+                </button>
                 {(toggleMenu || screenWidth > 1024) && (
-                    <div className="lg:w-3/4 lg:block hidden">
+                    <div className="list7 lg:w-3/4 lg:block hidden">
                         <div className="bg-gray-100 w-full h-auto">
                             <nav className="list-none relative start-24 gap-3 flex p-4">
                                 <li>
@@ -173,11 +178,6 @@ function AkhssHeader() {
                         </nav>
                     </div>
                 )}
-                <button onClick={toggleNav} className="flex justify-end items-center p-2 ms-3 text-sm  md:hidden">
-                    <svg width="28" height="16" viewBox="0 0 28 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M0.667969 0H27.3346V2.66667H0.667969V0ZM7.33463 6.66667H27.3346V9.33333H7.33463V6.66667ZM15.668 13.3333H27.3346V16H15.668V13.3333Z" fill="red" />
-                    </svg>
-                </button>
             </div>
             {/* <div className="flex w-full flex-wrap justify-between content-center items-center absolute bg-white">
                 <img src={require('./assets/Rectangle 80.png')}></img>
