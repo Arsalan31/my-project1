@@ -422,3 +422,9 @@
   .text2 {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   }
+
+  .txt{
+    background-image: url(assets/Vector.png);
+    background-repeat: no-repeat;
+    background-position: right;
+  }

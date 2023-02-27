@@ -79,14 +79,14 @@ function AkhssHeader() {
     return (
         <section className="w-full z-50 absolute">
             <div className="flex">
-                <div>
-                    <img src={require('./assets/Rectangle 80.png')}></img>
-                    <div className="inline-flex justify-center absolute bottom-10">
+                <div className="xl:w-auto lg:w-1/3">
+                    <img className="xl:flex hidden" src={require('./assets/Rectangle 80.png')}></img>
+                    <div className="inline-flex p-3 justify-center xl:absolute xl:bottom-10">
                         <img src={require('./assets/AKH_Logo_Small 1.png')}></img>
-                        <p className="font-extrabold self-center text-3xl">Aga Khan Health Services</p>
+                        <p className="xl:font-extrabold font-bold self-center xl:text-3xl text-xl">Aga Khan Health Services</p>
                     </div>
                 </div>
-                <div className="w-2/3">
+                <div className="lg:w-2/3 lg:block hidden">
                     <div className="bg-gray-100 w-full h-auto">
                         <nav className="list-none gap-3 flex p-4">
                             <li>
@@ -105,7 +105,7 @@ function AkhssHeader() {
                                 <a className="font-semibold text-sm text-black">Research</a>
                             </li>
                             <li className="w-2/3 flex justify-end">
-                                <input className="w-2/4" type="text" src={require('./assets/Vector.png')} />
+                                <input className="txt w-2/4" type="text"/>
                             </li>
                         </nav>
                     </div>
