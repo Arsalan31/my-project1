@@ -18,8 +18,8 @@ function Akdn() {
     return (
         <React.Fragment>
             <div dir={isRtl ? "rtl" : "ltr"}>
-                <AkhssHeader/>
-                {/* <Header2 /> */}
+                {/* <AkhssHeader/> */}
+                <Header2 />
                 <Hero2 />
                 <HeroSlider isRtl={isRtl}/>
                 <Impact isRtl={isRtl} setIsRtl={setIsRtl} />
