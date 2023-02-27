@@ -77,11 +77,11 @@ function AkhssHeader() {
         }
     }, [toggleCountries])
     return (
-        <section className="w-full z-50 absolute">
+        <section className="w-full z-50">
             <div className="flex">
                 <div className="xl:w-auto lg:w-1/3">
                     <img className="xl:flex hidden" src={require('./assets/Rectangle 80.png')}></img>
-                    <div className="inline-flex p-3 justify-center xl:absolute xl:bottom-10">
+                    <div className="inline-flex p-3 justify-center xl:absolute xl:top-5">
                         <img src={require('./assets/AKH_Logo_Small 1.png')}></img>
                         <p className="xl:font-extrabold font-bold self-center xl:text-3xl text-xl">Aga Khan Health Services</p>
                     </div>

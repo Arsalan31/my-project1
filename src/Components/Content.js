@@ -46,7 +46,7 @@ function Content(props) {
                                 >
                                     <SwiperSlide>
                                         <div class="p-4 lg:px-22 w-full order-0 lg:order-1 flex flex-col text-center">
-                                            <div className="image lg:self-end self-center lg:mt-24"></div>
+                                            <img src={require('./assets/udix.png')} className="lg:self-end self-center lg:mt-24"/>
                                             <h1 className="w-full font-bold text-black mt-8 lg:text-end text-center md:text-4xl text-2xl md:leading-10 lg:px-0 px-4">is a leading provider of digital marketing services</h1>
                                             <p className="w-full mt-10 font-normal md:text-base text-sm lg:text-end text-center text-hex lg:px-0 px-4">Using proprietary tools and we run thousands of simultaneous self-funded
                                                 campaigns across different platforms such as paid search, social advertising,
@@ -56,7 +56,7 @@ function Content(props) {
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <div class="p-4 lg:px-22 w-full order-0 lg:order-1 flex flex-col text-center">
-                                            <div className="image lg:self-end self-center lg:mt-24"></div>
+                                            <img src={require('./assets/udix.png')} className="lg:self-end self-center lg:mt-24"/>
                                             <h1 className="w-full font-bold text-black mt-8 lg:text-end text-center md:text-4xl text-2xl md:leading-10 lg:px-0 px-4">is a leading provider of digital marketing services</h1>
                                             <p className="w-full mt-10 font-normal md:text-base text-sm lg:text-end text-center text-hex lg:px-0 px-4">Using proprietary tools and we run thousands of simultaneous self-funded
                                                 campaigns across different platforms such as paid search, social advertising,
@@ -66,7 +66,7 @@ function Content(props) {
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <div class="p-4 lg:px-22 w-full order-0 lg:order-1 flex flex-col text-center">
-                                            <div className="image lg:self-end self-center lg:mt-24"></div>
+                                            <img src={require('./assets/udix.png')} className="lg:self-end self-center lg:mt-24"/>
                                             <h1 className="w-full font-bold text-black mt-8 lg:text-end text-center md:text-4xl text-2xl md:leading-10 lg:px-0 px-4">is a leading provider of digital marketing services</h1>
                                             <p className="w-full mt-10 font-normal md:text-base text-sm lg:text-end text-center text-hex lg:px-0 px-4">Using proprietary tools and we run thousands of simultaneous self-funded
                                                 campaigns across different platforms such as paid search, social advertising,
