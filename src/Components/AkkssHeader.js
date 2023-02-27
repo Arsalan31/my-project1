@@ -79,7 +79,7 @@ function AkhssHeader() {
     return (
         <section className="w-full z-50">
             <div className="flex">
-                <div className="xl:w-1/2 lg:w-1/3 w-11/12">
+                <div className="xl:w-5/12 lg:w-1/3 w-11/12">
                     <img className="xl:flex absolute hidden" src={require('./assets/Rectangle 80.png')}></img>
                     <div className="inline-flex p-3 justify-center xl:absolute xl:top-5">
                         <img src={require('./assets/AKH_Logo_Small 1.png')}></img>
@@ -87,9 +87,9 @@ function AkhssHeader() {
                     </div>
                 </div>
                 {(toggleMenu || screenWidth > 1024) && (
-                    <div className="lg:w-2/3 lg:block hidden">
+                    <div className="lg:w-3/4 lg:block hidden">
                         <div className="bg-gray-100 w-full h-auto">
-                            <nav className="list-none gap-3 flex p-4">
+                            <nav className="list-none relative start-24 gap-3 flex p-4">
                                 <li>
                                     <a className="font-semibold text-sm text-black">Programs</a>
                                 </li>
@@ -105,12 +105,12 @@ function AkhssHeader() {
                                 <li>
                                     <a className="font-semibold text-sm text-black">Research</a>
                                 </li>
-                                <li className="w-2/3 flex justify-end">
-                                    <input className="txt w-2/4" type="text" />
+                                <li className="w-2/4 flex justify-end">
+                                    <input className="txt px-2 w-3/4" type="text" />
                                 </li>
                             </nav>
                         </div>
-                        <nav className="list-none gap-4 flex">
+                        <nav className="relative start-24 list-none gap-4 flex">
                             <li>
                                 <a href="#" className="font-semibold text-sm text-red-600">Home</a>
                             </li>
