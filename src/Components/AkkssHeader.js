@@ -117,7 +117,7 @@ function AkhssHeader() {
                         </div>
                         <nav className="relative start-24 list-none gap-4 flex">
                             <li>
-                                <a href="Akdn1" className="font-semibold text-sm text-red-600">Home</a>
+                                <a href="#" className="font-semibold text-sm text-red-600">Home</a>
                             </li>
                             <li>
                                 <a href="#" className="font-semibold text-sm text-black">About Us </a>
