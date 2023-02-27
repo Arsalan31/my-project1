@@ -125,36 +125,41 @@ function AkhssHeader() {
                                 {(toggleCenters) && (
                                     <nav className="list-none lg:absolute w-full lg:border-red-700 lg:border lg:w-1/6 bg-white list6 lg:flex flex-col hidden">
                                         <li className="hover:bg-red-300">
-                                            <a href="#" className="text-black font-medium text-xs pb-2 hover:text-red-700 p-3 inline-flex">Pakistan</a>
+                                            <a href="#" className="text-black font-medium text-xs pb-3 hover:text-red-700 p-3 inline-flex">Pakistan</a>
                                         </li>
-                                        <li ref={ref1} className="hover:bg-red-300">
-                                            <a href="#" onMouseEnter={toggleCountry} className="text-black font-medium hover:text-red-700 p-3 text-xs pb-2 inline-flex">Tanzania</a>
-                                            <nav className="list-none lg:absolute w-full lg:border-red-700 lg:border lg:w-full bg-white list6 lg:flex flex-col hidden">
-                                                <li>
-                                                    <a href="#" className="text-black font-normal text-sm pb-2 p-3 inline-flex">Tanzania</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#" className="text-black font-normal text-sm pb-2 p-3 inline-flex">Tanzania</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#" className="text-black font-normal text-sm pb-2 p-3 inline-flex">Tanzania</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#" className="text-black font-normal text-sm pb-2 p-3 inline-flex">Tanzania</a>
-                                                </li>
-                                            </nav>
-                                        </li>
-                                        <li className="hover:bg-red-300">
-                                            <a href="#" className="text-black font-medium hover:text-red-700 p-3 text-xs pb-2 inline-flex">India</a>
-                                        </li>
-                                        <li className="hover:bg-red-300">
-                                            <a href="#" className="text-black font-medium hover:text-red-700 p-3 text-xs pb-2 inline-flex">Tajkistan</a>
-                                        </li>
-                                        <li className="hover:bg-red-300">
-                                            <a href="#" className="text-black font-medium hover:text-red-700 p-3 text-xs pb-2 inline-flex">Syria</a>
+                                        <li onMouseEnter={toggleCountry} ref={ref1} className="hover:bg-red-300">
+                                            <a href="#" className="text-black font-medium hover:text-red-700 p-3 text-xs pb-2 inline-flex">Tanzania</a>
+                                            {(toggleCountries) && (
+                                                <nav className="list-none lg:absolute lg:top-9 lg:left-full w-full lg:border-red-700 lg:border lg:w-full bg-white list6 lg:flex flex-col hidden">
+                                                    <li>
+                                                        <a href="#" className="text-black font-normal text-sm pb-2 p-3 inline-flex">Tanzania</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" className="text-black font-normal text-sm pb-2 p-3 inline-flex">Tanzania</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" className="text-black font-normal text-sm pb-2 p-3 inline-flex">Tanzania</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" className="text-black font-normal text-sm pb-2 p-3 inline-flex">Tanzania</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" className="text-black font-normal text-sm pb-2 p-3 inline-flex">Tanzania</a>
+                                                    </li>
+                                                </nav>
+                                            )}
                                         </li>
                                         <li className="hover:bg-red-300">
-                                            <a href="#" className="text-black font-medium hover:text-red-700 p-3 text-xs pb-2 inline-flex">Kenya</a>
+                                            <a href="#" className="text-black font-medium hover:text-red-700 p-3 text-xs pb-3 inline-flex">India</a>
+                                        </li>
+                                        <li className="hover:bg-red-300">
+                                            <a href="#" className="text-black font-medium hover:text-red-700 p-3 text-xs pb-3 inline-flex">Tajkistan</a>
+                                        </li>
+                                        <li className="hover:bg-red-300">
+                                            <a href="#" className="text-black font-medium hover:text-red-700 p-3 text-xs pb-3 inline-flex">Syria</a>
+                                        </li>
+                                        <li className="hover:bg-red-300">
+                                            <a href="#" className="text-black font-medium hover:text-red-700 p-3 text-xs pb-3 inline-flex">Kenya</a>
                                         </li>
                                     </nav>
                                 )}
