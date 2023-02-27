@@ -79,93 +79,100 @@ function AkhssHeader() {
     return (
         <section className="w-full z-50">
             <div className="flex">
-                <div className="xl:w-auto lg:w-1/3">
+                <div className="xl:w-auto lg:w-1/3 w-11/12">
                     <img className="xl:flex hidden" src={require('./assets/Rectangle 80.png')}></img>
                     <div className="inline-flex p-3 justify-center xl:absolute xl:top-5">
                         <img src={require('./assets/AKH_Logo_Small 1.png')}></img>
                         <p className="xl:font-extrabold font-bold self-center xl:text-3xl text-xl">Aga Khan Health Services</p>
                     </div>
                 </div>
-                <div className="lg:w-2/3 lg:block hidden">
-                    <div className="bg-gray-100 w-full h-auto">
-                        <nav className="list-none gap-3 flex p-4">
+                {(toggleMenu || screenWidth > 1024) && (
+                    <div className="lg:w-2/3 lg:block hidden">
+                        <div className="bg-gray-100 w-full h-auto">
+                            <nav className="list-none gap-3 flex p-4">
+                                <li>
+                                    <a className="font-semibold text-sm text-black">Programs</a>
+                                </li>
+                                <li>
+                                    <a className="border-s border-black"></a>
+                                </li>
+                                <li>
+                                    <a className="font-semibold text-sm text-black">Education</a>
+                                </li>
+                                <li>
+                                    <a className="border-s border-black"></a>
+                                </li>
+                                <li>
+                                    <a className="font-semibold text-sm text-black">Research</a>
+                                </li>
+                                <li className="w-2/3 flex justify-end">
+                                    <input className="txt w-2/4" type="text" />
+                                </li>
+                            </nav>
+                        </div>
+                        <nav className="list-none gap-4 flex">
                             <li>
-                                <a className="font-semibold text-sm text-black">Programs</a>
+                                <a href="#" className="font-semibold text-sm text-red-600">Home</a>
                             </li>
                             <li>
-                                <a className="border-s border-black"></a>
+                                <a href="#" className="font-semibold text-sm text-black">About Us </a>
                             </li>
                             <li>
-                                <a className="font-semibold text-sm text-black">Education</a>
+                                <a href="#" className="font-semibold text-sm text-black">Hospitals & Medical Centers</a>
+                            </li>
+                            <li ref={ref}>
+                                <a href="#" onMouseEnter={toggleCenter} className="font-semibold text-sm text-black">Regional Outreach Centers</a>
+                                {(toggleCenters) && (
+                                    <nav className="list-none lg:absolute w-full lg:border-red-700 lg:border lg:w-1/6 bg-white list6 lg:flex flex-col hidden">
+                                        <li className="hover:bg-red-300">
+                                            <a href="#" className="text-black font-medium text-xs pb-2 hover:text-red-700 p-3 inline-flex">Pakistan</a>
+                                        </li>
+                                        <li ref={ref1} className="hover:bg-red-300">
+                                            <a href="#" onMouseEnter={toggleCountry} className="text-black font-medium hover:text-red-700 p-3 text-xs pb-2 inline-flex">Tanzania</a>
+                                            <nav className="list-none lg:absolute w-full lg:border-red-700 lg:border lg:w-full bg-white list6 lg:flex flex-col hidden">
+                                                <li>
+                                                    <a href="#" className="text-black font-normal text-sm pb-2 p-3 inline-flex">Tanzania</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" className="text-black font-normal text-sm pb-2 p-3 inline-flex">Tanzania</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" className="text-black font-normal text-sm pb-2 p-3 inline-flex">Tanzania</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" className="text-black font-normal text-sm pb-2 p-3 inline-flex">Tanzania</a>
+                                                </li>
+                                            </nav>
+                                        </li>
+                                        <li className="hover:bg-red-300">
+                                            <a href="#" className="text-black font-medium hover:text-red-700 p-3 text-xs pb-2 inline-flex">India</a>
+                                        </li>
+                                        <li className="hover:bg-red-300">
+                                            <a href="#" className="text-black font-medium hover:text-red-700 p-3 text-xs pb-2 inline-flex">Tajkistan</a>
+                                        </li>
+                                        <li className="hover:bg-red-300">
+                                            <a href="#" className="text-black font-medium hover:text-red-700 p-3 text-xs pb-2 inline-flex">Syria</a>
+                                        </li>
+                                        <li className="hover:bg-red-300">
+                                            <a href="#" className="text-black font-medium hover:text-red-700 p-3 text-xs pb-2 inline-flex">Kenya</a>
+                                        </li>
+                                    </nav>
+                                )}
                             </li>
                             <li>
-                                <a className="border-s border-black"></a>
+                                <a href="#" className="font-semibold text-sm text-black">Media Resources</a>
                             </li>
                             <li>
-                                <a className="font-semibold text-sm text-black">Research</a>
-                            </li>
-                            <li className="w-2/3 flex justify-end">
-                                <input className="txt w-2/4" type="text"/>
+                                <a href="#" className="font-semibold text-sm text-black">Join Us!</a>
                             </li>
                         </nav>
                     </div>
-                    <nav className="list-none gap-4 flex">
-                        <li>
-                            <a href="#" className="font-semibold text-sm text-red-600">Home</a>
-                        </li>
-                        <li>
-                            <a href="#" className="font-semibold text-sm text-black">About Us </a>
-                        </li>
-                        <li>
-                            <a href="#" className="font-semibold text-sm text-black">Hospitals & Medical Centers</a>
-                        </li>
-                        <li ref={ref}>
-                            <a href="#" onMouseEnter={toggleCenter} className="font-semibold text-sm text-black">Regional Outreach Centers</a>
-                            {(toggleCenters) && (
-                                <nav className="list-none lg:absolute w-full lg:border-red-700 lg:border lg:w-1/6 bg-white list6 lg:flex flex-col hidden">
-                                    <li className="hover:bg-red-300">
-                                        <a href="#" className="text-black font-medium text-xs pb-2 hover:text-red-700 p-3 inline-flex">Pakistan</a>
-                                    </li>
-                                    <li ref={ref1} className="hover:bg-red-300">
-                                        <a href="#" onMouseEnter={toggleCountry} className="text-black font-medium hover:text-red-700 p-3 text-xs pb-2 inline-flex">Tanzania</a>
-                                        <nav className="list-none lg:absolute w-full lg:border-red-700 lg:border lg:w-full bg-white list6 lg:flex flex-col hidden">
-                                            <li>
-                                                <a href="#" className="text-black font-normal text-sm pb-2 p-3 inline-flex">Tanzania</a>
-                                            </li>
-                                            <li>
-                                                <a href="#" className="text-black font-normal text-sm pb-2 p-3 inline-flex">Tanzania</a>
-                                            </li>
-                                            <li>
-                                                <a href="#" className="text-black font-normal text-sm pb-2 p-3 inline-flex">Tanzania</a>
-                                            </li>
-                                            <li>
-                                                <a href="#" className="text-black font-normal text-sm pb-2 p-3 inline-flex">Tanzania</a>
-                                            </li>
-                                        </nav>
-                                    </li>
-                                    <li className="hover:bg-red-300">
-                                        <a href="#" className="text-black font-medium hover:text-red-700 p-3 text-xs pb-2 inline-flex">India</a>
-                                    </li>
-                                    <li className="hover:bg-red-300">
-                                        <a href="#" className="text-black font-medium hover:text-red-700 p-3 text-xs pb-2 inline-flex">Tajkistan</a>
-                                    </li>
-                                    <li className="hover:bg-red-300">
-                                        <a href="#" className="text-black font-medium hover:text-red-700 p-3 text-xs pb-2 inline-flex">Syria</a>
-                                    </li>
-                                    <li className="hover:bg-red-300">
-                                        <a href="#" className="text-black font-medium hover:text-red-700 p-3 text-xs pb-2 inline-flex">Kenya</a>
-                                    </li>
-                                </nav>
-                            )}
-                        </li>
-                        <li>
-                            <a href="#" className="font-semibold text-sm text-black">Media Resources</a>
-                        </li>
-                        <li>
-                            <a href="#" className="font-semibold text-sm text-black">Join Us!</a>
-                        </li>
-                    </nav>
-                </div>
+                )}
+                <button onClick={toggleNav} className="flex justify-end items-center p-2 ms-3 text-sm  md:hidden">
+                    <svg width="28" height="16" viewBox="0 0 28 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.667969 0H27.3346V2.66667H0.667969V0ZM7.33463 6.66667H27.3346V9.33333H7.33463V6.66667ZM15.668 13.3333H27.3346V16H15.668V13.3333Z" fill="red" />
+                    </svg>
+                </button>
             </div>
             {/* <div className="flex w-full flex-wrap justify-between content-center items-center absolute bg-white">
                 <img src={require('./assets/Rectangle 80.png')}></img>
