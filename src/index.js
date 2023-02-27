@@ -15,7 +15,7 @@ root.render(
       <Route path='/' element={<App />}/>
       <Route path='/Udix' element={<Udix />} />
       <Route path='/Akdn' element={<Akdn/>} />
-      <Route path='/Akdn' element={<Akdn1/>} />
+      <Route path='/Akdn1' element={<Akdn1/>} />
     </Routes>
   </BrowserRouter>
 );
