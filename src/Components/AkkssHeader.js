@@ -92,9 +92,9 @@ function AkhssHeader() {
                     </svg>
                 </button>
                 {(toggleMenu || screenWidth > 1024) && (
-                    <div className="list7 lg:w-3/4 lg:block hidden">
-                        <div className="bg-gray-100 w-full h-auto">
-                            <nav className="list-none relative start-24 gap-3 flex p-4">
+                    <div className="list7 lg:w-2/3 lg:block hidden">
+                        <div className="bg-gray-100 border-gray-200 border xl:ps-10 w-full h-auto">
+                            <nav className="list-none gap-3 flex p-4">
                                 <li>
                                     <a className="font-semibold text-sm text-black">Programs</a>
                                 </li>
@@ -110,12 +110,12 @@ function AkhssHeader() {
                                 <li>
                                     <a className="font-semibold text-sm text-black">Research</a>
                                 </li>
-                                <li className="w-2/4 flex justify-end">
+                                <li className="w-2/3 flex justify-end">
                                     <input className="txt px-2 w-3/4" type="text" />
                                 </li>
                             </nav>
                         </div>
-                        <nav className="relative start-24 list-none gap-4 flex">
+                        <nav className="list-none xl:ps-12 xl:h-16 xl:py-4 gap-4 flex">
                             <li>
                                 <a href="#" className="font-semibold text-sm text-red-600">Home</a>
                             </li>
