@@ -374,7 +374,7 @@ function Header2() {
                             </div>
                             {(toggleAbout2) && (
                                 <nav className="list-none bg-gray-4 lg:p-5 w-full lg:w-auto list6 lg:absolute flex lg:flex-row flex-col">
-                                    <nav className="list-none lg:px-8">
+                                    <nav className="list-none lg:pe-8">
                                         <li className="pb-3">
                                             <a className="uppercase text-green-100 font-bold text-xs leading-5">Eastern africa</a>
                                         </li>

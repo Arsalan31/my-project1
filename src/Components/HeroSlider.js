@@ -63,8 +63,8 @@ function HeroSlider(props) {
                             </SwiperSlide>
                             <div className="w-full relative z-50 xl:bottom-32 lg:bottom-36 flex lg:justify-end justify-start">
                                 <div className="lg:flex hidden justify-start">
-                                    <button className="swiper-button-prev flex justify-center text-gray-400 transform rotate-180 focus:outline-none sm:px-2">
-                                        <svg className="seemore" width="7.41" height="15.19" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <button className="seemore swiper-button-prev flex justify-center text-gray-400 transform rotate-180 focus:outline-none sm:px-2">
+                                        <svg width="7.41" height="15.19" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M1 13L7 7L1 1" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                                         </svg>
                                     </button>
@@ -74,8 +74,8 @@ function HeroSlider(props) {
                                     </div>
                                 </div>
                                 <div className="lg:flex hidden justify-end">
-                                    <button className="swiper-button-next text-gray-400 focus:outline-none sm:px-2">
-                                        <svg className="seemore" width="7.41" height="15.19" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <button className="seemore swiper-button-next text-gray-400 focus:outline-none sm:px-2">
+                                        <svg width="7.41" height="15.19" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M1 13L7 7L1 1" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                                         </svg>
                                     </button>
