@@ -205,14 +205,14 @@ function Header2() {
 
     return (
         <header className="w-full z-50 fixed">
-            <div className="flex w-full lg:flex-wrap flex-wrap-reverse justify-between content-center items-center absolute bg-white">
+            <div className="flex w-full lg:flex-wrap h-18 flex-wrap-reverse justify-between content-center items-center absolute bg-white">
                 <img href="Akdn1" className="img lg:flex hidden" src={require('./assets/AKDN Identity with Tag Line 1.png')}></img>
                 <img href="Akdn1" className="img lg:hidden flex" src={require('./assets/Green.png')}></img>
                 <button onClick={toggleNav} className="flex items-center lg:order-1 order-0 focus:outline-none p-2 ms-3 text-sm font-semibold uppercase border-white border-2 px-6 py-3 text-gray-5 lg:hidden">
                     <img src={require('./assets/Menu.png')}></img>
                 </button>
                 {(toggleMenu || screenWidth > 1024) && (
-                    <div className="list7 list-none lg:bg-white bg-green-20 flex lg:flex-row flex-col py-6 order-0 lg:justify-center justify-start">
+                    <div className="list7 list-none lg:bg-white bg-green-20 flex lg:flex-row flex-col order-0 lg:justify-center justify-start">
                         <div className="lg:hidden flex flex-wrap justify-between content-center items-center">
                             <img href="Akdn" className="order-1 flex w-24 h-8" src={require('./assets/White.png')}></img>
                             <button onClick={toggleNav} className="flex items-center order-0 focus:outline-none p-2 ms-3 text-sm font-semibold uppercase px-6 py-3 text-gray-5 lg:hidden">
