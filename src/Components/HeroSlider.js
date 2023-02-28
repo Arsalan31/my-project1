@@ -26,7 +26,7 @@ function HeroSlider(props) {
                         <Swiper
                             pagination={{
                                 el: '.swiper-pagination5',
-                                dynamicBullets:'true'
+                                type:'bullets'
                             }
                             }
                             ref={swiperRef}
