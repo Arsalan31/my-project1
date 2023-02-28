@@ -92,41 +92,41 @@ function AkhssHeader() {
                     </svg>
                 </button>
                 {(toggleMenu || screenWidth > 1024) && (
-                    <div className="list7 lg:w-2/3 lg:block hidden">
-                        <div className="bg-gray-100 border-gray-200 border xl:ps-10 w-full h-auto">
-                            <nav className="list-none gap-3 flex p-4">
+                    <div className="lg:w-2/3 lg:bg-transparent bg-red-600 bg-opacity-80 flex lg:flex-wrap flex-wrap-reverse">
+                        <div className="lg:bg-gray-100 lg:border-gray-200 lg:border xl:ps-10 w-full h-auto">
+                            <nav className="list-none lg:flex-row flex-col gap-3 flex p-4">
                                 <li>
-                                    <a className="font-semibold text-sm text-black">Programs</a>
+                                    <a className="font-semibold text-sm lg:text-black text-white">Programs</a>
                                 </li>
-                                <li>
+                                <li className="lg:flex hidden">
                                     <a className="border-s border-black"></a>
                                 </li>
                                 <li>
-                                    <a className="font-semibold text-sm text-black">Education</a>
+                                    <a className="font-semibold text-sm lg:text-black text-white">Education</a>
                                 </li>
-                                <li>
+                                <li className="lg:flex hidden">
                                     <a className="border-s border-black"></a>
                                 </li>
                                 <li>
-                                    <a className="font-semibold text-sm text-black">Research</a>
+                                    <a className="font-semibold text-sm lg:text-black text-white">Research</a>
                                 </li>
-                                <li className="w-2/3 flex justify-end">
+                                <li className="w-2/3 lg:flex hidden justify-end">
                                     <input className="txt px-2 w-3/4" type="text" />
                                 </li>
                             </nav>
                         </div>
-                        <nav className="list-none xl:ps-12 xl:h-16 xl:py-4 gap-4 flex">
+                        <nav className="list-none lg:flex-row flex-col xl:ps-12 xl:h-16 xl:py-4 lg:px-0 px-4 gap-4 flex">
                             <li>
-                                <a href="#" className="font-semibold text-sm text-red-600">Home</a>
+                                <a href="#" className="font-semibold text-sm lg:text-red-600 text-white">Home</a>
                             </li>
                             <li>
-                                <a href="#" className="font-semibold text-sm text-black">About Us </a>
+                                <a href="#" className="font-semibold text-sm lg:text-black  text-white">About Us </a>
                             </li>
                             <li>
-                                <a href="#" className="font-semibold text-sm text-black">Hospitals & Medical Centers</a>
+                                <a href="#" className="font-semibold text-sm lg:text-black  text-white">Hospitals & Medical Centers</a>
                             </li>
                             <li ref={ref}>
-                                <a href="#" onMouseEnter={toggleCenter} className="font-semibold text-sm text-black">Regional Outreach Centers</a>
+                                <a href="#" onMouseEnter={toggleCenter} className="font-semibold text-sm  text-white lg:text-black">Regional Outreach Centers</a>
                                 {(toggleCenters) && (
                                     <nav className="list-none lg:absolute w-full lg:border-red-700 lg:border lg:w-1/6 bg-white list6 lg:flex flex-col hidden">
                                         <li className="hover:bg-red-300">
@@ -170,10 +170,10 @@ function AkhssHeader() {
                                 )}
                             </li>
                             <li>
-                                <a href="#" className="font-semibold text-sm text-black">Media Resources</a>
+                                <a href="#" className="font-semibold text-sm lg:text-black text-white">Media Resources</a>
                             </li>
                             <li>
-                                <a href="#" className="font-semibold text-sm text-black">Join Us!</a>
+                                <a href="#" className="font-semibold text-sm lg:text-black text-white">Join Us!</a>
                             </li>
                         </nav>
                     </div>
