@@ -212,7 +212,7 @@ function Header2() {
                     <img src={require('./assets/Menu.png')}></img>
                 </button>
                 {(toggleMenu || screenWidth > 1024) && (
-                    <div className="list7 list-none lg:bg-white bg-green-20 flex lg:flex-row flex-col order-0 lg:justify-center justify-start">
+                    <div className="list7 list-none lg:bg-white bg-green-20 gap-4 flex lg:flex-row flex-col order-0 lg:justify-center justify-start">
                         <div className="lg:hidden flex flex-wrap justify-between content-center items-center">
                             <img href="Akdn" className="order-1 flex w-24 h-8" src={require('./assets/White.png')}></img>
                             <button onClick={toggleNav} className="flex items-center order-0 focus:outline-none p-2 ms-3 text-sm font-semibold uppercase px-6 py-3 text-gray-5 lg:hidden">
@@ -227,8 +227,8 @@ function Header2() {
                         </div>
                         <li>
                             <div className="flex">
-                                <a onMouseEnter={toggleAbt} ref={ref} className="lg:w-auto w-1/2 cursor-pointer uppercase lg:block hidden py-3 lg:py-2 px-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">Who We Are</a>
-                                <a className="lg:hidden lg:w-auto w-1/2 cursor-pointer uppercase block py-3 lg:py-2 px-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">Who We Are</a>
+                                <a onMouseEnter={toggleAbt} ref={ref} className="lg:w-auto w-1/2 cursor-pointer uppercase lg:block hidden py-3 lg:py-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">Who We Are</a>
+                                <a className="lg:hidden lg:w-auto w-1/2 cursor-pointer uppercase block py-3 lg:py-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">Who We Are</a>
                                 <button className="lg:hidden w-1/2 flex justify-end py-3 px-2 focus:outline-none" onClick={toggleAbt}>
                                     <div className="lg:hidden border-gray-400 border-s me-4 h-6"></div>
                                     <svg className="mt-2" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -264,8 +264,8 @@ function Header2() {
                         </li>
                         <li>
                             <div className="flex">
-                                <a onMouseEnter={toggleAbt1} ref={ref1} className="hidden lg:w-auto w-1/2 cursor-pointer uppercase lg:block py-3 lg:py-2 px-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">What We Do</a>
-                                <a className="lg:hidden lg:w-auto w-1/2 cursor-pointer uppercase block py-3 lg:py-2 px-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">What We Do</a>
+                                <a onMouseEnter={toggleAbt1} ref={ref1} className="hidden lg:w-auto w-1/2 cursor-pointer uppercase lg:block py-3 lg:py-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">What We Do</a>
+                                <a className="lg:hidden lg:w-auto w-1/2 cursor-pointer uppercase block py-3 lg:py-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">What We Do</a>
                                 <button className="lg:hidden w-1/2 flex justify-end py-3 px-2 focus:outline-none" onClick={toggleAbt1}>
                                     <div className="lg:hidden border-gray-400 border-s me-4 h-6"></div>
                                     <svg className="mt-2" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -363,8 +363,8 @@ function Header2() {
                         </li>
                         <li>
                             <div className="flex">
-                                <a onMouseEnter={toggleAbt2} ref={ref2} className="hidden lg:w-auto w-1/2 cursor-pointer uppercase lg:block py-3 lg:py-2 px-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">How We Work</a>
-                                <a className="lg:hidden lg:w-auto w-1/2 cursor-pointer uppercase block py-3 lg:py-2 px-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">How We Work</a>
+                                <a onMouseEnter={toggleAbt2} ref={ref2} className="hidden lg:w-auto w-1/2 cursor-pointer uppercase lg:block py-3 lg:py-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">How We Work</a>
+                                <a className="lg:hidden lg:w-auto w-1/2 cursor-pointer uppercase block py-3 lg:py-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">How We Work</a>
                                 <button className="lg:hidden w-1/2 flex justify-end py-3 px-2 focus:outline-none" onClick={toggleAbt2}>
                                     <div className="lg:hidden border-gray-400 border-s me-4 h-6"></div>
                                     <svg className="mt-2" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -534,8 +534,8 @@ function Header2() {
                         </li>
                         <li>
                             <div className="flex">
-                                <a onMouseEnter={toggleAbt3} ref={ref3} className="hidden lg:w-auto w-1/2 cursor-pointer uppercase lg:block py-3 lg:py-2 px-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">Where We Work</a>
-                                <a className="lg:hidden lg:w-auto w-1/2 cursor-pointer uppercase block py-3 lg:py-2 px-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">Where We Work</a>
+                                <a onMouseEnter={toggleAbt3} ref={ref3} className="hidden lg:w-auto w-1/2 cursor-pointer uppercase lg:block py-3 lg:py-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">Where We Work</a>
+                                <a className="lg:hidden lg:w-auto w-1/2 cursor-pointer uppercase block py-3 lg:py-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">Where We Work</a>
                                 <button className="lg:hidden w-1/2 flex justify-end py-3 px-2 focus:outline-none" onClick={toggleAbt3}>
                                     <div className="lg:hidden border-gray-400 border-s me-4 h-6"></div>
                                     <svg className="mt-2" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -602,8 +602,8 @@ function Header2() {
                         </li>
                         <li>
                             <div className="flex">
-                                <a onMouseEnter={toggleAbt4} ref={ref4} className="hidden lg:w-auto w-1/2 cursor-pointer uppercase lg:block py-3 lg:py-2 px-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">RESOURCES & MEDIA</a>
-                                <a className="lg:hidden lg:w-auto w-1/2 cursor-pointer uppercase block py-3 lg:py-2 px-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">RESOURCES & MEDIA</a>
+                                <a onMouseEnter={toggleAbt4} ref={ref4} className="hidden lg:w-auto w-1/2 cursor-pointer uppercase lg:block py-3 lg:py-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">RESOURCES & MEDIA</a>
+                                <a className="lg:hidden lg:w-auto w-1/2 cursor-pointer uppercase block py-3 lg:py-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">RESOURCES & MEDIA</a>
                                 <button className="lg:hidden w-1/2 flex justify-end py-3 px-2 focus:outline-none" onClick={toggleAbt4}>
                                     <div className="lg:hidden border-gray-400 border-s me-4 h-6"></div>
                                     <svg className="mt-2" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -684,8 +684,8 @@ function Header2() {
                         </li>
                         <li>
                             <div className="flex">
-                                <a onMouseEnter={toggleAbt5} ref={ref5} className="hidden lg:w-auto w-1/2 cursor-pointer uppercase lg:block py-3 lg:py-2 px-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">Get Involved</a>
-                                <a className="lg:hidden lg:w-auto w-1/2 cursor-pointer uppercase block py-3 lg:py-2 px-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">Get Involved</a>
+                                <a onMouseEnter={toggleAbt5} ref={ref5} className="hidden lg:w-auto w-1/2 cursor-pointer uppercase lg:block py-3 lg:py-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">Get Involved</a>
+                                <a className="lg:hidden lg:w-auto w-1/2 cursor-pointer uppercase block py-3 lg:py-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">Get Involved</a>
                                 <button className="lg:hidden w-1/2 flex justify-end py-3 px-2 focus:outline-none" onClick={toggleAbt5}>
                                     <div className="lg:hidden border-gray-400 border-s me-4 h-6"></div>
                                     <svg className="mt-2" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
