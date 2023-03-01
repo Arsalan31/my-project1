@@ -52,11 +52,11 @@ function Customers(props) {
                                     spaceBetween: 30,
                                 },
                                 420: {
-                                    slidesPerView: 4.5,
+                                    slidesPerView: 4,
                                     spaceBetween: 30,
                                 },
                                 540: {
-                                    slidesPerView: 5.5,
+                                    slidesPerView: 5,
                                     spaceBetween: 20,
                                 },
                                 640: {
