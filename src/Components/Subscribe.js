@@ -15,8 +15,8 @@ function Subscribe() {
                         <br />
                         interesting offers about WindTravel
                     </h3>
-                    <div className="flex justify-start">
-                        <img className="absolute opacity-10 transform rotate-90" src={require('./assets/Group 42 (1).png')}></img>
+                    <div className="flex absolute justify-start">
+                        <img className="relative lg:bottom-12 -bottom-7 opacity-10" src={require('./assets/Group 42.png')}></img>
                     </div>
                     <div className="flex md:flex-nowrap flex-wrap justify-center gap-6 mt-20">
                         <input type="email" id="email" name="email" placeholder="Your Email" className="text1 text2 lg:w-1/3 md:w-2/3 w-full h-14 bg-white border rounded-2xl border-gray-200 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-sm font-normal outline-none placeholder-blue-1000 text-blue-1000 p-8 px-14 leading-8 transition-colors duration-200 ease-in-out" />
@@ -25,7 +25,7 @@ function Subscribe() {
                         </button>
                     </div>
                 </div>
-                <div className="sm:flex hidden justify-end absolute lg:end-24 sm:end-20">
+                <div className="sm:flex hidden justify-end absolute xl:end-20 lg:end-24 sm:end-20">
                     <img src={require('./assets/Group 5.png')} className=" sm:flex hidden justify-end relative bottom-24 sm:-end-20"></img>
                 </div>
             </div>
