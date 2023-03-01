@@ -64,7 +64,7 @@ function AkhssHeader() {
         const checkIfClickedOutside = e => {
             // If the menu is open and the clicked target is not within the menu,
             // then close the menu
-            if (toggleCountries && ref.current && !ref.current.contains(e.target)) {
+            if (toggleCountries && ref1.current && !ref1.current.contains(e.target)) {
                 setTogglecountries(false)
             }
         }
@@ -76,18 +76,44 @@ function AkhssHeader() {
             document.removeEventListener("mouseout", checkIfClickedOutside)
         }
     }, [toggleCountries])
+
+    const ref2 = useRef()
+
+    const [toggleMedia, setTogglemedia] = useState(false)
+
+    const toggleMd = () => {
+        setTogglemedia(!toggleMedia)
+
+    }
+
+    useEffect(() => {
+        const checkIfClickedOutside = e => {
+            // If the menu is open and the clicked target is not within the menu,
+            // then close the menu
+            if (toggleMedia && ref2.current && !ref2.current.contains(e.target)) {
+                setTogglemedia(false)
+            }
+        }
+
+        document.addEventListener("mouseout", checkIfClickedOutside)
+
+        return () => {
+            // Cleanup the event listener
+            document.removeEventListener("mouseout", checkIfClickedOutside)
+        }
+    }, [toggleMedia])
     return (
         <section className="w-full z-50">
             <div className="flex">
                 <div className="xl:w-5/12 lg:w-1/3 w-11/12">
-                    <img className="xl:flex absolute hidden" src={require('./assets/Rectangle 80.png')}></img>
+                    <img className="xl:flex relative hidden" src={require('./assets/Rectangle 80.png')}></img>
                     <div className="inline-flex p-3 justify-center xl:absolute xl:top-5">
                         <img src={require('./assets/AKH_Logo_Small 1.png')}></img>
                         <p className="xl:font-extrabold font-bold self-center xl:text-3xl text-xl">Aga Khan Health Services</p>
                     </div>
                 </div>
                 {(toggleMenu || screenWidth > 1024) && (
-                    <div className="lg:w-2/3 w-full lg:bg-transparent bg-red-600 bg-opacity-80 flex lg:flex-wrap flex-wrap-reverse">
+                    <div className="lg:w-2/3 lg:relative absolute w-full lg:bg-transparent bg-red-600 bg-opacity-80 flex lg:flex-wrap flex-wrap-reverse">
                         <div className="lg:bg-gray-100 lg:border-gray-200 lg:border xl:ps-10 w-full h-auto">
                             <nav className="list-none lg:flex-row flex-col gap-3 flex p-4">
                                 <li>
@@ -114,6 +140,9 @@ function AkhssHeader() {
                             <li>
                                 <a href="#" className="font-semibold text-sm lg:text-red-600 text-white">Home</a>
                             </li>
+                            <div className="pb-4 lg:hidden">
+                                <li className="border-4 border-white rounded w-28"></li>
+                            </div>
                             <li>
                                 <a href="#" className="font-semibold text-sm lg:text-black  text-white">About Us </a>
                             </li>
@@ -123,7 +152,7 @@ function AkhssHeader() {
                             <li ref={ref}>
                                 <a href="#" onMouseEnter={toggleCenter} className="font-semibold text-sm  text-white lg:text-black">Regional Outreach Centers</a>
                                 {(toggleCenters) && (
-                                    <nav className="list-none lg:absolute w-full lg:border-red-700 lg:border lg:w-1/6 lg:bg-white list lg:flex flex-col hidden">
+                                    <nav className="list-none lg:absolute w-full lg:border-red-700 lg:border lg:w-1/6 lg:bg-white lg:flex flex-col hidden">
                                         <li className="hover:bg-red-300">
                                             <a href="#" className="lg:text-black text-white font-medium text-xs pb-3 hover:text-red-700 p-3 inline-flex">Pakistan</a>
                                         </li>
@@ -165,11 +194,30 @@ function AkhssHeader() {
                                 )}
                             </li>
                             <li>
-                                <a href="#" className="font-semibold text-sm lg:text-black text-white">Media Resources</a>
+                                <a href="#" onMouseEnter={toggleMd} ref={ref2} className="font-semibold text-sm lg:text-black text-white">Media Resources</a>
+                                {(toggleMedia) && (
+                                    <nav className="lg:pt-0 pt-2 lg:px-8 list-none lg:absolute w-full lg:border-red-700 lg:border lg:w-1/6 lg:bg-white lg:flex flex-col">
+                                        <li className="pb-3">
+                                            <a className="uppercase lg:text-black text-green-100 font-bold text-xs leading-5">multimedia</a>
+                                        </li>
+                                        <div className="pb-4">
+                                            <li className="border border-gray-3 lg:w-7/12 w-7"></li>
+                                        </div>
+                                        <li>
+                                            <a href="#" className="lg:text-black text-white font-normal text-sm pb-2 inline-flex">Photographs</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" className="lg:text-black text-white font-normal text-sm pb-2 inline-flex">Videos</a>
+                                        </li>
+                                    </nav>
+                                )}
                             </li>
                             <li>
                                 <a href="#" className="font-semibold text-sm lg:text-black text-white">Join Us!</a>
                             </li>
+                            <div className="py-4 lg:hidden">
+                                <li className="border-2 rounded border-white w-full"></li>
+                            </div>
                         </nav>
                     </div>
                 )}
