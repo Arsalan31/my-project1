@@ -67,7 +67,7 @@ function Maininfo() {
                     }
                 </div>
             </div>
-            <div className="container mx-auto md:px-0 px-10 py-16 sm:w-1/3">
+            <div className="container mx-auto md:px-0 px-10 py-16 sm:w-1/2">
                 <div className="p-7 flex md:justify-center justify-start bg-blue-30">
                     <div className="flex items-center md:text-center">
                         <p className="text-lg font-normal text-blue-70">Overview Document: AKDN Afghanistan</p>
