@@ -106,10 +106,10 @@ function AkhssHeader() {
         <section className="w-full z-50">
             <div className="flex">
                 <div className="xl:w-5/12 lg:w-1/3 w-11/12">
-                    <img className="xl:flex relative hidden" src={require('./assets/Rectangle 80.png')}></img>
-                    <div className="inline-flex p-3 justify-center xl:absolute xl:top-5">
-                        <img src={require('./assets/AKH_Logo_Small 1.png')}></img>
-                        <p className="xl:font-extrabold font-bold self-center xl:text-3xl text-xl">Aga Khan Health Services</p>
+                    <img className="lg:flex relative hidden" src={require('./assets/Rectangle 80.png')}></img>
+                    <div className="inline-flex p-3 justify-center lg:absolute xl:top-5 lg:top-3">
+                        <img className="xl:w-18 lg:w-12" src={require('./assets/AKH_Logo_Small 1.png')}></img>
+                        <p className="xl:font-extrabold font-bold self-center xl:text-2.5xl text-xl">Aga Khan Health Services</p>
                     </div>
                 </div>
                 {(toggleMenu || screenWidth > 1024) && (
@@ -137,6 +137,12 @@ function AkhssHeader() {
                             </nav>
                         </div>
                         <nav className="list-none w-full lg:flex-row flex-col xl:ps-12 xl:h-16 xl:py-4 lg:px-0 px-4 gap-4 flex">
+                            <button onClick={toggleNav} className="p-8 lg:hidden flex w-auto justify-end">
+                                <svg width="31" height="32" viewBox="0 0 31 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="5.87109" y="0.786377" width="36" height="6" rx="3" transform="rotate(48.7268 5.87109 0.786377)" fill="#FFF9F9" />
+                                    <rect x="0.640625" y="26.9001" width="36" height="6" rx="3" transform="rotate(-45 0.640625 26.9001)" fill="#FFF9F9" />
+                                </svg>
+                            </button>
                             <li>
                                 <a href="#" className="font-semibold text-sm lg:text-red-600 text-white">Home</a>
                             </li>
@@ -196,7 +202,7 @@ function AkhssHeader() {
                             <li>
                                 <a href="#" onMouseEnter={toggleMd} ref={ref2} className="font-semibold text-sm lg:text-black text-white">Media Resources</a>
                                 {(toggleMedia) && (
-                                    <nav className="lg:pt-0 pt-2 lg:px-8 list-none lg:absolute w-full lg:border-red-700 lg:border lg:w-1/6 lg:bg-white lg:flex flex-col">
+                                    <nav className="lg:pt-0 pt-2 px-2 list-none lg:absolute w-full lg:border-red-700 lg:border lg:w-1/6 lg:bg-white lg:flex flex-col">
                                         <li className="pb-3">
                                             <a className="uppercase lg:text-black text-green-100 font-bold text-xs leading-5">multimedia</a>
                                         </li>
