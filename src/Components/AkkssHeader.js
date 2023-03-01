@@ -156,53 +156,55 @@ function AkhssHeader() {
                                 <a href="#" className="font-semibold text-sm lg:text-black  text-white">Hospitals & Medical Centers</a>
                             </li>
                             <li ref={ref}>
-                                <a href="#" onMouseEnter={toggleCenter} className="font-semibold text-sm  text-white lg:text-black">Regional Outreach Centers</a>
+                                <a href="#" onMouseEnter={toggleCenter} className="font-semibold text-sm text-white lg:contents hidden lg:text-black">Regional Outreach Centers</a>
+                                <a href="#" onMouseEnter={toggleCenter} className="font-semibold text-sm lg:hidden text-white lg:text-black">Regional Outreach Centers</a>
                                 {(toggleCenters) && (
-                                    <nav className="list-none lg:absolute w-full lg:border-red-700 lg:border lg:w-1/6 lg:bg-white lg:flex flex-col hidden">
+                                    <nav className="list-none lg:absolute w-full lg:border-red-700 lg:border lg:w-1/6 lg:bg-white lg:flex flex-col">
                                         <li className="hover:bg-red-300">
-                                            <a href="#" className="lg:text-black text-white font-medium text-xs pb-3 hover:text-red-700 p-3 inline-flex">Pakistan</a>
+                                            <a href="#" className="lg:text-black text-white font-medium text-xs pb-3 hover:text-red-700 lg:p-3 py-3 inline-flex">Pakistan</a>
                                         </li>
-                                        <li onMouseEnter={toggleCountry} ref={ref1} className="hover:bg-red-300">
-                                            <a href="#" className="lg:text-black text-white font-medium hover:text-red-700 p-3 text-xs pb-2 inline-flex">Tanzania</a>
+                                        <li onMouseEnter={toggleCountry} ref={ref1} className="lg:hover:bg-red-300">
+                                            <a href="#" onClick={toggleCountry} className="lg:text-black text-white font-medium lg:hover:text-red-700 lg:p-3 py-3 text-xs pb-2 inline-flex">Tanzania</a>
                                             {(toggleCountries) && (
-                                                <nav className="list-none lg:absolute lg:top-9 lg:left-full w-full lg:border-red-700 lg:border lg:w-full bg-white lg:flex flex-col hidden">
+                                                <nav className="list-none lg:absolute lg:top-5 lg:left-full w-full lg:border-red-700 lg:border lg:w-full lg:bg-white lg:flex flex-col">
                                                     <li>
-                                                        <a href="#" className="lg:text-black text-white font-normal text-sm pb-2 p-3 inline-flex">Tanzania</a>
+                                                        <a href="#" className="lg:text-black text-white font-normal text-sm pb-2 lg:p-3 inline-flex">Tanzania</a>
                                                     </li>
                                                     <li>
-                                                        <a href="#" className="lg:text-black text-white font-normal text-sm pb-2 p-3 inline-flex">Tanzania</a>
+                                                        <a href="#" className="lg:text-black text-white font-normal text-sm pb-2 lg:p-3 inline-flex">Tanzania</a>
                                                     </li>
                                                     <li>
-                                                        <a href="#" className="lg:text-black text-white font-normal text-sm pb-2 p-3 inline-flex">Tanzania</a>
+                                                        <a href="#" className="lg:text-black text-white font-normal text-sm pb-2 lg:p-3 inline-flex">Tanzania</a>
                                                     </li>
                                                     <li>
-                                                        <a href="#" className="lg:text-black text-white font-normal text-sm pb-2 p-3 inline-flex">Tanzania</a>
+                                                        <a href="#" className="lg:text-black text-white font-normal text-sm pb-2 lg:p-3 inline-flex">Tanzania</a>
                                                     </li>
                                                     <li>
-                                                        <a href="#" className="lg:text-black text-white font-normal text-sm pb-2 p-3 inline-flex">Tanzania</a>
+                                                        <a href="#" className="lg:text-black text-white font-normal text-sm pb-2 lg:p-3 inline-flex">Tanzania</a>
                                                     </li>
                                                 </nav>
                                             )}
                                         </li>
                                         <li className="hover:bg-red-300">
-                                            <a href="#" className="lg:text-black text-white font-medium hover:text-red-700 p-3 text-xs pb-3 inline-flex">India</a>
+                                            <a href="#" className="lg:text-black text-white font-medium hover:text-red-700 lg:p-3 py-3 text-xs pb-3 inline-flex">India</a>
                                         </li>
                                         <li className="hover:bg-red-300">
-                                            <a href="#" className="lg:text-black text-white font-medium hover:text-red-700 p-3 text-xs pb-3 inline-flex">Tajkistan</a>
+                                            <a href="#" className="lg:text-black text-white font-medium hover:text-red-700 lg:p-3 py-3 text-xs pb-3 inline-flex">Tajkistan</a>
                                         </li>
                                         <li className="hover:bg-red-300">
-                                            <a href="#" className="lg:text-black text-white font-medium hover:text-red-700 p-3 text-xs pb-3 inline-flex">Syria</a>
+                                            <a href="#" className="lg:text-black text-white font-medium hover:text-red-700 lg:p-3 py-3 text-xs pb-3 inline-flex">Syria</a>
                                         </li>
                                         <li className="hover:bg-red-300">
-                                            <a href="#" className="lg:text-black text-white font-medium hover:text-red-700 p-3 text-xs pb-3 inline-flex">Kenya</a>
+                                            <a href="#" className="lg:text-black text-white font-medium hover:text-red-700 lg:p-3 py-3 text-xs pb-3 inline-flex">Kenya</a>
                                         </li>
                                     </nav>
                                 )}
                             </li>
                             <li>
-                                <a href="#" onMouseEnter={toggleMd} ref={ref2} className="font-semibold text-sm lg:text-black text-white">Media Resources</a>
+                                <a href="#" onMouseEnter={toggleMd} ref={ref2} className="font-semibold lg:contents hidden text-sm lg:text-black text-white">Media Resources</a>
+                                <a href="#" onclick={toggleMd} ref={ref2} className="font-semibold text-sm lg:hidden lg:text-black text-white">Media Resources</a>
                                 {(toggleMedia) && (
-                                    <nav className="lg:pt-0 pt-2 px-2 list-none lg:absolute w-full lg:border-red-700 lg:border lg:w-1/6 lg:bg-white lg:flex flex-col">
+                                    <nav className="lg:pt-0 pt-2 lg:px-2 list-none lg:absolute w-full lg:border-red-700 lg:border lg:w-1/6 lg:bg-white lg:flex flex-col">
                                         <li className="pb-3">
                                             <a className="uppercase lg:text-black text-green-100 font-bold text-xs leading-5">multimedia</a>
                                         </li>
