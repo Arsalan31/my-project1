@@ -25,7 +25,7 @@ function Subscribe() {
                         </button>
                     </div>
                 </div>
-                <div className="sm:flex hidden justify-end absolute xl:end-20 lg:end-24 sm:end-20">
+                <div className="sm:flex hidden justify-end absolute 2xl:end-24 xl:end-28 lg:end-28 sm:end-20">
                     <img src={require('./assets/Group 5.png')} className=" sm:flex hidden justify-end relative bottom-24 sm:-end-20"></img>
                 </div>
             </div>

@@ -205,7 +205,7 @@ function Header2() {
 
     return (
         <header className="w-full z-50 fixed">
-            <div className="flex w-full lg:flex-wrap h-18 flex-wrap-reverse justify-between content-center items-center absolute bg-white">
+            <div className="flex w-full lg:flex-wrap h-28 flex-wrap-reverse justify-between content-center items-center absolute bg-white">
                 <img href="Akdn1" className="img lg:flex hidden" src={require('./assets/AKDN Identity with Tag Line 1.png')}></img>
                 <img href="Akdn1" className="img lg:hidden flex" src={require('./assets/Green.png')}></img>
                 <button onClick={toggleNav} className="flex items-center lg:order-1 order-0 focus:outline-none p-2 ms-3 text-sm font-semibold uppercase border-white border-2 px-6 py-3 text-gray-5 lg:hidden">

@@ -103,8 +103,8 @@ function AkhssHeader() {
         }
     }, [toggleMedia])
     return (
-        <section className="w-full z-50">
-            <div className="flex">
+        <section className="w-full fixed z-50">
+            <div className="flex bg-white">
                 <div className="xl:w-5/12 lg:w-1/3 w-11/12">
                     <img className="lg:flex relative hidden" src={require('./assets/Rectangle 80.png')}></img>
                     <div className="inline-flex p-3 justify-center lg:absolute xl:top-5 lg:top-3">
@@ -113,7 +113,7 @@ function AkhssHeader() {
                     </div>
                 </div>
                 {(toggleMenu || screenWidth > 1024) && (
-                    <div className="lg:w-2/3 lg:relative absolute w-full lg:bg-transparent bg-red-600 bg-opacity-80 flex lg:flex-wrap flex-wrap-reverse">
+                    <div className="lg:w-2/3 w-full lg:bg-transparent bg-red-600 bg-opacity-80 flex lg:flex-wrap flex-wrap-reverse">
                         <div className="lg:bg-gray-100 lg:border-gray-200 lg:border xl:ps-10 w-full h-auto">
                             <nav className="list-none lg:flex-row flex-col gap-3 flex p-4">
                                 <li>
@@ -160,10 +160,10 @@ function AkhssHeader() {
                                 <a href="#" onMouseEnter={toggleCenter} className="font-semibold text-sm lg:hidden text-white lg:text-black">Regional Outreach Centers</a>
                                 {(toggleCenters) && (
                                     <nav className="list-none lg:absolute w-full lg:border-red-700 lg:border lg:w-1/6 lg:bg-white lg:flex flex-col">
-                                        <li className="hover:bg-red-300">
+                                        <li className="hover:bg-red-300 hover:text-red-700">
                                             <a href="#" className="lg:text-black text-white font-medium text-xs pb-3 hover:text-red-700 lg:p-3 py-3 inline-flex">Pakistan</a>
                                         </li>
-                                        <li onMouseEnter={toggleCountry} ref={ref1} className="lg:hover:bg-red-300">
+                                        <li onMouseEnter={toggleCountry} ref={ref1} className="lg:hover:bg-red-300 hover:text-red-700">
                                             <a href="#" onClick={toggleCountry} className="lg:text-black text-white font-medium lg:hover:text-red-700 lg:p-3 py-3 text-xs pb-2 inline-flex">Tanzania</a>
                                             {(toggleCountries) && (
                                                 <nav className="list-none lg:absolute lg:top-5 lg:left-full w-full lg:border-red-700 lg:border lg:w-full lg:bg-white lg:flex flex-col">
@@ -185,37 +185,34 @@ function AkhssHeader() {
                                                 </nav>
                                             )}
                                         </li>
-                                        <li className="hover:bg-red-300">
+                                        <li className="hover:bg-red-300 hover:text-red-700">
                                             <a href="#" className="lg:text-black text-white font-medium hover:text-red-700 lg:p-3 py-3 text-xs pb-3 inline-flex">India</a>
                                         </li>
-                                        <li className="hover:bg-red-300">
+                                        <li className="hover:bg-red-300 hover:text-red-700">
                                             <a href="#" className="lg:text-black text-white font-medium hover:text-red-700 lg:p-3 py-3 text-xs pb-3 inline-flex">Tajkistan</a>
                                         </li>
-                                        <li className="hover:bg-red-300">
+                                        <li className="hover:bg-red-300 hover:text-red-700">
                                             <a href="#" className="lg:text-black text-white font-medium hover:text-red-700 lg:p-3 py-3 text-xs pb-3 inline-flex">Syria</a>
                                         </li>
-                                        <li className="hover:bg-red-300">
+                                        <li className="hover:bg-red-300 hover:text-red-700">
                                             <a href="#" className="lg:text-black text-white font-medium hover:text-red-700 lg:p-3 py-3 text-xs pb-3 inline-flex">Kenya</a>
                                         </li>
                                     </nav>
                                 )}
                             </li>
-                            <li>
-                                <a href="#" onMouseEnter={toggleMd} ref={ref2} className="font-semibold lg:contents hidden text-sm lg:text-black text-white">Media Resources</a>
+                            <li  onMouseEnter={toggleMd} ref={ref2}>
+                                <a href="#" className="font-semibold lg:contents hidden text-sm lg:text-black text-white">Media Resources</a>
                                 <a href="#" onclick={toggleMd} ref={ref2} className="font-semibold text-sm lg:hidden lg:text-black text-white">Media Resources</a>
                                 {(toggleMedia) && (
-                                    <nav className="lg:pt-0 pt-2 lg:px-2 list-none lg:absolute w-full lg:border-red-700 lg:border lg:w-1/6 lg:bg-white lg:flex flex-col">
-                                        <li className="pb-3">
-                                            <a className="uppercase lg:text-black text-green-100 font-bold text-xs leading-5">multimedia</a>
+                                    <nav className="lg:pt-0 pt-2 list-none lg:absolute w-full lg:border-red-700 lg:border lg:w-1/6 lg:bg-white lg:flex flex-col">
+                                        <li className="hover:bg-red-300">
+                                            <a href="#" className="lg:text-black text-white font-normal text-sm lg:p-3 py-3 inline-flex">Multimedia</a>
                                         </li>
-                                        <div className="pb-4">
-                                            <li className="border border-gray-3 lg:w-7/12 w-7"></li>
-                                        </div>
-                                        <li>
-                                            <a href="#" className="lg:text-black text-white font-normal text-sm pb-2 inline-flex">Photographs</a>
+                                        <li className="hover:bg-red-300">
+                                            <a href="#" className="lg:text-black text-white font-normal text-sm lg:p-3 py-3 inline-flex">Photographs</a>
                                         </li>
-                                        <li>
-                                            <a href="#" className="lg:text-black text-white font-normal text-sm pb-2 inline-flex">Videos</a>
+                                        <li className="hover:bg-red-300">
+                                            <a href="#" className="lg:text-black text-white font-normal text-sm lg:p-3 py-3 inline-flex">Videos</a>
                                         </li>
                                     </nav>
                                 )}
