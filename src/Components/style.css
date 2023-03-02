@@ -394,6 +394,11 @@
     height: 14px !important;
   }
 
+  .swiper-pagination5>.swiper-pagination-bullet {
+    width: 46px !important;
+    height: 1px !important;
+  }
+
   .text1 {
     background-image: url(assets/Group\ 46.png);
     background-repeat: no-repeat;
