@@ -230,8 +230,9 @@ function AkhssHeader() {
                     </div>
                 )}
                 <button onClick={toggleNav} className="flex justify-end items-center p-2 ms-3 text-sm  lg:hidden">
-                    <svg width="28" height="16" viewBox="0 0 28 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M0.667969 0H27.3346V2.66667H0.667969V0ZM7.33463 6.66667H27.3346V9.33333H7.33463V6.66667ZM15.668 13.3333H27.3346V16H15.668V13.3333Z" fill="red" />
+                    <svg width="36" height="18" viewBox="0 0 36 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="36" height="6" rx="3" fill="#FF0000" />
+                        <rect x="12" y="12" width="24" height="6" rx="3" fill="#FF0000" />
                     </svg>
                 </button>
             </div>
