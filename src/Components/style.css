@@ -269,6 +269,16 @@
     }
   }
 
+  @media screen and (min-width: 1024px) {
+    .list7 {
+      list-style-type: none;
+      display: flex;
+      justify-content: center;
+      position: relative;
+    }
+  }
+
+
   @media screen and (max-width: 1024px) {
 
     .img {
