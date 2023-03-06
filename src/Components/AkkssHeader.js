@@ -113,7 +113,7 @@ function AkhssHeader() {
                     </div>
                 </div>
                 {(toggleMenu || screenWidth > 1024) && (
-                    <div className="lg:w-2/3 w-full lg:bg-transparent bg-red-600 bg-opacity-80 flex lg:flex-wrap flex-wrap-reverse">
+                    <div className="lg:w-2/3 lg:relative absolute w-full lg:bg-transparent bg-red-600 bg-opacity-80 flex lg:flex-wrap flex-wrap-reverse">
                         <div className="lg:bg-gray-100 lg:border-gray-200 lg:border xl:ps-10 w-full h-auto">
                             <nav className="list-none lg:flex-row flex-col gap-3 flex p-4">
                                 <li>
