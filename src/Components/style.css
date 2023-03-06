@@ -287,17 +287,16 @@
     .list7 {
       list-style-type: none;
       display: flex;
-      height: auto;
       width: 100%;
       position: absolute;
-      padding-top: 400px;
+      background: #00843D;
     }
 
     .list6 {
       list-style-type: none;
-      display: flex;
-      flex-direction: column;
       height: 100%;
+      display: flex;
+      position: relative;
       padding: 16px;
       background: linear-gradient(0deg, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), #00843D;
     }

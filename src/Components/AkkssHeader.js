@@ -159,7 +159,7 @@ function AkhssHeader() {
                                 <a href="#" onMouseEnter={toggleCenter} className="font-semibold text-sm text-white lg:contents hidden lg:text-black">Regional Outreach Centers</a>
                                 <a href="#" onMouseEnter={toggleCenter} className="font-semibold text-sm lg:hidden text-white lg:text-black">Regional Outreach Centers</a>
                                 {(toggleCenters) && (
-                                    <nav className="list-none lg:absolute w-full lg:border-red-700 lg:border lg:w-1/6 lg:bg-white lg:flex flex-col">
+                                    <nav className="list-none lg:absolute w-full top-28 lg:border-red-700 lg:border lg:w-1/6 lg:bg-white lg:flex flex-col">
                                         <li className="hover:bg-red-300">
                                             <a href="#" className="lg:text-black w-full text-white font-medium text-xs pb-3 hover:text-red-700 lg:p-3 py-3 inline-flex">Pakistan</a>
                                         </li>
@@ -204,15 +204,15 @@ function AkhssHeader() {
                                 <a href="#" className="font-semibold lg:contents hidden text-sm lg:text-black text-white">Media Resources</a>
                                 <a href="#" onclick={toggleMd} ref={ref2} className="font-semibold text-sm lg:hidden lg:text-black text-white">Media Resources</a>
                                 {(toggleMedia) && (
-                                    <nav className="lg:pt-0 pt-2 list-none lg:absolute w-full lg:border-red-700 lg:border lg:w-1/6 lg:bg-white lg:flex flex-col">
+                                    <nav className="lg:pt-0 pt-2 list-none top-28 lg:absolute w-full lg:border-red-700 lg:border lg:w-1/6 lg:bg-white lg:flex flex-col">
                                         <li className="hover:bg-red-300">
-                                            <a href="#" className="lg:text-black text-white font-normal text-sm lg:p-3 py-3 inline-flex">Multimedia</a>
+                                            <a href="#" className="lg:text-black w-full text-white font-medium text-xs pb-3 hover:text-red-700 lg:p-3 py-3 inline-flex">Multimedia</a>
                                         </li>
                                         <li className="hover:bg-red-300">
-                                            <a href="#" className="lg:text-black text-white font-normal text-sm lg:p-3 py-3 inline-flex">Photographs</a>
+                                            <a href="#" className="lg:text-black w-full text-white font-medium text-xs pb-3 hover:text-red-700 lg:p-3 py-3 inline-flex">Photographs</a>
                                         </li>
                                         <li className="hover:bg-red-300">
-                                            <a href="#" className="lg:text-black text-white font-normal text-sm lg:p-3 py-3 inline-flex">Videos</a>
+                                            <a href="#" className="lg:text-black w-full text-white font-medium text-xs pb-3 hover:text-red-700 lg:p-3 py-3 inline-flex">Videos</a>
                                         </li>
                                     </nav>
                                 )}
