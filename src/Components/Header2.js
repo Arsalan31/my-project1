@@ -213,8 +213,8 @@ function Header2() {
                 </button>
                 {(toggleMenu || screenWidth > 1024) && (
                     <div className="list7 list-none lg:bg-white h-full gap-3 lg:px-0 flex lg:flex-row flex-col order-0 lg:justify-center justify-start">
-                        <div className="flex lg:flex-row flex-col lg:bg-white bg-green-20 gap-3 px-8">
-                            <div className="lg:hidden flex flex-wrap justify-between content-center items-center">
+                        <div className="flex lg:flex-row flex-col lg:bg-white bg-green-20 gap-3 overflow-scroll px-8">
+                            <div className="lg:hidden w-full flex flex-wrap justify-between content-center items-center">
                                 <img href="Akdn" className="order-1 flex w-24 h-8" src={require('./assets/White.png')}></img>
                                 <button onClick={toggleNav} className="flex items-center order-0 focus:outline-none text-sm font-semibold uppercase py-3 text-gray-5 lg:hidden">
                                     <img src={require('./assets/Group.png')}></img>
