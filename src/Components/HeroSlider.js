@@ -26,7 +26,8 @@ function HeroSlider(props) {
                         <Swiper
                             pagination={{
                                 el: '.swiper-pagination5',
-                                type:'bullets'
+                                type:'bullets',
+                                clickable: true
                             }
                             }
                             ref={swiperRef}
@@ -36,10 +37,10 @@ function HeroSlider(props) {
                                 prevEl: ".swiper-button-prev"
                             }}
                             modules={[Pagination, Navigation]}
-                            className="mySwiper lg:h-3/4 w-11/12"
+                            className="mySwiper lg:h-3/4 w-full"
                         >
                             <SwiperSlide>
-                                <img src={require('./assets/Rectangle 275.png')} />
+                                <img className="w-full" src={require('./assets/Rectangle 275.png')} />
                                 <div className="lg:bg-white bg-blue-30 backdrop-blur-md">
                                     <h3 className="relative px-3 lg:text-white text-gray-5 lg:bottom-28 lg:font-medium lg:text-4xl text-sm font-bold">AWARDING SUSTAINABLE ARCHITECTURE</h3>
                                     <p className="lg:bottom-24 lg:w-2/3 w-full px-3 lg:text-white text-gray-5 text-sm font-normal relative">"Sustainable architecture" is now well known, especially as a reaction to the risks inherent in climate change, but the Aga Khan Award for Architecture has been giving out its prize to projects that are good for people and the planet for at least 40 years.</p>
@@ -55,7 +56,7 @@ function HeroSlider(props) {
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src={require('./assets/Rectangle 275.png')} />
+                                <img className="w-full" src={require('./assets/Rectangle 275.png')} />
                                 <div className="lg:bg-white bg-blue-30 backdrop-blur-md">
                                     <h3 className="relative px-3 lg:text-white text-gray-5 lg:bottom-28 lg:font-medium lg:text-4xl text-sm font-bold">AWARDING SUSTAINABLE ARCHITECTURE</h3>
                                     <p className="lg:bottom-24 lg:w-2/3 w-full px-3 lg:text-white text-gray-5 text-sm font-normal relative">"Sustainable architecture" is now well known, especially as a reaction to the risks inherent in climate change, but the Aga Khan Award for Architecture has been giving out its prize to projects that are good for people and the planet for at least 40 years.</p>

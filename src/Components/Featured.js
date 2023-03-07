@@ -44,7 +44,8 @@ function Featured(props) {
                             }}  
                             pagination={{
                                 el: '.swiper-pagination4',
-                                type: 'bullets'
+                                type: 'bullets',
+                                clickable: true
                             }}
                             ref={swiperRef}
                             navigation={{
