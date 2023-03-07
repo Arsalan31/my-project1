@@ -269,13 +269,14 @@
     }
   }
 
+  .list7 {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    order: 1;
+  }
+
   @media screen and (min-width: 1024px) {
-    .list7 {
-      list-style-type: none;
-      display: flex;
-      justify-content: center;
-      order: 1;
-    }
 
     .img {
       order: 0;
@@ -304,7 +305,7 @@
 
   }
 
-  @media screen and (max-width: 1023px) {
+  @media screen and (max-width: 1024px) {
 
     .list7 {
       list-style-type: none;
