@@ -107,12 +107,12 @@ function AkhssHeader() {
             <div className="flex bg-white">
                 <div className="xl:w-5/12 lg:w-1/3 w-11/12">
                     <img className="lg:flex relative hidden" src={require('./assets/Rectangle 80.png')}></img>
-                    <div className="inline-flex p-3 justify-center lg:absolute xl:top-5 lg:top-3">
+                    <div className="inline-flex p-2 justify-center lg:absolute xl:top-5 lg:top-3">
                         <img className="xl:w-18 lg:w-12" src={require('./assets/AKH_Logo_Small 1.png')}></img>
-                        <p className="xl:font-extrabold font-bold self-center xl:text-2.5xl text-xl">Aga Khan Health Services</p>
+                        <p className="xl:font-extrabold font-bold self-center xl:text-2.5xl sm:text-xl text-lg">Aga Khan Health Services</p>
                     </div>
                 </div>
-                {(toggleMenu || screenWidth > 1024) && (
+                {(toggleMenu || screenWidth > 1023) && (
                     <div className="lg:w-2/3 lg:relative absolute w-full lg:bg-transparent bg-red-600 bg-opacity-80 flex lg:flex-wrap flex-wrap-reverse">
                         <div className="lg:bg-gray-100 lg:border-gray-200 lg:border xl:ps-10 w-full h-auto">
                             <nav className="list-none lg:flex-row flex-col gap-3 flex p-4">
