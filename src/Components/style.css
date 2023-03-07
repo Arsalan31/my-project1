@@ -274,6 +274,7 @@
       list-style-type: none;
       display: flex;
       justify-content: center;
+      order: 1;
     }
 
     .img {
@@ -303,6 +304,16 @@
 
   }
 
+  @media screen and (max-width: 1023px) {
+
+    .list7 {
+      list-style-type: none;
+      display: flex;
+      width: 100%;
+      position: absolute;
+      background: #00843D;
+    }
+  }
 
   @media screen and (max-width: 1024px) {
 
@@ -318,14 +329,6 @@
 
     .swiper-pagination5>.swiper-pagination-bullet-active {
       background: black !important;
-    }
-
-    .list7 {
-      list-style-type: none;
-      display: flex;
-      width: 100%;
-      position: absolute;
-      background: #00843D;
     }
 
     .list6 {
