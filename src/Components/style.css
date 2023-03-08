@@ -269,14 +269,14 @@
     }
   }
 
-  .list7 {
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    order: 1;
-  }
-
   @media screen and (min-width: 1024px) {
+
+    .list7 {
+      list-style-type: none;
+      display: flex;
+      justify-content: center;
+      order: 1;
+    }
 
     .img {
       order: 0;
@@ -307,19 +307,16 @@
 
   @media screen and (max-width: 1024px) {
 
+    .img {
+      order: 1;
+    }
+
     .list7 {
       list-style-type: none;
       display: flex;
       width: 100%;
       position: absolute;
       background: #00843D;
-    }
-  }
-
-  @media screen and (max-width: 1024px) {
-
-    .img {
-      order: 1;
     }
 
     .swiper-pagination5>.swiper-pagination-bullet {
