@@ -79,6 +79,136 @@ function AkhssHeader() {
 
     const ref2 = useRef()
 
+    const [toggleCountries1, setTogglecountries1] = useState(false)
+
+    const toggleCountry1 = () => {
+        setTogglecountries1(!toggleCountries1)
+
+    }
+
+    useEffect(() => {
+        const checkIfClickedOutside = e => {
+            // If the menu is open and the clicked target is not within the menu,
+            // then close the menu
+            if (toggleCountries1 && ref2.current && !ref2.current.contains(e.target)) {
+                setTogglecountries1(false)
+            }
+        }
+
+        document.addEventListener("mouseout", checkIfClickedOutside)
+
+        return () => {
+            // Cleanup the event listener
+            document.removeEventListener("mouseout", checkIfClickedOutside)
+        }
+    }, [toggleCountries1])
+
+    const ref3 = useRef()
+
+    const [toggleCountries2, setTogglecountries2] = useState(false)
+
+    const toggleCountry2 = () => {
+        setTogglecountries2(!toggleCountries2)
+
+    }
+
+    useEffect(() => {
+        const checkIfClickedOutside = e => {
+            // If the menu is open and the clicked target is not within the menu,
+            // then close the menu
+            if (toggleCountries2 && ref3.current && !ref3.current.contains(e.target)) {
+                setTogglecountries2(false)
+            }
+        }
+
+        document.addEventListener("mouseout", checkIfClickedOutside)
+
+        return () => {
+            // Cleanup the event listener
+            document.removeEventListener("mouseout", checkIfClickedOutside)
+        }
+    }, [toggleCountries2])
+
+    const ref4 = useRef()
+
+    const [toggleCountries3, setTogglecountries3] = useState(false)
+
+    const toggleCountry3 = () => {
+        setTogglecountries3(!toggleCountries3)
+
+    }
+
+    useEffect(() => {
+        const checkIfClickedOutside = e => {
+            // If the menu is open and the clicked target is not within the menu,
+            // then close the menu
+            if (toggleCountries3 && ref4.current && !ref4.current.contains(e.target)) {
+                setTogglecountries3(false)
+            }
+        }
+
+        document.addEventListener("mouseout", checkIfClickedOutside)
+
+        return () => {
+            // Cleanup the event listener
+            document.removeEventListener("mouseout", checkIfClickedOutside)
+        }
+    }, [toggleCountries3])
+
+    const ref5 = useRef()
+
+    const [toggleCountries4, setTogglecountries4] = useState(false)
+
+    const toggleCountry4 = () => {
+        setTogglecountries4(!toggleCountries4)
+
+    }
+
+    useEffect(() => {
+        const checkIfClickedOutside = e => {
+            // If the menu is open and the clicked target is not within the menu,
+            // then close the menu
+            if (toggleCountries4 && ref5.current && !ref5.current.contains(e.target)) {
+                setTogglecountries4(false)
+            }
+        }
+
+        document.addEventListener("mouseout", checkIfClickedOutside)
+
+        return () => {
+            // Cleanup the event listener
+            document.removeEventListener("mouseout", checkIfClickedOutside)
+        }
+    }, [toggleCountries4])
+
+    const ref6 = useRef()
+
+    const [toggleCountries5, setTogglecountries5] = useState(false)
+
+    const toggleCountry5 = () => {
+        setTogglecountries5(!toggleCountries5)
+
+    }
+
+    useEffect(() => {
+        const checkIfClickedOutside = e => {
+            // If the menu is open and the clicked target is not within the menu,
+            // then close the menu
+            if (toggleCountries5 && ref6.current && !ref6.current.contains(e.target)) {
+                setTogglecountries5(false)
+            }
+        }
+
+        document.addEventListener("mouseout", checkIfClickedOutside)
+
+        return () => {
+            // Cleanup the event listener
+            document.removeEventListener("mouseout", checkIfClickedOutside)
+        }
+    }, [toggleCountries5])
+
+    const ref7 = useRef()
+
     const [toggleMedia, setTogglemedia] = useState(false)
 
     const toggleMd = () => {
@@ -90,7 +220,7 @@ function AkhssHeader() {
         const checkIfClickedOutside = e => {
             // If the menu is open and the clicked target is not within the menu,
             // then close the menu
-            if (toggleMedia && ref2.current && !ref2.current.contains(e.target)) {
+            if (toggleMedia && ref7.current && !ref7.current.contains(e.target)) {
                 setTogglemedia(false)
             }
         }
@@ -160,8 +290,27 @@ function AkhssHeader() {
                                 <a href="#" onMouseEnter={toggleCenter} className="font-semibold text-sm lg:hidden text-white lg:text-black">Regional Outreach Centers</a>
                                 {(toggleCenters) && (
                                     <nav className="list-none lg:absolute w-full top-28 lg:border-red-700 lg:border lg:w-1/6 lg:bg-white lg:flex flex-col">
-                                        <li className="hover:bg-red-300">
-                                            <a href="#" className="lg:text-black w-full text-white font-medium text-xs pb-3 hover:text-red-700 lg:p-3 py-3 inline-flex">Pakistan</a>
+                                        <li onMouseEnter={toggleCountry5} ref={ref6} className="hover:bg-red-300">
+                                            <a onClick={toggleCountry5} href="#" className="lg:text-black w-full text-white font-medium text-xs pb-3 hover:text-red-700 lg:p-3 py-3 inline-flex">Pakistan</a>
+                                            {(toggleCountries5) && (
+                                                <nav className="list-none lg:absolute lg:top-5 lg:left-full w-full lg:border-red-700 lg:border lg:w-full lg:bg-white lg:flex flex-col">
+                                                    <li>
+                                                        <a href="#" className="lg:text-black text-white font-normal text-sm pb-2 lg:p-3 inline-flex">Pakistan</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" className="lg:text-black text-white font-normal text-sm pb-2 lg:p-3 inline-flex">Pakistan</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" className="lg:text-black text-white font-normal text-sm pb-2 lg:p-3 inline-flex">Pakistan</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" className="lg:text-black text-white font-normal text-sm pb-2 lg:p-3 inline-flex">Pakistan</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" className="lg:text-black text-white font-normal text-sm pb-2 lg:p-3 inline-flex">Pakistan</a>
+                                                    </li>
+                                                </nav>
+                                            )}
                                         </li>
                                         <li onMouseEnter={toggleCountry} ref={ref1} className="lg:hover:bg-red-300">
                                             <a href="#" onClick={toggleCountry} className="lg:text-black text-white w-full font-medium lg:hover:text-red-700 lg:p-3 py-3 text-xs pb-2 inline-flex">Tanzania</a>
@@ -185,24 +334,100 @@ function AkhssHeader() {
                                                 </nav>
                                             )}
                                         </li>
-                                        <li className="hover:bg-red-300">
-                                            <a href="#" className="lg:text-black text-white font-medium w-full hover:text-red-700 lg:p-3 py-3 text-xs pb-3 inline-flex">India</a>
+                                        <li onMouseEnter={toggleCountry1} ref={ref2}  className="hover:bg-red-300">
+                                            <a href="#" onClick={toggleCountry1} className="lg:text-black text-white font-medium w-full hover:text-red-700 lg:p-3 py-3 text-xs pb-3 inline-flex">India</a>
+                                            {(toggleCountries1) && (
+                                                <nav className="list-none lg:absolute lg:top-5 lg:left-full w-full lg:border-red-700 lg:border lg:w-full lg:bg-white lg:flex flex-col">
+                                                    <li>
+                                                        <a href="#" className="lg:text-black text-white font-normal text-sm pb-2 lg:p-3 inline-flex">India</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" className="lg:text-black text-white font-normal text-sm pb-2 lg:p-3 inline-flex">India</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" className="lg:text-black text-white font-normal text-sm pb-2 lg:p-3 inline-flex">India</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" className="lg:text-black text-white font-normal text-sm pb-2 lg:p-3 inline-flex">India</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" className="lg:text-black text-white font-normal text-sm pb-2 lg:p-3 inline-flex">India</a>
+                                                    </li>
+                                                </nav>
+                                            )}
                                         </li>
-                                        <li className="hover:bg-red-300">
-                                            <a href="#" className="lg:text-black text-white font-medium w-full hover:text-red-700 lg:p-3 py-3 text-xs pb-3 inline-flex">Tajkistan</a>
+                                        <li onMouseEnter={toggleCountry2} ref={ref3} className="hover:bg-red-300">
+                                            <a href="#" onClick={toggleCountry2} className="lg:text-black text-white font-medium w-full hover:text-red-700 lg:p-3 py-3 text-xs pb-3 inline-flex">Tajkistan</a>
+                                            {(toggleCountries2) && (
+                                                <nav className="list-none lg:absolute lg:top-5 lg:left-full w-full lg:border-red-700 lg:border lg:w-full lg:bg-white lg:flex flex-col">
+                                                    <li>
+                                                        <a href="#" className="lg:text-black text-white font-normal text-sm pb-2 lg:p-3 inline-flex">Tajkistan</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" className="lg:text-black text-white font-normal text-sm pb-2 lg:p-3 inline-flex">Tajkistan</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" className="lg:text-black text-white font-normal text-sm pb-2 lg:p-3 inline-flex">Tajkistan</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" className="lg:text-black text-white font-normal text-sm pb-2 lg:p-3 inline-flex">Tajkistan</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" className="lg:text-black text-white font-normal text-sm pb-2 lg:p-3 inline-flex">Tajkistan</a>
+                                                    </li>
+                                                </nav>
+                                            )}
                                         </li>
-                                        <li className="hover:bg-red-300">
-                                            <a href="#" className="lg:text-black text-white font-medium w-full hover:text-red-700 lg:p-3 py-3 text-xs pb-3 inline-flex">Syria</a>
+                                        <li onMouseEnter={toggleCountry3} ref={ref4} className="hover:bg-red-300">
+                                            <a href="#" onClick={toggleCountry3} className="lg:text-black text-white font-medium w-full hover:text-red-700 lg:p-3 py-3 text-xs pb-3 inline-flex">Syria</a>
+                                            {(toggleCountries3) && (
+                                                <nav className="list-none lg:absolute lg:top-5 lg:left-full w-full lg:border-red-700 lg:border lg:w-full lg:bg-white lg:flex flex-col">
+                                                    <li>
+                                                        <a href="#" className="lg:text-black text-white font-normal text-sm pb-2 lg:p-3 inline-flex">Syria</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" className="lg:text-black text-white font-normal text-sm pb-2 lg:p-3 inline-flex">Syria</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" className="lg:text-black text-white font-normal text-sm pb-2 lg:p-3 inline-flex">Syria</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" className="lg:text-black text-white font-normal text-sm pb-2 lg:p-3 inline-flex">Syria</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" className="lg:text-black text-white font-normal text-sm pb-2 lg:p-3 inline-flex">Syria</a>
+                                                    </li>
+                                                </nav>
+                                            )}
                                         </li>
-                                        <li className="hover:bg-red-300">
-                                            <a href="#" className="lg:text-black text-white font-medium w-full hover:text-red-700 lg:p-3 py-3 text-xs pb-3 inline-flex">Kenya</a>
+                                        <li onMouseEnter={toggleCountry4} ref={ref5} className="hover:bg-red-300">
+                                            <a href="#" onClick={toggleCountry4} className="lg:text-black text-white font-medium w-full hover:text-red-700 lg:p-3 py-3 text-xs pb-3 inline-flex">Kenya</a>
+                                            {(toggleCountries4) && (
+                                                <nav className="list-none lg:absolute lg:top-5 lg:left-full w-full lg:border-red-700 lg:border lg:w-full lg:bg-white lg:flex flex-col">
+                                                    <li>
+                                                        <a href="#" className="lg:text-black text-white font-normal text-sm pb-2 lg:p-3 inline-flex">Kenya</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" className="lg:text-black text-white font-normal text-sm pb-2 lg:p-3 inline-flex">Kenya</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" className="lg:text-black text-white font-normal text-sm pb-2 lg:p-3 inline-flex">Kenya</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" className="lg:text-black text-white font-normal text-sm pb-2 lg:p-3 inline-flex">Kenya</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" className="lg:text-black text-white font-normal text-sm pb-2 lg:p-3 inline-flex">Kenya</a>
+                                                    </li>
+                                                </nav>
+                                            )}
                                         </li>
                                     </nav>
                                 )}
                             </li>
-                            <li  onMouseEnter={toggleMd} ref={ref2}>
+                            <li onMouseEnter={toggleMd} ref={ref7}>
                                 <a href="#" className="font-semibold lg:contents hidden text-sm lg:text-black text-white">Media Resources</a>
-                                <a href="#" onclick={toggleMd} ref={ref2} className="font-semibold text-sm lg:hidden lg:text-black text-white">Media Resources</a>
+                                <a href="#" onclick={toggleMd} ref={ref7} className="font-semibold text-sm lg:hidden lg:text-black text-white">Media Resources</a>
                                 {(toggleMedia) && (
                                     <nav className="lg:pt-0 pt-2 list-none top-28 lg:absolute w-full lg:border-red-700 lg:border lg:w-1/6 lg:bg-white lg:flex flex-col">
                                         <li className="hover:bg-red-300">
