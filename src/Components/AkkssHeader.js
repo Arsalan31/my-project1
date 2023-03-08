@@ -235,9 +235,8 @@ function AkhssHeader() {
     return (
         <section className="w-full fixed z-50">
             <div className="flex bg-white">
-                <div className="xl:w-5/12 lg:w-1/3 w-11/12">
-                    <img className="lg:flex relative hidden" src={require('./assets/Rectangle 80.png')}></img>
-                    <div className="inline-flex p-2 justify-center lg:absolute xl:top-5 lg:top-3">
+                <div className="clip xl:w-5/12 lg:w-1/3 w-11/12">
+                    <div className="inline-flex p-2 justify-center lg:relative xl:top-5 lg:top-3">
                         <img className="xl:w-18 lg:w-12" src={require('./assets/AKH_Logo_Small 1.png')}></img>
                         <p className="xl:font-extrabold font-bold self-center xl:text-2.5xl sm:text-xl text-lg">Aga Khan Health Services</p>
                     </div>
@@ -249,13 +248,13 @@ function AkhssHeader() {
                                 <li>
                                     <a className="font-semibold text-sm lg:text-black text-white">Programs</a>
                                 </li>
-                                <li className="lg:flex hidden">
+                                <li className="lg:flex h-8 hidden">
                                     <a className="border-s border-black"></a>
                                 </li>
                                 <li>
                                     <a className="font-semibold text-sm lg:text-black text-white">Education</a>
                                 </li>
-                                <li className="lg:flex hidden">
+                                <li className="lg:flex h-8 hidden">
                                     <a className="border-s border-black"></a>
                                 </li>
                                 <li>
