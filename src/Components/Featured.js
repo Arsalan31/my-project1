@@ -25,7 +25,7 @@ function Featured(props) {
     const toggleaudio = () => {
         setIsAudioPlaying(!isaudioPlaying)
     }
-    
+
     return (
         <section className="sm:mt-10 lg:mt-0 flex flex-col items-start w-full h-full">
             <div className="container mt-8 mx-auto">
@@ -34,14 +34,14 @@ function Featured(props) {
                     <>
                         <Swiper
                             breakpoints={{
-                                0: {    
+                                0: {
                                     slidesPerView: 1,
                                 },
                                 1024: {
                                     slidesPerView: 3,
                                     spaceBetween: 20
                                 },
-                            }}  
+                            }}
                             pagination={{
                                 el: '.swiper-pagination4',
                                 type: 'bullets',
@@ -79,7 +79,7 @@ function Featured(props) {
                                 <div class="flex flex-wrap md:-m-4 -mx-4 -mb-10 md:space-y-0 space-y-6">
                                     <div class="p-4 xl:w-full flex flex-col text-center items-center">
                                         {/* <img src={require('./assets/Rectangle 1450.png')}></img> */}
-                                        <video className="rounded-t-2xl 2xl:h-95 xl:h-76 lg:h-62 sm:h-99.5 h-95 bg-black w-full" controls poster={require('./assets/Rectangle 1450.png')}>
+                                        <video className="rounded-t-2xl 2xl:h-95 xl:h-76 lg:h-62 sm:h-99.5 h-95 bg-black w-full" controls poster={require('./assets/Rectangle 275.png')}>
                                             <source onClick={togglevideo} src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4" type="video/mp4" />
                                         </video>
                                         <div class="flex-grow mt-7">
@@ -93,7 +93,7 @@ function Featured(props) {
                             <SwiperSlide>
                                 <div class="flex flex-wrap md:-m-4 -mx-4 -mb-10 md:space-y-0 space-y-6">
                                     <div class="p-4 w-full flex flex-col text-center items-center">
-                                        <img className="w-full" src={require('./assets/Rectangle 1450.png')}></img>
+                                        <img className="w-full h-76 rounded-t-2xl" src={require('./assets/Rectangle 218.png')}></img>
                                         <audio onClick={toggleaudio} className="absolute 2xl:top-80 xl:top-64 lg:top-48 bottom-40 xl:h-15 lg:h-14 w-full" controls="transparent">
                                             <source className="rounded-none" src={require('./assets/Free_Test_Data_500KB_MP3.mp3')} type="audio/mpeg" />
                                             Your browser does not support the audio element.
@@ -123,7 +123,7 @@ function Featured(props) {
                                 <div class="flex flex-wrap md:-m-4 -mx-4 -mb-10 md:space-y-0 space-y-6">
                                     <div class="p-4 xl:w-full flex flex-col text-center items-center">
                                         {/* <img src={require('./assets/Rectangle 1450.png')}></img> */}
-                                        <video className="rounded-t-2xl 2xl:h-95 xl:h-76 lg:h-62 sm:h-99.5 h-95 bg-black w-full" controls poster={require('./assets/Rectangle 1450.png')}>
+                                        <video className="rounded-t-2xl 2xl:h-95 xl:h-76 lg:h-62 sm:h-99.5 h-95 bg-black w-full" controls poster={require('./assets/Rectangle 275.png')}>
                                             <source onClick={togglevideo} src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4" type="video/mp4" />
                                         </video>
                                         <div class="flex-grow mt-7">
@@ -137,7 +137,7 @@ function Featured(props) {
                             <SwiperSlide>
                                 <div class="flex flex-wrap md:-m-4 -mx-4 -mb-10 md:space-y-0 space-y-6">
                                     <div class="p-4 w-full flex flex-col text-center items-center">
-                                        <img className="w-full" src={require('./assets/Rectangle 1450.png')}></img>
+                                        <img className="w-full h-76 rounded-t-2xl" src={require('./assets/Rectangle 218.png')}></img>
                                         <audio className="absolute 2xl:top-80 xl:top-64 lg:top-48 bottom-40 xl:h-15 lg:h-14 w-full" controls>
                                             <source src={require('./assets/Free_Test_Data_500KB_MP3.mp3')} type="audio/mpeg" />
                                             Your browser does not support the audio element.
