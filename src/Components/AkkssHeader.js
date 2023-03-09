@@ -234,9 +234,9 @@ function AkhssHeader() {
     }, [toggleMedia])
     return (
         <section className="w-full fixed z-50">
-            <div className="flex bg-white lg:bg-gray-100 lg:border-gray-200 lg:border">
-                <div className="clip filter lg:shadow-3xl xl:w-5/12 lg:w-1/3 w-11/12">
-                    <div className="inline-flex p-2 justify-center lg:relative xl:top-5 lg:top-3">
+            <div className="flex bg-white lg:border">
+                <div className="clip filter lg:shadow-4xl xl:w-5/12 lg:w-1/3 w-11/12">
+                    <div className="inline-flex items-center p-2 justify-center lg:relative xl:top-5 lg:top-3">
                         <img className="xl:w-18 lg:w-12" src={require('./assets/AKH_Logo_Small 1.png')}></img>
                         <p className="xl:font-extrabold font-bold self-center xl:text-2.5xl sm:text-xl text-lg">Aga Khan Health Services</p>
                     </div>
