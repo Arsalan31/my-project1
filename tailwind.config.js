@@ -91,7 +91,8 @@ module.exports = {
         '120': "570px"
       },
       boxShadow: {
-        '3xl': "0px 13px 19px rgba(0, 0, 0, 0.07)"
+        '3xl': "0px 13px 19px rgba(0, 0, 0, 0.07)",
+        '4xl': "0px 4px 4px rgba(0, 0, 0, 0.15)"
       },
       dropShadow: {
         '3xl': "0px 4px 4px rgba(0, 0, 0, 0.25)"
