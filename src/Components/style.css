@@ -303,6 +303,10 @@
       background: white !important;
     }
 
+    .swiper-button-disabled {
+      display: none;
+    }
+
     .swiper-pagination5>.swiper-pagination-bullet {
       width: 46.33px !important;
       height: 2px !important;
