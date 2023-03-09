@@ -19,7 +19,7 @@ function Subscribe() {
                         <img className="relative md:bottom-12 -bottom-7 opacity-10" src={require('./assets/Group 42.png')}></img>
                     </div>
                     <div className="flex md:flex-nowrap flex-wrap justify-center gap-6 mt-20">
-                        <label class="relative text-gray-400 focus-within:text-gray-600 block">
+                        <label class="relative text-gray-400 w-2/5 focus-within:text-gray-600 block">
                             <input type="email" id="email" name="email" placeholder="Your Email" className="w-full h-14 bg-white filter drop-shadow-3xl border rounded-2xl border-gray-200 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-sm font-normal outline-none placeholder-blue-1000 text-blue-1000 p-8 px-14 leading-8 transition-colors duration-200 ease-in-out" />
                             <img src={require('./assets/Group 46.png')} class="text2 pointer-events-none absolute top-6 left-3"></img>
                         </label>
