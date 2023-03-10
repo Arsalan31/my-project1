@@ -341,7 +341,7 @@
 
     .list6 {
       list-style-type: none;
-      height: 100%;
+      height: auto;
       display: flex;
       position: relative;
       padding: 16px;
