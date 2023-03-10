@@ -404,6 +404,10 @@
     rotate: 180deg;
   }
 
+  [dir="rtl"] .flip {
+    background-image: url(assets/Group\ 5\ \(1\).png);
+  }
+
   .bg {
     background: #744775
   }
@@ -430,7 +434,7 @@
   }
 
   [dir="rtl"] .text2 {
-    left: 85%;
+    left: 88%;
   }
 
   .txt {
