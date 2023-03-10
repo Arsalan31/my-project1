@@ -404,10 +404,6 @@
     rotate: 180deg;
   }
 
-  [dir="rtl"] .flip {
-    background-image: url(assets/Group\ 5\ \(1\).png);
-  }
-
   .bg {
     background: #744775
   }
