@@ -21,15 +21,23 @@ function HeroSlider(props) {
     return (
         <section>
             <div className="py-10">
-                <div className="w-full">
+                <div className="w-full lg:px-0 px-4">
                     <>
                         <Swiper
                             pagination={{
                                 el: '.swiper-pagination5',
-                                type:'bullets',
+                                type: 'bullets',
                                 clickable: true
-                            }
-                            }
+                            }}
+                            breakpoints={{
+                                0: {
+                                    slidesPerView: 1.25,
+                                    spaceBetween: 20
+                                },
+                                1024: {
+                                    slidesPerView: 1,
+                                },
+                            }}
                             ref={swiperRef}
                             navigation={{
                                 nextEl: ".swiper-button-next",
@@ -46,7 +54,7 @@ function HeroSlider(props) {
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <video className="rounded-t-2xl h-full bg-black w-full" controls poster={require('./assets/Rectangle 275.png')}>
+                                <video className="h-full bg-black w-full" controls poster={require('./assets/Rectangle 275.png')}>
                                     <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4" type="video/mp4" />
                                 </video>
                                 <div className="lg:bg-white bg-blue-30 backdrop-blur-md">
