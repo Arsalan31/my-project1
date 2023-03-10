@@ -30,7 +30,7 @@ function Featured(props) {
         <section className="sm:mt-10 lg:mt-0 flex flex-col items-start w-full h-full">
             <div className="container mt-8 mx-auto">
                 <h3 className=" font-bold text-3xl uppercase text-center text-black">Featured Videos</h3>
-                <div className="flex lg:flex-wrap justify-center px-5 mt-10 mb-5">
+                <div className="flex lg:flex-wrap items-center justify-center px-5 mt-10 mb-5">
                     <>
                         <Swiper
                             breakpoints={{
@@ -93,7 +93,7 @@ function Featured(props) {
                             <SwiperSlide>
                                 <div class="flex flex-wrap md:-m-4 -mx-4 -mb-10 md:space-y-0 space-y-6">
                                     <div class="p-4 w-full flex flex-col text-center items-center">
-                                        <img className="w-full xl:h-76 lg:h-64 rounded-t-2xl" src={require('./assets/Rectangle 218.png')}></img>
+                                        <img className="w-full xl:h-76 lg:h-64 sm:h-99.5 h-95 rounded-t-2xl" src={require('./assets/Rectangle 218.png')}></img>
                                         <audio onClick={toggleaudio} className="absolute 2xl:top-80 xl:top-64 lg:top-48 bottom-40 xl:h-15 lg:h-14 w-full" controls="transparent">
                                             <source className="rounded-none" src={require('./assets/Free_Test_Data_500KB_MP3.mp3')} type="audio/mpeg" />
                                             Your browser does not support the audio element.
@@ -137,7 +137,7 @@ function Featured(props) {
                             <SwiperSlide>
                                 <div class="flex flex-wrap md:-m-4 -mx-4 -mb-10 md:space-y-0 space-y-6">
                                     <div class="p-4 w-full flex flex-col text-center items-center">
-                                        <img className="w-full xl:h-76 lg:h-64 rounded-t-2xl" src={require('./assets/Rectangle 218.png')}></img>
+                                        <img className="w-full xl:h-76 lg:h-64 sm:h-99.5 h-95 rounded-t-2xl" src={require('./assets/Rectangle 218.png')}></img>
                                         <audio className="absolute 2xl:top-80 xl:top-64 lg:top-48 bottom-40 xl:h-15 lg:h-14 w-full" controls>
                                             <source src={require('./assets/Free_Test_Data_500KB_MP3.mp3')} type="audio/mpeg" />
                                             Your browser does not support the audio element.

@@ -3,7 +3,7 @@ import React, { useState } from "react"
 function Subscribe() {
     return (
         <section>
-            <div className="container sm:p-20 p-10 mx-auto bg-white">
+            <div className="container sm:p-24 p-10 mx-auto bg-white">
                 <div className="flex justify-end">
                     <img src={require('./assets/Group 77.png')} className="relative sm:h-12 sm:w-12 w-8 h-8 sm:-bottom-7 -bottom-5 -end-2 sm:-end-4"></img>
                 </div>
@@ -28,8 +28,8 @@ function Subscribe() {
                         </button>
                     </div>
                 </div>
-                <div className="sm:flex hidden justify-end absolute 2xl:end-24 xl:end-24 lg:end-28 sm:end-20">
-                    <img src={require('./assets/Group 5.png')} className="sm:flex hidden justify-end relative bottom-24 sm:-end-20"></img>
+                <div className="sm:flex hidden justify-end absolute sm:end-0">
+                    <img src={require('./assets/Group 5.png')} className="sm:flex hidden justify-end relative bottom-24"></img>
                 </div>
             </div>
         </section>

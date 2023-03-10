@@ -303,10 +303,6 @@
       background: white !important;
     }
 
-    .swiper-button-disabled {
-      display: none;
-    }
-
     .swiper-pagination5>.swiper-pagination-bullet {
       width: 46.33px !important;
       height: 2px !important;
@@ -403,7 +399,7 @@
   [dir="rtl"] .seemore {
     rotate: 180deg;
   }
-
+  
   .bg {
     background: #744775
   }
@@ -437,4 +433,8 @@
     background-image: url(assets/Vector.png);
     background-repeat: no-repeat;
     background-position: right;
+  }
+
+  .swiper-button-disabled {
+    display: none;
   }
