@@ -36,7 +36,6 @@ function Featured(props) {
                             breakpoints={{
                                 0: {
                                     slidesPerView: 1,
-                                    spaceBetween: 0
                                 },
                                 1024: {
                                     slidesPerView: 3,
@@ -55,7 +54,6 @@ function Featured(props) {
                             }}
                             modules={[Pagination, Navigation]}
                             className="mySwiper"
-                            centeredSlides={true}
                         >
                             <SwiperSlide>
                                 <div class="flex flex-wrap md:-m-4 -mx-4 -mb-10 md:space-y-0 space-y-6">
