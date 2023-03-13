@@ -56,7 +56,6 @@ function Featured(props) {
                             modules={[Pagination, Navigation]}
                             className="mySwiper"
                             centeredSlides={true}
-                            loop={true}
                         >
                             <SwiperSlide>
                                 <div class="flex flex-wrap md:-m-4 -mx-4 -mb-10 md:space-y-0 space-y-6">
