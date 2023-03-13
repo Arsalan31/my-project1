@@ -77,7 +77,7 @@ function HeroSlider(props) {
                                         </svg>
                                     </button>
                                 </div>
-                                <div className="lg:px-0 px-2 flex relative w-full lg:mt-0 mt-2 justify-end">
+                                <div className="lg:px-0 px-2 flex relative lg:w-1/5 w-full lg:mt-0 mt-2 justify-end">
                                     <div class="flex items-center lg:w-1/5 w-full gap-2 swiper-pagination5">
                                     </div>
                                 </div>
