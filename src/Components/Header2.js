@@ -1,5 +1,5 @@
 import { Dialog } from "@mui/material";
-import React, {useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import './style.css';
 
 
@@ -8,7 +8,7 @@ function Header2() {
     console.log();
 
     const [toggleMenu, setToggleMenu] = useState(false)
-    
+
     const toggleNav = () => {
         setToggleMenu(true)
     }
@@ -197,8 +197,11 @@ function Header2() {
     return (
         <header className="w-full z-50 fixed">
             <div className="flex w-full flex-wrap lg:h-28 h-18 justify-between items-center absolute bg-white">
-                <img href="Akdn1" className="img lg:flex hidden" src={require('./assets/AKDN Identity with Tag Line 1.png')}></img>
-                <div className="list-none lg:bg-white h-full order-1 gap-3 lg:px-0 flex w-auto lg:justify-center">
+                <img href="Akdn1" className="img flex" src={require('./assets/AKDN Identity with Tag Line 1.png')}></img>
+                <button onClick={toggleNav} className="flex justify-end items-center p-2 ms-3 text-sm  lg:hidden">
+                    <img src={require('./assets/Menu.png')}></img>
+                </button>
+                <div className="list-none lg:bg-white h-full order-1 gap-3 lg:px-0 lg:flex hidden w-auto lg:justify-center">
                     <li className="lg:hover:bg-gray-8" onMouseEnter={toggleAbt} ref={ref}>
                         <div className="flex">
                             <a className="lg:w-auto w-1/2 h-full cursor-pointer uppercase lg:block hidden py-3 lg:py-10 px-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">Who We Are</a>
@@ -735,15 +738,16 @@ function Header2() {
                 <Dialog
                     fullWidth
                     fullScreen
-                    open={toggleNav}
+                    open={toggleMenu}
                     onClose={handleClose}
-                    className="lg:hidden block"
+                    className="lg:hidden flex "
+                    
                 >
                     <div className="list-none h-full gap-3 lg:px-0 flex lg:flex-row flex-col order-0 lg:justify-center justify-start">
                         <div className="flex lg:flex-row flex-col xl:gap-3 lg:bg-white bg-green-20 lg:px-0 px-8">
                             <div className="lg:hidden lg:h-28 h-18 w-full flex flex-wrap justify-between content-center items-center">
                                 <img href="Akdn" className="order-1 flex w-24 h-8" src={require('./assets/White.png')}></img>
-                                <button onClick={toggleNav} className="flex items-center order-0 focus:outline-none text-sm font-semibold uppercase py-3 text-gray-5 lg:hidden">
+                                <button onClick={handleClose} className="flex items-center order-0 focus:outline-none text-sm font-semibold uppercase py-3 text-gray-5 lg:hidden">
                                     <img src={require('./assets/Group.png')}></img>
                                 </button>
                                 <button className="font-bold order-2 uppercase py-2 focus:outline-none">
@@ -1245,7 +1249,7 @@ function Header2() {
                                 <li className="lg:hidden">
                                     <li ref={lang}>
                                         <a className="flex">
-                                            <h3 className="w-1/2 flex font-bold text-xs leading-7 py-3 lg:py-2 px-2 text-white tracking-widest uppercase pb-6">
+                                            <h3 className="w-1/2 flex font-bold text-xs leading-7 py-3 lg:py-2 text-white tracking-widest uppercase pb-6">
                                                 <svg className="mt-1" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <g clip-path="url(#clip0_4295_1327)">
                                                         <path d="M9.99175 1.66663C5.39175 1.66663 1.66675 5.39996 1.66675 9.99996C1.66675 14.6 5.39175 18.3333 9.99175 18.3333C14.6001 18.3333 18.3334 14.6 18.3334 9.99996C18.3334 5.39996 14.6001 1.66663 9.99175 1.66663ZM15.7667 6.66663H13.3084C13.0417 5.62496 12.6584 4.62496 12.1584 3.69996C13.6917 4.22496 14.9667 5.29163 15.7667 6.66663ZM10.0001 3.36663C10.6917 4.36663 11.2334 5.47496 11.5917 6.66663H8.40842C8.76675 5.47496 9.30842 4.36663 10.0001 3.36663ZM3.55008 11.6666C3.41675 11.1333 3.33341 10.575 3.33341 9.99996C3.33341 9.42496 3.41675 8.86663 3.55008 8.33329H6.36675C6.30008 8.88329 6.25008 9.43329 6.25008 9.99996C6.25008 10.5666 6.30008 11.1166 6.36675 11.6666H3.55008ZM4.23341 13.3333H6.69175C6.95841 14.375 7.34175 15.375 7.84175 16.3C6.30841 15.775 5.03341 14.7166 4.23341 13.3333V13.3333ZM6.69175 6.66663H4.23341C5.03341 5.28329 6.30841 4.22496 7.84175 3.69996C7.34175 4.62496 6.95841 5.62496 6.69175 6.66663V6.66663ZM10.0001 16.6333C9.30842 15.6333 8.76675 14.525 8.40842 13.3333H11.5917C11.2334 14.525 10.6917 15.6333 10.0001 16.6333ZM11.9501 11.6666H8.05008C7.97508 11.1166 7.91675 10.5666 7.91675 9.99996C7.91675 9.43329 7.97508 8.87496 8.05008 8.33329H11.9501C12.0251 8.87496 12.0834 9.43329 12.0834 9.99996C12.0834 10.5666 12.0251 11.1166 11.9501 11.6666ZM12.1584 16.3C12.6584 15.375 13.0417 14.375 13.3084 13.3333H15.7667C14.9667 14.7083 13.6917 15.775 12.1584 16.3V16.3ZM13.6334 11.6666C13.7001 11.1166 13.7501 10.5666 13.7501 9.99996C13.7501 9.43329 13.7001 8.88329 13.6334 8.33329H16.4501C16.5834 8.86663 16.6667 9.42496 16.6667 9.99996C16.6667 10.575 16.5834 11.1333 16.4501 11.6666H13.6334Z" fill="#FFFFFF" />
