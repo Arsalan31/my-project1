@@ -212,7 +212,7 @@ function Header2() {
 
     return (
         <header className="w-full z-50 fixed">
-            <div className="flex w-full flex-wrap lg:h-28 h-18 justify-evenly items-center absolute bg-white">
+            <div className="flex w-full flex-wrap lg:h-28 h-18 justify-between items-center absolute bg-white">
                 <img href="Akdn1" className="img lg:flex hidden" src={require('./assets/AKDN Identity with Tag Line 1.png')}></img>
                 <div className="list-none lg:bg-white h-full order-1 gap-3 lg:px-0 flex w-auto lg:justify-center">
                     <li className="lg:hover:bg-gray-8" onMouseEnter={toggleAbt} ref={ref}>

@@ -249,7 +249,7 @@ function AkhssHeader() {
                 {(toggleMenu || screenWidth > 1023) && (
                     <div className="lg:w-2/3 lg:relative absolute w-full lg:bg-transparent bg-red-600 bg-opacity-80 flex lg:flex-wrap flex-wrap-reverse">
                         <div className="w-full h-auto">
-                            <nav className="list-none lg:bg-gray-100 border-t border-b border-end lg:border-gray-200 items-center lg:flex-row flex-col gap-3 flex p-4">
+                            <nav className="list-none lg:bg-gray-100 lg:border-t lg:border-b lg:border-end lg:border-gray-200 lg:items-center lg:flex-row flex-col gap-3 flex p-4">
                                 <li>
                                     <a className="font-semibold text-sm lg:text-black text-white">Programs</a>
                                 </li>
@@ -273,7 +273,7 @@ function AkhssHeader() {
                                 </label>
                             </nav>
                         </div>
-                        <nav className="list-none w-full items-center bg-white lg:flex-row flex-col h-18 xl:py-4 lg:px-0 px-4 gap-3 flex">
+                        <nav className="list-none w-full lg:items-center lg:bg-white h-full lg:flex-row flex-col lg:h-18 xl:py-4 lg:px-0 px-4 gap-3 flex">
                             <button onClick={toggleNav} className="p-8 lg:hidden flex w-auto justify-end">
                                 <svg width="31" height="32" viewBox="0 0 31 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <rect x="5.87109" y="0.786377" width="36" height="6" rx="3" transform="rotate(48.7268 5.87109 0.786377)" fill="#FFF9F9" />
@@ -453,7 +453,7 @@ function AkhssHeader() {
                                 <a href="#" className="font-semibold text-sm lg:text-black text-white">Join Us!</a>
                             </li>
                             <div className="py-4 lg:hidden">
-                                <li className="border-2 rounded border-white w-full"></li>
+                                <li className="border rounded border-white w-full"></li>
                             </div>
                         </nav>
                     </div>
