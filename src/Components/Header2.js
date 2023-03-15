@@ -1,37 +1,21 @@
 import { Dialog } from "@mui/material";
-import Slide from '@mui/material/Slide';
-import { TransitionProps } from '@mui/material/transitions';
-import React, { forwardRef, useEffect, useRef, useState } from "react";
+import React, {useEffect, useRef, useState } from "react";
 import './style.css';
 
 
 function Header2() {
 
+    console.log();
+
     const [toggleMenu, setToggleMenu] = useState(false)
-    const [screenWidth, setScreenWidth] = useState(window.innerWidth)
-
-
+    
     const toggleNav = () => {
         setToggleMenu(true)
     }
 
     const handleClose = () => {
-        setToggleMenu(false);
+        setToggleMenu(false)
     };
-
-    useEffect(() => {
-
-        const changeWidth = () => {
-            setScreenWidth(window.innerWidth);
-        }
-
-        window.addEventListener('resize', changeWidth)
-
-        return () => {
-            window.removeEventListener('resize', changeWidth)
-        }
-
-    }, [])
 
     const lang = useRef()
 
@@ -752,6 +736,7 @@ function Header2() {
                     fullWidth
                     fullScreen
                     open={toggleNav}
+                    onClose={handleClose}
                     className="lg:hidden block"
                 >
                     <div className="list-none h-full gap-3 lg:px-0 flex lg:flex-row flex-col order-0 lg:justify-center justify-start">
