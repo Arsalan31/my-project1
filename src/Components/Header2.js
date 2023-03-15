@@ -740,7 +740,7 @@ function Header2() {
                     fullScreen
                     open={toggleMenu}
                     onClose={handleClose}
-                    className="lg:hidden flex "
+                    className="lg:hidden flex-col"
                     
                 >
                     <div className="list-none h-full gap-3 lg:px-0 flex lg:flex-row flex-col order-0 lg:justify-center justify-start">

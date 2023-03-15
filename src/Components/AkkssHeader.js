@@ -444,9 +444,9 @@ function AkhssHeader() {
                     fullWidth
                     open={toggleMenu}
                     onClose={handleClose}
-                    className="lg:hidden flex"
+                    className="lg:hidden flex-col"
                 >
-                    <div className="absolute w-full bg-red-600 bg-opacity-80 flex flex-wrap-reverse">
+                    <div className="w-full bg-red-600 bg-opacity-80 flex flex-wrap-reverse">
                         <div className="w-full h-auto">
                             <nav className="list-none flex-col gap-3 flex p-4">
                                 <li>
@@ -460,7 +460,7 @@ function AkhssHeader() {
                                 </li>
                             </nav>
                         </div>
-                        <nav className="list-none w-full h-full flex-col px-4 gap-3 flex">
+                        <nav className="list-none w-full h-auto flex-col px-4 gap-3 flex">
                             <button onClick={handleClose} className="p-8 flex w-auto justify-end">
                                 <svg width="31" height="32" viewBox="0 0 31 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <rect x="5.87109" y="0.786377" width="36" height="6" rx="3" transform="rotate(48.7268 5.87109 0.786377)" fill="#FFF9F9" />
