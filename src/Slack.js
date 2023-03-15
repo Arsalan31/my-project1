@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Hero3 from "./Components/Hero3";
+import Solutions from "./Components/Solutions";
 
 
 function Slack() {
@@ -7,6 +8,7 @@ function Slack() {
     return (
         <React.Fragment>
             <Hero3 />
+            <Solutions />
         </React.Fragment>
     )
 
