@@ -28,7 +28,7 @@ function Akdn() {
                 <Agency />
                 <Info/>
                 <Featured isRtl={isRtl} />
-                <Subscribe />
+                <Subscribe isRtl={isRtl} />
                 <Footer />
             </div>
         </React.Fragment>

@@ -235,18 +235,21 @@ function AkhssHeader() {
     return (
         <section className="w-full fixed z-50">
             <div className="flex bg-white lg:border">
-                <div className="filter lg:drop-shadow-3xl relative lg:w-2/5 w-11/12">
-                    <div className="clip lg:absolute w-full lg:h-40 h-full">
-                        <div className="flex items-center relative lg:top-10">
-                            <img className="lg:w-18" src={require('./assets/AKH_Logo_Small 1.png')}></img>
-                            <p className="lg:font-extrabold font-bold self-center xl:text-2.5xl sm:text-xl text-lg">Aga Khan Health Services</p>
+                <div className="relative lg:w-2/5 w-11/12">
+                    <div className="lg:flex hidden bg-gray-100 h-18"></div>
+                    <div className="filter lg:drop-shadow-3xl">
+                        <div className="clip lg:absolute w-full -bottom-20 lg:h-40 h-full">
+                            <div className="flex items-center relative lg:top-10">
+                                <img className="lg:w-18" src={require('./assets/AKH_Logo_Small 1.png')}></img>
+                                <p className="lg:font-extrabold font-bold self-center xl:text-2.5xl sm:text-xl text-lg">Aga Khan Health Services</p>
+                            </div>
                         </div>
                     </div>
                 </div>
                 {(toggleMenu || screenWidth > 1023) && (
                     <div className="lg:w-2/3 lg:relative absolute w-full lg:bg-transparent bg-red-600 bg-opacity-80 flex lg:flex-wrap flex-wrap-reverse">
                         <div className="w-full h-auto">
-                            <nav className="list-none lg:bg-gray-100 border lg:border-gray-200 items-center lg:flex-row flex-col gap-3 flex p-4">
+                            <nav className="list-none lg:bg-gray-100 border-t border-b border-end lg:border-gray-200 items-center lg:flex-row flex-col gap-3 flex p-4">
                                 <li>
                                     <a className="font-semibold text-sm lg:text-black text-white">Programs</a>
                                 </li>
@@ -297,7 +300,7 @@ function AkhssHeader() {
                                         <li onMouseEnter={toggleCountry5} ref={ref6} className="hover:bg-red-300">
                                             <a onClick={toggleCountry5} href="#" className="lg:text-black w-full text-white font-medium text-xs pb-3 hover:text-red-700 lg:p-3 py-3 inline-flex">Pakistan</a>
                                             {(toggleCountries5) && (
-                                                <nav className="list-none lg:absolute lg:top-5 lg:left-full w-full lg:border-red-700 lg:border lg:w-full lg:bg-white lg:flex flex-col">
+                                                <nav className="list-none lg:absolute lg:top-5 lg:left-full w-full lg:border-red-700 lg:border lg:w-full lg:bg-off-white-10 lg:flex flex-col">
                                                     <li>
                                                         <a href="#" className="lg:text-black text-white font-normal text-sm pb-2 lg:p-3 inline-flex">Pakistan</a>
                                                     </li>

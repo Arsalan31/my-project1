@@ -1,6 +1,12 @@
 import React, { useState } from "react"
 
-function Subscribe() {
+function Subscribe(props) {
+
+    const [directions, setdirections] = useState(props)
+    const setDirection = () => {
+        props.setIsRtl(!props.isRtl)
+    }
+
     return (
         <section>
             <div className="container sm:p-24 p-10 mx-auto bg-white">
@@ -28,11 +34,14 @@ function Subscribe() {
                         </button>
                     </div>
                 </div>
-                <div className="sm:flex hidden justify-end absolute sm:end-0">
-                    <img src={require('./assets/Group 5.png')} className="sm:flex hidden justify-end relative bottom-24"></img>
+                <div onClick={setDirection} className="sm:flex hidden justify-end absolute sm:end-0">
+                    {directions ? <img src={require('./assets/Group 5.png')} className="sm:flex hidden justify-end xl:end-10 lg:end-24 relative bottom-24"></img> :
+                        <img src={require('./assets/Group 5 (1).png')} className="sm:flex hidden justify-end relative bottom-24"></img>
+                    }
                 </div>
+                
             </div>
-        </section>
+        </section >
     )
 }
 

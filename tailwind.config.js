@@ -46,6 +46,9 @@ module.exports = {
         },
         'green': {
           '20': "#00843D"
+        },
+        'off-white': {
+          '10': "#FFF8F8"
         }
       },
       gap: {
