@@ -468,7 +468,7 @@ function AkhssHeader() {
                                 </svg>
                             </button>
                             <li>
-                                <a href="#" className="font-semibold text-sm text-white">Home</a>
+                                <a href="Slack" className="font-semibold text-sm text-white">Home</a>
                             </li>
                             <div className="pb-4">
                                 <li className="border-4 border-white rounded w-28"></li>

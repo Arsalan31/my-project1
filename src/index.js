@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Udix from './Udix';
 import Akdn from './Akdn';
 import Akdn1 from './Akdn1';
+import Slack from './Slack';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -16,6 +17,7 @@ root.render(
       <Route path='/Udix' element={<Udix />} />
       <Route path='/Akdn' element={<Akdn/>} />
       <Route path='/Akdn1' element={<Akdn1/>} />
+      <Route path='/Slack' element={<Slack/>} />
     </Routes>
   </BrowserRouter>
 );
