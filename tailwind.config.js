@@ -45,7 +45,8 @@ module.exports = {
           '8': "#F2F2F2"
         },
         'green': {
-          '20': "#00843D"
+          '20': "#00843D",
+          '40': "#00e7ff"
         },
         'off-white': {
           '10': "#FFF8F8"
@@ -59,6 +60,7 @@ module.exports = {
         '13': "52px"
       },
       fontSize: {
+        '4.5xl': "40px",
         '5xl': "48px",
         '2.5xl': "28px",
         '1xl': "15px"
