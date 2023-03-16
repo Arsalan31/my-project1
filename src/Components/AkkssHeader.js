@@ -229,7 +229,7 @@ function AkhssHeader() {
                     <div className="filter lg:drop-shadow-3xl">
                         <div className="clip lg:absolute w-full -bottom-20 lg:h-40 h-full">
                             <div className="flex items-center relative lg:top-10">
-                                <img className="lg:w-18" src={require('./assets/AKH_Logo_Small 1.png')}></img>
+                                <img className="akhs relative lg:w-18" src={require('./assets/AKH_Logo_Small 1.png')}></img>
                                 <p className="lg:font-extrabold font-bold self-center xl:text-2.5xl sm:text-xl text-lg">Aga Khan Health Services</p>
                             </div>
                         </div>

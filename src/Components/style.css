@@ -428,6 +428,10 @@
     left: 88%;
   }
 
+  [dir="rtl"] .akhs {
+    right: 85%;
+  }
+
   .txt {
     background-image: url(assets/Vector.png);
     background-repeat: no-repeat;
