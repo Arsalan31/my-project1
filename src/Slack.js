@@ -7,8 +7,10 @@ function Slack() {
     const [isRtl, setIsRtl] = useState(false)
     return (
         <React.Fragment>
-            <Hero3 />
-            <Solutions />
+            <div dir={isRtl ? "rtl" : "ltr"}>
+                <Hero3 isRtl={isRtl} setIsRtl={setIsRtl} />
+                <Solutions />
+            </div>
         </React.Fragment>
     )
 
