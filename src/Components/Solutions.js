@@ -17,7 +17,7 @@ function Solutions() {
                         We recognize that each client is unique, so we work to understand your objectives to implement the solutions below or develop custom solutions to address business needs.
                     </p>
                 </div>
-                <div className="flex justify-center text-center gap-6">
+                <div className="flex lg:flex-row flex-col justify-center text-center gap-6">
                     <div className="flex flex-col items-center">
                         <img className="w-20 h-20" src={require('./assets/RVR-strategic-planning.png')}></img>
                         <h4 className="text-white">
