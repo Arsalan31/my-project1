@@ -5,7 +5,7 @@ import './style.css';
 function Hero3() {
     return (
         <section>
-            <div className="te">
+            <div>
                 <img className="bg-cover w-full" src={require('./assets/RVR-quote1.jpg')} />
                 <h2 className="w-full absolute flex justify-center text-center top-60 text-4.5xl font-light text-white">
                     <span className="font-black text-green-40">/&nbsp;</span>
