@@ -342,8 +342,14 @@
       padding: 16px;
       background: linear-gradient(0deg, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), #00843D;
     }
-  }
 
+    .head:hover{
+      background: linear-gradient(0deg, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), #00843D;
+
+    }
+
+  }
+    
   @media screen and (min-width: 1280px) {
     .swiper1 {
       padding-inline-start: 50px !important;

@@ -744,7 +744,7 @@ function Header2() {
                     
                 >
                     <div className="list-none h-full gap-3 lg:px-0 flex lg:flex-row flex-col order-0 lg:justify-center justify-start">
-                        <div className="flex lg:flex-row flex-col xl:gap-3 lg:bg-white bg-green-20 lg:px-0 px-8">
+                        <div className="flex lg:flex-row flex-col xl:gap-3 lg:bg-white bg-green-20">
                             <div className="lg:hidden lg:h-28 h-18 w-full flex flex-wrap justify-between content-center items-center">
                                 <img href="Akdn" className="order-1 flex w-24 h-8" src={require('./assets/White.png')}></img>
                                 <button onClick={handleClose} className="flex items-center order-0 focus:outline-none text-sm font-semibold uppercase py-3 text-gray-5 lg:hidden">
@@ -758,8 +758,8 @@ function Header2() {
                                 </button>
                             </div>
                             <div className="list-none lg:bg-white h-full gap-3 lg:px-0 flex flex-col w-auto lg:justify-center">
-                                <li className="lg:hover:bg-gray-8" onMouseEnter={toggleAbt} ref={ref}>
-                                    <div className="flex">
+                                <li className="lg:hover:bg-gray-8 head" onMouseEnter={toggleAbt} ref={ref}>
+                                    <div className="flex px-4">
                                         <a className="lg:w-auto w-1/2 h-full cursor-pointer uppercase lg:block hidden py-3 lg:py-10 px-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">Who We Are</a>
                                         <a className="lg:hidden lg:w-auto w-1/2 cursor-pointer uppercase block py-3 lg:py-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">Who We Are</a>
                                         <button className="lg:hidden w-1/2 flex justify-end py-3 px-2 focus:outline-none" onClick={toggleAbt}>
@@ -795,8 +795,8 @@ function Header2() {
                                         </nav>
                                     )}
                                 </li>
-                                <li className="lg:hover:bg-gray-8" onMouseEnter={toggleAbt1} ref={ref1}>
-                                    <div className="flex">
+                                <li className="head lg:hover:bg-gray-8" onMouseEnter={toggleAbt1} ref={ref1}>
+                                    <div className="flex px-4">
                                         <a className="hidden lg:w-auto w-1/2 cursor-pointer uppercase lg:block py-3 lg:py-10 hover:bg-gray-8 px-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">What We Do</a>
                                         <a className="lg:hidden lg:w-auto w-1/2 cursor-pointer uppercase block py-3 lg:py-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">What We Do</a>
                                         <button className="lg:hidden w-1/2 flex justify-end py-3 px-2 focus:outline-none" onClick={toggleAbt1}>
@@ -894,8 +894,8 @@ function Header2() {
                                         </nav>
                                     )}
                                 </li>
-                                <li onMouseEnter={toggleAbt2} className="lg:hover:bg-gray-8" ref={ref2}>
-                                    <div className="flex">
+                                <li onMouseEnter={toggleAbt2} className="head lg:hover:bg-gray-8" ref={ref2}>
+                                    <div className="flex px-4">
                                         <a className="hidden lg:w-auto w-1/2 cursor-pointer uppercase lg:block py-3 lg:py-10 px-2 hover:bg-gray-8 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">How We Work</a>
                                         <a className="lg:hidden lg:w-auto w-1/2 cursor-pointer uppercase block py-3 lg:py-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">How We Work</a>
                                         <button className="lg:hidden w-1/2 flex justify-end py-3 px-2 focus:outline-none" onClick={toggleAbt2}>
@@ -1065,8 +1065,8 @@ function Header2() {
                                         </nav>
                                     )}
                                 </li>
-                                <li className="lg:hover:bg-gray-8" onMouseEnter={toggleAbt3} ref={ref3}>
-                                    <div className="flex">
+                                <li className="head lg:hover:bg-gray-8" onMouseEnter={toggleAbt3} ref={ref3}>
+                                    <div className="flex px-4">
                                         <a className="hidden lg:w-auto w-1/2 cursor-pointer uppercase lg:block py-3 lg:py-10 px-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">Where We Work</a>
                                         <a className="lg:hidden lg:w-auto w-1/2 cursor-pointer uppercase block py-3 lg:py-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">Where We Work</a>
                                         <button className="lg:hidden w-1/2 flex justify-end py-3 px-2 focus:outline-none" onClick={toggleAbt3}>
@@ -1133,8 +1133,8 @@ function Header2() {
                                         </nav>
                                     )}
                                 </li>
-                                <li className="lg:hover:bg-gray-8" onMouseEnter={toggleAbt4} ref={ref4}>
-                                    <div className="flex">
+                                <li className="head lg:hover:bg-gray-8" onMouseEnter={toggleAbt4} ref={ref4}>
+                                    <div className="flex px-4">
                                         <a className="hidden lg:w-auto w-1/2 cursor-pointer uppercase lg:block py-3 lg:py-10 px-2 hover:bg-gray-8 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">RESOURCES & MEDIA</a>
                                         <a className="lg:hidden lg:w-auto w-1/2 cursor-pointer uppercase block py-3 lg:py-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">RESOURCES & MEDIA</a>
                                         <button className="lg:hidden w-1/2 flex justify-end py-3 px-2 focus:outline-none" onClick={toggleAbt4}>
@@ -1215,8 +1215,8 @@ function Header2() {
                                         </nav>
                                     )}
                                 </li>
-                                <li className="lg:hover:bg-gray-8" onMouseEnter={toggleAbt5} ref={ref5}>
-                                    <div className="flex">
+                                <li className="head lg:hover:bg-gray-8" onMouseEnter={toggleAbt5} ref={ref5}>
+                                    <div className="flex px-4">
                                         <a className="hidden lg:w-auto w-1/2 cursor-pointer uppercase lg:block py-3 lg:py-10 px-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">Get Involved</a>
                                         <a className="lg:hidden lg:w-auto w-1/2 cursor-pointer uppercase block py-3 lg:py-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">Get Involved</a>
                                         <button className="lg:hidden w-1/2 flex justify-end py-3 px-2 focus:outline-none" onClick={toggleAbt5}>
@@ -1246,9 +1246,9 @@ function Header2() {
                                         </nav>
                                     )}
                                 </li>
-                                <li className="lg:hidden">
+                                <li className="head lg:hidden">
                                     <li ref={lang}>
-                                        <a className="flex">
+                                        <a className="flex px-4">
                                             <h3 className="w-1/2 flex font-bold text-xs leading-7 py-3 lg:py-2 text-white tracking-widest uppercase pb-6">
                                                 <svg className="mt-1" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <g clip-path="url(#clip0_4295_1327)">
