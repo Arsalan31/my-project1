@@ -8,8 +8,8 @@ function Slack() {
     return (
         <React.Fragment>
             <div dir={isRtl ? "rtl" : "ltr"}>
-                <Hero3 isRtl={isRtl} setIsRtl={setIsRtl} />
                 <Solutions />
+                <Hero3 isRtl={isRtl} setIsRtl={setIsRtl} />
             </div>
         </React.Fragment>
     )
