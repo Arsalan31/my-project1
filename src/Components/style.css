@@ -8,17 +8,6 @@
     margin: auto;
   }
 
-  .background1{
-    width: 100%;
-    height: 1000px;
-    background: url(./assets/RVR-quote1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    margin: auto;
-    position: fixed;
-  }
-
   .background2 {
     width: 100%;
     height: 100%;
