@@ -30,9 +30,9 @@ function Subscribe(props) {
                         </button>
                     </div>
                 </div>
-                <div className="sm:flex hidden justify-end absolute sm:end-0">
+                <div className="sm:flex hidden justify-end z-0 absolute sm:end-0">
                     {props.isRtl ? <img src={require('./assets/Group 5 (1).png')} className="sm:flex hidden justify-end xl:end-10 lg:end-24 relative bottom-24"></img> :
-                        <img src={require('./assets/Group 5.png')} className="sm:flex hidden justify-end xl:end-10 lg:end-3 relative bottom-24"></img>
+                        <img src={require('./assets/Group 5.png')} className="sm:flex hidden z-0 justify-end xl:end-10 lg:end-3 relative bottom-24"></img>
                     }
                 </div>
             </div>

@@ -14,7 +14,7 @@ function Hero3(props) {
     return (
         <section>
             <div>
-                <img className="bg-cover bg-center w-full" src={require('./assets/RVR-quote1.jpg')} />
+                <img className="bg-cover bg-fixed bg-center w-full" src={require('./assets/RVR-quote1.jpg')} />
                 <h2 className="w-full absolute flex justify-center text-center top-60 text-4.5xl font-light text-white">
                     <p className="font-black text-green-40">/&nbsp;</p>
                     touring the facility and picking up slack
