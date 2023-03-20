@@ -196,8 +196,9 @@ function Header2() {
 
     return (
         <header className="w-full z-50 fixed">
-            <div className="flex w-full flex-wrap lg:h-28 h-18 justify-between items-center absolute bg-white">
-                <img href="Akdn1" className="img flex" src={require('./assets/AKDN Identity with Tag Line 1.png')}></img>
+            <div className="flex w-full flex-wrap lg:h-28 h-20 justify-between items-center absolute bg-white">
+                <img href="Akdn1" className="img lg:flex hidden" src={require('./assets/AKDN Identity with Tag Line 1.png')}></img>
+                <img href="Akdn1" className="img lg:hidden" src={require('./assets/Green.png')}></img>
                 <button onClick={toggleNav} className="flex justify-end items-center p-2 ms-3 text-sm  lg:hidden">
                     <img src={require('./assets/Menu.png')}></img>
                 </button>
@@ -745,7 +746,7 @@ function Header2() {
                 >
                     <div className="list-none h-full gap-3 lg:px-0 flex lg:flex-row flex-col order-0 lg:justify-center justify-start">
                         <div className="flex lg:flex-row flex-col xl:gap-3 lg:bg-white bg-green-20">
-                            <div className="lg:hidden lg:h-28 h-18 w-full flex flex-wrap justify-between content-center items-center">
+                            <div className="lg:hidden lg:h-28 h-18 w-full px-4 flex flex-wrap justify-between content-center items-center">
                                 <img href="Akdn" className="order-1 flex w-24 h-8" src={require('./assets/White.png')}></img>
                                 <button onClick={handleClose} className="flex items-center order-0 focus:outline-none text-sm font-semibold uppercase py-3 text-gray-5 lg:hidden">
                                     <img src={require('./assets/Group.png')}></img>

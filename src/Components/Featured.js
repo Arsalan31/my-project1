@@ -170,7 +170,7 @@ function Featured(props) {
                             </svg>
                         </button>
                     </div>
-                    <div className="flex justify-center w-full">
+                    <div className="flex justify-items-center w-full">
                         <div class="flex justify-center sm:gap-3 gap-2 mt-3 swiper-pagination4"></div>
                     </div>
                     <div className="flex justify-end">
