@@ -4,7 +4,7 @@ import './style.css';
 
 function Solutions() {
     return (
-        <section className="bg-blue-80 py-12 px-6 w-full h-full">
+        <section id="Solution" className="bg-blue-80 py-12 px-6 w-full h-full">
             <div>
                 <h2 className="text-center py-6 text-white font-light text-4.5xl">
                     Solutions
