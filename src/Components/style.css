@@ -298,6 +298,11 @@
       clip-path: polygon(0px 0px, 100% 0px, 80.71% 100%, 0px 100%);
     }
 
+    [dir="rtl"] .clip {
+      background-color: #FFFFFF;
+      clip-path: polygon(100% 100%, 100% 0px, 0px 0px, 120px 100%);
+    }
+
     .swiper-pagination5>.swiper-pagination-bullet-active {
       background: white !important;
     }
@@ -434,10 +439,6 @@
     left: 90%;
   }
 
-  [dir="rtl"] .akhs {
-    right: 85%;
-  }
-
   .txt {
     background-image: url(assets/Vector.png);
     background-repeat: no-repeat;
@@ -467,26 +468,51 @@
   }
 
   @keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
   }
-  
+
   @-moz-keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
   }
-  
+
   @-webkit-keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
   }
-  
+
   @-o-keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
   }
-  
+
   @-ms-keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
   }
