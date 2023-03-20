@@ -7,12 +7,12 @@ function Subscribe(props) {
         <section>
             <div className="container sm:p-24 p-10 mx-auto bg-white">
                 <div className="flex justify-end">
-                    <img src={require('./assets/Group 77.png')} className="relative sm:h-12 sm:w-12 w-8 h-8 sm:-bottom-7 -bottom-5 -end-2 sm:-end-4"></img>
+                    <img src={require('./assets/Group 77.png')} className="relative z-40 sm:h-12 sm:w-12 w-8 h-8 sm:-bottom-7 -bottom-5 -end-2 sm:-end-4"></img>
                 </div>
                 <div className="flex justify-end">
                     <img className="seemore absolute opacity-10" src={require('./assets/Group 42 (1).png')}></img>
                 </div>
-                <div className="bg-purple-50 sm:py-20 sm:px-10 p-8 md:rounded-ts-7xl rounded-ts-4xl rounded-ts-3xl rounded-te-3xl rounded-bs-3xl rounded-be-3xl">
+                <div className="bg-purple-50 relative sm:py-20 sm:px-10 p-8 md:rounded-ts-7xl rounded-ts-4xl rounded-ts-3xl rounded-te-3xl rounded-bs-3xl rounded-be-3xl">
                     <h3 className="text-center text-3xl text-purple-650 font-semibold">Subscribe to get information, latest news and other
                         <br />
                         interesting offers about WindTravel
@@ -30,9 +30,9 @@ function Subscribe(props) {
                         </button>
                     </div>
                 </div>
-                <div className="sm:flex hidden justify-end z-0 absolute sm:end-0">
+                <div className="sm:flex hidden justify-end absolute sm:end-0">
                     {props.isRtl ? <img src={require('./assets/Group 5 (1).png')} className="sm:flex hidden justify-end xl:end-10 lg:end-24 relative bottom-24"></img> :
-                        <img src={require('./assets/Group 5.png')} className="sm:flex hidden z-0 justify-end xl:end-10 lg:end-3 relative bottom-24"></img>
+                        <img src={require('./assets/Group 5.png')} className="sm:flex z-0 hidden justify-end xl:end-10 lg:end-3 relative bottom-24"></img>
                     }
                 </div>
             </div>
