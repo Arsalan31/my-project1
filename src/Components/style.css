@@ -343,13 +343,13 @@
       background: linear-gradient(0deg, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), #00843D;
     }
 
-    .head:hover{
+    .head:hover {
       background: linear-gradient(0deg, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), #00843D;
 
     }
 
   }
-    
+
   @media screen and (min-width: 1280px) {
     .swiper1 {
       padding-inline-start: 50px !important;
@@ -404,7 +404,7 @@
   [dir="rtl"] .seemore {
     rotate: 180deg;
   }
-  
+
   .bg {
     background: #744775
   }
@@ -446,4 +446,14 @@
 
   .swiper-button-disabled {
     display: none;
+  }
+
+  .bg-1 {
+    width: 100%;
+    height: 800px;
+    background-image: url(./assets/RVR-quote1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
