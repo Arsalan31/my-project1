@@ -18,43 +18,43 @@ function Solutions() {
                     </p>
                 </div>
                 <div className="flex lg:flex-row flex-col justify-center text-center w-full">
-                    <div className="flex flex-col items-center text-center fade-in-image p-3 w-1/6">
+                    <div className="flex flex-col items-center text-center fade-in-image p-3 lg:w-1/6">
                         <img className="w-21 h-21 mt-0 m-5" src={require('./assets/RVR-strategic-planning.png')}></img>
                         <h4 className="text-white text-lg">
                             Strategic Planning
                         </h4>
                     </div>
-                    <div className="flex flex-col items-center text-center fade-in-image p-3 w-1/6">
+                    <div className="flex flex-col items-center text-center fade-in-image p-3 lg:w-1/6">
                         <img className="w-21 h-21 mt-0 m-5" src={require('./assets/RVR-org-structure.png')}></img>
                         <h4 className="text-white text-lg">
                             Organizational Structure & Design
                         </h4>
                     </div>
-                    <div className="flex flex-col items-center text-center fade-in-image p-3 w-1/6">
+                    <div className="flex flex-col items-center text-center fade-in-image p-3 lg:w-1/6">
                         <img className="w-21 h-21 mt-0 m-5" src={require('./assets/RVR-speaking.png')}></img>
                         <h4 className="text-white text-lg">
                             Keynote Speaking
                         </h4>
                     </div>
-                    <div className="flex flex-col items-center text-center fade-in-image p-3 w-1/6">
+                    <div className="flex flex-col items-center text-center fade-in-image p-3 lg:w-1/6">
                         <img className="w-21 h-21 mt-0 m-5" src={require('./assets/RVR-training.png')}></img>
                         <h4 className="text-white text-lg">
                             Training & Facilitation
                         </h4>
                     </div>
-                    <div className="flex flex-col items-center text-center fade-in-image p-3 w-1/6">
+                    <div className="flex flex-col items-center text-center fade-in-image p-3 lg:w-1/6">
                         <img className="w-21 h-21 mt-0 m-5" src={require('./assets/RVR-coaching.png')}></img>
                         <h4 className="text-white text-lg">
                             Individual Coaching
                         </h4>
                     </div>
-                    <div className="flex flex-col items-center text-center fade-in-image p-3 w-1/6">
+                    <div className="flex flex-col items-center text-center fade-in-image p-3 lg:w-1/6">
                         <img className="w-21 h-21 mt-0 m-5" src={require('./assets/RVR-change-readiness.png')}></img>
                         <h4 className="text-white text-lg">
                             Change Readiness
                         </h4>
                     </div>
-                    <div className="flex flex-col items-center text-center fade-in-image p-3 w-1/6">
+                    <div className="flex flex-col items-center text-center fade-in-image p-3 lg:w-1/6">
                         <img className="w-21 h-21 mt-0 m-5" src={require('./assets/RVR-merger-prep.png')}></img>
                         <h4 className="text-white text-lg">
                             Merger/Acquisition Preparation
