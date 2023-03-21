@@ -6,7 +6,9 @@ function Header3() {
     return (
         <header className="w-full fixed">
             <div className="h-32 mx-auto container justify-center flex">
-                <img className="h-full" src={require('./assets/RVR-sticky.png')} />
+                <a href="Slack">
+                    <img className="h-full" src={require('./assets/RVR-sticky.png')} />
+                </a>
                 <div className="list-none flex w-2/3 justify-end items-center">
                     <li>
                         <a href="#Solution" className="text-white text-base font-medium px-3">Solutions</a>
