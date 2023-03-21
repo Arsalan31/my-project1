@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Footer3 from "./Components/Footer3";
 import Header3 from "./Components/Header3";
 import Hero3 from "./Components/Hero3";
 import Solutions from "./Components/Solutions";
@@ -12,6 +13,7 @@ function Slack() {
                 <Header3 />
                 <Hero3 isRtl={isRtl} setIsRtl={setIsRtl} />
                 <Solutions />
+                <Footer3 />
             </div>
         </React.Fragment>
     )
