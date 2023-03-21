@@ -6,7 +6,9 @@ function Footer3() {
     return (
         <footer>
             <div className="bg-blue-80 border-t border-b border-blue-80 flex justify-center">
-                <img className="h-full" src={require('./assets/RVR-sticky.png')} />
+                <a href="Slack">
+                    <img className="h-full" src={require('./assets/RVR-sticky.png')} />
+                </a>
                 <div className="w-1/2 flex justify-center gap-10">
                     <div className="list-none flex justify-center flex-col">
                         <li>
@@ -39,8 +41,8 @@ function Footer3() {
                     </div>
                 </div>
             </div>
-            <div>
-                
+            <div className="bg-blue-90 h-13 flex justify-center items-center">
+                <p className="text-white  text-xs">© 2022 All rights reserved. Rivers &amp; Roads Organizational Development</p>
             </div>
         </footer>
     )
