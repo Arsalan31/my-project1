@@ -14,7 +14,7 @@ function Hero3(props) {
     return (
         <section>
             <div className="bg-1">
-                <div className="px-20 w-full absolute top-56">
+                <div className="px-20 w-full pt-80">
                     <h2 className="w-full flex justify-center text-center text-4.5xl font-light text-white px-4">
                         <p className="font-black text-green-40">/</p>
                         touring the facility and picking up slack
