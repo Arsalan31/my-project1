@@ -9,11 +9,11 @@ function Solutions() {
                 <h2 className="text-center py-6 text-white font-light text-4.5xl">
                     Solutions
                 </h2>
-                <div className="flex text-start pb-8 font-light text-lg justify-center text-white gap-12">
-                    <p className="w-5/12 text-start">
+                <div className="flex md:flex-row flex-col text-start pb-8 font-light text-lg justify-center text-white gap-12">
+                    <p className="md:w-5/12 w-full text-start">
                         Rivers &amp; Roads has the complete picture of how people and operations intersect. Once the two are in sync, we can improve the overall function of your organization.
                     </p>
-                    <p className="w-5/12 text-start">
+                    <p className="md:w-5/12 w-full text-start">
                         We recognize that each client is unique, so we work to understand your objectives to implement the solutions below or develop custom solutions to address business needs.
                     </p>
                 </div>
