@@ -17,7 +17,7 @@ root.render(
       <Route path='/Udix' element={<Udix />} />
       <Route path='/Akdn' element={<Akdn/>} />
       <Route path='/Akdn1' element={<Akdn1/>} />
-      <Route path='/Slack' element={<Slack/>} />
+      <Route path='/rivers-roads' element={<Slack/>} />
     </Routes>
   </BrowserRouter>
 );

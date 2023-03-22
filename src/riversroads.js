@@ -6,7 +6,7 @@ import Hero3 from "./Components/Hero3";
 import Solutions from "./Components/Solutions";
 
 
-function Slack() {
+function riversroads() {
     const [isRtl, setIsRtl] = useState(false)
     return (
         <React.Fragment>
@@ -22,4 +22,4 @@ function Slack() {
 
 }
 
-export default Slack;
+export default riversroads;
