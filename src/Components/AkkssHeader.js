@@ -263,7 +263,7 @@ function AkhssHeader() {
                     </div>
                     <nav className="list-none w-full lg:items-center lg:bg-white h-full lg:flex-row flex-col lg:h-18 xl:py-4 lg:px-0 px-4 gap-3 flex">
                         <li>
-                            <a href="Slack" className="font-semibold text-sm lg:text-red-600 text-white">Home</a>
+                            <a href="rivers-roads" className="font-semibold text-sm lg:text-red-600 text-white">Home</a>
                         </li>
                         <div className="pb-4 lg:hidden">
                             <li className="border-4 border-white rounded w-28"></li>

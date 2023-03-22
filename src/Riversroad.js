@@ -6,7 +6,7 @@ import Hero3 from "./Components/Hero3";
 import Solutions from "./Components/Solutions";
 
 
-function riversroads() {
+function Riversroads() {
     const [isRtl, setIsRtl] = useState(false)
     return (
         <React.Fragment>
@@ -22,4 +22,4 @@ function riversroads() {
 
 }
 
-export default riversroads;
+export default Riversroads;
