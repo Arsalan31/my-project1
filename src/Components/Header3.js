@@ -5,7 +5,7 @@ import './style.css';
 function Header3() {
     return (
         <header className="w-full fixed">
-            <div className="h-32 mx-auto container justify-center flex">
+            <div className="h-32 mx-auto container justify-center lg:flex hidden">
                 <a href="Slack">
                     <img className="h-full" src={require('./assets/RVR-sticky.png')} />
                 </a>
