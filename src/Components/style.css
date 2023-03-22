@@ -516,3 +516,7 @@
       opacity: 1;
     }
   }
+
+  .css-m9glnp-MuiPaper-root-MuiDialog-paper{ 
+    background-color: transparent !important;
+  }
