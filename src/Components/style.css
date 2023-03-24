@@ -242,6 +242,9 @@
       padding: 16px;
     }
 
+    .Navbar{
+      background-color: #081f41;
+    }
 
     .logo {
       width: 186px;
@@ -312,6 +315,12 @@
       height: 2px !important;
       background-color: #AFACAE;
     }
+
+    .Navbar.active {
+      background-color: rgba(255, 255, 255, 0);
+      backdrop-filter: blur(2px);
+    }
+
 
   }
 
@@ -517,6 +526,10 @@
     }
   }
 
-  .css-m9glnp-MuiPaper-root-MuiDialog-paper{ 
+  .css-m9glnp-MuiPaper-root-MuiDialog-paper {
     background-color: transparent !important;
+  }
+
+  .icon:hover path {
+    fill: #00e7ff;
   }
