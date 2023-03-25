@@ -242,10 +242,6 @@
       padding: 16px;
     }
 
-    .Navbar{
-      background-color: #081f41;
-    }
-
     .logo {
       width: 186px;
       height: 58px;
@@ -328,6 +324,10 @@
 
     .img {
       order: 1;
+    }
+
+    .Navbar{
+      background-color: #081f41;
     }
 
     .list7 {
@@ -445,7 +445,7 @@
   }
 
   [dir="rtl"] .text2 {
-    left: 90%;
+    left: 85%;
   }
 
   .txt {
