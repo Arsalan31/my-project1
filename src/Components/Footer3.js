@@ -13,21 +13,21 @@ function Footer3() {
                     </a>
                 </div>
                 <div className="lg:w-1/3 w-full flex lg:flex-row flex-col lg:justify-center">
-                    <div className="list-none flex lg:justify-start text-start lg:items-start items-center lg:w-1/2 lg:pt-5 py-6 flex-col">
-                        <li className="pb-4">
-                            <a href="#Solution" className="text-white uppercase text-base font-medium px-3 hover:text-green-40">Solutions</a>
+                    <div className="list-none flex lg:justify-end text-start lg:items-start items-center lg:w-1/2 lg:pt-5 py-6 flex-col">
+                        <li>
+                            <a href="#Solution" className="text-white uppercase text-sm font-medium px-3 hover:text-green-40">Solutions</a>
                         </li>
-                        <li className="pb-4">
-                            <a href="#" className="text-white uppercase text-base font-medium px-3 hover:text-green-40">Our Process</a>
+                        <li>
+                            <a href="#" className="text-white uppercase text-sm font-medium px-3 hover:text-green-40">Our Process</a>
                         </li>
-                        <li className="pb-4">
-                            <a href="#" className="text-white uppercase text-base font-medium px-3 hover:text-green-40">ORG Development</a>
+                        <li>
+                            <a href="#" className="text-white uppercase text-sm font-medium px-3 hover:text-green-40">ORG Development</a>
                         </li>
-                        <li className="pb-4">
-                            <a href="#" className="text-white uppercase text-base font-medium px-3 hover:text-green-40">About</a>
+                        <li>
+                            <a href="#" className="text-white uppercase text-sm font-medium px-3 hover:text-green-40">About</a>
                         </li>
-                        <li className="pb-4">
-                            <a href="#" className="text-white uppercase text-base font-medium px-3 hover:text-green-40">Contact</a>
+                        <li>
+                            <a href="#" className="text-white uppercase text-sm font-medium px-3 hover:text-green-40">Contact</a>
                         </li>
                     </div>
                     <div className="flex justify-center items-start gap-4 pt-5 lg:w-1/2">
