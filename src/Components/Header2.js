@@ -51,22 +51,22 @@ function Header2() {
 
     }
 
-    useEffect(() => {
-        const checkIfClickedOutside = e => {
-            // If the menu is open and the clicked target is not within the menu,
-            // then close the menu
-            if (toggleAbout && ref.current && !ref.current.contains(e.target)) {
-                setToggleabout(false)
-            }
-        }
+    // useEffect(() => {
+    //     const checkIfClickedOutside = e => {
+    //         // If the menu is open and the clicked target is not within the menu,
+    //         // then close the menu
+    //         if (toggleAbout && ref.current && !ref.current.contains(e.target)) {
+    //             setToggleabout(false)
+    //         }
+    //     }
 
-        document.addEventListener("mouseout", checkIfClickedOutside)
+    //     document.addEventListener("mouseout", checkIfClickedOutside)
 
-        return () => {
-            // Cleanup the event listener
-            document.removeEventListener("mouseout", checkIfClickedOutside)
-        }
-    }, [toggleAbout])
+    //     return () => {
+    //         // Cleanup the event listener
+    //         document.removeEventListener("mouseout", checkIfClickedOutside)
+    //     }
+    // }, [toggleAbout])
 
     const ref1 = useRef()
 
@@ -76,22 +76,22 @@ function Header2() {
         setToggleabout1(!toggleAbout1)
     }
 
-    useEffect(() => {
-        const checkIfClickedOutside = e => {
-            // If the menu is open and the clicked target is not within the menu,
-            // then close the menu
-            if (toggleAbout1 && ref1.current && !ref1.current.contains(e.target)) {
-                setToggleabout1(false)
-            }
-        }
+    // useEffect(() => {
+    //     const checkIfClickedOutside = e => {
+    //         // If the menu is open and the clicked target is not within the menu,
+    //         // then close the menu
+    //         if (toggleAbout1 && ref1.current && !ref1.current.contains(e.target)) {
+    //             setToggleabout1(false)
+    //         }
+    //     }
 
-        document.addEventListener("mouseout", checkIfClickedOutside)
+    //     document.addEventListener("mouseout", checkIfClickedOutside)
 
-        return () => {
-            // Cleanup the event listener
-            document.removeEventListener("mouseout", checkIfClickedOutside)
-        }
-    }, [toggleAbout1])
+    //     return () => {
+    //         // Cleanup the event listener
+    //         document.removeEventListener("mouseout", checkIfClickedOutside)
+    //     }
+    // }, [toggleAbout1])
 
     const ref2 = useRef()
 
@@ -101,22 +101,22 @@ function Header2() {
         setToggleabout2(!toggleAbout2)
     }
 
-    useEffect(() => {
-        const checkIfClickedOutside = e => {
-            // If the menu is open and the clicked target is not within the menu,
-            // then close the menu
-            if (toggleAbout2 && ref2.current && !ref2.current.contains(e.target)) {
-                setToggleabout2(false)
-            }
-        }
+    // useEffect(() => {
+    //     const checkIfClickedOutside = e => {
+    //         // If the menu is open and the clicked target is not within the menu,
+    //         // then close the menu
+    //         if (toggleAbout2 && ref2.current && !ref2.current.contains(e.target)) {
+    //             setToggleabout2(false)
+    //         }
+    //     }
 
-        document.addEventListener("mouseout", checkIfClickedOutside)
+    //     document.addEventListener("mouseout", checkIfClickedOutside)
 
-        return () => {
-            // Cleanup the event listener
-            document.removeEventListener("mouseout", checkIfClickedOutside)
-        }
-    }, [toggleAbout2])
+    //     return () => {
+    //         // Cleanup the event listener
+    //         document.removeEventListener("mouseout", checkIfClickedOutside)
+    //     }
+    // }, [toggleAbout2])
 
     const [toggleAbout3, setToggleabout3] = useState(false)
 
@@ -126,22 +126,22 @@ function Header2() {
         setToggleabout3(!toggleAbout3)
     }
 
-    useEffect(() => {
-        const checkIfClickedOutside = e => {
-            // If the menu is open and the clicked target is not within the menu,
-            // then close the menu
-            if (toggleAbout3 && ref3.current && !ref3.current.contains(e.target)) {
-                setToggleabout3(false)
-            }
-        }
+    // useEffect(() => {
+    //     const checkIfClickedOutside = e => {
+    //         // If the menu is open and the clicked target is not within the menu,
+    //         // then close the menu
+    //         if (toggleAbout3 && ref3.current && !ref3.current.contains(e.target)) {
+    //             setToggleabout3(false)
+    //         }
+    //     }
 
-        document.addEventListener("mouseout", checkIfClickedOutside)
+    //     document.addEventListener("mouseout", checkIfClickedOutside)
 
-        return () => {
-            // Cleanup the event listener
-            document.removeEventListener("mouseout", checkIfClickedOutside)
-        }
-    }, [toggleAbout3])
+    //     return () => {
+    //         // Cleanup the event listener
+    //         document.removeEventListener("mouseout", checkIfClickedOutside)
+    //     }
+    // }, [toggleAbout3])
 
     const ref4 = useRef()
 
@@ -151,22 +151,22 @@ function Header2() {
         setToggleabout4(!toggleAbout4)
     }
 
-    useEffect(() => {
-        const checkIfClickedOutside = e => {
-            // If the menu is open and the clicked target is not within the menu,
-            // then close the menu
-            if (toggleAbout4 && ref4.current && !ref4.current.contains(e.target)) {
-                setToggleabout4(false)
-            }
-        }
+    // useEffect(() => {
+    //     const checkIfClickedOutside = e => {
+    //         // If the menu is open and the clicked target is not within the menu,
+    //         // then close the menu
+    //         if (toggleAbout4 && ref4.current && !ref4.current.contains(e.target)) {
+    //             setToggleabout4(false)
+    //         }
+    //     }
 
-        document.addEventListener("mouseout", checkIfClickedOutside)
+    //     document.addEventListener("mouseout", checkIfClickedOutside)
 
-        return () => {
-            // Cleanup the event listener
-            document.removeEventListener("mouseout", checkIfClickedOutside)
-        }
-    }, [toggleAbout4])
+    //     return () => {
+    //         // Cleanup the event listener
+    //         document.removeEventListener("mouseout", checkIfClickedOutside)
+    //     }
+    // }, [toggleAbout4])
 
 
     const ref5 = useRef()
@@ -177,22 +177,22 @@ function Header2() {
         setToggleabout5(!toggleAbout5)
     }
 
-    useEffect(() => {
-        const checkIfClickedOutside = e => {
-            // If the menu is open and the clicked target is not within the menu,
-            // then close the menu
-            if (toggleAbout5 && ref5.current && !ref5.current.contains(e.target)) {
-                setToggleabout5(false)
-            }
-        }
+    // useEffect(() => {
+    //     const checkIfClickedOutside = e => {
+    //         // If the menu is open and the clicked target is not within the menu,
+    //         // then close the menu
+    //         if (toggleAbout5 && ref5.current && !ref5.current.contains(e.target)) {
+    //             setToggleabout5(false)
+    //         }
+    //     }
 
-        document.addEventListener("mouseout", checkIfClickedOutside)
+    //     document.addEventListener("mouseout", checkIfClickedOutside)
 
-        return () => {
-            // Cleanup the event listener
-            document.removeEventListener("mouseout", checkIfClickedOutside)
-        }
-    }, [toggleAbout5])
+    //     return () => {
+    //         // Cleanup the event listener
+    //         document.removeEventListener("mouseout", checkIfClickedOutside)
+    //     }
+    // }, [toggleAbout5])
 
     return (
         <header className="w-full z-50 fixed">
@@ -203,7 +203,7 @@ function Header2() {
                     <img src={require('./assets/Menu.png')}></img>
                 </button>
                 <div className="list-none lg:bg-white h-full order-1 gap-3 lg:px-0 lg:flex hidden w-auto lg:justify-center">
-                    <li className="lg:hover:bg-gray-8" onMouseEnter={toggleAbt} ref={ref}>
+                    <li className="lg:hover:bg-gray-8" onMouseEnter={toggleAbt} onMouseLeave={toggleAbt} ref={ref}>
                         <div className="flex">
                             <a className="lg:w-auto w-1/2 h-full cursor-pointer uppercase lg:block hidden py-3 lg:py-10 px-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">Who We Are</a>
                             <a className="lg:hidden lg:w-auto w-1/2 cursor-pointer uppercase block py-3 lg:py-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">Who We Are</a>
@@ -240,7 +240,7 @@ function Header2() {
                             </nav>
                         )}
                     </li>
-                    <li className="lg:hover:bg-gray-8" onMouseEnter={toggleAbt1} ref={ref1}>
+                    <li className="lg:hover:bg-gray-8" onMouseEnter={toggleAbt1} onMouseLeave={toggleAbt1} ref={ref1}>
                         <div className="flex">
                             <a className="hidden lg:w-auto w-1/2 cursor-pointer uppercase lg:block py-3 lg:py-10 hover:bg-gray-8 px-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">What We Do</a>
                             <a className="lg:hidden lg:w-auto w-1/2 cursor-pointer uppercase block py-3 lg:py-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">What We Do</a>
@@ -339,7 +339,7 @@ function Header2() {
                             </nav>
                         )}
                     </li>
-                    <li onMouseEnter={toggleAbt2} className="lg:hover:bg-gray-8" ref={ref2}>
+                    <li onMouseEnter={toggleAbt2} onMouseLeave={toggleAbt2} className="lg:hover:bg-gray-8" ref={ref2}>
                         <div className="flex">
                             <a className="hidden lg:w-auto w-1/2 cursor-pointer uppercase lg:block py-3 lg:py-10 px-2 hover:bg-gray-8 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">How We Work</a>
                             <a className="lg:hidden lg:w-auto w-1/2 cursor-pointer uppercase block py-3 lg:py-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">How We Work</a>
@@ -510,7 +510,7 @@ function Header2() {
                             </nav>
                         )}
                     </li>
-                    <li className="lg:hover:bg-gray-8" onMouseEnter={toggleAbt3} ref={ref3}>
+                    <li className="lg:hover:bg-gray-8" onMouseEnter={toggleAbt3} onMouseLeave={toggleAbt3} ref={ref3}>
                         <div className="flex">
                             <a className="hidden lg:w-auto w-1/2 cursor-pointer uppercase lg:block py-3 lg:py-10 px-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">Where We Work</a>
                             <a className="lg:hidden lg:w-auto w-1/2 cursor-pointer uppercase block py-3 lg:py-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">Where We Work</a>
@@ -578,7 +578,7 @@ function Header2() {
                             </nav>
                         )}
                     </li>
-                    <li className="lg:hover:bg-gray-8" onMouseEnter={toggleAbt4} ref={ref4}>
+                    <li className="lg:hover:bg-gray-8" onMouseEnter={toggleAbt4} onMouseLeave={toggleAbt4} ref={ref4}>
                         <div className="flex">
                             <a className="hidden lg:w-auto w-1/2 cursor-pointer uppercase lg:block py-3 lg:py-10 px-2 hover:bg-gray-8 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">RESOURCES & MEDIA</a>
                             <a className="lg:hidden lg:w-auto w-1/2 cursor-pointer uppercase block py-3 lg:py-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">RESOURCES & MEDIA</a>
@@ -660,7 +660,7 @@ function Header2() {
                             </nav>
                         )}
                     </li>
-                    <li className="lg:hover:bg-gray-8" onMouseEnter={toggleAbt5} ref={ref5}>
+                    <li className="lg:hover:bg-gray-8" onMouseEnter={toggleAbt5} onMouseLeave={toggleAbt5} ref={ref5}>
                         <div className="flex">
                             <a className="hidden lg:w-auto w-1/2 cursor-pointer uppercase lg:block py-3 lg:py-10 px-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">Get Involved</a>
                             <a className="lg:hidden lg:w-auto w-1/2 cursor-pointer uppercase block py-3 lg:py-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">Get Involved</a>
@@ -699,7 +699,7 @@ function Header2() {
                             <path d="M18.0271 17.5L14.4021 13.875" stroke="#535052" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                         </svg>
                     </button>
-                    <li className="lg:hover:bg-gray-8" onMouseEnter={toggleLang} ref={lang}>
+                    <li className="lg:hover:bg-gray-8" onMouseEnter={toggleLang} onMouseLeave={toggleLang} ref={lang}>
                         <a>
                             <button className="lg:text-gray-5 lg:py-11 text-white ms-2 text-sm font-bold uppercase flex px-5 py-2 focus:outline-none">
                                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -742,11 +742,11 @@ function Header2() {
                     open={toggleMenu}
                     onClose={handleClose}
                     className="lg:hidden flex-col"
-                    
+
                 >
-                    <div className="list-none h-full gap-3 lg:px-0 flex lg:flex-row flex-col order-0 lg:justify-center justify-start">
+                    <div className="list-none gap-3 lg:px-0 flex lg:flex-row flex-col order-0 lg:justify-center justify-start">
                         <div className="flex lg:flex-row flex-col h-full xl:gap-3 lg:bg-white bg-green-20">
-                            <div className="lg:hidden lg:h-28 h-18 w-full px-4 flex flex-wrap justify-between content-center items-center">
+                            <div className="lg:hidden lg:h-28 h-24 w-full px-4 flex flex-wrap justify-between content-center items-center">
                                 <img href="Akdn" className="order-1 flex w-24 h-8" src={require('./assets/White.png')}></img>
                                 <button onClick={handleClose} className="flex items-center order-0 focus:outline-none text-sm font-semibold uppercase py-3 text-gray-5 lg:hidden">
                                     <img src={require('./assets/Group.png')}></img>
@@ -759,12 +759,11 @@ function Header2() {
                                 </button>
                             </div>
                             <div className="list-none lg:bg-white h-full gap-3 lg:px-0 flex flex-col w-auto lg:justify-center">
-                                <li className="lg:hover:bg-gray-8 head" onMouseEnter={toggleAbt} ref={ref}>
+                                <li className={toggleAbout ? 'head' : 'bg-green-20'}>
                                     <div className="flex px-4">
-                                        <a className="lg:w-auto w-1/2 h-full cursor-pointer uppercase lg:block hidden py-3 lg:py-10 px-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">Who We Are</a>
-                                        <a className="lg:hidden lg:w-auto w-1/2 cursor-pointer uppercase block py-3 lg:py-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">Who We Are</a>
-                                        <button className="lg:hidden w-1/2 flex justify-end py-3 px-2 focus:outline-none" onClick={toggleAbt}>
-                                            <div className="lg:hidden border-gray-400 border-s me-4 h-6"></div>
+                                        <a className="flex w-1/2 cursor-pointer uppercase py-3 lg:py-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">Who We Are</a>
+                                        <button className="w-1/2 flex justify-end py-3 px-2 focus:outline-none" onClick={toggleAbt}>
+                                            <div className="border-gray-400 border-s me-4 h-6"></div>
                                             <svg className="mt-2" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                                             </svg>
@@ -796,12 +795,11 @@ function Header2() {
                                         </nav>
                                     )}
                                 </li>
-                                <li className="head lg:hover:bg-gray-8" onMouseEnter={toggleAbt1} ref={ref1}>
+                                <li className={toggleAbout1 ? 'head' : 'bg-green-20'}>
                                     <div className="flex px-4">
-                                        <a className="hidden lg:w-auto w-1/2 cursor-pointer uppercase lg:block py-3 lg:py-10 hover:bg-gray-8 px-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">What We Do</a>
-                                        <a className="lg:hidden lg:w-auto w-1/2 cursor-pointer uppercase block py-3 lg:py-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">What We Do</a>
-                                        <button className="lg:hidden w-1/2 flex justify-end py-3 px-2 focus:outline-none" onClick={toggleAbt1}>
-                                            <div className="lg:hidden border-gray-400 border-s me-4 h-6"></div>
+                                        <a className="lg:w-auto w-1/2 cursor-pointer uppercase flex py-3 lg:py-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">What We Do</a>
+                                        <button className="w-1/2 flex justify-end py-3 px-2 focus:outline-none" onClick={toggleAbt1}>
+                                            <div className="border-gray-400 border-s me-4 h-6"></div>
                                             <svg className="mt-2" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                                             </svg>
@@ -895,10 +893,9 @@ function Header2() {
                                         </nav>
                                     )}
                                 </li>
-                                <li onMouseEnter={toggleAbt2} className="head lg:hover:bg-gray-8" ref={ref2}>
+                                <li className={toggleAbout2 ? 'head' : 'bg-green-20'}>
                                     <div className="flex px-4">
-                                        <a className="hidden lg:w-auto w-1/2 cursor-pointer uppercase lg:block py-3 lg:py-10 px-2 hover:bg-gray-8 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">How We Work</a>
-                                        <a className="lg:hidden lg:w-auto w-1/2 cursor-pointer uppercase block py-3 lg:py-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">How We Work</a>
+                                        <a className="w-1/2 cursor-pointer uppercase flex py-3 lg:py-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">How We Work</a>
                                         <button className="lg:hidden w-1/2 flex justify-end py-3 px-2 focus:outline-none" onClick={toggleAbt2}>
                                             <div className="lg:hidden border-gray-400 border-s me-4 h-6"></div>
                                             <svg className="mt-2" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1066,12 +1063,11 @@ function Header2() {
                                         </nav>
                                     )}
                                 </li>
-                                <li className="head lg:hover:bg-gray-8" onMouseEnter={toggleAbt3} ref={ref3}>
+                                <li className={toggleAbout3 ? 'head' : 'bg-green-20'}>
                                     <div className="flex px-4">
-                                        <a className="hidden lg:w-auto w-1/2 cursor-pointer uppercase lg:block py-3 lg:py-10 px-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">Where We Work</a>
-                                        <a className="lg:hidden lg:w-auto w-1/2 cursor-pointer uppercase block py-3 lg:py-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">Where We Work</a>
-                                        <button className="lg:hidden w-1/2 flex justify-end py-3 px-2 focus:outline-none" onClick={toggleAbt3}>
-                                            <div className="lg:hidden border-gray-400 border-s me-4 h-6"></div>
+                                        <a className="w-1/2 cursor-pointer uppercase flex py-3 lg:py-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">Where We Work</a>
+                                        <button className="w-1/2 flex justify-end py-3 px-2 focus:outline-none" onClick={toggleAbt3}>
+                                            <div className="border-gray-400 border-s me-4 h-6"></div>
                                             <svg className="mt-2" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                                             </svg>
@@ -1134,12 +1130,11 @@ function Header2() {
                                         </nav>
                                     )}
                                 </li>
-                                <li className="head lg:hover:bg-gray-8" onMouseEnter={toggleAbt4} ref={ref4}>
+                                <li className={toggleAbout4 ? 'head' : 'bg-green-20'}>
                                     <div className="flex px-4">
-                                        <a className="hidden lg:w-auto w-1/2 cursor-pointer uppercase lg:block py-3 lg:py-10 px-2 hover:bg-gray-8 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">RESOURCES & MEDIA</a>
-                                        <a className="lg:hidden lg:w-auto w-1/2 cursor-pointer uppercase block py-3 lg:py-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">RESOURCES & MEDIA</a>
-                                        <button className="lg:hidden w-1/2 flex justify-end py-3 px-2 focus:outline-none" onClick={toggleAbt4}>
-                                            <div className="lg:hidden border-gray-400 border-s me-4 h-6"></div>
+                                        <a className="w-1/2 cursor-pointer uppercase block py-3 lg:py-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">RESOURCES & MEDIA</a>
+                                        <button className="w-1/2 flex justify-end py-3 px-2 focus:outline-none" onClick={toggleAbt4}>
+                                            <div className="border-gray-400 border-s me-4 h-6"></div>
                                             <svg className="mt-2" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                                             </svg>
@@ -1216,12 +1211,11 @@ function Header2() {
                                         </nav>
                                     )}
                                 </li>
-                                <li className="head lg:hover:bg-gray-8" onMouseEnter={toggleAbt5} ref={ref5}>
+                                <li className={toggleAbout5 ? 'head' : 'bg-green-20'}>
                                     <div className="flex px-4">
-                                        <a className="hidden lg:w-auto w-1/2 cursor-pointer uppercase lg:block py-3 lg:py-10 px-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">Get Involved</a>
-                                        <a className="lg:hidden lg:w-auto w-1/2 cursor-pointer uppercase block py-3 lg:py-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">Get Involved</a>
-                                        <button className="lg:hidden w-1/2 flex justify-end py-3 px-2 focus:outline-none" onClick={toggleAbt5}>
-                                            <div className="lg:hidden border-gray-400 border-s me-4 h-6"></div>
+                                        <a className="w-1/2 cursor-pointer uppercase flex py-3 lg:py-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">Get Involved</a>
+                                        <button className="w-1/2 flex justify-end py-3 px-2 focus:outline-none" onClick={toggleAbt5}>
+                                            <div className="border-gray-400 border-s me-4 h-6"></div>
                                             <svg className="mt-2" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                                             </svg>
@@ -1248,7 +1242,7 @@ function Header2() {
                                     )}
                                 </li>
                                 <li className="border border-green-50"></li>
-                                <li className="head lg:hidden">
+                                <li className={toggleLanguage ? 'head' : 'bg-green-20'}>
                                     <li ref={lang}>
                                         <a className="flex px-4">
                                             <h3 className="w-1/2 flex font-bold text-xs leading-7 py-3 lg:py-2 text-white tracking-widest uppercase pb-6">
@@ -1265,8 +1259,8 @@ function Header2() {
                                                 English
                                             </h3>
 
-                                            <button className="lg:hidden w-1/2 flex justify-end py-3 px-2 focus:outline-none" onClick={toggleLang}>
-                                                <div className="lg:hidden border-gray-400 border-s me-4 h-6"></div>
+                                            <button className="w-1/2 flex justify-end py-3 px-2 focus:outline-none" onClick={toggleLang}>
+                                                <div className="border-gray-400 border-s me-4 h-6"></div>
                                                 <svg className="mt-2" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                                                 </svg>
