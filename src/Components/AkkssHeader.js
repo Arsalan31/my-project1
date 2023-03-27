@@ -22,22 +22,22 @@ function AkhssHeader() {
 
     }
 
-    useEffect(() => {
-        const checkIfClickedOutside = e => {
-            // If the menu is open and the clicked target is not within the menu,
-            // then close the menu
-            if (toggleCenters && ref.current && !ref.current.contains(e.target)) {
-                setTogglecenters(false)
-            }
-        }
+    // useEffect(() => {
+    //     const checkIfClickedOutside = e => {
+    //         // If the menu is open and the clicked target is not within the menu,
+    //         // then close the menu
+    //         if (toggleCenters && ref.current && !ref.current.contains(e.target)) {
+    //             setTogglecenters(false)
+    //         }
+    //     }
 
-        document.addEventListener("mouseout", checkIfClickedOutside)
+    //     document.addEventListener("mouseout", checkIfClickedOutside)
 
-        return () => {
-            // Cleanup the event listener
-            document.removeEventListener("mouseout", checkIfClickedOutside)
-        }
-    }, [toggleCenters])
+    //     return () => {
+    //         // Cleanup the event listener
+    //         document.removeEventListener("mouseout", checkIfClickedOutside)
+    //     }
+    // }, [toggleCenters])
 
 
     const ref1 = useRef()
@@ -205,22 +205,22 @@ function AkhssHeader() {
 
     }
 
-    useEffect(() => {
-        const checkIfClickedOutside = e => {
-            // If the menu is open and the clicked target is not within the menu,
-            // then close the menu
-            if (toggleMedia && ref7.current && !ref7.current.contains(e.target)) {
-                setTogglemedia(false)
-            }
-        }
+    // useEffect(() => {
+    //     const checkIfClickedOutside = e => {
+    //         // If the menu is open and the clicked target is not within the menu,
+    //         // then close the menu
+    //         if (toggleMedia && ref7.current && !ref7.current.contains(e.target)) {
+    //             setTogglemedia(false)
+    //         }
+    //     }
 
-        document.addEventListener("mouseout", checkIfClickedOutside)
+    //     document.addEventListener("mouseout", checkIfClickedOutside)
 
-        return () => {
-            // Cleanup the event listener
-            document.removeEventListener("mouseout", checkIfClickedOutside)
-        }
-    }, [toggleMedia])
+    //     return () => {
+    //         // Cleanup the event listener
+    //         document.removeEventListener("mouseout", checkIfClickedOutside)
+    //     }
+    // }, [toggleMedia])
     return (
         <section className="w-full fixed z-50">
             <div className="flex bg-white lg:border lg:p-0 p-4">
@@ -274,10 +274,10 @@ function AkhssHeader() {
                         <li>
                             <a href="#" className="font-semibold text-sm lg:text-black text-white">Hospitals & Medical Centers</a>
                         </li>
-                        <li ref={ref}>
-                            <a href="#" onMouseEnter={toggleCenter} className="font-semibold text-sm text-white lg:contents hidden lg:text-black">Regional Outreach Centers</a>
+                        <li  onMouseEnter={toggleCenter} onMouseLeave={toggleCenter} ref={ref}>
+                            <a href="#" className="font-semibold text-sm text-white lg:contents hidden lg:text-black">Regional Outreach Centers</a>
                             {(toggleCenters) && (
-                                <nav className="list-none lg:absolute w-full top-28 lg:border-red-700 lg:border lg:w-1/6 lg:bg-white lg:flex flex-col">
+                                <nav className="list-none lg:absolute w-full top-32 lg:border-red-700 lg:border lg:w-1/6 lg:bg-white lg:flex flex-col">
                                     <li onMouseEnter={toggleCountry5} ref={ref6} className="hover:bg-red-300">
                                         <a onClick={toggleCountry5} href="#" className="lg:text-black w-full text-white font-medium text-xs pb-3 hover:text-red-700 lg:p-3 py-3 inline-flex">Pakistan</a>
                                         {(toggleCountries5) && (
@@ -413,11 +413,10 @@ function AkhssHeader() {
                                 </nav>
                             )}
                         </li>
-                        <li onMouseEnter={toggleMd} ref={ref7}>
+                        <li onMouseEnter={toggleMd} onMouseLeave={toggleMd} ref={ref7}>
                             <a href="#" className="font-semibold lg:contents hidden text-sm lg:text-black text-white">Media Resources</a>
-                            <a href="#" onclick={toggleMd} ref={ref7} className="font-semibold text-sm lg:hidden lg:text-black text-white">Media Resources</a>
                             {(toggleMedia) && (
-                                <nav className="lg:pt-0 pt-2 list-none top-28 lg:absolute w-full lg:border-red-700 lg:border lg:w-1/6 lg:bg-white lg:flex flex-col">
+                                <nav className="lg:pt-0 pt-2 list-none top-32 lg:absolute w-full lg:border-red-700 lg:border lg:w-1/6 lg:bg-white lg:flex flex-col">
                                     <li className="hover:bg-red-300">
                                         <a href="#" className="lg:text-black w-full text-white font-medium text-xs pb-3 hover:text-red-700 lg:p-3 py-3 inline-flex">Multimedia</a>
                                     </li>
