@@ -274,14 +274,14 @@ function AkhssHeader() {
                         <li>
                             <a href="#" className="font-semibold text-sm lg:text-black text-white">Hospitals & Medical Centers</a>
                         </li>
-                        <li  onMouseEnter={toggleCenter} onMouseLeave={toggleCenter} ref={ref}>
+                        <li className="py-4" onMouseEnter={toggleCenter} onMouseLeave={toggleCenter} ref={ref}>
                             <a href="#" className="font-semibold text-sm text-white lg:contents hidden lg:text-black">Regional Outreach Centers</a>
                             {(toggleCenters) && (
                                 <nav className="list-none lg:absolute w-full top-32 lg:border-red-700 lg:border lg:w-1/6 lg:bg-white lg:flex flex-col">
                                     <li onMouseEnter={toggleCountry5} ref={ref6} className="hover:bg-red-300">
                                         <a onClick={toggleCountry5} href="#" className="lg:text-black w-full text-white font-medium text-xs pb-3 hover:text-red-700 lg:p-3 py-3 inline-flex">Pakistan</a>
                                         {(toggleCountries5) && (
-                                            <nav className="list-none lg:absolute lg:top-5 lg:left-full w-full lg:border-red-700 bg-red-400 lg:border lg:w-full lg:bg-off-white-10 lg:flex flex-col">
+                                            <nav className="list-none lg:absolute lg:top-5 lg:start-full w-full lg:border-red-700 bg-red-400 lg:border lg:w-full lg:bg-off-white-10 lg:flex flex-col">
                                                 <li>
                                                     <a href="#" className="lg:text-black text-white font-normal text-sm pb-2 lg:p-3 inline-flex">Pakistan</a>
                                                 </li>
@@ -303,7 +303,7 @@ function AkhssHeader() {
                                     <li onMouseEnter={toggleCountry} ref={ref1} className="lg:hover:bg-red-300">
                                         <a href="#" onClick={toggleCountry} className="lg:text-black text-white w-full font-medium lg:hover:text-red-700 lg:p-3 py-3 text-xs pb-2 inline-flex">Tanzania</a>
                                         {(toggleCountries) && (
-                                            <nav className="list-none lg:absolute lg:top-5 lg:left-full w-full lg:border-red-700 lg:border lg:w-full lg:bg-white lg:flex flex-col">
+                                            <nav className="list-none lg:absolute lg:top-5 lg:start-full w-full lg:border-red-700 lg:border lg:w-full lg:bg-white lg:flex flex-col">
                                                 <li>
                                                     <a href="#" className="lg:text-black text-white font-normal text-sm pb-2 lg:p-3 inline-flex">Tanzania</a>
                                                 </li>
@@ -325,7 +325,7 @@ function AkhssHeader() {
                                     <li onMouseEnter={toggleCountry1} ref={ref2} className="hover:bg-red-300">
                                         <a href="#" onClick={toggleCountry1} className="lg:text-black text-white font-medium w-full hover:text-red-700 lg:p-3 py-3 text-xs pb-3 inline-flex">India</a>
                                         {(toggleCountries1) && (
-                                            <nav className="list-none lg:absolute lg:top-5 lg:left-full w-full lg:border-red-700 lg:border lg:w-full lg:bg-white lg:flex flex-col">
+                                            <nav className="list-none lg:absolute lg:top-5 lg:start-full w-full lg:border-red-700 lg:border lg:w-full lg:bg-white lg:flex flex-col">
                                                 <li>
                                                     <a href="#" className="lg:text-black text-white font-normal text-sm pb-2 lg:p-3 inline-flex">India</a>
                                                 </li>
@@ -347,7 +347,7 @@ function AkhssHeader() {
                                     <li onMouseEnter={toggleCountry2} ref={ref3} className="hover:bg-red-300">
                                         <a href="#" onClick={toggleCountry2} className="lg:text-black text-white font-medium w-full hover:text-red-700 lg:p-3 py-3 text-xs pb-3 inline-flex">Tajkistan</a>
                                         {(toggleCountries2) && (
-                                            <nav className="list-none lg:absolute lg:top-5 lg:left-full w-full lg:border-red-700 lg:border lg:w-full lg:bg-white lg:flex flex-col">
+                                            <nav className="list-none lg:absolute lg:top-5 lg:start-full w-full lg:border-red-700 lg:border lg:w-full lg:bg-white lg:flex flex-col">
                                                 <li>
                                                     <a href="#" className="lg:text-black text-white font-normal text-sm pb-2 lg:p-3 inline-flex">Tajkistan</a>
                                                 </li>
@@ -369,7 +369,7 @@ function AkhssHeader() {
                                     <li onMouseEnter={toggleCountry3} ref={ref4} className="hover:bg-red-300">
                                         <a href="#" onClick={toggleCountry3} className="lg:text-black text-white font-medium w-full hover:text-red-700 lg:p-3 py-3 text-xs pb-3 inline-flex">Syria</a>
                                         {(toggleCountries3) && (
-                                            <nav className="list-none lg:absolute lg:top-5 lg:left-full w-full lg:border-red-700 lg:border lg:w-full lg:bg-white lg:flex flex-col">
+                                            <nav className="list-none lg:absolute lg:top-5 lg:start-full w-full lg:border-red-700 lg:border lg:w-full lg:bg-white lg:flex flex-col">
                                                 <li>
                                                     <a href="#" className="lg:text-black text-white font-normal text-sm pb-2 lg:p-3 inline-flex">Syria</a>
                                                 </li>
@@ -391,7 +391,7 @@ function AkhssHeader() {
                                     <li onMouseEnter={toggleCountry4} ref={ref5} className="hover:bg-red-300">
                                         <a href="#" onClick={toggleCountry4} className="lg:text-black text-white font-medium w-full hover:text-red-700 lg:p-3 py-3 text-xs pb-3 inline-flex">Kenya</a>
                                         {(toggleCountries4) && (
-                                            <nav className="list-none lg:absolute lg:top-5 lg:left-full w-full lg:border-red-700 lg:border lg:w-full lg:bg-white lg:flex flex-col">
+                                            <nav className="list-none lg:absolute lg:top-5 lg:start-full w-full lg:border-red-700 lg:border lg:w-full lg:bg-white lg:flex flex-col">
                                                 <li>
                                                     <a href="#" className="lg:text-black text-white font-normal text-sm pb-2 lg:p-3 inline-flex">Kenya</a>
                                                 </li>
@@ -413,7 +413,7 @@ function AkhssHeader() {
                                 </nav>
                             )}
                         </li>
-                        <li onMouseEnter={toggleMd} onMouseLeave={toggleMd} ref={ref7}>
+                        <li className="py-4" onMouseEnter={toggleMd} onMouseLeave={toggleMd} ref={ref7}>
                             <a href="#" className="font-semibold lg:contents hidden text-sm lg:text-black text-white">Media Resources</a>
                             {(toggleMedia) && (
                                 <nav className="lg:pt-0 pt-2 list-none top-32 lg:absolute w-full lg:border-red-700 lg:border lg:w-1/6 lg:bg-white lg:flex flex-col">
