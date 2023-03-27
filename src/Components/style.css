@@ -205,6 +205,10 @@
       order: 0;
     }
 
+    [dir="rtl"] .text2 {
+      left: 80%;
+    }
+
     .list1 {
       list-style-type: none;
       height: 100%;
@@ -242,6 +246,10 @@
       padding: 16px;
     }
 
+    [dir="rtl"] .text2 {
+      left: 85%;
+    }
+
     .logo {
       width: 186px;
       height: 58px;
@@ -275,6 +283,10 @@
       display: flex;
       justify-content: center;
       order: 1;
+    }
+
+    [dir="rtl"] .text2 {
+      left: 90%;
     }
 
     .img {
@@ -442,10 +454,6 @@
   .swiper-pagination-bullet {
     width: 14px !important;
     height: 14px !important;
-  }
-
-  [dir="rtl"] .text2 {
-    left: 85%;
   }
 
   .txt {
