@@ -40,8 +40,8 @@ function Header3() {
     window.addEventListener('scroll', changeBackground)
 
     return (
-        <header className="w-full lg:fixed pt-2">
-            <nav className={navbar ? 'Navbar active h-15 pt-2' : 'Navbar h-36'}>
+        <header className="w-full lg:fixed lg:pt-2">
+            <nav className={navbar ? 'Navbar active h-15 pt-2' : 'Navbar lg:h-36'}>
                 <div className="flex-wrap lg:mx-auto lg:container items-center justify-center flex">
                     <button onClick={toggleNav} className="icon lg:hidden flex justify-end items-center p-2 ms-3 text-sm hover:text-green-40">
                         <FontAwesomeIcon icon={faBars} style={{ color: "#ffffff", }} />
@@ -57,19 +57,19 @@ function Header3() {
                         <div className=" lg:bg-transparent bg-blue-80 lg:w-2/3 w-full ">
                             <div className="mx-auto container lg:px-0 px-5 list-none justify-center flex lg:flex-row flex-col lg:justify-end lg:items-center">
                                 <li className="lg:py-0 py-3 lg:border-b-0 border-b border-white">
-                                    <a href="#Solution" className="text-white text-base lg:hover:text-gray-200 font-medium px-3">Solutions</a>
+                                    <a href="#Solution" className={navbar ? 'text-gray-7 text-base lg:hover:text-green-40 font-medium px-3' : 'text-white text-base lg:hover:text-gray-200 font-medium px-3'}>Solutions</a>
                                 </li>
                                 <li className="lg:py-0 py-3 lg:border-b-0 border-b border-white">
-                                    <a href="#" className="text-white text-base lg:hover:text-gray-200 font-medium px-3">Our Process</a>
+                                    <a href="#" className={navbar ? 'text-gray-7 text-base lg:hover:text-green-40 font-medium px-3' : 'text-white text-base lg:hover:text-gray-200 font-medium px-3'}>Our Process</a>
                                 </li>
                                 <li className="lg:py-0 py-3 lg:border-b-0 border-b border-white">
-                                    <a href="#od" className="text-white text-base lg:hover:text-gray-200 font-medium px-3">Organizational Development</a>
+                                    <a href="#od" className={navbar ? 'text-gray-7 text-base lg:hover:text-green-40 font-medium px-3' : 'text-white text-base lg:hover:text-gray-200 font-medium px-3'}>Organizational Development</a>
                                 </li>
                                 <li className="lg:py-0 py-3 lg:border-b-0 border-b border-white">
-                                    <a href="#" className="text-white text-base lg:hover:text-gray-200 font-medium px-3">About</a>
+                                    <a href="#" className={navbar ? 'text-gray-7 text-base lg:hover:text-green-40 font-medium px-3' : 'text-white text-base lg:hover:text-gray-200 font-medium px-3'}>About</a>
                                 </li>
                                 <li className="lg:py-0 py-3">
-                                    <a href="#" className="text-white text-base lg:hover:text-gray-200 font-medium px-3">Contact</a>
+                                    <a href="#" className={navbar ? 'text-gray-7 text-base lg:hover:text-green-40 font-medium px-3' : 'text-white text-base lg:hover:text-gray-200 font-medium px-3'}>Contact</a>
                                 </li>
                             </div>
                         </div>
