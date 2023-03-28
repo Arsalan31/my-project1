@@ -57,19 +57,19 @@ function Header3() {
                         <div className=" lg:bg-transparent bg-blue-80 lg:w-2/3 w-full ">
                             <div className="mx-auto container lg:px-0 px-5 list-none justify-center flex lg:flex-row flex-col lg:justify-end lg:items-center">
                                 <li className="lg:py-0 py-3 lg:border-b-0 border-b border-white">
-                                    <a href="#Solution" className="text-white text-base font-medium px-3">Solutions</a>
+                                    <a href="#Solution" className="text-white text-base lg:hover:text-gray-200 font-medium px-3">Solutions</a>
                                 </li>
                                 <li className="lg:py-0 py-3 lg:border-b-0 border-b border-white">
-                                    <a href="#" className="text-white text-base font-medium px-3">Our Process</a>
+                                    <a href="#" className="text-white text-base lg:hover:text-gray-200 font-medium px-3">Our Process</a>
                                 </li>
                                 <li className="lg:py-0 py-3 lg:border-b-0 border-b border-white">
-                                    <a href="#od" className="text-white text-base font-medium px-3">Organizational Development</a>
+                                    <a href="#od" className="text-white text-base lg:hover:text-gray-200 font-medium px-3">Organizational Development</a>
                                 </li>
                                 <li className="lg:py-0 py-3 lg:border-b-0 border-b border-white">
-                                    <a href="#" className="text-white text-base font-medium px-3">About</a>
+                                    <a href="#" className="text-white text-base lg:hover:text-gray-200 font-medium px-3">About</a>
                                 </li>
                                 <li className="lg:py-0 py-3">
-                                    <a href="#" className="text-white text-base font-medium px-3">Contact</a>
+                                    <a href="#" className="text-white text-base lg:hover:text-gray-200 font-medium px-3">Contact</a>
                                 </li>
                             </div>
                         </div>
