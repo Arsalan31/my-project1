@@ -16,7 +16,7 @@ function Riversroads() {
                 <Hero3 isRtl={isRtl} setIsRtl={setIsRtl} />
                 <Solutions />
                 <Development />
-                <Contact1 />
+                {/* <Contact1 /> */}
                 <Footer3 />
             </div>
         </React.Fragment>
