@@ -1,3 +1,5 @@
+import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react"
 import './style.css';
 
@@ -26,11 +28,12 @@ function About() {
                     <img src={require('./assets/Zavy-Lyndi-2.jpeg')} />
                 </div>
                 <div className="flex justify-center px-4 py-3">
-                    <h6 className="text-3xl font-medium text-center text-blue-80">Lyndi Zavy, MA, <br/> PHR</h6>
+                    <h6 className="text-3xl font-medium text-center text-blue-80">Lyndi Zavy, MA, <br /> PHR</h6>
                 </div>
             </div>
             <div className="flex flex-col justify-center">
                 <p className="text-center text-lg font-semibold text-gray-10 pb-1">READ BIO</p>
+                <FontAwesomeIcon icon={faChevronDown} style={{ color: "#3b3b3b", }} />
             </div>
         </section>
     )
