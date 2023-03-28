@@ -8,29 +8,29 @@ function Footer3() {
         <footer>
             <div className="lg:flex-row flex-col bg-blue-80 border-t border-b pt-8 pb-3 border-blue-80 flex justify-center">
                 <div className="lg:w-1/2 w-full flex justify-center">
-                    <a href="Slack">
-                        <img className="w-60 h-44" src={require('./assets/RVR-sticky.png')} />
+                    <a href="rivers-roads" className="flex items-center">
+                        <img className="lg:w-64 lg:h-48 w-76 h-56" src={require('./assets/RVR-sticky.png')} />
                     </a>
                 </div>
                 <div className="lg:w-1/3 w-full flex lg:flex-row flex-col lg:justify-center">
-                    <div className="list-none flex lg:justify-end text-start lg:items-start items-center lg:w-1/2 lg:pt-5 py-6 flex-col">
-                        <li>
+                    <nav className="list-none flex lg:justify-end text-start lg:items-start items-end lg:w-1/2 lg:pt-10 lg:py-6 py-10 flex-col">
+                        <li className="pb-1">
                             <a href="#Solution" className="text-white uppercase text-sm font-medium px-3 hover:text-green-40">Solutions</a>
                         </li>
-                        <li>
+                        <li className="pb-1">
                             <a href="#" className="text-white uppercase text-sm font-medium px-3 hover:text-green-40">Our Process</a>
                         </li>
-                        <li>
+                        <li className="pb-1">
                             <a href="#od" className="text-white uppercase text-sm font-medium px-3 hover:text-green-40">ORG Development</a>
                         </li>
-                        <li>
+                        <li className="pb-1">
                             <a href="#" className="text-white uppercase text-sm font-medium px-3 hover:text-green-40">About</a>
                         </li>
-                        <li>
+                        <li className="pb-1">
                             <a href="#" className="text-white uppercase text-sm font-medium px-3 hover:text-green-40">Contact</a>
                         </li>
-                    </div>
-                    <div className="flex justify-center items-start gap-4 pt-5 lg:w-1/2">
+                    </nav>
+                    <div className="flex justify-center items-start gap-4 lg:pt-10 lg:w-1/2">
                         <a href="#">
                             <svg className="icon" width="18" height="18" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M4.25 18.2658H0.5V5.14073H4.25V18.2658ZM2.49123 4.33638C1.51998 4.33638 0.734379 3.54887 0.734379 2.57761C0.734379 1.60636 1.52189 0.818848 2.49123 0.818848C3.46249 0.820698 4.25 1.60821 4.25 2.57761C4.25 3.54887 3.46249 4.33638 2.49123 4.33638ZM17.375 18.2658H13.625V10.1508C13.625 9.20011 13.3531 8.53454 12.185 8.53454C10.2481 8.53454 9.87497 10.1508 9.87497 10.1508V18.2658H6.12497V5.14073H9.87497V6.39509C10.4112 5.9845 11.7499 5.14258 13.625 5.14258C14.84 5.14258 17.375 5.87008 17.375 10.2651V18.2658Z" fill="#FFFFFF" />
