@@ -40,14 +40,15 @@ function Header3() {
     window.addEventListener('scroll', changeBackground)
 
     return (
-        <header className="w-full fixed">
-            <nav className={navbar ? 'Navbar active' : 'Navbar'}>
-                <div className="h-36 flex-wrap lg:mx-auto lg:container items-center justify-center flex">
+        <header className="w-full lg:fixed pt-2">
+            <nav className={navbar ? 'Navbar active h-15 pt-2' : 'Navbar h-36'}>
+                <div className="flex-wrap lg:mx-auto lg:container items-center justify-center flex">
                     <button onClick={toggleNav} className="icon lg:hidden flex justify-end items-center p-2 ms-3 text-sm hover:text-green-40">
                         <FontAwesomeIcon icon={faBars} style={{ color: "#ffffff", }} />
                     </button>
                     <a className="lg:flex hidden h-full" href="rivers-roads">
-                        <img className="h-full" src={require('./assets/RVR-sticky.png')} />
+                        {navbar ? <img className="h-11 w-70" src={require('./assets/RVR-secondary.png')} /> :
+                            <img className="h-36" src={require('./assets/RVR-sticky.png')} />}
                     </a>
                     <a href="rivers-roads" className="lg:hidden flex justify-center w-3/4 h-full">
                         <img className="h-full" src={require('./assets/RVR-sticky.png')} />
@@ -59,16 +60,16 @@ function Header3() {
                                     <a href="#Solution" className="text-white text-base font-medium px-3">Solutions</a>
                                 </li>
                                 <li className="lg:py-0 py-3 lg:border-b-0 border-b border-white">
-                                    <a className="text-white text-base font-medium px-3">Our Process</a>
+                                    <a href="#" className="text-white text-base font-medium px-3">Our Process</a>
                                 </li>
                                 <li className="lg:py-0 py-3 lg:border-b-0 border-b border-white">
-                                    <a className="text-white text-base font-medium px-3">Organizational Development</a>
+                                    <a href="#" className="text-white text-base font-medium px-3">Organizational Development</a>
                                 </li>
                                 <li className="lg:py-0 py-3 lg:border-b-0 border-b border-white">
-                                    <a className="text-white text-base font-medium px-3">About</a>
+                                    <a href="#" className="text-white text-base font-medium px-3">About</a>
                                 </li>
                                 <li className="lg:py-0 py-3">
-                                    <a className="text-white text-base font-medium px-3">Contact</a>
+                                    <a href="#" className="text-white text-base font-medium px-3">Contact</a>
                                 </li>
                             </div>
                         </div>
