@@ -4,7 +4,7 @@ import './style.css';
 
 function Development() {
     return (
-        <section className="py-13">
+        <section id="od" className="py-13">
             <div className="lg:px-28 sm:px-16 py-13 flex lg:flex-row flex-col">
                 <div className="lg:w-1/2 w-full px-4">
                     <h1 className="text-blue-80 sm:text-5xl text-4xl leading-12 font-light">
