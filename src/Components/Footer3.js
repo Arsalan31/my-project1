@@ -13,7 +13,7 @@ function Footer3() {
                     </a>
                 </div>
                 <div className="lg:w-1/3 w-full flex lg:flex-row flex-col lg:justify-center">
-                    <nav className="list-none flex lg:justify-end text-start lg:items-start items-end lg:w-1/2 lg:pt-10 lg:py-6 py-10 flex-col">
+                    <nav className="list-none flex lg:justify-end text-start lg:items-start items-center lg:w-1/2 lg:pt-10 lg:py-6 py-10 flex-col">
                         <li className="pb-1">
                             <a href="#Solution" className="text-white uppercase text-sm font-medium px-3 hover:text-green-40">Solutions</a>
                         </li>
