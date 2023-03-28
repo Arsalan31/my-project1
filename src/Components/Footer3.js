@@ -21,7 +21,7 @@ function Footer3() {
                             <a href="#" className="text-white uppercase text-sm font-medium px-3 hover:text-green-40">Our Process</a>
                         </li>
                         <li>
-                            <a href="#" className="text-white uppercase text-sm font-medium px-3 hover:text-green-40">ORG Development</a>
+                            <a href="#od" className="text-white uppercase text-sm font-medium px-3 hover:text-green-40">ORG Development</a>
                         </li>
                         <li>
                             <a href="#" className="text-white uppercase text-sm font-medium px-3 hover:text-green-40">About</a>
