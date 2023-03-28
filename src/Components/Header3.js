@@ -63,7 +63,7 @@ function Header3() {
                                     <a href="#" className="text-white text-base font-medium px-3">Our Process</a>
                                 </li>
                                 <li className="lg:py-0 py-3 lg:border-b-0 border-b border-white">
-                                    <a href="#" className="text-white text-base font-medium px-3">Organizational Development</a>
+                                    <a href="#od" className="text-white text-base font-medium px-3">Organizational Development</a>
                                 </li>
                                 <li className="lg:py-0 py-3 lg:border-b-0 border-b border-white">
                                     <a href="#" className="text-white text-base font-medium px-3">About</a>
