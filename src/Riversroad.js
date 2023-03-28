@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Contact1 from "./Components/Contact1";
 import Development from "./Components/Development";
 import Footer3 from "./Components/Footer3";
 import Header3 from "./Components/Header3";
@@ -15,6 +16,7 @@ function Riversroads() {
                 <Hero3 isRtl={isRtl} setIsRtl={setIsRtl} />
                 <Solutions />
                 <Development />
+                <Contact1 />
                 <Footer3 />
             </div>
         </React.Fragment>
