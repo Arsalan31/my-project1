@@ -1,0 +1,7 @@
+
+.Sample :global(.infoBlock_mediaElement_media_wrapper){
+    @apply w-48 h-48 aspect-none;
+}
+.Sample :global(.infoBlock_mediaElement_media_wrapper img){
+    @apply w-full h-full object-contain;
+}

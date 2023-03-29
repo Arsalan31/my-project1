@@ -551,3 +551,12 @@
   .icon:hover path {
     fill: #00e7ff;
   }
+
+  .zoom {
+    transition: transform .3s;
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.2);
+  }

@@ -1,0 +1,3 @@
+.Sample :global(.infoBlock_menuBlock_titleIcon_wrapper svg){
+    @apply lg:h-12 xs2:w-8 xs2:h-8 h-6 w-6 sm:w-10 sm:h-10 lg:w-12 text-PrimaryGreen !important;
+}

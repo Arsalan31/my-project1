@@ -66,7 +66,7 @@ function Header3() {
                                     <a href="#od" className={navbar ? 'text-gray-7 text-base lg:hover:text-green-40 font-medium px-3' : 'text-white text-base lg:hover:text-gray-200 font-medium px-3'}>Organizational Development</a>
                                 </li>
                                 <li className="lg:py-0 py-3 lg:border-b-0 border-b border-white">
-                                    <a href="#" className={navbar ? 'text-gray-7 text-base lg:hover:text-green-40 font-medium px-3' : 'text-white text-base lg:hover:text-gray-200 font-medium px-3'}>About</a>
+                                    <a href="#About" className={navbar ? 'text-gray-7 text-base lg:hover:text-green-40 font-medium px-3' : 'text-white text-base lg:hover:text-gray-200 font-medium px-3'}>About</a>
                                 </li>
                                 <li className="lg:py-0 py-3">
                                     <a href="#" className={navbar ? 'text-gray-7 text-base lg:hover:text-green-40 font-medium px-3' : 'text-white text-base lg:hover:text-gray-200 font-medium px-3'}>Contact</a>
