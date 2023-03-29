@@ -1,7 +1,7 @@
 import styles from './Sample.module.css'
 import InfoBlockGeneric from '../../generic-components/InfoBlockGeneric/InfoBlockGeneric'
 
-const About = (props) => {
+const Solutions = (props) => {
 
     let data = {
         "wysiwygRepeater": [
@@ -94,4 +94,4 @@ const About = (props) => {
     )
 }
 
-export default About
+export default Solutions
