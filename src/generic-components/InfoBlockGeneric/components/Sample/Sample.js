@@ -6,50 +6,27 @@ const Sample = (props) => {
     let data = {
         "wysiwygRepeater": [
             {
-                "wysiwyg": "June 29, 2021",
-                "position": "2x2",
+                "wysiwyg": "WHAT IS ORGANIZATIONAL DEVELOPMENT?",
+                "position": "1x1",
                 "preset": "GrayDate"
             },
             {
-                "wysiwyg": "Architecture of The Ismaili Centre London",
-                "position": "2x2",
+                "wysiwyg": "Organizational Development (OD) seeks to align the strategies, structure, people, and metrics within an organization to achieve greater effectiveness.",
+                "position": "3x1",
+                "preset": "GrayDate"
+            },
+            {
+                "wysiwyg": "The practice of OD is a combination of psychology, human resource management, organizational behavior, adult education, and culture. Its focus on data and research seeks to provide system-wide improvements to an organization's performance.",
+                "position": "3x2",
                 "preset": "BlueTitle"
             },
             {
-                "wysiwyg": "The architects, the Casson Conder Partnership, were presented with an unusual design brief. They were requested to design an institutional building in an area of London which had a very great architectural diversity but which clearly had Western inspiration. The Centre sought to be compatible with its surroundings, but at the same time to meet the specific requirements of the Ismaili community and reflect the mood of Islamic architectural tradition.",
-                "position": "2x2",
+                "wysiwyg": "OD emerged from human relations studies in the 1930s, during which psychologists realized that organizational structures and processes influence worker behavior and motivation.",
+                "position": "3x3",
                 "preset": "DescriptionLight"
             }
         ],
-        "mediaRepeater": [
-            {
-                "mediaType": "Image",
-                "position": "1x2",
-                "preset": "",
-                "image": {
-                    "url": "/static/images/heroimage.png",
-                    "alt": "",
 
-                },
-                "videoOrAudioUrl": "",
-                "captionText": "",
-                "sourceOrPhotographer": ""
-            }
-
-
-        ],
-        "ctaRepeater": [
-            {
-                "ctaLink": "https://www.google.com",
-                "ctaCaption": "Read More",
-                "position": "2x2",
-                "preset": "GreenButton",
-            }
-        ],
-        "enableHalfWidth": false,
-        "backgroundColor": "",
-        "backgroundImage": "",
-        "backgroundImageOverlay": "",
     }
 
     return (
