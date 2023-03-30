@@ -1,8 +1,8 @@
 import Sample from '../components/Sample/Sample'
-import About from './components/Sample/About/About_rvr'
-import Development from './components/Sample/Development/Development_rvr'
-import Hero from './components/Sample/Hero/Hero_rvr'
-import Solutions from './components/Sample/Solution/Solutions_rvr'
+import About from './components/About_rvr/About_rvr'
+import Development from './components/Development_rvr/Development_rvr'
+import Hero from './components/Hero_rvr/Hero_rvr'
+import Solutions from './components/Solution_rvr/Solutions_rvr'
 
 
 const InfoBlock = () => {
