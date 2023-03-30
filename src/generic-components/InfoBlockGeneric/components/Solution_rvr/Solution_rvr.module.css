@@ -1,0 +1,15 @@
+.infoBlock :global(.infoBlock_wysiwyg) {
+    @apply py-0 px-0 p-0;
+  }
+  
+  .infoBlock :global(.infoBlock_wysiwyg_1 .infoBlock_wysiwyg_SolutionHead) {
+    @apply text-center py-6 text-white font-light text-4.5xl;
+  }
+
+  .infoBlock :global(.infoBlock_wysiwyg_1 .infoBlock_wysiwyg_SolutionSubHead) {
+    @apply md:w-5/12 w-full text-start;
+  }
+
+  .infoBlock :global(.infoBlock_wysiwyg_1 .infoBlock_wysiwyg_SolutionSubHead1) {
+    @apply md:w-5/12 w-full text-start;
+  }

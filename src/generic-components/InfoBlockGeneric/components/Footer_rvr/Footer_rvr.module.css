@@ -1,0 +1,15 @@
+.infoBlock :global(.infoBlock_wysiwyg) {
+    @apply py-0 px-0 p-0;
+  }
+  
+  .infoBlock :global(.infoBlock_wysiwyg_1 .infoBlock_wysiwyg_Footerimg) {
+    @apply flex items-center lg:w-64 lg:h-48 w-76 h-56;
+  }
+
+  .infoBlock :global(.infoBlock_wysiwyg_1 .infoBlock_wysiwyg_FooterMenu) {
+    @apply list-none flex lg:justify-end text-start lg:items-start items-center lg:w-1/2 lg:pt-10 lg:py-6 py-10 flex-col;
+  }
+
+  .infoBlock :global(.infoBlock_wysiwyg_1 .infoBlock_wysiwyg_FooterMenu1) {
+    @apply flex justify-center items-start gap-4 lg:pt-10 lg:w-1/2;
+  }

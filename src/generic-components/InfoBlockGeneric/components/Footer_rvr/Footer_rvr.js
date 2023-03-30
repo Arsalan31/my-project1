@@ -7,7 +7,7 @@ const Footer = (props) => {
             {
                 "mediaType": "Image",
                 "position": "1x1",
-                "preset": "",
+                "preset": "Footerimg",
                 "image": {
                     "url": "./static/images/RVR-sticky.png",
                     "alt": "",
@@ -19,7 +19,7 @@ const Footer = (props) => {
         "menuRepeater": [
             {
                 "position": "1x2",
-                "preset": "",
+                "preset": "FooterMenu",
                 "menu": [
                     {
                         "title": " SOLUTIONS",
@@ -47,7 +47,7 @@ const Footer = (props) => {
             },
             {
                 "position": "1x2",
-                "preset": "",
+                "preset": "FooterMenu1",
                 "menu": [
                     {
                         "iconName": "fa-linkedin-in",
@@ -67,7 +67,7 @@ const Footer = (props) => {
     }
 
     return (
-        <div>
+        <div className={`${styles.infoBlock}`}>
             <InfoBlockGeneric {...data} direction={props.direction} />
         </div>
     )
