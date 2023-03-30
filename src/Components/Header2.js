@@ -744,7 +744,7 @@ function Header2() {
                     className="lg:hidden flex-col"
 
                 >
-                    <div className="list-none gap-3 lg:px-0 flex lg:flex-row flex-col order-0 lg:justify-center justify-start">
+                    <div className="list-none h-full gap-3 lg:px-0 flex lg:flex-row flex-col order-0 lg:justify-center justify-start">
                         <div className="flex lg:flex-row flex-col h-full xl:gap-3 lg:bg-white bg-green-20">
                             <div className="lg:hidden lg:h-28 h-24 w-full px-4 flex flex-wrap justify-between content-center items-center">
                                 <img href="Akdn" className="order-1 flex w-24 h-8" src={require('./assets/White.png')}></img>
