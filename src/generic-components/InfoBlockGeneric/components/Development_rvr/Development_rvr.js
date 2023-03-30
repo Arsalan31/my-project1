@@ -29,7 +29,7 @@ const Development = (props) => {
     }
 
     return (
-        <div>
+        <div className={`${styles.infoBlock}`}>
             <InfoBlockGeneric {...data} direction={props.direction} />
         </div>
     )
