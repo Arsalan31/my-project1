@@ -45,7 +45,20 @@ const Footer = (props) => {
                     },
                 ],
             },
-            {}
+            {
+                "position": "1x2",
+                "preset": "",
+                "menu": [
+                    {
+                        "iconName": "fa-linkedin-in",
+                        "iconUrl": "",
+                    },
+                    {
+                        "iconName": "fa-facebook-f",
+                        "iconUrl": "",
+                    },
+                ],
+            }
         ],
         "enableHalfWidth": false,
         "backgroundColor": "",
