@@ -21,66 +21,7 @@ const Solutions = (props) => {
                 "preset": "BlueTitle"
             },
         ],
-        "mediaRepeater": [
-            {
-                "mediaType": "Image",
-                "position": "3x1",
-                "preset": "",
-                "image": {
-                    "url": "./assets/RVR-strategic-planning.png",
-                    "alt": "Strategic Planning",
-                },
-                "mediaType": "Image",
-                "position": "3x2",
-                "preset": "",
-                "image": {
-                    "url": "./assets/RVR-org-structure.png",
-                    "alt": "Organizational Structure & Design",
-                },
-                "mediaType": "Image",
-                "position": "3x3",
-                "preset": "",
-                "image": {
-                    "url": "./assets/RVR-speaking.png",
-                    "alt": "Keynote Speaking",
-                },
-                "mediaType": "Image",
-                "position": "3x4",
-                "preset": "",
-                "image": {
-                    "url": "./assets/RVR-training.png",
-                    "alt": "Training & Facilitation",
-                },
-                "mediaType": "Image",
-                "position": "3x5",
-                "preset": "",
-                "image": {
-                    "url": "./assets/RVR-coaching.png",
-                    "alt": "Individual Coaching",
-                },
-                "mediaType": "Image",
-                "position": "3x6",
-                "preset": "",
-                "image": {
-                    "url": "./assets/RVR-change-readiness.png",
-                    "alt": "Change Readiness",
-                },
-                "mediaType": "Image",
-                "position": "3x7",
-                "preset": "",
-                "image": {
-                    "url": "./assets/RVR-merger-prep.png",
-                    "alt": "Merger/Acquisition Preparation",
-                },
-            }
-        ],
-        "ctaRepeater": [
-            {
-                "ctaLink": "https://www.google.com",
-                "ctaCaption": "READ BIO",
-                "position": "4x2",
-            }
-        ],
+        
         "enableHalfWidth": false,
         "backgroundColor": "",
         "backgroundImage": "",
