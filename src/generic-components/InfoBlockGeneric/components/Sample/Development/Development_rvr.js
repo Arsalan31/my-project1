@@ -1,7 +1,7 @@
 import styles from './Sample.module.css'
 import InfoBlockGeneric from '../../generic-components/InfoBlockGeneric/InfoBlockGeneric'
 
-const Sample = (props) => {
+const Development = (props) => {
 
     let data = {
         "wysiwygRepeater": [
@@ -36,4 +36,4 @@ const Sample = (props) => {
     )
 }
 
-export default Sample
+export default Development

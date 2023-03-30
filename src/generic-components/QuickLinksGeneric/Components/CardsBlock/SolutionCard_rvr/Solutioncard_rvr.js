@@ -1,6 +1,6 @@
 import QuickLinksGeneric from "../../generic-components/QuickLinksGeneric/QuickLinksGeneric"
 
-const CardsBlock = (props) => {
+const Solutioncard = (props) => {
 
   let data = {
     "cardsRepeater": [
@@ -89,4 +89,4 @@ const CardsBlock = (props) => {
   )
 }
 
-export default CardsBlock
+export default Solutioncard
