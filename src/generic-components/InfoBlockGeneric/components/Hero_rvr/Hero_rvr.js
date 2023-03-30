@@ -1,3 +1,4 @@
+import Hero from '../../Wysiwyg/Presets/Hero'
 import InfoBlockGeneric from '../../generic-components/InfoBlockGeneric/InfoBlockGeneric'
 
 const Hero = (props) => {
@@ -24,7 +25,7 @@ const Hero = (props) => {
     }
 
     return (
-        <div>
+        <div className={`${styles.infoBlock}`}>
             <InfoBlockGeneric {...data} direction={props.direction} />
         </div>
     )
