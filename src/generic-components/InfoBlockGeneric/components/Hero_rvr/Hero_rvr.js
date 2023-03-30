@@ -18,13 +18,13 @@ const Hero = (props) => {
 
         "enableHalfWidth": false,
         "backgroundColor": "",
-        "backgroundImage": "./assets/RVR-quote1.jpg",
+        "backgroundImage": "./static/images/RVR-quote1.jpg",
         "backgroundImageOverlay": "",
 
     }
 
     return (
-        <div className={`${styles.infoBlock}`}>
+        <div>
             <InfoBlockGeneric {...data} direction={props.direction} />
         </div>
     )

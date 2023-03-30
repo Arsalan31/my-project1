@@ -1,5 +1,5 @@
 import Sample from '../components/Sample/Sample'
-import Solutioncard from './Components/CardsBlock/SolutionCard_rvr/Solutioncard_rvr'
+import Solutioncard from './Components/SolutionCard_rvr/Solutioncard_rvr'
 
 const QuickLinks = () => {
   return (
