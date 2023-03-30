@@ -8,17 +8,17 @@ const Solutions = (props) => {
             {
                 "wysiwyg": "Solition",
                 "position": "1x2",
-                "preset": "GrayDate"
+                "preset": ""
             },
             {
                 "wysiwyg": "Rivers & Roads has the complete picture of how people and operations intersect. Once the two are in sync, we can improve the overall function of your organization.",
                 "position": "2x1",
-                "preset": "GrayDate"
+                "preset": ""
             },
             {
                 "wysiwyg": "We recognize that each client is unique, so we work to understand your objectives to implement the solutions below or develop custom solutions to address business needs.",
                 "position": "2x2",
-                "preset": "BlueTitle"
+                "preset": ""
             },
         ],
         
