@@ -2,6 +2,10 @@
     @apply py-0 px-0 p-0;
   }
   
-  .infoBlock :global(.infoBlock_wysiwyg_1 .infoBlock_wysiwyg_BlueTitle) {
-    @apply py-0 px-0 p-0 mt-4 sm:mt-5 mb-2.5 text-black-0 sm:text-darkblue;
+  .infoBlock :global(.infoBlock_wysiwyg_1 .infoBlock_wysiwyg_HeroTxt) {
+    @apply w-full flex justify-center text-center text-4.5xl font-light text-white px-4;
+  }
+
+  .infoBlock :global(.infoBlock_wysiwyg_1 .infoBlock_wysiwyg_HeroTxt1) {
+    @apply text-green-40 w-full flex justify-center text-4xl text-center;
   }

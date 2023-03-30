@@ -8,12 +8,12 @@ const Hero = (props) => {
             {
                 "wysiwyg": "/touring the facility and picking up slack/",
                 "position": "1x2",
-                "preset": ""
+                "preset": "HeroTxt"
             },
             {
                 "wysiwyg": "are you a guide who needs a map?",
                 "position": "2x2",
-                "preset": ""
+                "preset": "HeroTxt1"
             },
         ],
 
