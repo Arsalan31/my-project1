@@ -8,7 +8,7 @@ const Solutioncard = (props) => {
         "title": "Card 1",
         "subtitle": "Subtitle",
         "image": {
-          "url": './assets/RVR-strategic-planning.png',
+          "url": './static/images/RVR-strategic-planning.png',
           "alt": '',
           "focalPoint": { x: 0.5, y: 0.5 }
         },
@@ -18,7 +18,7 @@ const Solutioncard = (props) => {
         "title": "Card 2",
         "subtitle": "Subtitle",
         "image": {
-          "url": './assets/RVR-org-structure.png',
+          "url": './static/images/RVR-org-structure.png',
           "alt": '',
           "focalPoint": { x: 0.5, y: 0.5 }
         },
@@ -28,7 +28,7 @@ const Solutioncard = (props) => {
         "title": "Card 3",
         "subtitle": "Subtitle",
         "image": {
-          "url": './assets/RVR-speaking.png',
+          "url": './static/images/RVR-speaking.png',
           "alt": '',
           "focalPoint": { x: 0.5, y: 0.5 }
         },
@@ -38,7 +38,7 @@ const Solutioncard = (props) => {
         "title": "Card 4",
         "subtitle": "Subtitle",
         "image": {
-          "url": './assets/RVR-training.png',
+          "url": './static/images/RVR-training.png',
           "alt": '',
           "focalPoint": { x: 0.5, y: 0.5 }
         },
@@ -48,7 +48,7 @@ const Solutioncard = (props) => {
         "title": "Card 5",
         "subtitle": "Subtitle",
         "image": {
-          "url": './assets/RVR-coaching.png',
+          "url": './static/images/RVR-coaching.png',
           "alt": '',
           "focalPoint": { x: 0.5, y: 0.5 }
         },
@@ -58,7 +58,7 @@ const Solutioncard = (props) => {
         "title": "Card 6",
         "subtitle": "Subtitle",
         "image": {
-          "url": './assets/RVR-change-readiness.png',
+          "url": './static/images/RVR-change-readiness.png',
           "alt": '',
           "focalPoint": { x: 0.5, y: 0.5 }
         },
@@ -68,7 +68,7 @@ const Solutioncard = (props) => {
         "title": "Card 7",
         "subtitle": "Subtitle",
         "image": {
-          "url": './assets/RVR-merger-prep.png',
+          "url": './static/images/RVR-merger-prep.png',
           "alt": '',
           "focalPoint": { x: 0.5, y: 0.5 }
         },

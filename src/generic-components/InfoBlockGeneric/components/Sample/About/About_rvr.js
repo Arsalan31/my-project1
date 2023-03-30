@@ -27,7 +27,7 @@ const About = (props) => {
                 "position": "3x2",
                 "preset": "",
                 "image": {
-                    "url": "./assets/Zavy-Lyndi-2.jpeg",
+                    "url": "./static/images/Zavy-Lyndi-2.jpeg",
                     "alt": "",
 
                 },
