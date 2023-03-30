@@ -5,78 +5,64 @@ const Solutioncard = (props) => {
   let data = {
     "cardsRepeater": [
       {
-        "title": "Card 1",
-        "subtitle": "Subtitle",
+        "title": "Strategic Planning",
         "image": {
           "url": './static/images/RVR-strategic-planning.png',
           "alt": '',
           "focalPoint": { x: 0.5, y: 0.5 }
         },
-        "description":"Strategic Planning",
       },
       {
-        "title": "Card 2",
-        "subtitle": "Subtitle",
+        "title": "Organizational Structure & Design",
         "image": {
           "url": './static/images/RVR-org-structure.png',
           "alt": '',
           "focalPoint": { x: 0.5, y: 0.5 }
         },
-        "description":"Organizational Structure & Design",
       },
       {
-        "title": "Card 3",
-        "subtitle": "Subtitle",
+        "title": "Keynote Speaking",
         "image": {
           "url": './static/images/RVR-speaking.png',
           "alt": '',
           "focalPoint": { x: 0.5, y: 0.5 }
         },
-        "description":"Keynote Speaking",
       },
       {
-        "title": "Card 4",
-        "subtitle": "Subtitle",
+        "title": "Training & Facilitation",
         "image": {
           "url": './static/images/RVR-training.png',
           "alt": '',
           "focalPoint": { x: 0.5, y: 0.5 }
         },
-        "description":"Training & Facilitation",
       },
       {
-        "title": "Card 5",
-        "subtitle": "Subtitle",
+        "title": "Individual Coaching",
         "image": {
           "url": './static/images/RVR-coaching.png',
           "alt": '',
           "focalPoint": { x: 0.5, y: 0.5 }
         },
-        "description":"Individual Coaching",
       },
       {
-        "title": "Card 6",
-        "subtitle": "Subtitle",
+        "title": "Change Readiness",
         "image": {
           "url": './static/images/RVR-change-readiness.png',
           "alt": '',
           "focalPoint": { x: 0.5, y: 0.5 }
         },
-        "description":"Change Readiness",
       },
       {
-        "title": "Card 7",
-        "subtitle": "Subtitle",
+        "title": "Merger/Acquisition Preparation",
         "image": {
           "url": './static/images/RVR-merger-prep.png',
           "alt": '',
           "focalPoint": { x: 0.5, y: 0.5 }
         },
-        "description":"Merger/Acquisition Preparation",
       },
-  ],
+    ],
     "cardPreset": "SampleCard",
-    "maximumCardsInARow": 7, 
+    "maximumCardsInARow": 7,
 
     "backgroundColor": "#081f41",
     "backgroundImage": "",
