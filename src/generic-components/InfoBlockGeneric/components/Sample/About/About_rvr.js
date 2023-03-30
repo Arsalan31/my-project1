@@ -1,4 +1,3 @@
-import styles from './Sample.module.css'
 import InfoBlockGeneric from '../../generic-components/InfoBlockGeneric/InfoBlockGeneric'
 
 const About = (props) => {
