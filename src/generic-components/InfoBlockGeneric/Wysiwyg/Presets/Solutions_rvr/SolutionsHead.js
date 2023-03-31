@@ -1,4 +1,4 @@
-const SolutionsHead = (props) => {
+const SolutionHead = (props) => {
   
     // let props = {
     //   "singleItem": {
@@ -14,5 +14,5 @@ const SolutionsHead = (props) => {
     )
   };
   
-  export default SolutionsHead;
+  export default SolutionHead;
   
