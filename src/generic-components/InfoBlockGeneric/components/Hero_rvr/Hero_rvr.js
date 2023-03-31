@@ -1,4 +1,3 @@
-import styles from './Hero_rvr.module.css'
 import InfoBlockGeneric from '../../generic-components/InfoBlockGeneric/InfoBlockGeneric'
 const Hero = (props) => {
 
@@ -24,7 +23,7 @@ const Hero = (props) => {
     }
 
     return (
-        <div  className={`${styles.infoBlock}`}>
+        <div>
             <InfoBlockGeneric {...data} direction={props.direction} />
         </div>
     )
