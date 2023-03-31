@@ -1,7 +1,7 @@
-import Solutioncard from "../Components/SolutionCard_rvr/Solutioncard_rvr"
 import SampleCard from "./Presets/SampleCard/SampleCard"
+import SolutionCard from "./Presets/Solutions_rvr/SolutionsCard"
 
 export default {
     SampleCard,
-    Solutioncard
+    SolutionCard
 }

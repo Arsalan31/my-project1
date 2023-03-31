@@ -1,4 +1,4 @@
-const SampleCard = (props) => {
+const SolutionCard = (props) => {
     // let props = {
     //     "preset": "SampleCard",
     //     "singleItem": {
@@ -38,4 +38,4 @@ const SampleCard = (props) => {
     )
 }
 
-export default SampleCard
+export default SolutionCard
