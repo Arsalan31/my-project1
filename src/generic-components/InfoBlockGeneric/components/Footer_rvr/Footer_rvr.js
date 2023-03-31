@@ -1,3 +1,4 @@
+import './generic-components/InfoBlockGeneric/components/Footer_rvr/Footer_rvr.module.css'
 import InfoBlockGeneric from '../../generic-components/InfoBlockGeneric/InfoBlockGeneric'
 
 const Footer = (props) => {

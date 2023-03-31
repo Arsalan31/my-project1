@@ -1,6 +1,5 @@
-import Hero from '../../Wysiwyg/Presets/Hero'
+import './generic-components/InfoBlockGeneric/components/Hero_rvr/Hero_rvr.module.css'
 import InfoBlockGeneric from '../../generic-components/InfoBlockGeneric/InfoBlockGeneric'
-
 const Hero = (props) => {
 
     let data = {

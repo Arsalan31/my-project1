@@ -1,3 +1,4 @@
+import './generic-components/InfoBlockGeneric/components/Development_rvr/Development_rvr.module.css'
 import InfoBlockGeneric from '../../generic-components/InfoBlockGeneric/InfoBlockGeneric'
 
 const Development = (props) => {
