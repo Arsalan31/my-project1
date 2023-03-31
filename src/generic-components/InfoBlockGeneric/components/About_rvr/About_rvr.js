@@ -40,6 +40,7 @@ const About = (props) => {
                 "ctaCaption": "READ BIO",
                 "iconName": "faChevronDown",
                 "position": "4x2",
+                "preset": "Aboutbtn",
             }
         ],
 
