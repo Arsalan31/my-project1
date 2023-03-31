@@ -16,8 +16,8 @@ const Solutions = (props) => {
             },
             {
                 "wysiwyg": "We recognize that each client is unique, so we work to understand your objectives to implement the solutions below or develop custom solutions to address business needs.",
-                "position": "2x2",
-                "preset": "SolutionSubHead1"
+                "position": "2x3",
+                "preset": "SolutionSubHead"
             },
         ],
         

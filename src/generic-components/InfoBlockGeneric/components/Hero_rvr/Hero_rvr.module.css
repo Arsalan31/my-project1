@@ -7,5 +7,5 @@
   } */
 
   .infoBlock :global(.infoBlock_wysiwyg_1 .infoBlock_wysiwyg_HeroTxt1) {
-    @apply text-green-40 ;
+    @apply text-green-40 w-full flex justify-center text-4xl text-center;
   }
