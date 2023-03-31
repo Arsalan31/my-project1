@@ -1,4 +1,3 @@
-import './generic-components/InfoBlockGeneric/components/Development_rvr/Development_rvr.module.css'
 import InfoBlockGeneric from '../../generic-components/InfoBlockGeneric/InfoBlockGeneric'
 
 const Development = (props) => {
@@ -12,12 +11,12 @@ const Development = (props) => {
             },
             {
                 "wysiwyg": "Organizational Development (OD) seeks to align the strategies, structure, people, and metrics within an organization to achieve greater effectiveness.",
-                "position": "3x1",
+                "position": "1x3",
                 "preset": "DevelopmentSubHead"
             },
             {
                 "wysiwyg": "The practice of OD is a combination of psychology, human resource management, organizational behavior, adult education, and culture. Its focus on data and research seeks to provide system-wide improvements to an organization's performance.",
-                "position": "3x2",
+                "position": "2x3",
                 "preset": "DevelopmentSubHead"
             },
             {
@@ -30,7 +29,7 @@ const Development = (props) => {
     }
 
     return (
-        <div className={`${styles.infoBlock}`}>
+        <div>
             <InfoBlockGeneric {...data} direction={props.direction} />
         </div>
     )

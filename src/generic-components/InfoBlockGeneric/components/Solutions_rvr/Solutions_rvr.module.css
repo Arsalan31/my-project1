@@ -9,7 +9,3 @@
   .infoBlock :global(.infoBlock_wysiwyg_1 .infoBlock_wysiwyg_SolutionSubHead) {
     @apply md:w-5/12 w-full text-start;
   }
-
-  .infoBlock :global(.infoBlock_wysiwyg_1 .infoBlock_wysiwyg_SolutionSubHead1) {
-    @apply md:w-5/12 w-full text-start;
-  }

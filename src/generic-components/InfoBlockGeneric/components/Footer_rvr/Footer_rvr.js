@@ -1,4 +1,3 @@
-import './generic-components/InfoBlockGeneric/components/Footer_rvr/Footer_rvr.module.css'
 import InfoBlockGeneric from '../../generic-components/InfoBlockGeneric/InfoBlockGeneric'
 
 const Footer = (props) => {
@@ -47,15 +46,15 @@ const Footer = (props) => {
                 ],
             },
             {
-                "position": "1x2",
-                "preset": "FooterMenu1",
+                "position": "1x3",
+                "preset": "FooterMenu",
                 "menu": [
                     {
-                        "iconName": "fa-linkedin-in",
+                        "iconName": "faLinkedinIn",
                         "iconUrl": "",
                     },
                     {
-                        "iconName": "fa-facebook-f",
+                        "iconName": "faFacebookF",
                         "iconUrl": "",
                     },
                 ],
@@ -68,7 +67,7 @@ const Footer = (props) => {
     }
 
     return (
-        <div className={`${styles.infoBlock}`}>
+        <div>
             <InfoBlockGeneric {...data} direction={props.direction} />
         </div>
     )

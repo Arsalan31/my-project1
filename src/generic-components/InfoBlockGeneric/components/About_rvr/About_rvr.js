@@ -1,4 +1,3 @@
-import './generic-components/InfoBlockGeneric/components/About_rvr/About_rvr.module.css'
 import InfoBlockGeneric from '../../generic-components/InfoBlockGeneric/InfoBlockGeneric'
 
 const About = (props) => {
@@ -50,7 +49,7 @@ const About = (props) => {
     }
 
     return (
-        <div className={`${styles.infoBlock}`}>
+        <div>
             <InfoBlockGeneric {...data} direction={props.direction} />
         </div>
     )

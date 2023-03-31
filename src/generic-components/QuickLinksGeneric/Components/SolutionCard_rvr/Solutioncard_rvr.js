@@ -61,7 +61,7 @@ const Solutioncard = (props) => {
         },
       },
     ],
-    "cardPreset": "SampleCard",
+    "cardPreset": "SolutionsCard",
     "maximumCardsInARow": 7,
 
     "backgroundColor": "#081f41",
