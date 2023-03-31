@@ -1,5 +1,5 @@
 import SampleCard from "./Presets/SampleCard/SampleCard"
-import SolutionCard from "./Presets/Solutions_rvr/SolutionsCard"
+import SolutionCard from "./Presets/SolutionsCard/SolutionsCard"
 
 export default {
     SampleCard,
