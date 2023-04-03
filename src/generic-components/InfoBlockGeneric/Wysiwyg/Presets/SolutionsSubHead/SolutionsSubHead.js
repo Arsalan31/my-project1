@@ -9,7 +9,7 @@ const SolutionSubHead = (props) => {
     // }
 
     return (
-      <div className="md:w-5/12 w-full text-start"
+      <div className="text-white text-start"
         dangerouslySetInnerHTML={{ __html: props.singleItem.wysiwyg }} />
     )
   };
