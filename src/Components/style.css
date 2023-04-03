@@ -544,8 +544,12 @@
     }
   }
 
-  .css-m9glnp-MuiPaper-root-MuiDialog-paper {
+  .MuiDialog-paper {
     background-color: transparent !important;
+  }
+
+  .Akdn .MuiDialog-paper {
+    background-color: #00843D !important;
   }
 
   .icon:hover path {

@@ -475,13 +475,13 @@ function AkhssHeader() {
                                 <a href="#" className="font-semibold text-xs py-3 text-white">About Us </a>
                             </li>
                             <li className="px-4">
-                                <a href="#" className="font-semibold text-sm py-3 text-white">Hospitals & Medical Centers</a>
+                                <a href="#" className="font-semibold text-sm text-white">Hospitals & Medical Centers</a>
                             </li>
-                            <li ref={ref} className={toggleCenters ? 'px-4 hover:bg-red-400' : 'px-4 hover:bg-transparent'}>
+                            <li ref={ref} className={toggleCenters ? 'hover:bg-red-400' : 'hover:bg-transparent'}>
                                 <a href="#" onMouseEnter={toggleCenter} className="font-semibold text-sm text-white lg:contents hidden lg:text-black">Regional Outreach Centers</a>
-                                <div className="flex">
-                                    <a href="#" onClick={toggleCenter} className="font-semibold text-sm lg:w-auto w-1/2 lg:hidden text-white lg:text-black">Regional Outreach Centers</a>
-                                    <button className="lg:hidden w-full flex justify-end px-2 focus:outline-none" onClick={toggleCenter}>
+                                <div className="flex px-4 py-1">
+                                    <a href="#" onClick={toggleCenter} className="font-semibold text-sm lg:w-auto sm:w-1/2 w-full lg:hidden text-white lg:text-black">Regional Outreach Centers</a>
+                                    <button className="lg:hidden sm:w-full flex justify-end px-2 focus:outline-none" onClick={toggleCenter}>
                                         <div className="lg:hidden border-gray-400 border-s me-4 h-6"></div>
                                         <svg className="mt-2" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -489,7 +489,7 @@ function AkhssHeader() {
                                     </button>
                                 </div>
                                 {(toggleCenters) && (
-                                    <nav className="list-none lg:absolute w-full top-28 lg:border-red-700 lg:border bg-red-400 lg:w-1/6 lg:bg-white lg:flex flex-col">
+                                    <nav className="list-none lg:absolute px-4 w-full top-28 lg:border-red-700 lg:border bg-red-400 lg:w-1/6 lg:bg-white lg:flex flex-col">
                                         <li onMouseEnter={toggleCountry5} ref={ref6} className="hover:bg-red-300">
                                             <a onClick={toggleCountry5} href="#" className="lg:text-black w-full text-white font-medium text-xs pb-3 hover:text-red-700 lg:p-3 py-3 inline-flex">Pakistan</a>
                                             {(toggleCountries5) && (
@@ -625,11 +625,11 @@ function AkhssHeader() {
                                     </nav>
                                 )}
                             </li>
-                            <li onMouseEnter={toggleMd} ref={ref7} className={toggleMedia ? 'px-4 hover:bg-red-300' : 'px-4 hover:bg-transparent'}>
+                            <li onMouseEnter={toggleMd} ref={ref7} className={toggleMedia ? 'hover:bg-red-300' : 'hover:bg-transparent'}>
                                 <a href="#" className="font-semibold lg:contents hidden text-sm lg:text-black text-white">Media Resources</a>
-                                <div className="flex">
-                                    <a href="#" onclick={toggleMd} ref={ref7} className="font-semibold lg:w-auto w-1/2 text-sm lg:hidden lg:text-black text-white">Media Resources</a>
-                                    <button className="lg:hidden w-full flex justify-end px-2 focus:outline-none" onClick={toggleMd}>
+                                <div className="flex px-4 py-1">
+                                    <a href="#" onclick={toggleMd} ref={ref7} className="font-semibold lg:w-auto sm:w-1/2 w-full text-sm lg:hidden lg:text-black text-white">Media Resources</a>
+                                    <button className="lg:hidden sm:w-full flex justify-end px-2 focus:outline-none" onClick={toggleMd}>
                                         <div className="lg:hidden border-gray-400 border-s me-4 h-6"></div>
                                         <svg className="mt-2" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M1.5 1.75L6 6.25L10.5 1.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -637,7 +637,7 @@ function AkhssHeader() {
                                     </button>
                                 </div>
                                 {(toggleMedia) && (
-                                    <nav className="lg:pt-0 pt-2 list-none top-28 lg:absolute w-full bg-red-300 lg:border-red-700 lg:border lg:w-1/6 lg:bg-white lg:flex flex-col">
+                                    <nav className="lg:pt-0 pt-2 list-none top-28 px-4 lg:absolute w-full bg-red-300 lg:border-red-700 lg:border lg:w-1/6 lg:bg-white lg:flex flex-col">
                                         <li className="hover:bg-red-300">
                                             <a href="#" className="lg:text-black w-full text-white font-medium text-xs pb-3 hover:text-red-700 lg:p-3 py-3 inline-flex">Multimedia</a>
                                         </li>
