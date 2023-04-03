@@ -39,7 +39,7 @@ const About = (props) => {
                 "ctaLink": "https://www.google.com",
                 "ctaCaption": "READ BIO",
                 "iconName": "faChevronDown",
-                "position": "4x2",
+                "position": "3x2",
                 "preset": "Aboutbtn",
             }
         ],
