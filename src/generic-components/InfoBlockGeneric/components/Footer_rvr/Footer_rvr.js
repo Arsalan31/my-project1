@@ -61,7 +61,7 @@ const Footer = (props) => {
             }
         ],
         "enableHalfWidth": false,
-        "backgroundColor": "",
+        "backgroundColor": "#081f41",
         "backgroundImage": "",
         "backgroundImageOverlay": "",
     }
