@@ -1,6 +1,3 @@
 .FooterImg :global(.infoBlock_mediaElement_media_wrapper){
     @apply lg:w-64 lg:h-48 w-76 h-56 aspect-none;
 }
-.FooterImg :global(.infoBlock_mediaElement_media_wrapper Footerimg){
-    @apply w-full h-full object-contain;
-}

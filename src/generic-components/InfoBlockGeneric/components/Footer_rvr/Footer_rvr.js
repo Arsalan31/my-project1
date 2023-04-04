@@ -19,7 +19,7 @@ const Footer = (props) => {
         "menuRepeater": [
             {
                 "position": "1x2",
-                "preset": "Menu",
+                "preset": "Footer",
                 "menu": [
                     {
                         "title": " SOLUTIONS",
@@ -47,7 +47,7 @@ const Footer = (props) => {
             },
             {
                 "position": "1x3",
-                "preset": "Menu",
+                "preset": "Footer",
                 "menu": [
                     {
                         "iconName": "faLinkedinIn",

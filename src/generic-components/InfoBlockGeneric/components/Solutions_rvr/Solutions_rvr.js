@@ -21,7 +21,7 @@ const Solutions = (props) => {
             },
         ],
         
-        "enableHalfWidth": false,
+        "enableHalfWidth": true,
         "backgroundColor": "#081f41",
         "backgroundImage": "",
         "backgroundImageOverlay": "",

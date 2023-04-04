@@ -23,9 +23,15 @@ const Development = (props) => {
                 "wysiwyg": "OD emerged from human relations studies in the 1930s, during which psychologists realized that organizational structures and processes influence worker behavior and motivation.",
                 "position": "3x3",
                 "preset": "DevelopmentSubHead"
+            },
+            {
+                "wysiwyg": "/ the intersection of people and operations /",
+                "position": "3x2",
+                "preset": "DarkBlueHead"
             }
         ],
 
+        "enableHalfWidth": true,
     }
 
     return (

@@ -1,6 +1,3 @@
 .AboutImg :global(.infoBlock_mediaElement_media_wrapper){
-    @apply aspect-none;
-}
-.AboutImg :global(.infoBlock_mediaElement_media_wrapper Aboutimg){
     @apply flex overflow-hidden justify-center w-70 h-70 object-contain;
 }
