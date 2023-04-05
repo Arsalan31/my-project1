@@ -29,14 +29,13 @@ const Header = (props) => {
         "menu": [
           {
             "title": "Solutions",
-            "link": "#",
+            "link": "#Solution",
             "iconName": "",
             // "iconUrl": "/static/images/twitter.png",
             "submenu": [
               {
                 "title": "submenu 1",
                 "link": "#",
-                // "iconName": "faFacebook",
               },
               {
                 "title": "submenu 2",
@@ -92,7 +91,7 @@ const Header = (props) => {
           },
           {
             "title": "Organizational Development",
-            "link": "#",
+            "link": "#od",
             "submenu": [
               {
                 "title": "submenu 1",
@@ -122,7 +121,7 @@ const Header = (props) => {
           },
           {
             "title": "About",
-            "link": "#",
+            "link": "#About",
             "submenu": [
               {
                 "title": "submenu 1",

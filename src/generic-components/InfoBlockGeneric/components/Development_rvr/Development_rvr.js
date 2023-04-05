@@ -26,7 +26,7 @@ const Development = (props) => {
             },
             {
                 "wysiwyg": "/ the intersection of people and operations /",
-                "position": "3x2",
+                "position": "4x2",
                 "preset": "DarkBlueHead"
             }
         ],

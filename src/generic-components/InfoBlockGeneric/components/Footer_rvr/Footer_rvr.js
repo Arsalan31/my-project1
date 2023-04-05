@@ -23,9 +23,7 @@ const Footer = (props) => {
                 "menu": [
                     {
                         "title": " SOLUTIONS",
-                        "link": "",
-                        "iconName": "",
-                        "iconUrl": "",
+                        "link": "#Solution",
                     },
                     {
                         "title": "OUR PROCESS",
@@ -33,7 +31,7 @@ const Footer = (props) => {
                     },
                     {
                         "title": "OUR DEVELOPMENT",
-                        "link": "#",
+                        "link": "#od",
                     },
                     {
                         "title": "ABOUT",
