@@ -1,5 +1,6 @@
 import AboutHead from "./Presets/AboutHead/AboutHead"
 import AboutSubHead from "./Presets/AboutSubHead/AboutSubHead"
+import AboutExtraText from "./Presets/AboutExtraText/AboutExtraText"
 import BlueFooter from "./Presets/BlueFooter/BlueFooter"
 import DarkBlueHead from "./Presets/DarkBlueHead/DarkBlueHead"
 import Description from "./Presets/Description/Description"
@@ -26,6 +27,6 @@ export default {
     DarkBlueHead,
     AboutHead,
     AboutSubHead,
-    ExpandableText,
+    AboutExtraText,
     BlueFooter
 }

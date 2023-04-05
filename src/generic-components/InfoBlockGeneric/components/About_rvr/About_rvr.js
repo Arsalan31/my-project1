@@ -33,19 +33,18 @@ const About = (props) => {
                 "image": {
                     "url": "./static/images/Zavy-Lyndi-2.jpeg",
                     "alt": "",
-                    "title": "Lyndi Zavy, MA, PHR",
-
                 },
+                "captionText": "Lyndi Zavy, MA, PHR",
             }
 
 
         ],
         "ctaRepeater": [
             {
-                "ctaLink": "https://www.google.com",
+                "ctaLink": "",
                 "ctaCaption": "READ BIO",
                 "iconName": "faChevronDown",
-                "position": "3x2",
+                "position": "3x2",  
                 "preset": "Aboutbtn",
                 "id": "academiesToggleText",
             }

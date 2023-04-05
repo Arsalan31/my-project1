@@ -1,4 +1,4 @@
-const ExpandableText = (props) => {
+const AboutExtraText = (props) => {
 
     return (
         <div className={`relative overflow-hidden`}
@@ -26,4 +26,4 @@ const ExpandableText = (props) => {
     )
 };
 
-export default ExpandableText;
+export default AboutExtraText;
