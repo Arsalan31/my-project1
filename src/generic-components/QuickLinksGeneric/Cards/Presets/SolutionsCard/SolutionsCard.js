@@ -24,7 +24,7 @@ const SolutionsCard = (props) => {
                 <div className={`text-center`}>
                     {
                         props.singleItem.image?.url &&
-                                <img src={props.singleItem.image.url} className={`w-21 h-21 mt-0 m-5`}
+                                <img src={props.singleItem.image.url} className={`w-20 h-20 mt-0 m-5`}
                                     style={{ objectPosition: props.singleItem.image.url && props.singleItem.image.focalPoint?.x && props.singleItem.image.focalPoint?.y && `${props.singleItem.image.focalPoint.x * 100}% ${props.singleItem.image.focalPoint.y * 100}%` }}
                                 />
                     }
