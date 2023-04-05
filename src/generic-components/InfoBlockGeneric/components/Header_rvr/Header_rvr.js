@@ -1,36 +1,34 @@
 import HeaderGeneric from "../../generic-components/HeaderGeneric/HeaderGeneric"
-import styles from "./Header.module.css"
 const Header = (props) => {
 
   let data = {
     "logo": {
       "image": {
-        "url": "/static/images/logomd.png",
+        "url": "/static/images/RVR-sticky.png",
         "alt": ""
       },
-      "caption": "Logo caption",
-      "link": "#",
-      "position": "1x1",  
-      "preset": ""
+      "link": "rivers-roads",
+      "position": "1x1",
+      "preset": "HeaderLogo"
     },
-    "ctaRepeater": [
-      {
-        "ctaLink": "https://www.google.com",
-        "ctaCaption": "Login",
-        "position": "1x3",
-        "preset": "",
-        "iconName": "faArrowRight",
-        "iconUrl": "",
-        "alignment": "vertical"
-      }
-    ],
+    // "ctaRepeater": [
+    //   {
+    //     "ctaLink": "https://www.google.com",
+    //     "ctaCaption": "Login",
+    //     "position": "1x3",
+    //     "preset": "",
+    //     "iconName": "faArrowRight",
+    //     "iconUrl": "",
+    //     "alignment": "vertical"
+    //   }
+    // ],
     "menuRepeater": [
       {
-        "position": "1x2",
+        "position": "1x3",
         "preset": "",
         "menu": [
           {
-            "title": "Home",
+            "title": "Solutions",
             "link": "#",
             "iconName": "",
             // "iconUrl": "/static/images/twitter.png",
@@ -39,62 +37,70 @@ const Header = (props) => {
                 "title": "submenu 1",
                 "link": "#",
                 // "iconName": "faFacebook",
-                "submenu": [
-                  {
-                    "title": "submenu2 1",
-                    "link": "#",
-                  },
-                  {
-                    "title": "submenu2 2",
-                    "link": "#"
-                  },
-                  {
-                    "title": "submenu2 3",
-                    "link": "#"
-                  },
-                  {
-                    "title": "submenu2 4",
-                    "link": "#"
-                  },
-                  {
-                    "title": "submenu2 5",
-                    "link": "#"
-                  },
-                  {
-                    "title": "submenu2 6",
-                    "link": "#"
-                  },
-                ]
               },
               {
                 "title": "submenu 2",
                 "link": "#",
-                "submenu": [
-                  {
-                    "title": "submenu",
-                    "link": "#",
-                  },
-                  {
-                    "title": "submenu",
-                    "link": "#"
-                  },
-                  {
-                    "title": "submenu",
-                    "link": "#"
-                  },
-                  {
-                    "title": "submenu",
-                    "link": "#"
-                  },
-                  {
-                    "title": "submenu",
-                    "link": "#"
-                  },
-                  {
-                    "title": "submenu",
-                    "link": "#"
-                  },
-                ]
+              },
+              {
+                "title": "submenu 3",
+                "link": "#"
+              },
+              {
+                "title": "submenu 4",
+                "link": "#"
+              },
+              {
+                "title": "submenu 5",
+                "link": "#"
+              },
+              {
+                "title": "submenu 6",
+                "link": "#"
+              },
+            ]
+          },
+          {
+            "title": "Our Process",
+            "link": "#",
+            "submenu": [
+              {
+                "title": "submenu 1",
+                "link": "#"
+              },
+              {
+                "title": "submenu 2",
+                "link": "#"
+              },
+              {
+                "title": "submenu 3",
+                "link": "#"
+              },
+              {
+                "title": "submenu 4",
+                "link": "#"
+              },
+              {
+                "title": "submenu 5",
+                "link": "#"
+              },
+              {
+                "title": "submenu 6",
+                "link": "#"
+              },
+            ]
+          },
+          {
+            "title": "Organizational Development",
+            "link": "#",
+            "submenu": [
+              {
+                "title": "submenu 1",
+                "link": "#"
+              },
+              {
+                "title": "submenu 2",
+                "link": "#"
               },
               {
                 "title": "submenu 3",
@@ -174,78 +180,20 @@ const Header = (props) => {
               },
             ]
           },
-          {
-            "title": "Register",
-            "link": "#",
-            "submenu": [
-              {
-                "title": "submenu 1",
-                "link": "#"
-              },
-              {
-                "title": "submenu 2",
-                "link": "#"
-              },
-              {
-                "title": "submenu 3",
-                "link": "#"
-              },
-              {
-                "title": "submenu 4",
-                "link": "#"
-              },
-              {
-                "title": "submenu 5",
-                "link": "#"
-              },
-              {
-                "title": "submenu 6",
-                "link": "#"
-              },
-            ]
-          },
         ],
-      },
-      {
-        "position": "1x3",
-        "preset": "",
-        "menu": [
-          {
-            "title": "",
-            "link": "#",
-            "iconName": "faSlack",
-            "iconUrl": "",
-          },
-          {
-            "title": "",
-            "link": "#",
-            "iconName": "",
-            "iconUrl": "/static/images/twitter.png",
-          },
-          {
-            "title": "",
-            "link": "#",
-            "iconName": "faGithub",
-            "iconUrl": "",
-          },
-        ],
-      }
+      },F
     ],
     "menuDialog": {
       "toggleButtonposition": "1x3",
-      "maximumScreenWidth": 1279, // 639 / 767 / 1023 / 1279
-      "backgroundColor": "#ffffff",
-      "enableFullScreen": true,
+      "maximumScreenWidth": 1023, // 639 / 767 / 1023 / 1279
+      "backgroundColor": "",
+      "enableFullScreen": false,
       "closedMenuIcon": {
-        "iconName": "", //fontawesome
+        "iconName": "faBars", //fontawesome
         "iconUrl": "", //img
       },
-      "openMenuIcon": {
-        "iconName": "faX",
-        "iconUrl": "",
-      },
     },
-    "backgroundColor": "#ffffff",
+    "backgroundColor": "",
     "componentName": "Header",
     "enableStickyHeader": true,
     "enableTransparentHeader": true
