@@ -180,7 +180,7 @@ const Header = (props) => {
             ]
           },
         ],
-      },F
+      },
     ],
     "menuDialog": {
       "toggleButtonposition": "1x3",
@@ -199,7 +199,7 @@ const Header = (props) => {
   }
 
   return (
-    <div className={`contents ${styles.header}`}>
+    <div>
       <HeaderGeneric {...data} direction={props.direction} />
     </div>
   )
