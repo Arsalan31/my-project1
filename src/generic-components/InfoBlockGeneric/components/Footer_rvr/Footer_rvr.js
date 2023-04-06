@@ -38,7 +38,7 @@ const Footer = (props) => {
                         "link": "#",
                     },
                     {
-                        "title": "OUR DEVELOPMENT",
+                        "title": "ORG DEVELOPMENT",
                         "link": "#od",
                     },
                     {
@@ -66,7 +66,7 @@ const Footer = (props) => {
                 ],
             }
         ],
-        "enableHalfWidth": false,
+        "enableHalfWidth": true,
         "backgroundColor": "#081f41",
         "backgroundImage": "",
         "backgroundImageOverlay": "",

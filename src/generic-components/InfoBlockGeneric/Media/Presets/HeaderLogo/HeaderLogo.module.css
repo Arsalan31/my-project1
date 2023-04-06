@@ -1,6 +1,3 @@
-.FooterImg :global(.infoBlock_mediaElement_media_wrapper){
+.HeaderLogo :global(.header_logo_wrapper img){
     @apply h-36 aspect-none;
-}
-.FooterImg :global(.infoBlock_mediaElement_media_wrapper img){
-    @apply w-full h-full object-contain;
 }

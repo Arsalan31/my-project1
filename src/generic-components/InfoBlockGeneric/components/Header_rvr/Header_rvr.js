@@ -7,6 +7,10 @@ const Header = (props) => {
         "url": "/static/images/RVR-sticky.png",
         "alt": ""
       },
+      transparentHeaderImage: {
+        "url": "./static/images/RVR-secondary.png",
+        "alt": ""
+      },
       "link": "rivers-roads",
       "position": "1x1",
       "preset": "HeaderLogo"
@@ -186,6 +190,7 @@ const Header = (props) => {
       "toggleButtonposition": "1x3",
       "maximumScreenWidth": 1023, // 639 / 767 / 1023 / 1279
       "backgroundColor": "",
+      "enableTransparentHeader": true,
       "enableFullScreen": false,
       "closedMenuIcon": {
         "iconName": "faBars", //fontawesome

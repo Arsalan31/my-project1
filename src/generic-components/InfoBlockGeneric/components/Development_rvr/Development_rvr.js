@@ -11,7 +11,7 @@ const Development = (props) => {
             },
             {
                 "wysiwyg":
-                    "<div> < p > Organizational Development(OD) seeks to align the strategies, structure, people, and metrics within an organization to achieve greater effectiveness.</p> <br /> <p>The practice of OD is a combination of psychology, human resource management, organizational behavior, adult education, and culture. Its focus on data and research seeks to provide system-wide improvements to an organization's performance.</p> <br /> <p>OD emerged from human relations studies in the 1930s, during which psychologists realized that organizational structures and processes influence worker behavior and motivation.</p> </div > ",
+                    "<div> <p> Organizational Development(OD) seeks to align the strategies, structure, people, and metrics within an organization to achieve greater effectiveness.</p> <br /> <p>The practice of OD is a combination of psychology, human resource management, organizational behavior, adult education, and culture. Its focus on data and research seeks to provide system-wide improvements to an organization's performance.</p> <br /> <p>OD emerged from human relations studies in the 1930s, during which psychologists realized that organizational structures and processes influence worker behavior and motivation.</p> </div > ",
                 "position": "1x3",
                 "preset": "DevelopmentSubHead"
             },
