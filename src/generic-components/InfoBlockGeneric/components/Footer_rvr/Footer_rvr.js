@@ -62,12 +62,18 @@ const Footer = (props) => {
                 "preset": "Footer",
                 "menu": [
                     {
-                        "iconName": "faLinkedinIn",
-                        "iconUrl": "",
-                    },
-                    {
-                        "iconName": "faFacebookF",
-                        "iconUrl": "",
+                        "iconName": "",
+                        // "iconUrl": "/static/images/twitter.png",
+                        "submenu": [
+                            {
+                                "iconName": "faLinkedinIn",
+                                "iconUrl": "",
+                            },
+                            {
+                                "iconName": "faFacebookF",
+                                "iconUrl": "",
+                            },
+                        ]
                     },
                 ],
             }

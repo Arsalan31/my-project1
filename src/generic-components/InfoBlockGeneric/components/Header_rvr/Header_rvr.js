@@ -4,11 +4,11 @@ const Header = (props) => {
   let data = {
     "logo": {
       "image": {
-        "url": "/static/images/RVR-sticky.png",
+        "url": "./static/images/RVR-secondary.png",
         "alt": ""
       },
       transparentHeaderImage: {
-        "url": "./static/images/RVR-secondary.png",
+        "url": "/static/images/RVR-sticky.png",
         "alt": ""
       },
       "link": "rivers-roads",
