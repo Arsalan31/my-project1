@@ -9,7 +9,3 @@
   .infoBlock :global(.infoBlock_wysiwyg_1 .infoBlock_wysiwyg_AboutSubHead) {
     @apply lg:w-5/12 px-4 text-gray-10 text-lg font-light;
   }
-
-  .infoBlock :global(.infoBlock_wysiwyg_1 .infoBlock_wysiwyg_Aboutimg) {
-    @apply flex overflow-hidden justify-center zoom w-70 h-70;
-  }

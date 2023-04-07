@@ -28,7 +28,7 @@ const Header = (props) => {
     // ],
     "menuRepeater": [
       {
-        "position": "1x3",
+        "position": "1x2",
         "preset": "",
         "menu": [
           {
@@ -156,32 +156,6 @@ const Header = (props) => {
           {
             "title": "Contact",
             "link": "#",
-            "submenu": [
-              {
-                "title": "submenu 1",
-                "link": "#"
-              },
-              {
-                "title": "submenu 2",
-                "link": "#"
-              },
-              {
-                "title": "submenu 3",
-                "link": "#"
-              },
-              {
-                "title": "submenu 4",
-                "link": "#"
-              },
-              {
-                "title": "submenu 5",
-                "link": "#"
-              },
-              {
-                "title": "submenu 6",
-                "link": "#"
-              },
-            ]
           },
         ],
       },
