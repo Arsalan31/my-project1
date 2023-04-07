@@ -30,24 +30,30 @@ const Footer = (props) => {
                 "preset": "Footer",
                 "menu": [
                     {
-                        "title": " SOLUTIONS",
-                        "link": "#Solution",
-                    },
-                    {
-                        "title": "OUR PROCESS",
-                        "link": "#",
-                    },
-                    {
-                        "title": "ORG DEVELOPMENT",
-                        "link": "#od",
-                    },
-                    {
-                        "title": "ABOUT",
-                        "link": "#",
-                    },
-                    {
-                        "title": "CONTACT",
-                        "link": "#",
+                        "iconName": "",
+                        // "iconUrl": "/static/images/twitter.png",
+                        "submenu": [
+                            {
+                                "title": "Solutions",
+                                "link": "#",
+                            },
+                            {
+                                "title": "Our Process",
+                                "link": "#",
+                            },
+                            {
+                                "title": "Organizational Development",
+                                "link": "#"
+                            },
+                            {
+                                "title": "About",
+                                "link": "#"
+                            },
+                            {
+                                "title": "Contact",
+                                "link": "#"
+                            },
+                        ]
                     },
                 ],
             },
