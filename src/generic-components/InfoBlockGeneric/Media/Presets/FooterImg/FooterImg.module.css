@@ -1,3 +1,6 @@
-.FooterImg :global(.infoBlock_mediaElement_imgLink){
+.Sample :global(.infoBlock_mediaElement_media_wrapper){
     @apply lg:w-64 lg:h-48 w-72 h-56 aspect-none;
+}
+.Sample :global(.infoBlock_mediaElement_imgLink){
+    @apply w-full h-full object-contain;
 }

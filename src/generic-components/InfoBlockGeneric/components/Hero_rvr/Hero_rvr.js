@@ -4,7 +4,7 @@ const Hero = (props) => {
     let data = {
         "wysiwygRepeater": [
             {
-                "wysiwyg": "<div><h2><p>/&nbsp;</p>touring the facility and picking up slack<p>&nbsp;/</p></h2></div>",
+                "wysiwyg": "<div><span><span>/&nbsp;</span>touring the facility and picking up slack<p>&nbsp;/</span></span></div>",
                 "position": "1x2",
                 "preset": "Herotxt"
             },

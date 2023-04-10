@@ -24,7 +24,7 @@ const About = (props) => {
                 "position": "3x2",
                 "preset": "AboutExtraText",
                 "showLimitedText": true,
-                "maximumCharacters": 0,
+                "maximumCharacters": 30,
                 "isExpandable": true,
                 "buttonId": "academiesToggleText",
             },
@@ -37,9 +37,6 @@ const About = (props) => {
                 "image": {
                     "url": "./static/images/Zavy-Lyndi-2.jpeg",
                     "alt": "",
-                    "width": "278px",
-                    "height": "278px",
-
                 },
                 "captionText": "Lyndi Zavy, MA, PHR",
             }

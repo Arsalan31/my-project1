@@ -63,23 +63,16 @@ const Footer = (props) => {
                 "preset": "Footer",
                 "menu": [
                     {
-                        "iconName": "",
-                        // "iconUrl": "/static/images/twitter.png",
-                        "submenu": [
-                            {
-                                "iconName": "faLinkedinIn",
-                                "iconUrl": "",
-                            },
-                            {
-                                "iconName": "faFacebookF",
-                                "iconUrl": "",
-                            },
-                        ]
+                        "iconName": "faLinkedinIn",
+                        "iconUrl": "",
+                    },
+                    {
+                        "iconName": "faFacebookF",
+                        "iconUrl": "",
                     },
                 ],
             }
         ],
-        "enableHalfWidth": true,
         "backgroundColor": "#081f41",
         "backgroundImageOverlay": "",
     }
