@@ -16,7 +16,7 @@ const Development = (props) => {
                 "preset": "DevelopmentSubHead"
             },
             {
-                "wysiwyg": "/ the intersection of people and operations /",
+                "wysiwyg": "<div><h6><p>/&nbsp;</p>the intersection of people and operations <p> &nbsp;/</p></h6></div>",
                 "position": "2x2",
                 "preset": "DarkBlueHead"
             }

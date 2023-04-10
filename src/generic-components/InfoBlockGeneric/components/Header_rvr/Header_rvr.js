@@ -28,12 +28,12 @@ const Header = (props) => {
     // ],
     "menuRepeater": [
       {
-        "position": "1x2",
+        "position": "1x3",
         "preset": "",
         "menu": [
           {
             "title": "Solutions",
-            "link": "#Solution",
+            "link": "#",
             "iconName": "",
             // "iconUrl": "/static/images/twitter.png",
             "submenu": [
@@ -95,7 +95,7 @@ const Header = (props) => {
           },
           {
             "title": "Organizational Development",
-            "link": "#od",
+            "link": "#",
             "submenu": [
               {
                 "title": "submenu 1",
@@ -125,7 +125,7 @@ const Header = (props) => {
           },
           {
             "title": "About",
-            "link": "#About",
+            "link": "#",
             "submenu": [
               {
                 "title": "submenu 1",
@@ -171,6 +171,7 @@ const Header = (props) => {
         "iconUrl": "", //img
       },
     },
+    "enableHalfWidth": true,
     "backgroundColor": "",
     "componentName": "Header",
     "enableStickyHeader": true,

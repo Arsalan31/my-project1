@@ -6,8 +6,9 @@ const Footer = (props) => {
         "wysiwygRepeater": [
             {
                 "wysiwyg": "© 2022 All rights reserved. Rivers & Roads Organizational Development",
-                "position": "2x2",
-                "preset": "BlueFooter"
+                "position": "3x2",
+                "preset": "BlueFooter",
+                "backgroundColor": "#051830"
             },
         ],
 
@@ -80,7 +81,6 @@ const Footer = (props) => {
         ],
         "enableHalfWidth": true,
         "backgroundColor": "#081f41",
-        "backgroundImage": "",
         "backgroundImageOverlay": "",
     }
 
