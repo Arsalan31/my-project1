@@ -202,7 +202,7 @@ function Header2() {
                 <button onClick={toggleNav} className="flex justify-end items-center p-2 ms-3 text-sm  lg:hidden">
                     <img src={require('./assets/Menu.png')}></img>
                 </button>
-                <div className="list-none lg:bg-white h-full order-1 gap-3 lg:px-0 lg:flex hidden w-auto lg:justify-center">
+                <div className="list-none lg:bg-white h-full order-1 gap-1 lg:px-0 lg:flex hidden w-auto lg:justify-center">
                     <li className="lg:hover:bg-gray-8" onMouseEnter={toggleAbt} onMouseLeave={toggleAbt} ref={ref}>
                         <div className="flex">
                             <a className="lg:w-auto w-1/2 h-full cursor-pointer uppercase lg:block hidden py-3 lg:py-10 px-2 font-bold text-xs leading-7 lg:text-gray-5 text-white focus:outline-none">Who We Are</a>
