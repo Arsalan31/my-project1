@@ -1,7 +1,7 @@
 .Footer :global(.infoBlock_menuBlock_submenuItem) {
-    @apply list-none flex hover: no-underline lg:justify-end text-start text-white hover:text-green-40 lg:items-start items-center lg:pt-10 lg:py-6 py-10 flex-col; 
+    @apply list-none flex hover:no-underline lg:justify-end text-start text-white hover:text-green-40 lg:items-start items-center lg:pt-10 lg:py-6 py-10 flex-col; 
 }
 
 .Footer :global(.infoBlock_menuBlock_submenuItem) {
-    @apply list-none flex hover: no-underline lg:justify-end text-start text-white hover:text-green-40 lg:items-start items-center lg:pt-10 lg:py-6 py-10 flex-col;
+    @apply list-none flex hover:no-underline lg:justify-end text-start text-white hover:text-green-40 lg:items-start items-center lg:pt-10 lg:py-6 py-10 flex-col;
 }
