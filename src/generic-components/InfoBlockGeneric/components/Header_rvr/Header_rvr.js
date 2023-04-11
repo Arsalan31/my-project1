@@ -172,7 +172,7 @@ const Header = (props) => {
       },
     },
     "enableHalfWidth": true,
-    "backgroundColor": "",
+    "backgroundColor": "rgba(255, 255, 255, 0.1)",
     "componentName": "Header",
     "enableStickyHeader": true,
     "enableTransparentHeader": true

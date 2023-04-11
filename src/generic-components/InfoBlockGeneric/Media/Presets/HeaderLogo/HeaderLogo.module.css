@@ -1,9 +1,7 @@
-.HeaderLogo :global() {}
-
-.Sample :global(.header_logo_wrapper) {
+.HeaderLogo :global(.header_logo_wrapper) {
     @apply h-36 aspect-none;
 }
 
-.Sample :global(.header_logo_img) {
+.HeaderLogo :global(.header_logo_img) {
     @apply w-full h-full object-contain;
 }
