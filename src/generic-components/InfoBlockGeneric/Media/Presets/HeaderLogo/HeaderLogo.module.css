@@ -1,5 +1,5 @@
 .HeaderLogo :global(.header_logo_wrapper) {
-    @apply h-36 aspect-none;
+    @apply aspect-h-1 aspect-w-1;
 }
 
 .HeaderLogo :global(.header_logo_img) {

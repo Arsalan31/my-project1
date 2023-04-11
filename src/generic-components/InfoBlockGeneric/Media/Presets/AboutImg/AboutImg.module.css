@@ -1,5 +1,5 @@
 .AboutImg :global(.infoBlock_mediaElement_media_wrapper){
-    @apply w-48 h-48 aspect-none;
+    @apply aspect-h-1 aspect-w-1;
 }
 .AboutImg :global(.infoBlock_mediaElement_imgLink){
     @apply w-full h-full object-contain;
