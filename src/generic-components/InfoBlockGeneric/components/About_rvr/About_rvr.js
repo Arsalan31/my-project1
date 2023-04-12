@@ -45,7 +45,6 @@ const About = (props) => {
         ],
         "ctaRepeater": [
             {
-                "ctaLink": "",
                 "ctaCaption": "READ BIO",
                 "position": "3x2",
                 "preset": "Aboutbtn",

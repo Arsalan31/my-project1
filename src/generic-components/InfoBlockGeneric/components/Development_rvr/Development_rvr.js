@@ -16,7 +16,7 @@ const Development = (props) => {
                 "preset": "DevelopmentSubHead"
             },
             {
-                "wysiwyg": "<div><span><span className='text-green-40'>/&nbsp;</span>touring the facility and picking up slack<span className='text-green-40'>&nbsp;/</span></span></div>",
+                "wysiwyg": "<div><span><span style='color: #00e7ff;'>/&nbsp;</span>touring the facility and picking up slack<span style='color: #00e7ff;'>&nbsp;/</span></span></div>",
                 "position": "2x2",
                 "preset": "DarkBlueHead"
             }

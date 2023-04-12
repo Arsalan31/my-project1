@@ -3,5 +3,5 @@
 }
 
 .HeaderLogo :global(.header_logo_img) {
-    @apply w-full h-full object-contain;
+    @apply w-full h-20 object-contain;
 }

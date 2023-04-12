@@ -1,6 +1,6 @@
 .FooterImg :global(.infoBlock_mediaElement_media_wrapper){
     @apply aspect-h-1 aspect-w-1;
 }
-.FooterImg :global(.infoBlock_mediaElement_imgLink){
+.FooterImg :global(.infoBlock_mediaElement_img){
     @apply w-full h-full object-contain;
 }
