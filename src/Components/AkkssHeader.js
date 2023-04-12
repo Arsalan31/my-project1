@@ -477,7 +477,7 @@ function AkhssHeader() {
                             <li className="px-4">
                                 <a href="#" className="font-semibold text-sm text-white">Hospitals & Medical Centers</a>
                             </li>
-                            <li ref={ref} className={toggleCenters ? 'hover:bg-red-400' : 'hover:bg-transparent'}>
+                            <li ref={ref} className={toggleCenters ? 'bg-red-400' : 'bg-transparent'}>
                                 <a href="#" onMouseEnter={toggleCenter} className="font-semibold text-sm text-white lg:contents hidden lg:text-black">Regional Outreach Centers</a>
                                 <div className="flex px-4 py-1">
                                     <a href="#" onClick={toggleCenter} className="font-semibold text-sm lg:w-auto sm:w-1/2 w-full lg:hidden text-white lg:text-black">Regional Outreach Centers</a>
@@ -625,7 +625,7 @@ function AkhssHeader() {
                                     </nav>
                                 )}
                             </li>
-                            <li onMouseEnter={toggleMd} ref={ref7} className={toggleMedia ? 'hover:bg-red-300' : 'hover:bg-transparent'}>
+                            <li onMouseEnter={toggleMd} ref={ref7} className={toggleMedia ? 'bg-red-400' : 'bg-transparent'}>
                                 <a href="#" className="font-semibold lg:contents hidden text-sm lg:text-black text-white">Media Resources</a>
                                 <div className="flex px-4 py-1">
                                     <a href="#" onclick={toggleMd} ref={ref7} className="font-semibold lg:w-auto sm:w-1/2 w-full text-sm lg:hidden lg:text-black text-white">Media Resources</a>
@@ -637,7 +637,7 @@ function AkhssHeader() {
                                     </button>
                                 </div>
                                 {(toggleMedia) && (
-                                    <nav className="lg:pt-0 pt-2 list-none top-28 px-4 lg:absolute w-full bg-red-300 lg:border-red-700 lg:border lg:w-1/6 lg:bg-white lg:flex flex-col">
+                                    <nav className="lg:pt-0 pt-2 list-none top-28 px-4 lg:absolute w-full bg-red-400 lg:border-red-700 lg:border lg:w-1/6 lg:bg-white lg:flex flex-col">
                                         <li className="hover:bg-red-300">
                                             <a href="#" className="lg:text-black w-full text-white font-medium text-xs pb-3 hover:text-red-700 lg:p-3 py-3 inline-flex">Multimedia</a>
                                         </li>

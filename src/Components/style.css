@@ -370,7 +370,7 @@
       background: linear-gradient(0deg, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), #00843D;
     }
 
-    .head:hover {
+    .head {
       background: linear-gradient(0deg, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), #00843D;
     }
 

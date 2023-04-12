@@ -746,7 +746,7 @@ function Header2() {
                 >
                     <div className="list-none h-full gap-3 lg:px-0 flex lg:flex-row flex-col order-0 lg:justify-center justify-start">
                         <div className="flex lg:flex-row flex-col h-full xl:gap-3 lg:bg-white bg-green-20">
-                            <div className="lg:hidden lg:h-28 h-24 w-full px-4 flex flex-wrap justify-between content-center items-center">
+                            <div className="lg:hidden lg:h-28 h-24 w-full px-4 py-4 flex flex-wrap justify-between content-center items-center">
                                 <img href="Akdn" className="order-1 flex w-24 h-8" src={require('./assets/White.png')}></img>
                                 <button onClick={handleClose} className="flex items-center order-0 focus:outline-none text-sm font-semibold uppercase py-3 text-gray-5 lg:hidden">
                                     <img src={require('./assets/Group.png')}></img>
