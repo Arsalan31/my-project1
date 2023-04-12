@@ -8,7 +8,6 @@ const Footer = (props) => {
                 "wysiwyg": "© 2022 All rights reserved. Rivers & Roads Organizational Development",
                 "position": "3x2",
                 "preset": "BlueFooter",
-                "backgroundColor": "#051830"
             },
         ],
 
@@ -76,10 +75,22 @@ const Footer = (props) => {
         "backgroundColor": "#081f41",
         "backgroundImageOverlay": "",
     }
+    let Footerline = {
+        "wysiwygRepeater": [
+            {
+                "wysiwyg": "© 2022 All rights reserved. Rivers & Roads Organizational Development",
+                "position": "3x2",
+                "preset": "BlueFooter",
+            },
+        ],
+        "backgroundColor": "#051830",
+        "backgroundImageOverlay": "",
+    }
 
     return (
         <div>
             <InfoBlockGeneric {...data} direction={props.direction} />
+            <InfoBlockGeneric {...Footerline} direction={props.direction} />
         </div>
     )
 }

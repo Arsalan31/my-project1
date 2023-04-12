@@ -1,4 +1,4 @@
-const SolutionHead = (props) => {
+const SolutionsSubHead = (props) => {
   
     // let props = {
     //   "singleItem": {
@@ -9,10 +9,10 @@ const SolutionHead = (props) => {
     // }
 
     return (
-      <div className="text-center py-6 text-white font-light text-4.5xl"
+      <div className="text-white text-start"
         dangerouslySetInnerHTML={{ __html: props.singleItem.wysiwyg }} />
     )
   };
   
-  export default SolutionHead;
+  export default SolutionsSubHead;
   

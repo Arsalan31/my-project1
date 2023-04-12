@@ -21,7 +21,7 @@ const SolutionsCard = (props) => {
         <>
             {
                 (props.singleItem.title || props.singleItem.subtitle || props.singleItem.image?.url) &&
-                <div className={`text-center`}>
+                <div className={`flex flex-col items-center`}>
                     {
                         props.singleItem.image?.url &&
                                 <img src={props.singleItem.image.url} className={`flex justify-center w-20 h-20 mt-0 m-5`}
@@ -30,7 +30,7 @@ const SolutionsCard = (props) => {
                     }
                     {
                         props.singleItem.title &&
-                        <div className={`text-white text-lg`} dangerouslySetInnerHTML={{ __html: props.singleItem.title }} />
+                        <div className={`text-center text-white text-lg`} dangerouslySetInnerHTML={{ __html: props.singleItem.title }} />
                     }
                 </div>
             }

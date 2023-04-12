@@ -1,0 +1,3 @@
+.HeaderLogo :global(.header_logo_img img) {
+    @apply w-full h-20;
+}

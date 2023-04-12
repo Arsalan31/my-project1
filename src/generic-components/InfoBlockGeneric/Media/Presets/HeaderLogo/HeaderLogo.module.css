@@ -1,7 +1,0 @@
-.HeaderLogo :global(.header_logo_wrapper) {
-    @apply aspect-h-1 aspect-w-1;
-}
-
-.HeaderLogo :global(.header_logo_img) {
-    @apply w-full h-20 object-contain;
-}
