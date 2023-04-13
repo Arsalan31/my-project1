@@ -9,7 +9,7 @@ const Description = (props) => {
     // }
 
     return (
-      <div className="flex justify-center text-center text-2xl font-light text-gray-10"
+      <div className="flex justify-center text-center text-2xl font-light text-gray-15"
         dangerouslySetInnerHTML={{ __html: props.singleItem.wysiwyg }} />
     )
   };

@@ -97,8 +97,10 @@ const Solutioncard = (props) => {
   }
 
   return (
-    <QuickLinksGeneric {...data} direction={props.direction} />,
-    <QuickLinksGeneric {...Solution} direction={props.direction} />
+    <div>
+      <InfoBlockGeneric {...Solution} direction={props.direction} />
+      <QuickLinksGeneric {...data} direction={props.direction} />
+    </div>
   )
 }
 

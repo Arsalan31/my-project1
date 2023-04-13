@@ -3,19 +3,11 @@ import InfoBlockGeneric from '../../generic-components/InfoBlockGeneric/InfoBloc
 const Footer = (props) => {
 
     let data = {
-        "wysiwygRepeater": [
-            {
-                "wysiwyg": "© 2022 All rights reserved. Rivers & Roads Organizational Development",
-                "position": "3x2",
-                "preset": "BlueFooter",
-            },
-        ],
-
         "mediaRepeater": [
             {
                 "mediaType": "Image",
                 "position": "1x1",
-                "preset": "Footerimg",
+                "preset": "FooterImg",
                 "image": {
                     "url": "./static/images/RVR-sticky.png",
                     "alt": "",

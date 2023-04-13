@@ -1,6 +1,15 @@
-.AboutImg :global(.infoBlock_mediaElement_media_wrapper){
-    @apply aspect-none xs2:aspect-none sm:aspect-none lg:aspect-none w-72 h-72;
+.AboutImg :global(.infoBlock_mediaElement_media_wrapper) {
+    @apply aspect-none xs2: aspect-none sm:aspect-none lg:aspect-none w-72 h-72;
 }
-.AboutImg :global(.infoBlock_mediaElement_img){
+
+.AboutImg :global(.infoBlock_mediaElement_img) {
     @apply w-full h-full object-contain;
+}
+
+.AboutImg :global(.infoBlock_mediaElement_caption_wrapper) {
+    @apply bg-transparent;
+}
+
+.AboutImg :global(.infoBlock_mediaElement_caption) {
+    @apply text-3xl font-medium text-center text-blue-80;
 }

@@ -9,7 +9,7 @@ const BlueFooter = (props) => {
     // }
 
     return (
-      <div className="text-white bg-blue-90 text-center text-xs"
+      <div className="text-white text-center text-xs"
         dangerouslySetInnerHTML={{ __html: props.singleItem.wysiwyg }} />
     )
   };

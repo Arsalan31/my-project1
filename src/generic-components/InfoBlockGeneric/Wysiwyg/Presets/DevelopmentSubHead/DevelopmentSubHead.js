@@ -9,7 +9,7 @@ const DevelopmentSubHead = (props) => {
     // }
 
     return (
-      <div className="px-4 font-light text-lg pb-4 text-gray-10"
+      <div className="px-4 font-light text-lg pb-4 text-gray-15"
         dangerouslySetInnerHTML={{ __html: props.singleItem.wysiwyg }} />
     )
   };

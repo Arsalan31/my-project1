@@ -9,7 +9,7 @@ const AboutSubHead = (props) => {
     // }
 
     return (
-      <div className="px-4 text-gray-10 text-lg font-light"
+      <div className="px-4 text-gray-15 text-lg font-light"
         dangerouslySetInnerHTML={{ __html: props.singleItem.wysiwyg }} />
     )
   };

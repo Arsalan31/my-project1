@@ -12,7 +12,7 @@ const Header = (props) => {
         "alt": ""
       },
       "link": "rivers-roads",
-      "position": "1x1",
+      "position": "1x2",
       "preset": "HeaderLogo"
     },
     "menuRepeater": [
@@ -152,13 +152,14 @@ const Header = (props) => {
     "menuDialog": {
       "toggleButtonposition": "1x1",
       "maximumScreenWidth": 1023, // 639 / 767 / 1023 / 1279
-      "backgroundColor": "",
+      "backgroundColor": "#081f41",
       "enableTransparentHeader": true,
       "enableFullScreen": true,
       "closedMenuIcon": {
         "iconName": "faBars", //fontawesome
         "iconUrl": "", //img
       },
+      "enableStickyHeader": false,
     },
     "enableHalfWidth": true,
     "backgroundColor": "rgba(255, 255, 255, 0.1)",

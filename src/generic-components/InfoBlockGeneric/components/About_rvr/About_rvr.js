@@ -33,12 +33,12 @@ const About = (props) => {
             {
                 "mediaType": "Image",
                 "position": "3x2",
-                "preset": "Aboutimg",
+                "preset": "AboutImg",
                 "image": {
                     "url": "./static/images/Zavy-Lyndi-2.jpeg",
                     "alt": "",
                 },
-                "captionText": "Lyndi Zavy, MA, PHR",
+                "captionText": "Lyndi Zavy, MA, <br /> PHR",
             }
 
 
