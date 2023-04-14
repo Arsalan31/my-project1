@@ -1,5 +1,5 @@
 .FooterImg :global(.infoBlock_mediaElement_media_wrapper){
-    @apply aspect-none xs2:aspect-none sm:aspect-none lg:aspect-none w-full h-72;
+    @apply aspect-none xs2:aspect-none sm:aspect-none lg:aspect-none lg:w-64 lg:h-48 w-72 h-56;
 }
 .FooterImg :global(.infoBlock_mediaElement_img){
     @apply w-full h-full object-contain;
