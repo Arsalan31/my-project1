@@ -41,10 +41,10 @@ function Header3() {
 
     return (
         <header className="w-full lg:fixed lg:pt-2">
-            <nav className={navbar ? 'Navbar active h-15 pt-2' : 'Navbar lg:h-36'}>
-                <div className="flex-wrap lg:mx-auto lg:container items-center justify-center flex">
-                    <button onClick={toggleNav} className="icon lg:hidden flex justify-end items-center p-2 ms-3 text-sm hover:text-green-40">
-                        <FontAwesomeIcon icon={faBars} style={{ color: "#ffffff", }} />
+            <nav className={navbar ? 'Navbar active h-15 pt-2' : 'Navbar lg:h-36 h-28'}>
+                <div className="flex-wrap lg:mx-auto h-full lg:container items-center justify-center flex">
+                    <button onClick={toggleNav} className="icon lg:hidden flex justify-end items-center text-sm">
+                        <FontAwesomeIcon icon={faBars} style={{ color: "#ffffff", }} className="h-5" />
                     </button>
                     <a className="lg:flex hidden h-full" href="rivers-roads">
                         {navbar ? <img className="h-11 w-70" src={require('./assets/RVR-secondary.png')} /> :
