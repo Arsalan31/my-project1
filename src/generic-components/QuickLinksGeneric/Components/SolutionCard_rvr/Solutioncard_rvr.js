@@ -1,4 +1,6 @@
 import QuickLinksGeneric from "../../generic-components/QuickLinksGeneric/QuickLinksGeneric"
+import InfoBlockGeneric from "../../generic-components/InfoBlockGeneric/InfoBlockGeneric"
+
 
 const Solutioncard = (props) => {
 

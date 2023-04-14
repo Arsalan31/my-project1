@@ -11,7 +11,7 @@
 }
 
 .Footer :global(.infoBlock_menuBlock_menuItem) {
-    @apply list-none flex flex-col hover:no-underline lg:mt-11 text-start text-white hover:text-green-40 w-auto pe-0; 
+    @apply list-none flex flex-col hover:no-underline cursor-pointer lg:mt-11 text-start text-white hover:text-green-40 w-auto pe-0 !important; 
 }
 
 .Footer :global(.infoBlock_menuBlock_submenuItem) {

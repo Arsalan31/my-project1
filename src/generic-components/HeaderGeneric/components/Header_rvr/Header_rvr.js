@@ -151,7 +151,7 @@ const Header = (props) => {
       },
     ],
     "menuDialog": {
-      "toggleButtonposition": "1x1",
+      "toggleButtonposition": "1x3",
       "maximumScreenWidth": 1023, // 639 / 767 / 1023 / 1279
       "backgroundColor": "#081f41",
       "enableTransparentHeader": true,

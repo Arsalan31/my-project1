@@ -1,0 +1,4 @@
+.Header :global(.transparent_header_container){
+    backdrop-filter: blur(2px) !important;
+    box-shadow: 0 1px 3px rgba(0,0,0,.11) !important;
+}
