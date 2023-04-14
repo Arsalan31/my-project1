@@ -1,4 +1,5 @@
 import HeaderGeneric from "../../generic-components/HeaderGeneric/HeaderGeneric"
+import styles from './Header.module.css'
 const Header = (props) => {
 
   let data = {
@@ -12,7 +13,7 @@ const Header = (props) => {
         "alt": ""
       },
       "link": "rivers-roads",
-      "position": "1x2",
+      "position": "1x1",
       "preset": "HeaderLogo"
     },
     "menuRepeater": [
@@ -169,7 +170,7 @@ const Header = (props) => {
   }
 
   return (
-    <div>
+    <div className={`contents ${styles.infoBlock}`}>
       <HeaderGeneric {...data} direction={props.direction} />
     </div>
   )

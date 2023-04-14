@@ -16,7 +16,6 @@ const Hero = (props) => {
         ],
 
         "enableHalfWidth": false,
-        "backgroundColor": "",
         "backgroundImage": "./static/images/RVR-quote1.jpg",
         "backgroundImageOverlay": "",
 

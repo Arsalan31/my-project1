@@ -11,7 +11,7 @@ const Aboutbtn = (props) => {
     // }
   
     return (
-      <a href={props.singleItem.ctaLink} className='text-center text-lg font-semibold text-gray-10 pb-1'>{props.singleItem.ctaCaption}</a>
+      <a href={props.singleItem.ctaLink} className='text-center text-lg font-semibold text-gray-15 pb-1'>{props.singleItem.ctaCaption}</a>
     )
   }
   
