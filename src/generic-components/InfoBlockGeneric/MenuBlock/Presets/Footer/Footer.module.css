@@ -3,7 +3,7 @@
 }
 
 .Footer :global(.infoBlock_menuBlock_row) {
-    @apply flex lg:justify-end justify-center lg:mt-12 flex-row; 
+    @apply flex lg:justify-end justify-center flex-row; 
 }
 
 .Footer :global(.infoBlock_menuBlock_menuTitle) {

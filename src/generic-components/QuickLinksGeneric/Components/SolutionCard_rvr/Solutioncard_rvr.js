@@ -9,17 +9,17 @@ const Solutioncard = (props) => {
       {
         "wysiwyg": "Solution",
         "position": "1x2",
-        "preset": "SolutionHead"
+        "preset": "SolutionsHead"
       },
       {
         "wysiwyg": "Rivers & Roads has the complete picture of how people and operations intersect. Once the two are in sync, we can improve the overall function of your organization.",
         "position": "2x1",
-        "preset": "SolutionSubHead"
+        "preset": "SolutionsSubHead"
       },
       {
         "wysiwyg": "We recognize that each client is unique, so we work to understand your objectives to implement the solutions below or develop custom solutions to address business needs.",
         "position": "2x3",
-        "preset": "SolutionSubHead"
+        "preset": "SolutionsSubHead"
       },
     ],
 

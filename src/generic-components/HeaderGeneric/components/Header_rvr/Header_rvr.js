@@ -19,7 +19,7 @@ const Header = (props) => {
     "menuRepeater": [
       {
         "position": "1x3",
-        "preset": "",
+        "preset": "HeaderMenu",
         "menu": [
           {
             "title": "Solutions",
@@ -156,11 +156,15 @@ const Header = (props) => {
       "backgroundColor": "#081f41",
       "enableTransparentHeader": true,
       "enableFullScreen": true,
+      "enableStickyHeader": false,
       "closedMenuIcon": {
         "iconName": "faBars", //fontawesome
         "iconUrl": "", //img
       },
-      "enableStickyHeader": false,
+      "openMenuIcon": {
+        "iconName": "faBars",
+        "iconUrl": "",
+      },
     },
     "enableHalfWidth": true,
     "backgroundColor": "rgba(255, 255, 255, 0.1)",
@@ -170,7 +174,7 @@ const Header = (props) => {
   }
 
   return (
-    <div className={`contents ${styles.infoBlock}`}>
+    <div className={`contents ${styles.header}`}>
       <HeaderGeneric {...data} direction={props.direction} />
     </div>
   )
